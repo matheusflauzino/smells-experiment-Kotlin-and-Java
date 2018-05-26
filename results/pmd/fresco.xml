@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:35:38.636">
+<file name="/home/matheus/Documentos/repositories/Java/fresco/animated-base/src/main/java/com/facebook/fresco/animation/factory/ExperimentalBitmapAnimationDrawableFactory.java">
+<violation beginline="48" endline="182" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.facebook.fresco.animation.factory" class="ExperimentalBitmapAnimationDrawableFactory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ExperimentalBitmapAnimationDrawableFactory' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/animated-base/src/main/java/com/facebook/imagepipeline/animated/base/AnimatedDrawableFrameInfo.java">
+<violation beginline="13" endline="65" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.facebook.imagepipeline.animated.base" class="AnimatedDrawableFrameInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AnimatedDrawableFrameInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/animated-base/src/test/java/com/facebook/imagepipeline/producers/AnimatedRepeatedPostprocessorProducerTest.java">
+<violation beginline="43" endline="238" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="AnimatedRepeatedPostprocessorProducerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/animated-drawable/src/main/java/com/facebook/fresco/animation/drawable/AnimatedDrawable2.java">
+<violation beginline="29" endline="488" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.fresco.animation.drawable" class="AnimatedDrawable2" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="36" endline="48" begincolumn="16" endcolumn="47" rule="ExcessiveParameterList" ruleset="Design" package="com.facebook.fresco.animation.drawable" class="AnimatedDrawable2$DrawListener" method="onDraw" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/animated-drawable/src/main/java/com/facebook/fresco/animation/drawable/AnimatedDrawable2DebugDrawListener.java">
+<violation beginline="26" endline="38" begincolumn="21" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="com.facebook.fresco.animation.drawable" class="AnimatedDrawable2DebugDrawListener" method="onDraw" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/animated-drawable/src/test/java/com/facebook/fresco/animation/bitmap/BitmapAnimationBackendTest.java">
+<violation beginline="44" endline="456" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.fresco.animation.bitmap" class="BitmapAnimationBackendTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/animated-gif/src/main/java/com/facebook/animated/gif/GifFrame.java">
+<violation beginline="19" endline="120" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.animated.gif" class="GifFrame" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/animated-gif/src/main/java/com/facebook/animated/gif/GifImage.java">
+<violation beginline="27" endline="222" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.animated.gif" class="GifImage" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/animated-webp/src/main/java/com/facebook/animated/webp/WebPFrame.java">
+<violation beginline="19" endline="94" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.animated.webp" class="WebPFrame" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/animated-webp/src/main/java/com/facebook/animated/webp/WebPImage.java">
+<violation beginline="29" endline="166" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.animated.webp" class="WebPImage" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee-backends/drawee-pipeline/src/main/java/com/facebook/drawee/backends/pipeline/PipelineDraweeController.java">
+<violation beginline="56" endline="381" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.backends.pipeline" class="PipelineDraweeController" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee-backends/drawee-pipeline/src/main/java/com/facebook/drawee/backends/pipeline/info/ImagePerfData.java">
+<violation beginline="35" endline="49" begincolumn="23" endcolumn="25" rule="ExcessiveParameterList" ruleset="Design" package="com.facebook.drawee.backends.pipeline.info" class="ImagePerfData" method="ImagePerfData" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/main/java/com/facebook/drawee/controller/AbstractDraweeController.java">
+<violation beginline="46" endline="665" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.controller" class="AbstractDraweeController" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/main/java/com/facebook/drawee/controller/AbstractDraweeControllerBuilder.java">
+<violation beginline="37" endline="478" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.controller" class="AbstractDraweeControllerBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/main/java/com/facebook/drawee/controller/ForwardingControllerListener.java">
+<violation beginline="21" endline="166" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.controller" class="ForwardingControllerListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/main/java/com/facebook/drawee/drawable/FadeDrawable.java">
+<violation beginline="30" endline="341" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.drawable" class="FadeDrawable" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/main/java/com/facebook/drawee/generic/GenericDraweeHierarchyInflater.java">
+<violation beginline="95" endline="246" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.facebook.drawee.generic" class="GenericDraweeHierarchyInflater" method="updateBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/main/java/com/facebook/drawee/generic/WrappingUtils.java">
+<violation beginline="32" endline="319" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.generic" class="WrappingUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/main/java/com/facebook/drawee/view/DraweeHolder.java">
+<violation beginline="43" endline="296" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.view" class="DraweeHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/main/java/com/facebook/drawee/view/DraweeView.java">
+<violation beginline="41" endline="304" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.view" class="DraweeView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/test/java/com/facebook/drawee/controller/AbstractDraweeControllerTest.java">
+<violation beginline="55" endline="737" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.controller" class="AbstractDraweeControllerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/test/java/com/facebook/drawee/drawable/ArrayDrawableTest.java">
+<violation beginline="31" endline="185" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.drawable" class="ArrayDrawableTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/test/java/com/facebook/drawee/drawable/DrawableUtilsTest.java">
+<violation beginline="26" endline="158" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.drawable" class="DrawableUtilsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/test/java/com/facebook/drawee/drawable/FadeDrawableTest.java">
+<violation beginline="22" endline="409" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.drawable" class="FadeDrawableTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/test/java/com/facebook/drawee/drawable/RoundedBitmapDrawableTest.java">
+<violation beginline="26" endline="170" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.drawable" class="RoundedBitmapDrawableTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/test/java/com/facebook/drawee/drawable/RoundedColorDrawableTest.java">
+<violation beginline="27" endline="176" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.drawable" class="RoundedColorDrawableTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/test/java/com/facebook/drawee/drawable/ScaleTypeDrawableTest.java">
+<violation beginline="29" endline="310" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.drawable" class="ScaleTypeDrawableTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/test/java/com/facebook/drawee/drawable/ScalingUtilsTest.java">
+<violation beginline="24" endline="251" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.drawable" class="ScalingUtilsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/test/java/com/facebook/drawee/generic/GenericDraweeHierarchyTest.java">
+<violation beginline="36" endline="1061" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.facebook.drawee.generic" class="GenericDraweeHierarchyTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="36" endline="1061" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.generic" class="GenericDraweeHierarchyTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="416" endline="655" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.facebook.drawee.generic" class="GenericDraweeHierarchyTest" method="testControlling_WithAllLayers" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/test/java/com/facebook/drawee/view/DraweeHolderTest.java">
+<violation beginline="35" endline="241" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.view" class="DraweeHolderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/test/java/com/facebook/drawee/view/DraweeViewTest.java">
+<violation beginline="28" endline="168" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.view" class="DraweeViewTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/drawee/src/test/java/com/facebook/drawee/view/MultiDraweeHolderTest.java">
+<violation beginline="25" endline="223" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.drawee.view" class="MultiDraweeHolderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/main/java/com/facebook/common/executors/HandlerExecutorServiceImpl.java">
+<violation beginline="22" endline="126" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.common.executors" class="HandlerExecutorServiceImpl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/main/java/com/facebook/common/internal/ImmutableMap.java">
+<violation beginline="62" endline="63" begincolumn="36" endcolumn="65" rule="ExcessiveParameterList" ruleset="Design" package="com.facebook.common.internal" class="ImmutableMap" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="73" endline="74" begincolumn="36" endcolumn="77" rule="ExcessiveParameterList" ruleset="Design" package="com.facebook.common.internal" class="ImmutableMap" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/main/java/com/facebook/common/internal/Objects.java">
+<violation beginline="195" endline="427" begincolumn="44" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.facebook.common.internal" class="Objects$ToStringHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/main/java/com/facebook/common/internal/Preconditions.java">
+<violation beginline="97" endline="440" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.common.internal" class="Preconditions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/main/java/com/facebook/common/logging/FLog.java">
+<violation beginline="15" endline="497" begincolumn="19" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.common.logging" class="FLog" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/main/java/com/facebook/common/logging/FLogDefaultLoggingDelegate.java">
+<violation beginline="17" endline="159" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.common.logging" class="FLogDefaultLoggingDelegate" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/main/java/com/facebook/common/logging/LoggingDelegate.java">
+<violation beginline="13" endline="161" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.common.logging" class="LoggingDelegate" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/main/java/com/facebook/common/util/HashCodeUtil.java">
+<violation beginline="17" endline="160" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.common.util" class="HashCodeUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/test/java/com/facebook/common/media/MediaUtilsTest.java">
+<violation beginline="20" endline="88" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.common.media" class="MediaUtilsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/test/java/com/facebook/common/streams/LimitedInputStreamTest.java">
+<violation beginline="22" endline="164" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.common.streams" class="LimitedInputStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/test/java/com/facebook/datasource/AbstractDataSourceTest.java">
+<violation beginline="23" endline="319" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.datasource" class="AbstractDataSourceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/test/java/com/facebook/datasource/FirstAvailableDataSourceSupplierTest.java">
+<violation beginline="22" endline="360" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.datasource" class="FirstAvailableDataSourceSupplierTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/test/java/com/facebook/datasource/IncreasingQualityDataSourceSupplierTest.java">
+<violation beginline="22" endline="492" begincolumn="89" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.datasource" class="IncreasingQualityDataSourceSupplierTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/fbcore/src/test/java/com/facebook/widget/text/span/BetterImageSpanTest.java">
+<violation beginline="133" endline="144" begincolumn="29" endcolumn="25" rule="ExcessiveParameterList" ruleset="Design" package="com.facebook.widget.text.span" class="BetterImageSpanTest" method="BetterImageSpanTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline-base/src/main/java/com/facebook/cache/disk/DefaultDiskStorage.java">
+<violation beginline="39" endline="728" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.cache.disk" class="DefaultDiskStorage" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline-base/src/main/java/com/facebook/cache/disk/DiskStorageCache.java">
+<violation beginline="42" endline="761" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.cache.disk" class="DiskStorageCache" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline-base/src/main/java/com/facebook/cache/disk/DynamicDefaultDiskStorage.java">
+<violation beginline="26" endline="198" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.cache.disk" class="DynamicDefaultDiskStorage" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline-base/src/main/java/com/facebook/imagepipeline/bitmaps/PlatformBitmapFactory.java">
+<violation beginline="25" endline="799" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.bitmaps" class="PlatformBitmapFactory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline-base/src/main/java/com/facebook/imagepipeline/cache/CountingMemoryCache.java">
+<violation beginline="42" endline="545" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.cache" class="CountingMemoryCache" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline-base/src/main/java/com/facebook/imagepipeline/cache/MemoryCacheParams.java">
+<violation beginline="13" endline="44" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.facebook.imagepipeline.cache" class="MemoryCacheParams" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MemoryCacheParams' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline-base/src/main/java/com/facebook/imagepipeline/common/ResizeOptions.java">
+<violation beginline="22" endline="108" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.facebook.imagepipeline.common" class="ResizeOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ResizeOptions' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline-base/src/test/java/com/facebook/cache/disk/DefaultDiskStorageTest.java">
+<violation beginline="55" endline="624" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.cache.disk" class="DefaultDiskStorageTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline-base/src/test/java/com/facebook/cache/disk/DiskStorageCacheTest.java">
+<violation beginline="73" endline="907" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.cache.disk" class="DiskStorageCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline-base/src/test/java/com/facebook/imagepipeline/cache/CountingLruMapTest.java">
+<violation beginline="20" endline="279" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.cache" class="CountingLruMapTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline-base/src/test/java/com/facebook/imagepipeline/cache/CountingMemoryCacheTest.java">
+<violation beginline="56" endline="801" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.cache" class="CountingMemoryCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline-base/src/test/java/com/facebook/imagepipeline/image/EncodedImageTest.java">
+<violation beginline="36" endline="289" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.image" class="EncodedImageTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/cache/BufferedDiskCache.java">
+<violation beginline="34" endline="375" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.cache" class="BufferedDiskCache" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/cache/ImageCacheStatsTracker.java">
+<violation beginline="19" endline="72" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.cache" class="ImageCacheStatsTracker" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/cache/NoOpImageCacheStatsTracker.java">
+<violation beginline="15" endline="79" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.cache" class="NoOpImageCacheStatsTracker" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/core/ImagePipeline.java">
+<violation beginline="48" endline="678" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.core" class="ImagePipeline" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="66" endline="77" begincolumn="23" endcolumn="39" rule="ExcessiveParameterList" ruleset="Design" package="com.facebook.imagepipeline.core" class="ImagePipeline" method="ImagePipeline" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/core/ImagePipelineExperiments.java">
+<violation beginline="307" endline="327" begincolumn="42" endcolumn="47" rule="ExcessiveParameterList" ruleset="Design" package="com.facebook.imagepipeline.core" class="ImagePipelineExperiments$ProducerFactoryMethod" method="createProducerFactory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="333" endline="353" begincolumn="49" endcolumn="47" rule="ExcessiveParameterList" ruleset="Design" package="com.facebook.imagepipeline.core" class="ImagePipelineExperiments$DefaultProducerFactoryMethod" method="createProducerFactory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/core/ProducerFactory.java">
+<violation beginline="66" endline="380" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.core" class="ProducerFactory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="104" endline="124" begincolumn="25" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="com.facebook.imagepipeline.core" class="ProducerFactory" method="ProducerFactory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/listener/BaseRequestListener.java">
+<violation beginline="13" endline="68" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.listener" class="BaseRequestListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/listener/ForwardingRequestListener.java">
+<violation beginline="18" endline="211" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.listener" class="ForwardingRequestListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/listener/RequestLoggingListener.java">
+<violation beginline="22" endline="238" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.listener" class="RequestLoggingListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/memory/BasePool.java">
+<violation beginline="110" endline="815" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.memory" class="BasePool" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/memory/NativeMemoryChunk.java">
+<violation beginline="27" endline="315" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.memory" class="NativeMemoryChunk" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/memory/PoolParams.java">
+<violation beginline="46" endline="105" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.facebook.imagepipeline.memory" class="PoolParams" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PoolParams' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/producers/BaseConsumer.java">
+<violation beginline="27" endline="173" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="BaseConsumer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/producers/DecodeProducer.java">
+<violation beginline="46" endline="483" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.facebook.imagepipeline.producers" class="DecodeProducer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DecodeProducer' is suspected to be a Data Class (WOC=0.000%, NOPA=8, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/producers/MediaVariationsFallbackProducer.java">
+<violation beginline="219" endline="336" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.facebook.imagepipeline.producers" class="MediaVariationsFallbackProducer" method="onFinishDiskReads" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="231" endline="334" begincolumn="14" endcolumn="7" rule="ExcessiveMethodLength" ruleset="Design" package="com.facebook.imagepipeline.producers" class="MediaVariationsFallbackProducer" method="then" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/producers/MultiplexProducer.java">
+<violation beginline="120" endline="517" begincolumn="40" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="MultiplexProducer$Multiplexer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/producers/PostprocessorProducer.java">
+<violation beginline="75" endline="297" begincolumn="43" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="PostprocessorProducer$PostprocessorConsumer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/common/memory/PooledByteArrayBufferedInputStreamTest.java">
+<violation beginline="26" endline="168" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.common.memory" class="PooledByteArrayBufferedInputStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/common/memory/PooledByteBufferInputStreamTest.java">
+<violation beginline="22" endline="157" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.common.memory" class="PooledByteBufferInputStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/cache/BufferedDiskCacheTest.java">
+<violation beginline="61" endline="285" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.cache" class="BufferedDiskCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/cache/MediaVariationsIndexDatabaseTest.java">
+<violation beginline="33" endline="245" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.cache" class="MediaVariationsIndexDatabaseTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/core/ImagePipelineTest.java">
+<violation beginline="58" endline="507" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.core" class="ImagePipelineTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/core/ProducerSequenceFactoryTest.java">
+<violation beginline="53" endline="336" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.core" class="ProducerSequenceFactoryTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/datasource/CloseableProducerToDataSourceAdapterTest.java">
+<violation beginline="29" endline="444" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.datasource" class="CloseableProducerToDataSourceAdapterTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/datasource/ListDataSourceTest.java">
+<violation beginline="25" endline="191" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.datasource" class="ListDataSourceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/datasource/ProducerToDataSourceAdapterTest.java">
+<violation beginline="27" endline="409" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.datasource" class="ProducerToDataSourceAdapterTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/memory/BasePoolTest.java">
+<violation beginline="27" endline="542" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.memory" class="BasePoolTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/platform/ArtDecoderTest.java">
+<violation beginline="72" endline="344" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.platform" class="ArtDecoderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/BaseConsumerTest.java">
+<violation beginline="19" endline="160" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="BaseConsumerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/BitmapMemoryCacheProducerTest.java">
+<violation beginline="47" endline="404" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="BitmapMemoryCacheProducerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/DecodeProducerTest.java">
+<violation beginline="50" endline="486" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="DecodeProducerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/DiskCacheReadProducerTest.java">
+<violation beginline="50" endline="449" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="DiskCacheReadProducerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/DownsampleUtilTest.java">
+<violation beginline="29" endline="215" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="DownsampleUtilTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/HttpUrlConnectionNetworkFetcherTest.java">
+<violation beginline="43" endline="255" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="HttpUrlConnectionNetworkFetcherTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/JobSchedulerTest.java">
+<violation beginline="48" endline="430" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="JobSchedulerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/LocalContentUriThumbnailFetchProducerTest.java">
+<violation beginline="45" endline="224" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="LocalContentUriThumbnailFetchProducerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/MediaVariationsFallbackProducerTest.java">
+<violation beginline="59" endline="617" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="MediaVariationsFallbackProducerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/MultiplexProducerTest.java">
+<violation beginline="48" endline="634" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="MultiplexProducerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/RepeatedPostprocessorProducerTest.java">
+<violation beginline="42" endline="335" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="RepeatedPostprocessorProducerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/ResizeAndRotateProducerTest.java">
+<violation beginline="70" endline="737" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="ResizeAndRotateProducerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/ThumbnailBranchProducerTest.java">
+<violation beginline="35" endline="272" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="ThumbnailBranchProducerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/imagepipeline/src/test/java/com/facebook/imagepipeline/producers/ThumbnailSizeCheckerTest.java">
+<violation beginline="19" endline="185" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.producers" class="ThumbnailSizeCheckerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/samples/comparison/src/androidTest/java/com/facebook/samples/comparison/test/ScrollTest.java">
+<violation beginline="28" endline="216" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.samples.comparison.test" class="ScrollTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/samples/comparison/src/main/java/com/facebook/samples/comparison/MainActivity.java">
+<violation beginline="61" endline="513" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.samples.comparison" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/samples/gestures/src/test/java/com/facebook/samples/gestures/TransformGestureDetectorTest.java">
+<violation beginline="31" endline="143" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.samples.gestures" class="TransformGestureDetectorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/samples/scrollperf/src/main/java/com/facebook/samples/scrollperf/fragments/SettingsFragment.java">
+<violation beginline="36" endline="419" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.samples.scrollperf.fragments" class="SettingsFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/samples/showcase/src/main/java/com/facebook/fresco/samples/showcase/MainActivity.java">
+<violation beginline="147" endline="257" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.facebook.fresco.samples.showcase" class="MainActivity" method="handleNavigationItemClick" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/samples/showcase/src/main/java/com/facebook/fresco/samples/showcase/misc/ImageUriProvider.java">
+<violation beginline="31" endline="324" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.fresco.samples.showcase.misc" class="ImageUriProvider" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/samples/zoomable/src/main/java/com/facebook/samples/zoomable/DefaultZoomableController.java">
+<violation beginline="30" endline="637" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.samples.zoomable" class="DefaultZoomableController" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/samples/zoomable/src/main/java/com/facebook/samples/zoomable/MultiGestureListener.java">
+<violation beginline="29" endline="160" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.samples.zoomable" class="MultiGestureListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/samples/zoomable/src/main/java/com/facebook/samples/zoomable/ZoomableDraweeView.java">
+<violation beginline="44" endline="404" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.samples.zoomable" class="ZoomableDraweeView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/static-webp/src/androidTest/java/com/facebook/webpsupport/WebpBitmapFactoryTest.java">
+<violation beginline="35" endline="320" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.webpsupport" class="WebpBitmapFactoryTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/static-webp/src/main/java/com/facebook/webpsupport/WebpBitmapFactoryImpl.java">
+<violation beginline="33" endline="531" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.webpsupport" class="WebpBitmapFactoryImpl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/fresco/tools/stetho/src/main/java/com/facebook/imagepipeline/stetho/BaseFrescoStethoPlugin.java">
+<violation beginline="40" endline="398" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.imagepipeline.stetho" class="BaseFrescoStethoPlugin" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

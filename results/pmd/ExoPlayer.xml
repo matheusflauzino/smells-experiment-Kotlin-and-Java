@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:41:57.605">
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/demos/cast/src/main/java/com/google/android/exoplayer2/castdemo/PlayerManager.java">
+<violation beginline="58" endline="425" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.castdemo" class="PlayerManager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/demos/main/src/main/java/com/google/android/exoplayer2/demo/PlayerActivity.java">
+<violation beginline="95" endline="739" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.demo" class="PlayerActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="306" endline="433" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.demo" class="PlayerActivity" method="initializePlayer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/cast/src/main/java/com/google/android/exoplayer2/ext/cast/CastPlayer.java">
+<violation beginline="64" endline="896" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.cast" class="CastPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="790" endline="873" begincolumn="79" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.cast" class="CastPlayer$StatusListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/cronet/src/main/java/com/google/android/exoplayer2/ext/cronet/CronetDataSource.java">
+<violation beginline="52" endline="658" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.cronet" class="CronetDataSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="213" endline="216" begincolumn="33" endcolumn="82" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.ext.cronet" class="CronetDataSource" method="CronetDataSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/cronet/src/main/java/com/google/android/exoplayer2/ext/cronet/CronetEngineWrapper.java">
+<violation beginline="34" endline="239" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.ext.cronet" class="CronetEngineWrapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CronetEngineWrapper' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/cronet/src/test/java/com/google/android/exoplayer2/ext/cronet/CronetDataSourceTest.java">
+<violation beginline="71" endline="1065" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.cronet" class="CronetDataSourceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/ffmpeg/src/main/java/com/google/android/exoplayer2/ext/ffmpeg/FfmpegDecoder.java">
+<violation beginline="31" endline="184" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.ffmpeg" class="FfmpegDecoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/flac/src/androidTest/java/com/google/android/exoplayer2/ext/flac/FlacExtractorSeekTest.java">
+<violation beginline="43" endline="281" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.flac" class="FlacExtractorSeekTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/flac/src/main/java/com/google/android/exoplayer2/ext/flac/FlacDecoderJni.java">
+<violation beginline="27" endline="277" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.flac" class="FlacDecoderJni" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/flac/src/main/java/com/google/android/exoplayer2/ext/flac/FlacExtractor.java">
+<violation beginline="47" endline="329" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.flac" class="FlacExtractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/ima/src/main/java/com/google/android/exoplayer2/ext/ima/ImaAdsLoader.java">
+<violation beginline="72" endline="1217" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.ext.ima" class="ImaAdsLoader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="73" endline="1217" begincolumn="97" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.ima" class="ImaAdsLoader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/mediasession/src/main/java/com/google/android/exoplayer2/ext/mediasession/MediaSessionConnector.java">
+<violation beginline="731" endline="925" begincolumn="74" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.mediasession" class="MediaSessionConnector$MediaSessionCallback" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/okhttp/src/main/java/com/google/android/exoplayer2/ext/okhttp/OkHttpDataSource.java">
+<violation beginline="47" endline="395" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.okhttp" class="OkHttpDataSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/opus/src/main/java/com/google/android/exoplayer2/ext/opus/OpusDecoder.java">
+<violation beginline="33" endline="242" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.opus" class="OpusDecoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="233" endline="236" begincolumn="38" endcolumn="82" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.ext.opus" class="OpusDecoder" method="opusSecureDecode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/vp9/src/main/java/com/google/android/exoplayer2/ext/vp9/LibvpxVideoRenderer.java">
+<violation beginline="63" endline="953" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.vp9" class="LibvpxVideoRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/extensions/vp9/src/main/java/com/google/android/exoplayer2/ext/vp9/VpxDecoder.java">
+<violation beginline="28" endline="158" begincolumn="21" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.ext.vp9" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'VpxDecoder' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=1, WMC=16)
+</violation>
+<violation beginline="29" endline="158" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ext.vp9" class="VpxDecoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="151" endline="153" begincolumn="38" endcolumn="82" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.ext.vp9" class="VpxDecoder" method="vpxSecureDecode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/androidTest/java/com/google/android/exoplayer2/upstream/cache/CachedContentIndexTest.java">
+<violation beginline="40" endline="316" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.upstream.cache" class="CachedContentIndexTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/BaseRenderer.java">
+<violation beginline="30" endline="344" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="BaseRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/DefaultLoadControl.java">
+<violation beginline="29" endline="370" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2" class="DefaultLoadControl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DefaultLoadControl' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/DefaultRenderersFactory.java">
+<violation beginline="46" endline="404" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2" class="DefaultRenderersFactory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DefaultRenderersFactory' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=25)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/ExoPlayerFactory.java">
+<violation beginline="29" endline="222" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="ExoPlayerFactory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/ExoPlayerImpl.java">
+<violation beginline="43" endline="706" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="ExoPlayerImpl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/ExoPlayerImplInternal.java">
+<violation beginline="48" endline="1730" begincolumn="21" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="54" endline="1730" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="ExoPlayerImplInternal" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="121" endline="131" begincolumn="31" endcolumn="18" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2" class="ExoPlayerImplInternal" method="ExoPlayerImplInternal" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="1127" endline="1252" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2" class="ExoPlayerImplInternal" method="handleSourceInfoRefreshed" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1355" endline="1477" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2" class="ExoPlayerImplInternal" method="updatePeriods" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/Format.java">
+<violation beginline="34" endline="845" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="Format" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="174" endline="184" begincolumn="50" endcolumn="43" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2" class="Format" method="createVideoContainerFormat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="191" endline="201" begincolumn="47" endcolumn="40" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2" class="Format" method="createVideoSampleFormat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="206" endline="218" begincolumn="47" endcolumn="40" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2" class="Format" method="createVideoSampleFormat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="224" endline="239" begincolumn="47" endcolumn="40" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2" class="Format" method="createVideoSampleFormat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="248" endline="258" begincolumn="50" endcolumn="32" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2" class="Format" method="createAudioContainerFormat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="265" endline="276" begincolumn="47" endcolumn="32" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2" class="Format" method="createAudioSampleFormat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="281" endline="293" begincolumn="47" endcolumn="32" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2" class="Format" method="createAudioSampleFormat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="299" endline="314" begincolumn="47" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2" class="Format" method="createAudioSampleFormat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="394" endline="404" begincolumn="46" endcolumn="38" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2" class="Format" method="createTextSampleFormat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="485" endline="511" begincolumn="23" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2" class="Format" method="Format" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/MediaPeriodHolder.java">
+<violation beginline="33" endline="286" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="MediaPeriodHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/MediaPeriodQueue.java">
+<violation beginline="34" endline="750" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="MediaPeriodQueue" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="513" endline="636" begincolumn="21" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2" class="MediaPeriodQueue" method="getFollowingMediaPeriodInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/NoSampleRenderer.java">
+<violation beginline="27" endline="278" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="NoSampleRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/PlaybackParameters.java">
+<violation beginline="24" endline="113" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2" class="PlaybackParameters" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PlaybackParameters' is suspected to be a Data Class (WOC=25.000%, NOPA=4, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/Player.java">
+<violation beginline="281" endline="344" begincolumn="64" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="Player$DefaultEventListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/SeekParameters.java">
+<violation beginline="36" endline="91" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2" class="SeekParameters" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SeekParameters' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/SimpleExoPlayer.java">
+<violation beginline="59" endline="1162" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2" class="SimpleExoPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="59" endline="1162" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="SimpleExoPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="978" endline="1160" begincolumn="42" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="SimpleExoPlayer$ComponentListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/Timeline.java">
+<violation beginline="177" endline="187" begincolumn="22" endcolumn="37" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2" class="Timeline$Window" method="set" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/analytics/AnalyticsCollector.java">
+<violation beginline="61" endline="798" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.analytics" class="AnalyticsCollector" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/analytics/AnalyticsListener.java">
+<violation beginline="45" endline="465" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.analytics" class="AnalyticsListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="48" endline="121" begincolumn="9" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.analytics" class="AnalyticsListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EventTime' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/analytics/DefaultAnalyticsListener.java">
+<violation beginline="34" endline="166" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.analytics" class="DefaultAnalyticsListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/audio/Ac3Util.java">
+<violation beginline="214" endline="428" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.audio" class="Ac3Util" method="parseAc3SyncframeInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/audio/AudioSink.java">
+<violation beginline="50" endline="331" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.audio" class="AudioSink" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/audio/AudioTrackPositionTracker.java">
+<violation beginline="40" endline="535" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.audio" class="AudioTrackPositionTracker" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/audio/DefaultAudioSink.java">
+<violation beginline="50" endline="1328" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.audio" class="DefaultAudioSink" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="50" endline="1328" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.audio" class="DefaultAudioSink" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="395" endline="528" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.audio" class="DefaultAudioSink" method="configure" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="613" endline="715" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.audio" class="DefaultAudioSink" method="handleBuffer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/audio/MediaCodecAudioRenderer.java">
+<violation beginline="64" endline="713" begincolumn="87" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.audio" class="MediaCodecAudioRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/audio/SilenceSkippingAudioProcessor.java">
+<violation beginline="30" endline="412" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.audio" class="SilenceSkippingAudioProcessor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/audio/SimpleDecoderAudioRenderer.java">
+<violation beginline="62" endline="717" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.audio" class="SimpleDecoderAudioRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/audio/Sonic.java">
+<violation beginline="28" endline="505" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.audio" class="Sonic" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/decoder/SimpleDecoder.java">
+<violation beginline="26" endline="305" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.decoder" class="SimpleDecoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/drm/DefaultDrmSession.java">
+<violation beginline="41" endline="538" begincolumn="90" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.drm" class="DefaultDrmSession" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="116" endline="128" begincolumn="27" endcolumn="38" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.drm" class="DefaultDrmSession" method="DefaultDrmSession" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/drm/DefaultDrmSessionManager.java">
+<violation beginline="49" endline="710" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.drm" class="DefaultDrmSessionManager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/DefaultExtractorInput.java">
+<violation beginline="29" endline="281" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor" class="DefaultExtractorInput" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/ExtractorInput.java">
+<violation beginline="25" endline="236" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor" class="ExtractorInput" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/amr/AmrExtractor.java">
+<violation beginline="40" endline="299" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.amr" class="AmrExtractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/flv/FlvExtractor.java">
+<violation beginline="35" endline="305" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.flv" class="FlvExtractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/flv/ScriptTagPayloadReader.java">
+<violation beginline="29" endline="214" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.flv" class="ScriptTagPayloadReader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/mkv/MatroskaExtractor.java">
+<violation beginline="62" endline="2040" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.mkv" class="MatroskaExtractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="62" endline="2040" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.mkv" class="MatroskaExtractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="578" endline="769" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.mkv" class="MatroskaExtractor" method="integerElement" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="833" endline="997" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.mkv" class="MatroskaExtractor" method="binaryElement" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1054" endline="1206" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.mkv" class="MatroskaExtractor" method="writeSampleData" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1673" endline="1876" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.mkv" class="MatroskaExtractor$Track" method="initializeOutput" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/mp4/AtomParsers.java">
+<violation beginline="44" endline="1395" begincolumn="21" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="44" endline="1395" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="AtomParsers" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="122" endline="447" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="AtomParsers" method="parseStbl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="707" endline="819" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="AtomParsers" method="parseVideoSampleEntry" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="861" endline="863" begincolumn="44" endcolumn="35" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="AtomParsers" method="parseAudioSampleEntry" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="861" endline="992" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="AtomParsers" method="parseAudioSampleEntry" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1270" endline="1286" begincolumn="24" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="AtomParsers" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StsdData' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/mp4/DefaultSampleValues.java">
+<violation beginline="18" endline="32" begincolumn="21" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DefaultSampleValues' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/mp4/FragmentedMp4Extractor.java">
+<violation beginline="59" endline="1521" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="FragmentedMp4Extractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="59" endline="1521" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="FragmentedMp4Extractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1133" endline="1273" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="FragmentedMp4Extractor" method="readSample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/mp4/Mp4Extractor.java">
+<violation beginline="47" endline="737" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="Mp4Extractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="721" endline="735" begincolumn="24" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="Mp4Extractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Mp4Track' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/mp4/Track.java">
+<violation beginline="99" endline="102" begincolumn="15" endcolumn="78" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="Track" method="Track" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/mp4/TrackEncryptionBox.java">
+<violation beginline="28" endline="100" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.extractor.mp4" class="TrackEncryptionBox" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TrackEncryptionBox' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/ogg/StreamReader.java">
+<violation beginline="32" endline="262" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.ogg" class="StreamReader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/ogg/VorbisReader.java">
+<violation beginline="177" endline="194" begincolumn="30" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.extractor.ogg" class="VorbisReader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'VorbisSetup' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/ogg/VorbisUtil.java">
+<violation beginline="26" endline="493" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.ogg" class="VorbisUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="410" endline="427" begincolumn="23" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.extractor.ogg" class="VorbisUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CodeBook' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+<violation beginline="456" endline="458" begincolumn="26" endcolumn="20" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.extractor.ogg" class="VorbisUtil$VorbisIdHeader" method="VorbisIdHeader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="477" endline="491" begincolumn="23" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.extractor.ogg" class="VorbisUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Mode' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/ts/DefaultTsPayloadReaderFactory.java">
+<violation beginline="33" endline="183" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.extractor.ts" class="DefaultTsPayloadReaderFactory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DefaultTsPayloadReaderFactory' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/ts/H264Reader.java">
+<violation beginline="304" endline="416" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.ts" class="H264Reader$SampleReader" method="appendToNalUnit" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="474" endline="477" begincolumn="25" endcolumn="83" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.extractor.ts" class="H264Reader$SampleReader$SliceHeaderData" method="setAll" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/ts/H265Reader.java">
+<violation beginline="33" endline="493" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.ts" class="H265Reader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="216" endline="325" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.extractor.ts" class="H265Reader" method="parseMediaFormat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/ts/LatmReader.java">
+<violation beginline="35" endline="306" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.ts" class="LatmReader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/ts/PsExtractor.java">
+<violation beginline="36" endline="340" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.extractor.ts" class="PsExtractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PsExtractor' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/ts/TsExtractor.java">
+<violation beginline="51" endline="564" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.extractor.ts" class="TsExtractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TsExtractor' is suspected to be a Data Class (WOC=0.000%, NOPA=18, NOAM=0, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/extractor/ts/TsPayloadReader.java">
+<violation beginline="62" endline="85" begincolumn="9" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.extractor.ts" class="TsPayloadReader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EsInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/mediacodec/MediaCodecRenderer.java">
+<violation beginline="56" endline="1344" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.mediacodec" class="MediaCodecRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="56" endline="1344" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.mediacodec" class="MediaCodecRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="61" endline="118" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.mediacodec" class="MediaCodecRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DecoderInitializationException' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=7)
+</violation>
+<violation beginline="629" endline="774" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.mediacodec" class="MediaCodecRenderer" method="feedInputBuffer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1006" endline="1110" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.mediacodec" class="MediaCodecRenderer" method="drainOutputBuffer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/metadata/emsg/EventMessage.java">
+<violation beginline="28" endline="158" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.metadata.emsg" class="EventMessage" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EventMessage' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/metadata/id3/ApicFrame.java">
+<violation beginline="27" endline="105" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.metadata.id3" class="ApicFrame" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ApicFrame' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/metadata/id3/CommentFrame.java">
+<violation beginline="26" endline="99" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.metadata.id3" class="CommentFrame" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CommentFrame' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/metadata/id3/GeobFrame.java">
+<violation beginline="27" endline="110" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.metadata.id3" class="GeobFrame" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GeobFrame' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/metadata/id3/Id3Decoder.java">
+<violation beginline="35" endline="790" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.metadata.id3" class="Id3Decoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="273" endline="400" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.metadata.id3" class="Id3Decoder" method="decodeFrame" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/metadata/id3/PrivFrame.java">
+<violation beginline="27" endline="92" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.metadata.id3" class="PrivFrame" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PrivFrame' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/metadata/scte35/SpliceInsertCommand.java">
+<violation beginline="94" endline="98" begincolumn="30" endcolumn="60" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.metadata.scte35" class="SpliceInsertCommand" method="SpliceInsertCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/metadata/scte35/SpliceScheduleCommand.java">
+<violation beginline="88" endline="91" begincolumn="18" endcolumn="84" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.metadata.scte35" class="SpliceScheduleCommand$Event" method="Event" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/offline/DownloadManager.java">
+<violation beginline="53" endline="852" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.offline" class="DownloadManager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/source/ClippingMediaPeriod.java">
+<violation beginline="33" endline="334" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="ClippingMediaPeriod" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/source/CompositeMediaSource.java">
+<violation beginline="178" endline="308" begincolumn="83" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="CompositeMediaSource$ForwardingEventListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/source/ConcatenatingMediaSource.java">
+<violation beginline="47" endline="904" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="ConcatenatingMediaSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/source/DeferredMediaPeriod.java">
+<violation beginline="32" endline="216" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="DeferredMediaPeriod" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/source/ExtractorMediaPeriod.java">
+<violation beginline="55" endline="946" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="ExtractorMediaPeriod" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/source/MediaSourceEventListener.java">
+<violation beginline="36" endline="63" begincolumn="9" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.source" class="MediaSourceEventListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LoadEventInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+<violation beginline="66" endline="134" begincolumn="9" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.source" class="MediaSourceEventListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MediaLoadData' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+<violation beginline="258" endline="719" begincolumn="31" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="MediaSourceEventListener$EventDispatcher" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="435" endline="446" begincolumn="30" endcolumn="25" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source" class="MediaSourceEventListener$EventDispatcher" method="loadCompleted" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="497" endline="508" begincolumn="29" endcolumn="25" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source" class="MediaSourceEventListener$EventDispatcher" method="loadCanceled" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="568" endline="581" begincolumn="26" endcolumn="28" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source" class="MediaSourceEventListener$EventDispatcher" method="loadError" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/source/SampleMetadataQueue.java">
+<violation beginline="29" endline="571" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="SampleMetadataQueue" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/source/SampleQueue.java">
+<violation beginline="36" endline="731" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="SampleQueue" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/source/SingleSampleMediaPeriod.java">
+<violation beginline="39" endline="381" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="SingleSampleMediaPeriod" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/source/chunk/ChunkSampleStream.java">
+<violation beginline="43" endline="704" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.chunk" class="ChunkSampleStream" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/source/chunk/ContainerMediaChunk.java">
+<violation beginline="59" endline="71" begincolumn="29" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.chunk" class="ContainerMediaChunk" method="ContainerMediaChunk" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/source/chunk/SingleSampleMediaChunk.java">
+<violation beginline="53" endline="63" begincolumn="32" endcolumn="26" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.chunk" class="SingleSampleMediaChunk" method="SingleSampleMediaChunk" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/text/CaptionStyleCompat.java">
+<violation beginline="31" endline="167" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.text" class="CaptionStyleCompat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CaptionStyleCompat' is suspected to be a Data Class (WOC=0.000%, NOPA=12, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/text/Cue.java">
+<violation beginline="28" endline="426" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.text" class="Cue" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Cue' is suspected to be a Data Class (WOC=0.000%, NOPA=20, NOAM=0, WMC=6)
+</violation>
+<violation beginline="325" endline="335" begincolumn="13" endcolumn="21" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.text" class="Cue" method="Cue" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="367" endline="377" begincolumn="13" endcolumn="22" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.text" class="Cue" method="Cue" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="395" endline="409" begincolumn="14" endcolumn="22" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.text" class="Cue" method="Cue" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/text/TextRenderer.java">
+<violation beginline="42" endline="327" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.text" class="TextRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/text/cea/Cea708Cue.java">
+<violation beginline="50" endline="52" begincolumn="19" endcolumn="60" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.text.cea" class="Cea708Cue" method="Cea708Cue" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/text/cea/Cea708Decoder.java">
+<violation beginline="47" endline="1248" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.text.cea" class="Cea708Decoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="47" endline="1248" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.text.cea" class="Cea708Decoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="368" endline="482" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.text.cea" class="Cea708Decoder" method="handleC1Command" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="934" endline="936" begincolumn="29" endcolumn="73" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.text.cea" class="Cea708Decoder$CueBuilder" method="defineWindow" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/text/dvb/DvbParser.java">
+<violation beginline="37" endline="1027" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.text.dvb" class="DvbParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="849" endline="869" begincolumn="24" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.text.dvb" class="DvbParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DisplayDefinition' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+<violation beginline="876" endline="891" begincolumn="24" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.text.dvb" class="DvbParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PageComposition' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+<violation beginline="929" endline="931" begincolumn="29" endcolumn="67" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.text.dvb" class="DvbParser$RegionComposition" method="RegionComposition" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="962" endline="981" begincolumn="24" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.text.dvb" class="DvbParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RegionObject' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+<violation beginline="988" endline="1003" begincolumn="24" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.text.dvb" class="DvbParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ClutDefinition' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+<violation beginline="1010" endline="1025" begincolumn="24" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.text.dvb" class="DvbParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ObjectData' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/text/ttml/TtmlDecoder.java">
+<violation beginline="60" endline="653" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.text.ttml" class="TtmlDecoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/text/ttml/TtmlRegion.java">
+<violation beginline="23" endline="65" begincolumn="21" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.text.ttml" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TtmlRegion' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/text/webvtt/CssParser.java">
+<violation beginline="29" endline="331" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.text.webvtt" class="CssParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/text/webvtt/WebvttCue.java">
+<violation beginline="40" endline="42" begincolumn="19" endcolumn="54" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.text.webvtt" class="WebvttCue" method="WebvttCue" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/text/webvtt/WebvttCueParser.java">
+<violation beginline="48" endline="538" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.text.webvtt" class="WebvttCueParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/trackselection/AdaptiveTrackSelection.java">
+<violation beginline="31" endline="379" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.trackselection" class="AdaptiveTrackSelection" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AdaptiveTrackSelection' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=10)
+</violation>
+<violation beginline="223" endline="233" begincolumn="32" endcolumn="18" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.trackselection" class="AdaptiveTrackSelection" method="AdaptiveTrackSelection" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/trackselection/DefaultTrackSelector.java">
+<violation beginline="154" endline="2100" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.trackselection" class="DefaultTrackSelector" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="154" endline="2100" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.trackselection" class="DefaultTrackSelector" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="542" endline="953" begincolumn="62" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.trackselection" class="DefaultTrackSelector$Parameters" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="673" endline="691" begincolumn="29" endcolumn="36" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.trackselection" class="DefaultTrackSelector$Parameters" method="Parameters" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="1383" endline="1386" begincolumn="54" endcolumn="43" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.trackselection" class="DefaultTrackSelector" method="getAdaptiveVideoTracksForGroup" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/upstream/DefaultHttpDataSource.java">
+<violation beginline="49" endline="646" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.upstream" class="DefaultHttpDataSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/upstream/HttpDataSource.java">
+<violation beginline="232" endline="273" begincolumn="3" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.upstream" class="HttpDataSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HttpDataSourceException' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/upstream/ParsingLoadable.java">
+<violation beginline="31" endline="153" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.upstream" class="ParsingLoadable" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ParsingLoadable' is suspected to be a Data Class (WOC=20.000%, NOPA=2, NOAM=2, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/upstream/cache/CacheDataSource.java">
+<violation beginline="45" endline="529" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.upstream.cache" class="CacheDataSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/upstream/cache/SimpleCache.java">
+<violation beginline="35" endline="506" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.upstream.cache" class="SimpleCache" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/util/EventLogger.java">
+<violation beginline="46" endline="604" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.util" class="EventLogger" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/util/NalUnitUtil.java">
+<violation beginline="32" endline="60" begincolumn="23" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.util" class="NalUnitUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SpsData' is suspected to be a Data Class (WOC=0.000%, NOPA=10, NOAM=0, WMC=1)
+</violation>
+<violation beginline="45" endline="47" begincolumn="19" endcolumn="93" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.util" class="NalUnitUtil$SpsData" method="SpsData" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="250" endline="355" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.util" class="NalUnitUtil" method="parseSpsNalUnit" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/util/ParsableBitArray.java">
+<violation beginline="21" endline="306" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.util" class="ParsableBitArray" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/util/ParsableByteArray.java">
+<violation beginline="26" endline="575" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.util" class="ParsableByteArray" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/util/ParsableNalUnitBitArray.java">
+<violation beginline="24" endline="210" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.util" class="ParsableNalUnitBitArray" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/util/Util.java">
+<violation beginline="70" endline="1553" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.util" class="Util" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="70" endline="1553" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.util" class="Util" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/main/java/com/google/android/exoplayer2/video/MediaCodecVideoRenderer.java">
+<violation beginline="71" endline="1236" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.video" class="MediaCodecVideoRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="71" endline="1236" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.video" class="MediaCodecVideoRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/DefaultMediaClockTest.java">
+<violation beginline="38" endline="446" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="DefaultMediaClockTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/ExoPlayerTest.java">
+<violation beginline="63" endline="2027" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2" class="ExoPlayerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="63" endline="2027" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2" class="ExoPlayerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/analytics/AnalyticsCollectorTest.java">
+<violation beginline="73" endline="1120" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.analytics" class="AnalyticsCollectorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="73" endline="1120" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.analytics" class="AnalyticsCollectorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="877" endline="1119" begincolumn="81" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.analytics" class="AnalyticsCollectorTest$TestAnalyticsListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/audio/SilenceSkippingAudioProcessorTest.java">
+<violation beginline="33" endline="424" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.audio" class="SilenceSkippingAudioProcessorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/extractor/DefaultExtractorInputTest.java">
+<violation beginline="39" endline="463" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor" class="DefaultExtractorInputTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/extractor/amr/AmrExtractorTest.java">
+<violation beginline="41" endline="246" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.amr" class="AmrExtractorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/extractor/mkv/DefaultEbmlReaderTest.java">
+<violation beginline="35" endline="249" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.mkv" class="DefaultEbmlReaderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/extractor/ogg/DefaultOggSeekerUtilMethodsTest.java">
+<violation beginline="36" endline="225" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.ogg" class="DefaultOggSeekerUtilMethodsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/extractor/ogg/OggExtractorTest.java">
+<violation beginline="33" endline="123" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.ogg" class="OggExtractorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/extractor/ts/AdtsReaderTest.java">
+<violation beginline="33" endline="198" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.extractor.ts" class="AdtsReaderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/offline/ActionFileTest.java">
+<violation beginline="40" endline="267" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.offline" class="ActionFileTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/offline/DownloadManagerTest.java">
+<violation beginline="49" endline="660" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.offline" class="DownloadManagerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="498" endline="582" begincolumn="59" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.offline" class="DownloadManagerTest$FakeDownloadAction" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/offline/ProgressiveDownloadActionTest.java">
+<violation beginline="39" endline="171" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.offline" class="ProgressiveDownloadActionTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/source/ClippingMediaSourceTest.java">
+<violation beginline="50" endline="597" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="ClippingMediaSourceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/source/CompositeSequenceableLoaderTest.java">
+<violation beginline="29" endline="277" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="CompositeSequenceableLoaderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/source/ConcatenatingMediaSourceTest.java">
+<violation beginline="51" endline="986" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="ConcatenatingMediaSourceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="68" endline="187" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.source" class="ConcatenatingMediaSourceTest" method="testPlaylistChangesAfterPreparation" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/source/SampleQueueTest.java">
+<violation beginline="44" endline="741" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source" class="SampleQueueTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/text/subrip/SubripDecoderTest.java">
+<violation beginline="29" endline="177" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.text.subrip" class="SubripDecoderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/text/ttml/TtmlDecoderTest.java">
+<violation beginline="47" endline="618" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.text.ttml" class="TtmlDecoderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="502" endline="512" begincolumn="27" endcolumn="33" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.text.ttml" class="TtmlDecoderTest" method="assertSpans" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/text/tx3g/Tx3gDecoderTest.java">
+<violation beginline="42" endline="236" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.text.tx3g" class="Tx3gDecoderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/text/webvtt/WebvttCueParserTest.java">
+<violation beginline="35" endline="257" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.text.webvtt" class="WebvttCueParserTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/text/webvtt/WebvttDecoderTest.java">
+<violation beginline="41" endline="344" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.text.webvtt" class="WebvttDecoderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="316" endline="328" begincolumn="32" endcolumn="17" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.text.webvtt" class="WebvttDecoderTest" method="assertCue" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/text/webvtt/WebvttSubtitleTest.java">
+<violation beginline="34" endline="242" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.text.webvtt" class="WebvttSubtitleTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/trackselection/AdaptiveTrackSelectionTest.java">
+<violation beginline="44" endline="414" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.trackselection" class="AdaptiveTrackSelectionTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/trackselection/DefaultTrackSelectorTest.java">
+<violation beginline="54" endline="1073" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.trackselection" class="DefaultTrackSelectorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="54" endline="1073" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.trackselection" class="DefaultTrackSelectorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="756" endline="880" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.trackselection" class="DefaultTrackSelectorTest" method="testsTextTrackSelectionFlags" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/upstream/cache/CacheDataSourceTest.java">
+<violation beginline="45" endline="417" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.upstream.cache" class="CacheDataSourceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/upstream/cache/CacheUtilTest.java">
+<violation beginline="52" endline="333" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.upstream.cache" class="CacheUtilTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/upstream/cache/DefaultContentMetadataTest.java">
+<violation beginline="31" endline="199" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.upstream.cache" class="DefaultContentMetadataTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/upstream/cache/SimpleCacheTest.java">
+<violation beginline="49" endline="357" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.upstream.cache" class="SimpleCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/util/NalUnitUtilTest.java">
+<violation beginline="31" endline="215" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.util" class="NalUnitUtilTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/util/ParsableBitArrayTest.java">
+<violation beginline="29" endline="263" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.util" class="ParsableBitArrayTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/util/ParsableByteArrayTest.java">
+<violation beginline="32" endline="544" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.util" class="ParsableByteArrayTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/core/src/test/java/com/google/android/exoplayer2/util/UtilTest.java">
+<violation beginline="40" endline="260" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.util" class="UtilTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/main/java/com/google/android/exoplayer2/source/dash/DashChunkSource.java">
+<violation beginline="49" endline="59" begincolumn="42" endcolumn="59" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.dash" class="DashChunkSource$Factory" method="createDashChunkSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/main/java/com/google/android/exoplayer2/source/dash/DashMediaPeriod.java">
+<violation beginline="59" endline="734" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.dash" class="DashMediaPeriod" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="84" endline="95" begincolumn="25" endcolumn="44" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.dash" class="DashMediaPeriod" method="DashMediaPeriod" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/main/java/com/google/android/exoplayer2/source/dash/DashMediaSource.java">
+<violation beginline="63" endline="1284" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.source.dash" class="DashMediaSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="63" endline="1284" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.dash" class="DashMediaSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="821" endline="927" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.source.dash" class="DashMediaSource" method="processManifest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/main/java/com/google/android/exoplayer2/source/dash/DefaultDashChunkSource.java">
+<violation beginline="77" endline="87" begincolumn="49" endcolumn="59" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.dash" class="DefaultDashChunkSource$Factory" method="createDashChunkSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="143" endline="155" begincolumn="32" endcolumn="62" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.dash" class="DefaultDashChunkSource" method="DefaultDashChunkSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="237" endline="343" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.source.dash" class="DefaultDashChunkSource" method="getNextChunk" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/main/java/com/google/android/exoplayer2/source/dash/PlayerEmsgHandler.java">
+<violation beginline="60" endline="447" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.dash" class="PlayerEmsgHandler" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="308" endline="434" begincolumn="68" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.dash" class="PlayerEmsgHandler$PlayerTrackEmsgHandler" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/main/java/com/google/android/exoplayer2/source/dash/manifest/AdaptationSet.java">
+<violation beginline="24" endline="80" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.source.dash.manifest" class="AdaptationSet" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AdaptationSet' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/main/java/com/google/android/exoplayer2/source/dash/manifest/DashManifest.java">
+<violation beginline="90" endline="93" begincolumn="22" endcolumn="41" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.dash.manifest" class="DashManifest" method="DashManifest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/main/java/com/google/android/exoplayer2/source/dash/manifest/DashManifestParser.java">
+<violation beginline="58" endline="1195" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.source.dash.manifest" class="DashManifestParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="59" endline="1195" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.dash.manifest" class="DashManifestParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="179" endline="182" begincolumn="59" endcolumn="69" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.dash.manifest" class="DashManifestParser" method="buildMediaPresentationDescription" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="449" endline="454" begincolumn="51" endcolumn="86" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.dash.manifest" class="DashManifestParser" method="parseRepresentation" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="511" endline="514" begincolumn="31" endcolumn="61" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.dash.manifest" class="DashManifestParser" method="buildFormat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="1171" endline="1193" begincolumn="26" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.source.dash.manifest" class="DashManifestParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RepresentationInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/main/java/com/google/android/exoplayer2/source/dash/manifest/Representation.java">
+<violation beginline="201" endline="204" begincolumn="58" endcolumn="27" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.dash.manifest" class="Representation$SingleSegmentRepresentation" method="newInstance" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/test/java/com/google/android/exoplayer2/source/dash/EventSampleStreamTest.java">
+<violation beginline="38" endline="356" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.dash" class="EventSampleStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/test/java/com/google/android/exoplayer2/source/dash/offline/DashDownloadActionTest.java">
+<violation beginline="45" endline="205" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.dash.offline" class="DashDownloadActionTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/test/java/com/google/android/exoplayer2/source/dash/offline/DashDownloaderTest.java">
+<violation beginline="53" endline="317" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.dash.offline" class="DashDownloaderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/dash/src/test/java/com/google/android/exoplayer2/source/dash/offline/DownloadManagerDashTest.java">
+<violation beginline="57" endline="288" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.dash.offline" class="DownloadManagerDashTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/hls/src/main/java/com/google/android/exoplayer2/source/hls/HlsChunkSource.java">
+<violation beginline="217" endline="367" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.source.hls" class="HlsChunkSource" method="getNextChunk" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/hls/src/main/java/com/google/android/exoplayer2/source/hls/HlsMediaChunk.java">
+<violation beginline="111" endline="130" begincolumn="23" endcolumn="26" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.hls" class="HlsMediaChunk" method="HlsMediaChunk" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/hls/src/main/java/com/google/android/exoplayer2/source/hls/HlsMediaPeriod.java">
+<violation beginline="47" endline="540" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.hls" class="HlsMediaPeriod" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/hls/src/main/java/com/google/android/exoplayer2/source/hls/HlsSampleStreamWrapper.java">
+<violation beginline="57" endline="1007" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.hls" class="HlsSampleStreamWrapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="261" endline="368" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.source.hls" class="HlsSampleStreamWrapper" method="selectTracks" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/hls/src/main/java/com/google/android/exoplayer2/source/hls/playlist/HlsMediaPlaylist.java">
+<violation beginline="33" endline="128" begincolumn="23" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.source.hls.playlist" class="HlsMediaPlaylist" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Segment' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=2)
+</violation>
+<violation beginline="99" endline="109" begincolumn="19" endcolumn="26" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.hls.playlist" class="HlsMediaPlaylist$Segment" method="Segment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="219" endline="234" begincolumn="26" endcolumn="29" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.hls.playlist" class="HlsMediaPlaylist" method="HlsMediaPlaylist" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/hls/src/main/java/com/google/android/exoplayer2/source/hls/playlist/HlsPlaylistParser.java">
+<violation beginline="48" endline="607" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.hls.playlist" class="HlsPlaylistParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="208" endline="331" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.source.hls.playlist" class="HlsPlaylistParser" method="parseMasterPlaylist" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="340" endline="511" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.source.hls.playlist" class="HlsPlaylistParser" method="parseMediaPlaylist" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/hls/src/main/java/com/google/android/exoplayer2/source/hls/playlist/HlsPlaylistTracker.java">
+<violation beginline="41" endline="647" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.hls.playlist" class="HlsPlaylistTracker" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/hls/src/main/java/com/google/android/exoplayer2/source/hls/playlist/RenditionKey.java">
+<violation beginline="25" endline="79" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.source.hls.playlist" class="RenditionKey" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RenditionKey' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/hls/src/test/java/com/google/android/exoplayer2/source/hls/playlist/HlsMediaPlaylistParserTest.java">
+<violation beginline="38" endline="141" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.source.hls.playlist" class="HlsMediaPlaylistParserTest" method="testParseMediaPlaylist" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/smoothstreaming/src/main/java/com/google/android/exoplayer2/source/smoothstreaming/DefaultSsChunkSource.java">
+<violation beginline="243" endline="254" begincolumn="42" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.smoothstreaming" class="DefaultSsChunkSource" method="newMediaChunk" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/smoothstreaming/src/main/java/com/google/android/exoplayer2/source/smoothstreaming/SsMediaPeriod.java">
+<violation beginline="42" endline="264" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.smoothstreaming" class="SsMediaPeriod" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/smoothstreaming/src/main/java/com/google/android/exoplayer2/source/smoothstreaming/SsMediaSource.java">
+<violation beginline="52" endline="647" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.smoothstreaming" class="SsMediaSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/smoothstreaming/src/main/java/com/google/android/exoplayer2/source/smoothstreaming/manifest/SsManifest.java">
+<violation beginline="36" endline="307" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.source.smoothstreaming.manifest" class="SsManifest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SsManifest' is suspected to be a Data Class (WOC=0.000%, NOPA=9, NOAM=0, WMC=6)
+</violation>
+<violation beginline="196" endline="199" begincolumn="25" endcolumn="31" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.smoothstreaming.manifest" class="SsManifest$StreamElement" method="StreamElement" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="218" endline="221" begincolumn="26" endcolumn="59" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.source.smoothstreaming.manifest" class="SsManifest$StreamElement" method="StreamElement" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/smoothstreaming/src/main/java/com/google/android/exoplayer2/source/smoothstreaming/manifest/SsManifestParser.java">
+<violation beginline="91" endline="319" begincolumn="47" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.source.smoothstreaming.manifest" class="SsManifestParser$ElementParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/ui/src/main/java/com/google/android/exoplayer2/ui/AspectRatioFrameLayout.java">
+<violation beginline="29" endline="237" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.ui" class="AspectRatioFrameLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AspectRatioFrameLayout' is suspected to be a Data Class (WOC=20.000%, NOPA=5, NOAM=2, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/ui/src/main/java/com/google/android/exoplayer2/ui/DefaultTimeBar.java">
+<violation beginline="127" endline="842" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ui" class="DefaultTimeBar" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="219" endline="322" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.ui" class="DefaultTimeBar" method="DefaultTimeBar" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/ui/src/main/java/com/google/android/exoplayer2/ui/PlaybackControlView.java">
+<violation beginline="24" endline="74" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.ui" class="PlaybackControlView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PlaybackControlView' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/ui/src/main/java/com/google/android/exoplayer2/ui/PlayerControlView.java">
+<violation beginline="162" endline="1129" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ui" class="PlayerControlView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="709" endline="823" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.ui" class="PlayerControlView" method="updateProgress" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/ui/src/main/java/com/google/android/exoplayer2/ui/PlayerView.java">
+<violation beginline="229" endline="1266" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.ui" class="PlayerView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="229" endline="1266" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.ui" class="PlayerView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="268" endline="417" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.ui" class="PlayerView" method="PlayerView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/library/ui/src/main/java/com/google/android/exoplayer2/ui/SubtitlePainter.java">
+<violation beginline="152" endline="154" begincolumn="19" endcolumn="71" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.ui" class="SubtitlePainter" method="draw" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="227" endline="329" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.android.exoplayer2.ui" class="SubtitlePainter" method="setupTextLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/playbacktests/src/androidTest/java/com/google/android/exoplayer2/playbacktests/gts/DashStreamingTest.java">
+<violation beginline="34" endline="635" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.playbacktests.gts" class="DashStreamingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/playbacktests/src/androidTest/java/com/google/android/exoplayer2/playbacktests/gts/DashTestRunner.java">
+<violation beginline="244" endline="248" begincolumn="27" endcolumn="92" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.playbacktests.gts" class="DashTestRunner$DashHostedTest" method="DashHostedTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils/src/main/java/com/google/android/exoplayer2/testutil/ActionSchedule.java">
+<violation beginline="104" endline="439" begincolumn="37" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="ActionSchedule$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils/src/main/java/com/google/android/exoplayer2/testutil/DebugRenderersFactory.java">
+<violation beginline="63" endline="198" begincolumn="85" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="DebugRenderersFactory$DebugMediaCodecVideoRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils/src/main/java/com/google/android/exoplayer2/testutil/ExoHostedTest.java">
+<violation beginline="56" endline="395" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="ExoHostedTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils/src/main/java/com/google/android/exoplayer2/testutil/ExoPlayerTestRunner.java">
+<violation beginline="57" endline="669" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="ExoPlayerTestRunner" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="378" endline="389" begincolumn="30" endcolumn="35" rule="ExcessiveParameterList" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="ExoPlayerTestRunner" method="ExoPlayerTestRunner" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils/src/main/java/com/google/android/exoplayer2/testutil/FakeExtractorInput.java">
+<violation beginline="46" endline="288" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="FakeExtractorInput" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils/src/main/java/com/google/android/exoplayer2/testutil/FakeMediaPeriod.java">
+<violation beginline="40" endline="246" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="FakeMediaPeriod" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils/src/main/java/com/google/android/exoplayer2/testutil/FakeMediaSource.java">
+<violation beginline="48" endline="239" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="FakeMediaSource" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils/src/main/java/com/google/android/exoplayer2/testutil/FakeRenderer.java">
+<violation beginline="37" endline="125" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="FakeRenderer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FakeRenderer' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils/src/main/java/com/google/android/exoplayer2/testutil/FakeTimeline.java">
+<violation beginline="33" endline="109" begincolumn="23" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="FakeTimeline" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TimelineWindowDefinition' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils/src/main/java/com/google/android/exoplayer2/testutil/HostActivity.java">
+<violation beginline="39" endline="238" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="HostActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils_robolectric/src/main/java/com/google/android/exoplayer2/testutil/MediaSourceTestRunner.java">
+<violation beginline="53" endline="469" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="MediaSourceTestRunner" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils_robolectric/src/main/java/com/google/android/exoplayer2/testutil/OggTestData.java">
+<violation beginline="19" endline="1070" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="OggTestData" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils_robolectric/src/main/java/com/google/android/exoplayer2/testutil/RobolectricUtil.java">
+<violation beginline="198" endline="211" begincolumn="24" endcolumn="3" rule="DataClass" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="RobolectricUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RemovedMessage' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ExoPlayer/testutils_robolectric/src/main/java/com/google/android/exoplayer2/testutil/StubExoPlayer.java">
+<violation beginline="35" endline="286" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.android.exoplayer2.testutil" class="StubExoPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

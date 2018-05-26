@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:36:46.583">
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/mapper/CmsArticleCategoryMapper.java">
+<violation beginline="8" endline="30" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.mapper" class="CmsArticleCategoryMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/mapper/CmsArticleMapper.java">
+<violation beginline="8" endline="36" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.mapper" class="CmsArticleMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/mapper/CmsArticleTagMapper.java">
+<violation beginline="8" endline="30" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.mapper" class="CmsArticleTagMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/mapper/CmsCategoryMapper.java">
+<violation beginline="8" endline="30" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.mapper" class="CmsCategoryMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/mapper/CmsCategoryTagMapper.java">
+<violation beginline="8" endline="30" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.mapper" class="CmsCategoryTagMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/mapper/CmsCommentMapper.java">
+<violation beginline="8" endline="36" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.mapper" class="CmsCommentMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/mapper/CmsMenuMapper.java">
+<violation beginline="8" endline="30" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.mapper" class="CmsMenuMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/mapper/CmsPageMapper.java">
+<violation beginline="8" endline="36" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.mapper" class="CmsPageMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/mapper/CmsSettingMapper.java">
+<violation beginline="8" endline="30" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.mapper" class="CmsSettingMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/mapper/CmsSystemMapper.java">
+<violation beginline="8" endline="30" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.mapper" class="CmsSystemMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/mapper/CmsTagMapper.java">
+<violation beginline="8" endline="30" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.mapper" class="CmsTagMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/mapper/CmsTopicMapper.java">
+<violation beginline="8" endline="30" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.mapper" class="CmsTopicMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsArticle.java">
+<violation beginline="5" endline="362" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsArticle" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CmsArticle' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=36, WMC=36)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsArticleCategory.java">
+<violation beginline="5" endline="92" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsArticleCategory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CmsArticleCategory' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsArticleCategoryExample.java">
+<violation beginline="69" endline="289" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsArticleCategoryExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="298" endline="382" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsArticleCategoryExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsArticleExample.java">
+<violation beginline="7" endline="1283" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsArticleExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="69" endline="1189" begincolumn="31" endcolumn="5" rule="ExcessiveClassLength" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsArticleExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="69" endline="1189" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsArticleExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1198" endline="1282" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsArticleExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsArticleTag.java">
+<violation beginline="5" endline="92" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsArticleTag" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CmsArticleTag' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsArticleTagExample.java">
+<violation beginline="69" endline="289" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsArticleTagExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="298" endline="382" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsArticleTagExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsCategory.java">
+<violation beginline="5" endline="236" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsCategory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CmsCategory' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=22, WMC=22)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsCategoryExample.java">
+<violation beginline="69" endline="809" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsCategoryExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="818" endline="902" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsCategoryExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsCategoryTag.java">
+<violation beginline="5" endline="92" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsCategoryTag" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CmsCategoryTag' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsCategoryTagExample.java">
+<violation beginline="69" endline="289" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsCategoryTagExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="298" endline="382" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsCategoryTagExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsComment.java">
+<violation beginline="5" endline="218" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsComment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CmsComment' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=20)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsCommentExample.java">
+<violation beginline="69" endline="669" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsCommentExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="678" endline="762" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsCommentExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsMenu.java">
+<violation beginline="5" endline="146" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsMenu" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CmsMenu' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsMenuExample.java">
+<violation beginline="69" endline="499" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsMenuExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="508" endline="592" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsMenuExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsPage.java">
+<violation beginline="5" endline="200" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsPage" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CmsPage' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=18, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsPageExample.java">
+<violation beginline="69" endline="629" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsPageExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="638" endline="722" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsPageExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsSetting.java">
+<violation beginline="5" endline="77" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsSetting" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CmsSetting' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsSettingExample.java">
+<violation beginline="69" endline="309" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsSettingExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="318" endline="402" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsSettingExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsSystem.java">
+<violation beginline="5" endline="146" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsSystem" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CmsSystem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsSystemExample.java">
+<violation beginline="69" endline="499" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsSystemExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="508" endline="592" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsSystemExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsTag.java">
+<violation beginline="5" endline="200" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsTag" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CmsTag' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=18, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsTagExample.java">
+<violation beginline="69" endline="689" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsTagExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="698" endline="782" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsTagExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsTopic.java">
+<violation beginline="5" endline="128" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsTopic" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CmsTopic' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-cms/zheng-cms-dao/src/main/java/com/zheng/cms/dao/model/CmsTopicExample.java">
+<violation beginline="69" endline="439" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsTopicExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="448" endline="532" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.cms.dao.model" class="CmsTopicExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-common/src/main/java/com/zheng/common/base/BaseResult.java">
+<violation beginline="7" endline="54" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.common.base" class="BaseResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BaseResult' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-common/src/main/java/com/zheng/common/base/BaseService.java">
+<violation beginline="11" endline="176" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.common.base" class="BaseService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-common/src/main/java/com/zheng/common/base/BaseServiceImpl.java">
+<violation beginline="19" endline="434" begincolumn="104" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.common.base" class="BaseServiceImpl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-common/src/main/java/com/zheng/common/base/BaseServiceMock.java">
+<violation beginline="11" endline="121" begincolumn="104" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.common.base" class="BaseServiceMock" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-common/src/main/java/com/zheng/common/util/MybatisGeneratorUtil.java">
+<violation beginline="42" endline="165" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.zheng.common.util" class="MybatisGeneratorUtil" method="generator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-common/src/main/java/com/zheng/common/util/Paginator.java">
+<violation beginline="129" endline="252" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.zheng.common.util" class="Paginator" method="getHtml" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-demo/zheng-demo-web/src/main/java/com/zheng/demo/web/model/User.java">
+<violation beginline="12" endline="47" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.demo.web.model" class="User" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/mapper/PayInOrderDetailMapper.java">
+<violation beginline="8" endline="30" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.mapper" class="PayInOrderDetailMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/mapper/PayInOrderMapper.java">
+<violation beginline="8" endline="30" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.mapper" class="PayInOrderMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/mapper/PayMchMapper.java">
+<violation beginline="8" endline="30" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.mapper" class="PayMchMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/mapper/PayOutOrderDetailMapper.java">
+<violation beginline="8" endline="30" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.mapper" class="PayOutOrderDetailMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/mapper/PayOutOrderMapper.java">
+<violation beginline="8" endline="30" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.mapper" class="PayOutOrderMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/mapper/PayPayMapper.java">
+<violation beginline="8" endline="30" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.mapper" class="PayPayMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/mapper/PayTypeMapper.java">
+<violation beginline="8" endline="30" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.mapper" class="PayTypeMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/mapper/PayVendorMapper.java">
+<violation beginline="8" endline="30" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.mapper" class="PayVendorMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/mapper/PayVestMapper.java">
+<violation beginline="8" endline="30" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.mapper" class="PayVestMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayInOrder.java">
+<violation beginline="5" endline="116" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayInOrder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PayInOrder' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayInOrderDetail.java">
+<violation beginline="5" endline="129" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayInOrderDetail" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PayInOrderDetail' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayInOrderDetailExample.java">
+<violation beginline="69" endline="559" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.model" class="PayInOrderDetailExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="568" endline="652" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayInOrderDetailExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayInOrderExample.java">
+<violation beginline="69" endline="469" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.model" class="PayInOrderExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="478" endline="562" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayInOrderExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayMch.java">
+<violation beginline="5" endline="103" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayMch" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PayMch' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayMchExample.java">
+<violation beginline="69" endline="449" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.model" class="PayMchExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="458" endline="542" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayMchExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayOutOrder.java">
+<violation beginline="5" endline="116" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayOutOrder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PayOutOrder' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayOutOrderDetail.java">
+<violation beginline="5" endline="77" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayOutOrderDetail" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PayOutOrderDetail' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayOutOrderDetailExample.java">
+<violation beginline="69" endline="299" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.model" class="PayOutOrderDetailExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="308" endline="392" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayOutOrderDetailExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayOutOrderExample.java">
+<violation beginline="69" endline="469" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.model" class="PayOutOrderExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="478" endline="562" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayOutOrderExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayPay.java">
+<violation beginline="5" endline="77" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayPay" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PayPay' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayPayExample.java">
+<violation beginline="69" endline="299" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.model" class="PayPayExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="308" endline="392" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayPayExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayType.java">
+<violation beginline="5" endline="77" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayType" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PayType' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayTypeExample.java">
+<violation beginline="69" endline="289" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.model" class="PayTypeExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="298" endline="382" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayTypeExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayVendor.java">
+<violation beginline="5" endline="103" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayVendor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PayVendor' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayVendorExample.java">
+<violation beginline="69" endline="449" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.model" class="PayVendorExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="458" endline="542" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayVendorExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayVest.java">
+<violation beginline="5" endline="90" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayVest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PayVest' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-pay/zheng-pay-dao/src/main/java/com/zheng/pay/dao/model/PayVestExample.java">
+<violation beginline="69" endline="369" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.pay.dao.model" class="PayVestExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="378" endline="462" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.pay.dao.model" class="PayVestExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/mapper/UcenterOauthMapper.java">
+<violation beginline="8" endline="30" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.ucenter.dao.mapper" class="UcenterOauthMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/mapper/UcenterUserDetailsMapper.java">
+<violation beginline="8" endline="30" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.ucenter.dao.mapper" class="UcenterUserDetailsMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/mapper/UcenterUserLogMapper.java">
+<violation beginline="8" endline="36" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.ucenter.dao.mapper" class="UcenterUserLogMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/mapper/UcenterUserMapper.java">
+<violation beginline="8" endline="30" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.ucenter.dao.mapper" class="UcenterUserMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/mapper/UcenterUserOauthMapper.java">
+<violation beginline="8" endline="36" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.ucenter.dao.mapper" class="UcenterUserOauthMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/model/UcenterOauth.java">
+<violation beginline="5" endline="74" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterOauth" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UcenterOauth' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/model/UcenterOauthExample.java">
+<violation beginline="69" endline="239" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterOauthExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="248" endline="332" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterOauthExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/model/UcenterUser.java">
+<violation beginline="6" endline="219" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterUser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UcenterUser' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=20)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/model/UcenterUserDetails.java">
+<violation beginline="6" endline="147" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterUserDetails" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UcenterUserDetails' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/model/UcenterUserDetailsExample.java">
+<violation beginline="70" endline="510" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterUserDetailsExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="519" endline="603" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterUserDetailsExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/model/UcenterUserExample.java">
+<violation beginline="70" endline="770" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterUserExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="779" endline="863" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterUserExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/model/UcenterUserLog.java">
+<violation beginline="7" endline="148" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterUserLog" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UcenterUserLog' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/model/UcenterUserLogExample.java">
+<violation beginline="70" endline="360" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterUserLogExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="369" endline="453" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterUserLogExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/model/UcenterUserOauth.java">
+<violation beginline="7" endline="148" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterUserOauth" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UcenterUserOauth' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-ucenter/zheng-ucenter-dao/src/main/java/com/zheng/ucenter/dao/model/UcenterUserOauthExample.java">
+<violation beginline="70" endline="410" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterUserOauthExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="419" endline="503" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.ucenter.dao.model" class="UcenterUserOauthExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-client/src/main/java/com/zheng/upms/client/shiro/session/UpmsSession.java">
+<violation beginline="9" endline="60" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.upms.client.shiro.session" class="UpmsSession" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UpmsSession' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/mapper/UpmsLogMapper.java">
+<violation beginline="8" endline="36" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.mapper" class="UpmsLogMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/mapper/UpmsOrganizationMapper.java">
+<violation beginline="8" endline="30" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.mapper" class="UpmsOrganizationMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/mapper/UpmsPermissionMapper.java">
+<violation beginline="8" endline="30" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.mapper" class="UpmsPermissionMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/mapper/UpmsRoleMapper.java">
+<violation beginline="8" endline="30" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.mapper" class="UpmsRoleMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/mapper/UpmsRolePermissionMapper.java">
+<violation beginline="8" endline="30" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.mapper" class="UpmsRolePermissionMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/mapper/UpmsSystemMapper.java">
+<violation beginline="8" endline="30" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.mapper" class="UpmsSystemMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/mapper/UpmsUserMapper.java">
+<violation beginline="8" endline="30" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.mapper" class="UpmsUserMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/mapper/UpmsUserOrganizationMapper.java">
+<violation beginline="8" endline="30" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.mapper" class="UpmsUserOrganizationMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/mapper/UpmsUserPermissionMapper.java">
+<violation beginline="8" endline="30" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.mapper" class="UpmsUserPermissionMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/mapper/UpmsUserRoleMapper.java">
+<violation beginline="8" endline="30" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.mapper" class="UpmsUserRoleMapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsLog.java">
+<violation beginline="5" endline="280" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsLog" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UpmsLog' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=28, WMC=28)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsLogExample.java">
+<violation beginline="7" endline="1013" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsLogExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="69" endline="919" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsLogExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="928" endline="1012" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsLogExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsOrganization.java">
+<violation beginline="5" endline="128" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsOrganization" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UpmsOrganization' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsOrganizationExample.java">
+<violation beginline="69" endline="429" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsOrganizationExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="438" endline="522" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsOrganizationExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsPermission.java">
+<violation beginline="5" endline="236" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsPermission" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UpmsPermission' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=22, WMC=22)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsPermissionExample.java">
+<violation beginline="69" endline="809" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsPermissionExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="818" endline="902" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsPermissionExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsRole.java">
+<violation beginline="5" endline="146" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsRole" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UpmsRole' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsRoleExample.java">
+<violation beginline="69" endline="499" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsRoleExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="508" endline="592" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsRoleExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsRolePermission.java">
+<violation beginline="5" endline="92" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsRolePermission" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UpmsRolePermission' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsRolePermissionExample.java">
+<violation beginline="69" endline="289" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsRolePermissionExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="298" endline="382" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsRolePermissionExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsSystem.java">
+<violation beginline="5" endline="236" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsSystem" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UpmsSystem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=22, WMC=22)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsSystemExample.java">
+<violation beginline="69" endline="839" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsSystemExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="848" endline="932" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsSystemExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsUser.java">
+<violation beginline="5" endline="236" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsUser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UpmsUser' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=22, WMC=22)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsUserExample.java">
+<violation beginline="69" endline="839" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsUserExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="848" endline="932" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsUserExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsUserOrganization.java">
+<violation beginline="5" endline="92" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsUserOrganization" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UpmsUserOrganization' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsUserOrganizationExample.java">
+<violation beginline="69" endline="289" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsUserOrganizationExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="298" endline="382" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsUserOrganizationExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsUserPermission.java">
+<violation beginline="5" endline="110" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsUserPermission" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UpmsUserPermission' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsUserPermissionExample.java">
+<violation beginline="69" endline="349" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsUserPermissionExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="358" endline="442" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsUserPermissionExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsUserRole.java">
+<violation beginline="5" endline="92" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsUserRole" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UpmsUserRole' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-dao/src/main/java/com/zheng/upms/dao/model/UpmsUserRoleExample.java">
+<violation beginline="69" endline="289" begincolumn="79" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsUserRoleExample$GeneratedCriteria" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="298" endline="382" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.zheng.upms.dao.model" class="UpmsUserRoleExample" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Criterion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-rpc-service/src/main/java/com/zheng/upms/rpc/service/impl/UpmsPermissionServiceImpl.java">
+<violation beginline="45" endline="145" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.zheng.upms.rpc.service.impl" class="UpmsPermissionServiceImpl" method="getTreeByRoleId" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="148" endline="252" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.zheng.upms.rpc.service.impl" class="UpmsPermissionServiceImpl" method="getTreeByUserId" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zheng/zheng-upms/zheng-upms-server/src/main/java/com/zheng/upms/server/controller/manage/UpmsUserController.java">
+<violation beginline="39" endline="239" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.zheng.upms.server.controller.manage" class="UpmsUserController" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:35:01.234">
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/com/thoughtworks/selenium/DefaultSelenium.java">
+<violation beginline="29" endline="796" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.thoughtworks.selenium" class="DefaultSelenium" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/com/thoughtworks/selenium/HttpCommandProcessor.java">
+<violation beginline="46" endline="381" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.thoughtworks.selenium" class="HttpCommandProcessor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/com/thoughtworks/selenium/SeleneseTestBase.java">
+<violation beginline="42" endline="504" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.thoughtworks.selenium" class="SeleneseTestBase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/com/thoughtworks/selenium/SeleneseTestCase.java">
+<violation beginline="37" endline="315" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.thoughtworks.selenium" class="SeleneseTestCase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/com/thoughtworks/selenium/SeleneseTestNgHelper.java">
+<violation beginline="35" endline="140" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.thoughtworks.selenium" class="SeleneseTestNgHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/com/thoughtworks/selenium/Selenium.java">
+<violation beginline="165" endline="1784" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.thoughtworks.selenium" class="Selenium" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="165" endline="1784" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.thoughtworks.selenium" class="Selenium" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/com/thoughtworks/selenium/webdriven/WebDriverCommandProcessor.java">
+<violation beginline="196" endline="346" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.thoughtworks.selenium.webdriven" class="WebDriverCommandProcessor" method="setUpMethodMap" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/By.java">
+<violation beginline="46" endline="453" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="By" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/Dimension.java">
+<violation beginline="23" endline="61" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.openqa.selenium" class="Dimension" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Dimension' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=2, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/ImmutableCapabilities.java">
+<violation beginline="57" endline="62" begincolumn="31" endcolumn="27" rule="ExcessiveParameterList" ruleset="Design" package="org.openqa.selenium" class="ImmutableCapabilities" method="ImmutableCapabilities" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/Rectangle.java">
+<violation beginline="20" endline="105" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.openqa.selenium" class="Rectangle" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Rectangle' is suspected to be a Data Class (WOC=16.667%, NOPA=4, NOAM=8, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/firefox/FirefoxBinary.java">
+<violation beginline="55" endline="457" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.firefox" class="FirefoxBinary" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/firefox/FirefoxProfile.java">
+<violation beginline="44" endline="428" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.firefox" class="FirefoxProfile" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/ie/InternetExplorerDriver.java">
+<violation beginline="33" endline="283" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.openqa.selenium.ie" class="InternetExplorerDriver" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'InternetExplorerDriver' is suspected to be a Data Class (WOC=0.000%, NOPA=19, NOAM=0, WMC=20)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/ie/InternetExplorerOptions.java">
+<violation beginline="70" endline="271" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.ie" class="InternetExplorerOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/interactions/Actions.java">
+<violation beginline="52" endline="645" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.interactions" class="Actions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/json/JsonInput.java">
+<violation beginline="29" endline="182" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.json" class="JsonInput" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/json/JsonOutput.java">
+<violation beginline="47" endline="396" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.json" class="JsonOutput" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/lift/Finders.java">
+<violation beginline="32" endline="151" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.lift" class="Finders" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/lift/HamcrestWebDriverTestCase.java">
+<violation beginline="33" endline="148" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.lift" class="HamcrestWebDriverTestCase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/lift/WebDriverTestContext.java">
+<violation beginline="40" endline="155" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.lift" class="WebDriverTestContext" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/remote/DesiredCapabilities.java">
+<violation beginline="33" endline="180" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote" class="DesiredCapabilities" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/remote/ErrorCodes.java">
+<violation beginline="278" endline="320" begincolumn="18" endcolumn="3" rule="DataClass" ruleset="Design" package="org.openqa.selenium.remote" class="ErrorCodes" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'KnownError' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/remote/NewSessionPayload.java">
+<violation beginline="78" endline="539" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote" class="NewSessionPayload" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/remote/RemoteTouchScreen.java">
+<violation beginline="26" endline="109" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote" class="RemoteTouchScreen" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/remote/RemoteWebDriver.java">
+<violation beginline="91" endline="992" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote" class="RemoteWebDriver" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/remote/RemoteWebElement.java">
+<violation beginline="56" endline="409" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote" class="RemoteWebElement" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/remote/Response.java">
+<violation beginline="22" endline="90" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.openqa.selenium.remote" class="Response" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Response' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/remote/http/W3CHttpCommandCodec.java">
+<violation beginline="156" endline="374" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.openqa.selenium.remote.http" class="W3CHttpCommandCodec" method="amendParameters" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/support/events/AbstractWebDriverEventListener.java">
+<violation beginline="29" endline="131" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.events" class="AbstractWebDriverEventListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/support/events/EventFiringWebDriver.java">
+<violation beginline="69" endline="717" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.events" class="EventFiringWebDriver" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/support/events/WebDriverEventListener.java">
+<violation beginline="26" endline="241" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.events" class="WebDriverEventListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/support/ui/ExpectedConditions.java">
+<violation beginline="44" endline="1554" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.openqa.selenium.support.ui" class="ExpectedConditions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="44" endline="1554" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.ui" class="ExpectedConditions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/src/org/openqa/selenium/support/ui/FluentWait.java">
+<violation beginline="69" endline="334" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.ui" class="FluentWait" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/com/thoughtworks/selenium/BrowserConfigurationOptionsTest.java">
+<violation beginline="26" endline="137" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.thoughtworks.selenium" class="BrowserConfigurationOptionsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/com/thoughtworks/selenium/corebased/TestCssLocators.java">
+<violation beginline="27" endline="165" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.thoughtworks.selenium.corebased" class="TestCssLocators" method="testCssLocators" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/com/thoughtworks/selenium/corebased/TestXPathLocators.java">
+<violation beginline="26" endline="134" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.thoughtworks.selenium.corebased" class="TestXPathLocators" method="testXPathLocators" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/AlertsTest.java">
+<violation beginline="54" endline="584" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="AlertsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ArchitectureTest.java">
+<violation beginline="34" endline="168" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ArchitectureTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ChildrenFindingTest.java">
+<violation beginline="39" endline="368" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ChildrenFindingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ClearTest.java">
+<violation beginline="35" endline="213" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ClearTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ClickScrollingTest.java">
+<violation beginline="47" endline="263" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ClickScrollingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ClickTest.java">
+<violation beginline="49" endline="385" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ClickTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/CookieImplementationTest.java">
+<violation beginline="48" endline="638" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="CookieImplementationTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/CorrectEventFiringTest.java">
+<violation beginline="60" endline="598" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="CorrectEventFiringTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ElementAttributeTest.java">
+<violation beginline="44" endline="413" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ElementAttributeTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ElementFindingTest.java">
+<violation beginline="45" endline="839" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ElementFindingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ElementSelectingTest.java">
+<violation beginline="29" endline="275" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ElementSelectingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ExecutingAsyncJavascriptTest.java">
+<violation beginline="51" endline="392" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ExecutingAsyncJavascriptTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ExecutingJavascriptTest.java">
+<violation beginline="66" endline="564" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ExecutingJavascriptTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/FormHandlingTest.java">
+<violation beginline="47" endline="338" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="FormHandlingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/FrameSwitchingTest.java">
+<violation beginline="50" endline="544" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="FrameSwitchingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/JavascriptEnabledDriverTest.java">
+<violation beginline="42" endline="245" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="JavascriptEnabledDriverTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/PageLoadingTest.java">
+<violation beginline="65" endline="536" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="PageLoadingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/Pages.java">
+<violation beginline="22" endline="140" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.openqa.selenium" class="Pages" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Pages' is suspected to be a Data Class (WOC=0.000%, NOPA=57, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/PlatformTest.java">
+<violation beginline="29" endline="167" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="PlatformTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/PositionAndSizeTest.java">
+<violation beginline="46" endline="199" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="PositionAndSizeTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ProxySettingTest.java">
+<violation beginline="54" endline="236" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ProxySettingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ProxyTest.java">
+<violation beginline="41" endline="392" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ProxyTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/ReferrerTest.java">
+<violation beginline="93" endline="622" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="ReferrerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/SelectElementHandlingTest.java">
+<violation beginline="32" endline="167" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="SelectElementHandlingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/TakesScreenshotTest.java">
+<violation beginline="83" endline="539" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="TakesScreenshotTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/TextHandlingTest.java">
+<violation beginline="51" endline="454" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="TextHandlingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/TypingTest.java">
+<violation beginline="45" endline="677" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="TypingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/VisibilityTest.java">
+<violation beginline="44" endline="317" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="VisibilityTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/WindowSwitchingTest.java">
+<violation beginline="53" endline="362" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="WindowSwitchingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/WindowTest.java">
+<violation beginline="37" endline="237" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium" class="WindowTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/environment/webserver/AppServerTest.java">
+<violation beginline="46" endline="166" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.environment.webserver" class="AppServerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/environment/webserver/JettyAppServer.java">
+<violation beginline="66" endline="340" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.environment.webserver" class="JettyAppServer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/environment/webserver/NullLogger.java">
+<violation beginline="23" endline="76" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.environment.webserver" class="NullLogger" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/firefox/FirefoxDriverTest.java">
+<violation beginline="79" endline="533" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.firefox" class="FirefoxDriverTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/firefox/FirefoxOptionsTest.java">
+<violation beginline="64" endline="331" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.firefox" class="FirefoxOptionsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/firefox/FirefoxProfileTest.java">
+<violation beginline="49" endline="294" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.firefox" class="FirefoxProfileTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/firefox/MarionetteTest.java">
+<violation beginline="41" endline="243" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.firefox" class="MarionetteTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/firefox/PreferencesTest.java">
+<violation beginline="34" endline="160" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.firefox" class="PreferencesTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/html5/Html5CapabilitiesTest.java">
+<violation beginline="49" endline="132" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.html5" class="Html5CapabilitiesTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/interactions/BasicKeyboardInterfaceTest.java">
+<violation beginline="47" endline="294" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.interactions" class="BasicKeyboardInterfaceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/interactions/BasicMouseInterfaceTest.java">
+<violation beginline="56" endline="505" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.interactions" class="BasicMouseInterfaceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/interactions/CombinedInputActionsTest.java">
+<violation beginline="56" endline="391" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.interactions" class="CombinedInputActionsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/interactions/DragAndDropTest.java">
+<violation beginline="53" endline="253" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.interactions" class="DragAndDropTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/interactions/IndividualMouseActionsTest.java">
+<violation beginline="38" endline="174" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.interactions" class="IndividualMouseActionsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/json/JsonOutputTest.java">
+<violation beginline="80" endline="737" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.json" class="JsonOutputTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/json/JsonTest.java">
+<violation beginline="64" endline="552" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.json" class="JsonTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="519" endline="539" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="org.openqa.selenium.json" class="JsonTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ContainingBean' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/lift/WebDriverTestContextTest.java">
+<violation beginline="49" endline="189" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.lift" class="WebDriverTestContextTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/remote/BaseAugmenterTest.java">
+<violation beginline="47" endline="347" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote" class="BaseAugmenterTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/remote/DesiredCapabilitiesTest.java">
+<violation beginline="39" endline="170" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote" class="DesiredCapabilitiesTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/remote/ErrorHandlerTest.java">
+<violation beginline="73" endline="524" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote" class="ErrorHandlerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/remote/ProtocolHandshakeTest.java">
+<violation beginline="56" endline="391" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote" class="ProtocolHandshakeTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/remote/W3CRemoteDriverTest.java">
+<violation beginline="58" endline="308" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote" class="W3CRemoteDriverTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/remote/http/JsonHttpCommandCodecTest.java">
+<violation beginline="56" endline="380" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote.http" class="JsonHttpCommandCodecTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/remote/http/JsonHttpResponseCodecTest.java">
+<violation beginline="49" endline="214" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote.http" class="JsonHttpResponseCodecTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/remote/internal/WebElementToJsonConverterTest.java">
+<violation beginline="45" endline="260" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote.internal" class="WebElementToJsonConverterTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/safari/AlertsTest.java">
+<violation beginline="39" endline="300" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.safari" class="AlertsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/support/ColorTest.java">
+<violation beginline="24" endline="199" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support" class="ColorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/support/PageFactoryTest.java">
+<violation beginline="43" endline="257" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support" class="PageFactoryTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/support/events/EventFiringWebDriverTest.java">
+<violation beginline="65" endline="476" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.events" class="EventFiringWebDriverTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/support/pagefactory/AnnotationsTest.java">
+<violation beginline="47" endline="272" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.pagefactory" class="AnnotationsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/support/pagefactory/ByAllTest.java">
+<violation beginline="45" endline="217" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.pagefactory" class="ByAllTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/support/pagefactory/ByChainedTest.java">
+<violation beginline="42" endline="286" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.pagefactory" class="ByChainedTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/support/pagefactory/DefaultElementLocatorTest.java">
+<violation beginline="44" endline="238" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.pagefactory" class="DefaultElementLocatorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java">
+<violation beginline="81" endline="928" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.ui" class="ExpectedConditionsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/support/ui/FluentWaitTest.java">
+<violation beginline="44" endline="300" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.ui" class="FluentWaitTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/support/ui/SelectElementTest.java">
+<violation beginline="38" endline="344" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.ui" class="SelectElementTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/client/test/org/openqa/selenium/support/ui/SelectTest.java">
+<violation beginline="43" endline="297" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.support.ui" class="SelectTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/src/org/openqa/grid/internal/DefaultGridRegistry.java">
+<violation beginline="43" endline="425" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.grid.internal" class="DefaultGridRegistry" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/src/org/openqa/grid/internal/TestSession.java">
+<violation beginline="77" endline="616" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.grid.internal" class="TestSession" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/src/org/openqa/grid/internal/utils/SelfRegisteringRemote.java">
+<violation beginline="57" endline="385" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.grid.internal.utils" class="SelfRegisteringRemote" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/src/org/openqa/grid/web/servlet/console/ConsoleServlet.java">
+<violation beginline="67" endline="171" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.openqa.grid.web.servlet.console" class="ConsoleServlet" method="process" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/src/org/openqa/grid/web/servlet/handler/RequestHandler.java">
+<violation beginline="53" endline="313" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.grid.web.servlet.handler" class="RequestHandler" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/src/org/openqa/selenium/remote/server/JsonHttpCommandHandler.java">
+<violation beginline="226" endline="363" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.openqa.selenium.remote.server" class="JsonHttpCommandHandler" method="setUpMappings" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/src/org/openqa/selenium/remote/server/log/PerSessionLogHandler.java">
+<violation beginline="45" endline="368" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote.server.log" class="PerSessionLogHandler" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/src/org/openqa/selenium/server/htmlrunner/HTMLTestResults.java">
+<violation beginline="34" endline="252" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.openqa.selenium.server.htmlrunner" class="HTMLTestResults" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HTMLTestResults' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=8, WMC=23)
+</violation>
+<violation beginline="114" endline="119" begincolumn="25" endcolumn="23" rule="ExcessiveParameterList" ruleset="Design" package="org.openqa.selenium.server.htmlrunner" class="HTMLTestResults" method="HTMLTestResults" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/src/org/openqa/selenium/server/htmlrunner/ReflectivelyDiscoveredSteps.java">
+<violation beginline="50" endline="256" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.openqa.selenium.server.htmlrunner" class="ReflectivelyDiscoveredSteps" method="discover" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/grid/common/RegistrationRequestTest.java">
+<violation beginline="40" endline="381" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.grid.common" class="RegistrationRequestTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/grid/e2e/misc/GridViaCommandLineTest.java">
+<violation beginline="70" endline="367" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.grid.e2e.misc" class="GridViaCommandLineTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/grid/e2e/misc/WebDriverPriorityDemo.java">
+<violation beginline="63" endline="181" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.openqa.grid.e2e.misc" class="WebDriverPriorityDemo" method="prepare" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/grid/internal/BaseRemoteProxyTest.java">
+<violation beginline="45" endline="194" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.grid.internal" class="BaseRemoteProxyTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/grid/internal/StatusServletTests.java">
+<violation beginline="58" endline="376" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.grid.internal" class="StatusServletTests" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/grid/internal/utils/DefaultCapabilityMatcherTest.java">
+<violation beginline="36" endline="370" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.grid.internal.utils" class="DefaultCapabilityMatcherTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/grid/internal/utils/configuration/GridNodeConfigurationTest.java">
+<violation beginline="48" endline="377" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.grid.internal.utils.configuration" class="GridNodeConfigurationTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/selenium/remote/server/CapabilitiesComparatorTest.java">
+<violation beginline="43" endline="403" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote.server" class="CapabilitiesComparatorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/selenium/remote/server/DriverFactoryTest.java">
+<violation beginline="40" endline="229" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote.server" class="DriverFactoryTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/selenium/remote/server/NewSessionPayloadTest.java">
+<violation beginline="43" endline="261" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote.server" class="NewSessionPayloadTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/selenium/remote/server/log/PerSessionLogHandlerUnitTest.java">
+<violation beginline="38" endline="208" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote.server.log" class="PerSessionLogHandlerUnitTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/selenium/remote/server/log/ShortTermMemoryHandlerUnitTest.java">
+<violation beginline="35" endline="204" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.selenium.remote.server.log" class="ShortTermMemoryHandlerUnitTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/selenium/java/server/test/org/openqa/testing/FakeHttpServletResponse.java">
+<violation beginline="31" endline="193" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.openqa.testing" class="FakeHttpServletResponse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

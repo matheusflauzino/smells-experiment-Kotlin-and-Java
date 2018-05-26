@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:40:12.541">
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/LottieSample/src/androidTest/java/com/airbnb/lottie/LottieSnapshotProvider.java">
+<violation beginline="34" endline="553" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.airbnb.lottie" class="LottieSnapshotProvider" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="240" endline="476" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.airbnb.lottie" class="LottieSnapshotProvider" method="testDynamicProperties" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java">
+<violation beginline="52" endline="932" begincolumn="107" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.airbnb.lottie" class="LottieAnimationView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java">
+<violation beginline="58" endline="61" begincolumn="19" endcolumn="75" rule="ExcessiveParameterList" ruleset="Design" package="com.airbnb.lottie" class="LottieComposition" method="init" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="159" endline="278" begincolumn="31" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.airbnb.lottie" class="LottieComposition$Factory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java">
+<violation beginline="53" endline="935" begincolumn="87" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.airbnb.lottie" class="LottieDrawable" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieImageAsset.java">
+<violation beginline="8" endline="43" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.airbnb.lottie" class="LottieImageAsset" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LottieImageAsset' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/PolystarContent.java">
+<violation beginline="134" endline="238" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.airbnb.lottie.animation.content" class="PolystarContent" method="createStarPath" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/DocumentData.java">
+<violation beginline="9" endline="53" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.airbnb.lottie.model" class="DocumentData" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DocumentData' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+<violation beginline="24" endline="26" begincolumn="22" endcolumn="46" rule="ExcessiveParameterList" ruleset="Design" package="com.airbnb.lottie.model" class="DocumentData" method="DocumentData" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/animatable/AnimatableTransform.java">
+<violation beginline="13" endline="84" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.airbnb.lottie.model.animatable" class="AnimatableTransform" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AnimatableTransform' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=5, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/content/GradientFill.java">
+<violation beginline="15" endline="83" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.airbnb.lottie.model.content" class="GradientFill" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GradientFill' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=7, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/content/GradientStroke.java">
+<violation beginline="16" endline="96" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.airbnb.lottie.model.content" class="GradientStroke" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GradientStroke' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=11)
+</violation>
+<violation beginline="30" endline="35" begincolumn="24" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="com.airbnb.lottie.model.content" class="GradientStroke" method="GradientStroke" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/content/PolystarShape.java">
+<violation beginline="12" endline="98" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.airbnb.lottie.model.content" class="PolystarShape" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PolystarShape' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=9, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/content/RectangleShape.java">
+<violation beginline="13" endline="52" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.airbnb.lottie.model.content" class="RectangleShape" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RectangleShape' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/content/Repeater.java">
+<violation beginline="12" endline="45" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.airbnb.lottie.model.content" class="Repeater" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Repeater' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/content/ShapeStroke.java">
+<violation beginline="16" endline="111" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.airbnb.lottie.model.content" class="ShapeStroke" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ShapeStroke' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=7, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/content/ShapeTrimPath.java">
+<violation beginline="9" endline="69" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.airbnb.lottie.model.content" class="ShapeTrimPath" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ShapeTrimPath' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/BaseLayer.java">
+<violation beginline="35" endline="474" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.airbnb.lottie.model.layer" class="BaseLayer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/Layer.java">
+<violation beginline="58" endline="64" begincolumn="15" endcolumn="51" rule="ExcessiveParameterList" ruleset="Design" package="com.airbnb.lottie.model.layer" class="Layer" method="Layer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableValueParser.java">
+<violation beginline="21" endline="89" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.airbnb.lottie.parser" class="AnimatableValueParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java">
+<violation beginline="37" endline="224" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.airbnb.lottie.parser" class="LayerParser" method="parse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/utils/BaseLottieAnimator.java">
+<violation beginline="11" endline="91" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.airbnb.lottie.utils" class="BaseLottieAnimator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/utils/LottieValueAnimator.java">
+<violation beginline="15" endline="264" begincolumn="100" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.airbnb.lottie.utils" class="LottieValueAnimator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/utils/MiscUtils.java">
+<violation beginline="14" endline="105" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.airbnb.lottie.utils" class="MiscUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/main/java/com/airbnb/lottie/value/LottieFrameInfo.java">
+<violation beginline="9" endline="65" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.airbnb.lottie.value" class="LottieFrameInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LottieFrameInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=7, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/test/java/com/airbnb/lottie/KeyPathTest.java">
+<violation beginline="19" endline="138" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.airbnb.lottie" class="KeyPathTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/lottie-android/lottie/src/test/java/com/airbnb/lottie/LottieValueAnimatorUnitTest.java">
+<violation beginline="33" endline="388" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.airbnb.lottie" class="LottieValueAnimatorUnitTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

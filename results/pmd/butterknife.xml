@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:41:56.629">
+<file name="/home/matheus/Documentos/repositories/Java/butterknife/butterknife-compiler/src/main/java/butterknife/compiler/BindingSet.java">
+<violation beginline="40" endline="780" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="butterknife.compiler" class="BindingSet" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="69" endline="72" begincolumn="21" endcolumn="80" rule="ExcessiveParameterList" ruleset="Design" package="butterknife.compiler" class="BindingSet" method="BindingSet" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="418" endline="519" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="butterknife.compiler" class="BindingSet" method="addMethodBindings" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/butterknife/butterknife-compiler/src/main/java/butterknife/compiler/ButterKnifeProcessor.java">
+<violation beginline="86" endline="1377" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="butterknife.compiler" class="ButterKnifeProcessor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="86" endline="1377" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="butterknife.compiler" class="ButterKnifeProcessor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="202" endline="370" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="butterknife.compiler" class="ButterKnifeProcessor" method="findAndParseTargets" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1008" endline="1198" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="butterknife.compiler" class="ButterKnifeProcessor" method="parseListenerAnnotation" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/butterknife/butterknife/src/androidTest/java/butterknife/ButterKnifeTest.java">
+<violation beginline="21" endline="247" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="butterknife" class="ButterKnifeTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/butterknife/butterknife/src/main/java/butterknife/ButterKnife.java">
+<violation beginline="84" endline="357" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="butterknife" class="ButterKnife" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/butterknife/butterknife/src/test/java/butterknife/BindViewTest.java">
+<violation beginline="15" endline="1021" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="butterknife" class="BindViewTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="15" endline="1021" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="butterknife" class="BindViewTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/butterknife/butterknife/src/test/java/butterknife/BindViewsTest.java">
+<violation beginline="15" endline="717" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="butterknife" class="BindViewsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/butterknife/butterknife/src/test/java/butterknife/OnClickTest.java">
+<violation beginline="11" endline="848" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="butterknife" class="OnClickTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="266" endline="372" begincolumn="16" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="butterknife" class="OnClickTest" method="methodCastsArgument" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="374" endline="479" begincolumn="16" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="butterknife" class="OnClickTest" method="methodCastsArgumentNonDebuggable" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/butterknife/butterknife/src/test/java/butterknife/RClassTest.java">
+<violation beginline="130" endline="325" begincolumn="16" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="butterknife" class="RClassTest" method="issue779" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/butterknife/butterknife/src/test/java/butterknife/UnbinderTest.java">
+<violation beginline="86" endline="188" begincolumn="16" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="butterknife" class="UnbinderTest" method="unbindingThroughAbstractChild" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="190" endline="544" begincolumn="16" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="butterknife" class="UnbinderTest" method="fullIntegration" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:36:59.995">
+<file name="/home/matheus/Documentos/repositories/Java/leakcanary/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java">
+<violation beginline="61" endline="397" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.leakcanary" class="HeapAnalyzer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/leakcanary/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/TrackedReference.java">
+<violation beginline="11" endline="31" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.squareup.leakcanary" class="TrackedReference" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TrackedReference' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/leakcanary/leakcanary-analyzer/src/test/java/com/squareup/leakcanary/FakeHprofBuffer.java">
+<violation beginline="8" endline="113" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.leakcanary" class="FakeHprofBuffer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/leakcanary/leakcanary-analyzer/src/test/java/com/squareup/leakcanary/HahaHelperTest.java">
+<violation beginline="19" endline="160" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.leakcanary" class="HahaHelperTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/leakcanary/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java">
+<violation beginline="73" endline="531" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.leakcanary.internal" class="DisplayLeakActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="252" endline="358" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.squareup.leakcanary.internal" class="DisplayLeakActivity" method="updateUi" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/leakcanary/leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDump.java">
+<violation beginline="24" endline="71" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.squareup.leakcanary" class="HeapDump" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HeapDump' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/leakcanary/leakcanary-watcher/src/main/java/com/squareup/leakcanary/RefWatcherBuilder.java">
+<violation beginline="7" endline="124" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.leakcanary" class="RefWatcherBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:37:00.644">
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-cli/src/main/java/jadx/cli/JadxCLIArgs.java">
+<violation beginline="25" endline="310" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.cli" class="JadxCLIArgs" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'JadxCLIArgs' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=21, WMC=44)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/api/JadxArgs.java">
+<violation beginline="7" endline="241" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.api" class="JadxArgs" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'JadxArgs' is suspected to be a Data Class (WOC=21.429%, NOPA=4, NOAM=32, WMC=42)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java">
+<violation beginline="53" endline="316" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.api" class="JadxDecompiler" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/clsp/NClass.java">
+<violation beginline="6" endline="58" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.clsp" class="NClass" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NClass' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/codegen/ClassGen.java">
+<violation beginline="39" endline="601" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.codegen" class="ClassGen" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/codegen/CodeWriter.java">
+<violation beginline="20" endline="301" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.codegen" class="CodeWriter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/codegen/InsnGen.java">
+<violation beginline="57" endline="842" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.codegen" class="InsnGen" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="231" endline="521" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="jadx.core.codegen" class="InsnGen" method="makeInsnBody" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/codegen/NameGen.java">
+<violation beginline="25" endline="246" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.codegen" class="NameGen" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/codegen/RegionGen.java">
+<violation beginline="41" endline="325" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.codegen" class="RegionGen" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/deobf/Deobfuscator.java">
+<violation beginline="29" endline="546" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.deobf" class="Deobfuscator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/AttrNode.java">
+<violation beginline="7" endline="99" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.attributes" class="AttrNode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/AttributeStorage.java">
+<violation beginline="20" endline="126" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.attributes" class="AttributeStorage" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/EnumClassAttr.java">
+<violation beginline="15" endline="51" begincolumn="23" endcolumn="9" rule="DataClass" ruleset="Design" package="jadx.core.dex.attributes.nodes" class="EnumClassAttr" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EnumField' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/LineAttrNode.java">
+<violation beginline="5" endline="31" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.dex.attributes.nodes" class="LineAttrNode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LineAttrNode' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/LoopInfo.java">
+<violation beginline="14" endline="95" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.dex.attributes.nodes" class="LoopInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LoopInfo' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=7, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/info/ClassInfo.java">
+<violation beginline="10" endline="193" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.info" class="ClassInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/InsnDecoder.java">
+<violation beginline="29" endline="762" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.instructions" class="InsnDecoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="86" endline="592" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="jadx.core.dex.instructions" class="InsnDecoder" method="decode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java">
+<violation beginline="14" endline="674" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.instructions.args" class="ArgType" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/BlockNode.java">
+<violation beginline="18" endline="203" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.dex.nodes" class="BlockNode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BlockNode' is suspected to be a Data Class (WOC=30.000%, NOPA=0, NOAM=13, WMC=31)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java">
+<violation beginline="42" endline="493" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.nodes" class="ClassNode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/DexNode.java">
+<violation beginline="28" endline="216" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.nodes" class="DexNode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/InsnNode.java">
+<violation beginline="23" endline="304" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.nodes" class="InsnNode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java">
+<violation beginline="46" endline="633" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.nodes" class="MethodNode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/parser/DebugInfoParser.java">
+<violation beginline="55" endline="178" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="jadx.core.dex.nodes.parser" class="DebugInfoParser" method="process" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/parser/LocalVar.java">
+<violation beginline="11" endline="126" begincolumn="7" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.dex.nodes.parser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LocalVar' is suspected to be a Data Class (WOC=30.000%, NOPA=0, NOAM=5, WMC=24)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/parser/SignatureParser.java">
+<violation beginline="18" endline="302" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.nodes.parser" class="SignatureParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/regions/TryCatchRegion.java">
+<violation beginline="16" endline="97" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.dex.regions" class="TryCatchRegion" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TryCatchRegion' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfCondition.java">
+<violation beginline="20" endline="246" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.regions.conditions" class="IfCondition" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfInfo.java">
+<violation beginline="8" endline="91" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.dex.regions.conditions" class="IfInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'IfInfo' is suspected to be a Data Class (WOC=15.385%, NOPA=0, NOAM=9, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfRegion.java">
+<violation beginline="14" endline="133" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.dex.regions.conditions" class="IfRegion" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'IfRegion' is suspected to be a Data Class (WOC=27.273%, NOPA=0, NOAM=7, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/regions/loops/LoopRegion.java">
+<violation beginline="19" endline="181" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.dex.regions.loops" class="LoopRegion" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LoopRegion' is suspected to be a Data Class (WOC=28.571%, NOPA=0, NOAM=9, WMC=28)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/trycatch/ExceptionHandler.java">
+<violation beginline="13" endline="124" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.dex.trycatch" class="ExceptionHandler" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ExceptionHandler' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=11, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/trycatch/TryCatchBlock.java">
+<violation beginline="17" endline="170" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.trycatch" class="TryCatchBlock" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java">
+<violation beginline="38" endline="158" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="jadx.core.dex.visitors" class="EnumVisitor" method="visit" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ModVisitor.java">
+<violation beginline="58" endline="481" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.visitors" class="ModVisitor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocksmaker/BlockFinallyExtract.java">
+<violation beginline="45" endline="810" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.visitors.blocksmaker" class="BlockFinallyExtract" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="116" endline="243" begincolumn="24" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="jadx.core.dex.visitors.blocksmaker" class="BlockFinallyExtract" method="extractFinally" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="508" endline="618" begincolumn="24" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="jadx.core.dex.visitors.blocksmaker" class="BlockFinallyExtract" method="applyRemove" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocksmaker/BlockProcessor.java">
+<violation beginline="30" endline="423" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.visitors.blocksmaker" class="BlockProcessor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocksmaker/helpers/BlocksRemoveInfo.java">
+<violation beginline="13" endline="111" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.dex.visitors.blocksmaker.helpers" class="BlocksRemoveInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BlocksRemoveInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=13, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java">
+<violation beginline="31" endline="375" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.visitors.regions" class="IfMakerHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfRegionVisitor.java">
+<violation beginline="20" endline="196" begincolumn="105" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.visitors.regions" class="IfRegionVisitor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java">
+<violation beginline="41" endline="378" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.visitors.regions" class="LoopRegionVisitor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/ProcessVariables.java">
+<violation beginline="71" endline="114" begincolumn="24" endcolumn="9" rule="DataClass" ruleset="Design" package="jadx.core.dex.visitors.regions" class="ProcessVariables" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Usage' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=7, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java">
+<violation beginline="60" endline="1043" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.visitors.regions" class="RegionMaker" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="688" endline="845" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="jadx.core.dex.visitors.regions" class="RegionMaker" method="processSwitch" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ssa/SSATransform.java">
+<violation beginline="35" endline="408" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.dex.visitors.ssa" class="SSATransform" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/PostTypeInference.java">
+<violation beginline="21" endline="131" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="jadx.core.dex.visitors.typeinference" class="PostTypeInference" method="process" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java">
+<violation beginline="31" endline="553" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.utils" class="BlockUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/utils/DebugUtils.java">
+<violation beginline="35" endline="194" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.utils" class="DebugUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/utils/InstructionRemover.java">
+<violation beginline="22" endline="157" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.utils" class="InstructionRemover" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/utils/android/DataInputDelegate.java">
+<violation beginline="25" endline="91" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.utils.android" class="DataInputDelegate" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/utils/files/FileUtils.java">
+<violation beginline="29" endline="235" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.utils.files" class="FileUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/xmlgen/BinaryXMLParser.java">
+<violation beginline="36" endline="468" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.xmlgen" class="BinaryXMLParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ParserStream.java">
+<violation beginline="9" endline="150" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.xmlgen" class="ParserStream" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResTableParser.java">
+<violation beginline="18" endline="373" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.core.xmlgen" class="ResTableParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="22" endline="50" begincolumn="30" endcolumn="9" rule="DataClass" ruleset="Design" package="jadx.core.xmlgen" class="ResTableParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PackageChunk' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/xmlgen/XMLChar.java">
+<violation beginline="46" endline="1062" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="jadx.core.xmlgen" class="XMLChar" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/xmlgen/entry/EntryConfig.java">
+<violation beginline="3" endline="159" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.xmlgen.entry" class="EntryConfig" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EntryConfig' is suspected to be a Data Class (WOC=4.762%, NOPA=0, NOAM=20, WMC=39)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/main/java/jadx/core/xmlgen/entry/ResourceEntry.java">
+<violation beginline="5" endline="80" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.core.xmlgen.entry" class="ResourceEntry" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ResourceEntry' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-core/src/test/java/jadx/tests/api/IntegrationTest.java">
+<violation beginline="46" endline="396" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.tests.api" class="IntegrationTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-gui/src/main/java/jadx/gui/settings/WindowLocation.java">
+<violation beginline="3" endline="50" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.gui.settings" class="WindowLocation" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WindowLocation' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-gui/src/main/java/jadx/gui/ui/CommonSearchDialog.java">
+<violation beginline="38" endline="516" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.gui.ui" class="CommonSearchDialog" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-gui/src/main/java/jadx/gui/ui/MainWindow.java">
+<violation beginline="57" endline="679" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.gui.ui" class="MainWindow" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="322" endline="533" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="jadx.gui.ui" class="MainWindow" method="initMenuAndToolbar" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-gui/src/main/java/jadx/gui/ui/TabbedPane.java">
+<violation beginline="31" endline="303" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.gui.ui" class="TabbedPane" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-gui/src/main/java/jadx/gui/update/data/Asset.java">
+<violation beginline="5" endline="75" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.gui.update.data" class="Asset" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Asset' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-gui/src/main/java/jadx/gui/update/data/Release.java">
+<violation beginline="7" endline="58" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.gui.update.data" class="Release" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Release' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-gui/src/main/java/jadx/gui/utils/CacheObject.java">
+<violation beginline="13" endline="92" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="jadx.gui.utils" class="CacheObject" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CacheObject' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=9, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-gui/src/main/java/jadx/gui/utils/search/StringRef.java">
+<violation beginline="11" endline="191" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.gui.utils.search" class="StringRef" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-samples/src/main/java/jadx/samples/TestCF.java">
+<violation beginline="3" endline="219" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.samples" class="TestCF" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-samples/src/main/java/jadx/samples/TestCF2.java">
+<violation beginline="3" endline="117" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.samples" class="TestCF2" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-samples/src/main/java/jadx/samples/TestCF3.java">
+<violation beginline="8" endline="255" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.samples" class="TestCF3" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-samples/src/main/java/jadx/samples/TestConditions.java">
+<violation beginline="3" endline="101" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.samples" class="TestConditions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-samples/src/main/java/jadx/samples/TestGenerics.java">
+<violation beginline="9" endline="196" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.samples" class="TestGenerics" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/jadx/jadx-samples/src/main/java/jadx/samples/TestTryCatch.java">
+<violation beginline="5" endline="227" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="jadx.samples" class="TestTryCatch" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

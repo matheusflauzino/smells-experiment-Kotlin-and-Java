@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:33:09.506">
+<file name="/home/matheus/Documentos/repositories/Java/Material-Animations/app/src/main/java/com/lgvalle/material_animations/RevealActivity.java">
+<violation beginline="28" endline="291" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.lgvalle.material_animations" class="RevealActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

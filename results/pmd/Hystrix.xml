@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:36:49.373">
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-codahale-metrics-publisher/src/main/java/com/netflix/hystrix/contrib/codahalemetricspublisher/HystrixCodaHaleMetricsPublisherCollapser.java">
+<violation beginline="56" endline="227" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix.contrib.codahalemetricspublisher" class="HystrixCodaHaleMetricsPublisherCollapser" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-codahale-metrics-publisher/src/main/java/com/netflix/hystrix/contrib/codahalemetricspublisher/HystrixCodaHaleMetricsPublisherCommand.java">
+<violation beginline="63" endline="508" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix.contrib.codahalemetricspublisher" class="HystrixCodaHaleMetricsPublisherCommand" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-codahale-metrics-publisher/src/main/java/com/netflix/hystrix/contrib/codahalemetricspublisher/HystrixCodaHaleMetricsPublisherThreadPool.java">
+<violation beginline="59" endline="185" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix.contrib.codahalemetricspublisher" class="HystrixCodaHaleMetricsPublisherThreadPool" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/main/java/com/netflix/hystrix/contrib/javanica/cache/CacheInvocationContext.java">
+<violation beginline="36" endline="173" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.cache" class="CacheInvocationContext" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CacheInvocationContext' is suspected to be a Data Class (WOC=30.000%, NOPA=0, NOAM=6, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/main/java/com/netflix/hystrix/contrib/javanica/cache/CacheInvocationParameter.java">
+<violation beginline="33" endline="112" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.cache" class="CacheInvocationParameter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CacheInvocationParameter' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=5, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/main/java/com/netflix/hystrix/contrib/javanica/command/GenericSetterBuilder.java">
+<violation beginline="117" endline="183" begincolumn="33" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.command" class="GenericSetterBuilder$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/main/java/com/netflix/hystrix/contrib/javanica/command/HystrixCommandBuilder.java">
+<violation beginline="35" endline="184" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.command" class="HystrixCommandBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HystrixCommandBuilder' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=7, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/main/java/com/netflix/hystrix/contrib/javanica/command/MetaHolder.java">
+<violation beginline="352" endline="512" begincolumn="39" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.command" class="MetaHolder$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/main/java/com/netflix/hystrix/contrib/javanica/utils/FallbackMethod.java">
+<violation beginline="48" endline="428" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.utils" class="FallbackMethod" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/test/java/com/netflix/hystrix/contrib/javanica/cache/HystrixCacheKeyGeneratorTest.java">
+<violation beginline="101" endline="120" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.cache" class="HystrixCacheKeyGeneratorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/test/java/com/netflix/hystrix/contrib/javanica/test/common/domain/User.java">
+<violation beginline="21" endline="96" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.test.common.domain" class="User" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/test/java/com/netflix/hystrix/contrib/javanica/test/common/error/BasicErrorPropagationTest.java">
+<violation beginline="44" endline="451" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.test.common.error" class="BasicErrorPropagationTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="235" endline="384" begincolumn="37" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.test.common.error" class="BasicErrorPropagationTest$UserService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/test/java/com/netflix/hystrix/contrib/javanica/test/common/fallback/BasicCommandFallbackTest.java">
+<violation beginline="43" endline="461" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.test.common.fallback" class="BasicCommandFallbackTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="231" endline="460" begincolumn="37" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.test.common.fallback" class="BasicCommandFallbackTest$UserService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/test/java/com/netflix/hystrix/contrib/javanica/test/common/fallback/BasicGenericFallbackTest.java">
+<violation beginline="32" endline="306" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.test.common.fallback" class="BasicGenericFallbackTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/test/java/com/netflix/hystrix/contrib/javanica/test/common/observable/BasicObservableTest.java">
+<violation beginline="42" endline="344" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.test.common.observable" class="BasicObservableTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-javanica/src/test/java/com/netflix/hystrix/contrib/javanica/util/FallbackMethodValidationTest.java">
+<violation beginline="117" endline="160" begincolumn="34" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.contrib.javanica.util" class="FallbackMethodValidationTest$Service" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-metrics-event-stream/src/main/java/com/netflix/hystrix/contrib/metrics/eventstream/HystrixMetricsPoller.java">
+<violation beginline="204" endline="397" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix.contrib.metrics.eventstream" class="HystrixMetricsPoller$MetricsPoller" method="getCommandJson" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-servo-metrics-publisher/src/main/java/com/netflix/hystrix/contrib/servopublisher/HystrixServoMetricsPublisherCommand.java">
+<violation beginline="284" endline="615" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix.contrib.servopublisher" class="HystrixServoMetricsPublisherCommand" method="getServoMonitors" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-servo-metrics-publisher/src/main/java/com/netflix/hystrix/contrib/servopublisher/HystrixServoMetricsPublisherThreadPool.java">
+<violation beginline="157" endline="288" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix.contrib.servopublisher" class="HystrixServoMetricsPublisherThreadPool" method="getServoMonitors" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-yammer-metrics-publisher/src/main/java/com/netflix/hystrix/contrib/yammermetricspublisher/HystrixYammerMetricsPublisherCollapser.java">
+<violation beginline="57" endline="222" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix.contrib.yammermetricspublisher" class="HystrixYammerMetricsPublisherCollapser" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-yammer-metrics-publisher/src/main/java/com/netflix/hystrix/contrib/yammermetricspublisher/HystrixYammerMetricsPublisherCommand.java">
+<violation beginline="42" endline="525" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.contrib.yammermetricspublisher" class="HystrixYammerMetricsPublisherCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="66" endline="386" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix.contrib.yammermetricspublisher" class="HystrixYammerMetricsPublisherCommand" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-contrib/hystrix-yammer-metrics-publisher/src/main/java/com/netflix/hystrix/contrib/yammermetricspublisher/HystrixYammerMetricsPublisherThreadPool.java">
+<violation beginline="53" endline="179" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix.contrib.yammermetricspublisher" class="HystrixYammerMetricsPublisherThreadPool" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/AbstractCommand.java">
+<violation beginline="60" endline="2219" begincolumn="23" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.netflix.hystrix" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="60" endline="2219" begincolumn="105" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="AbstractCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="157" endline="160" begincolumn="30" endcolumn="100" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="AbstractCommand" method="AbstractCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="364" endline="516" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="AbstractCommand" method="toObservable" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="758" endline="882" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="AbstractCommand" method="getFallbackOrThrowException" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1983" endline="2218" begincolumn="94" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="AbstractCommand$ExecutionHookDeprecationWrapper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/HystrixCollapserProperties.java">
+<violation beginline="32" endline="371" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.netflix.hystrix" class="HystrixCollapserProperties" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HystrixCollapserProperties' is suspected to be a Data Class (WOC=18.182%, NOPA=0, NOAM=9, WMC=16)
+</violation>
+<violation beginline="32" endline="371" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixCollapserProperties" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="215" endline="369" begincolumn="32" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixCollapserProperties$Setter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/HystrixCommand.java">
+<violation beginline="144" endline="147" begincolumn="44" endcolumn="100" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommand" method="HystrixCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/HystrixCommandProperties.java">
+<violation beginline="38" endline="791" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandProperties" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HystrixCommandProperties' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=24, WMC=33)
+</violation>
+<violation beginline="38" endline="791" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandProperties" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="537" endline="790" begincolumn="32" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandProperties$Setter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/HystrixObservableCollapser.java">
+<violation beginline="124" endline="238" begincolumn="28" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCollapser" method="HystrixObservableCollapser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/HystrixObservableCommand.java">
+<violation beginline="118" endline="121" begincolumn="29" endcolumn="100" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCommand" method="HystrixObservableCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/config/HystrixCollapserConfiguration.java">
+<violation beginline="21" endline="111" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.config" class="HystrixCollapserConfiguration" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HystrixCollapserConfiguration' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=5, WMC=7)
+</violation>
+<violation beginline="75" endline="110" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.config" class="HystrixCollapserConfiguration" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CollapserMetricsConfig' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/config/HystrixCommandConfiguration.java">
+<violation beginline="23" endline="258" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.config" class="HystrixCommandConfiguration" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HystrixCommandConfiguration' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=5, WMC=7)
+</violation>
+<violation beginline="102" endline="143" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.config" class="HystrixCommandConfiguration" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HystrixCommandCircuitBreakerConfig' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+<violation beginline="145" endline="213" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.config" class="HystrixCommandConfiguration" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HystrixCommandExecutionConfig' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=11)
+</violation>
+<violation beginline="157" endline="160" begincolumn="45" endcolumn="100" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix.config" class="HystrixCommandConfiguration$HystrixCommandExecutionConfig" method="HystrixCommandExecutionConfig" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="215" endline="257" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.config" class="HystrixCommandConfiguration" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HystrixCommandMetricsConfig' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/config/HystrixThreadPoolConfiguration.java">
+<violation beginline="21" endline="113" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.config" class="HystrixThreadPoolConfiguration" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HystrixThreadPoolConfiguration' is suspected to be a Data Class (WOC=9.091%, NOPA=0, NOAM=10, WMC=13)
+</violation>
+<violation beginline="33" endline="35" begincolumn="43" endcolumn="86" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix.config" class="HystrixThreadPoolConfiguration" method="HystrixThreadPoolConfiguration" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/metric/HystrixCommandEvent.java">
+<violation beginline="26" endline="66" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.metric" class="HystrixCommandEvent" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HystrixCommandEvent' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=2, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/metric/HystrixRequestEvents.java">
+<violation beginline="127" endline="193" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.metric" class="HystrixRequestEvents" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ExecutionSignature' is suspected to be a Data Class (WOC=28.571%, NOPA=0, NOAM=5, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/metric/sample/HystrixThreadPoolUtilization.java">
+<violation beginline="20" endline="57" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.netflix.hystrix.metric.sample" class="HystrixThreadPoolUtilization" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HystrixThreadPoolUtilization' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/strategy/HystrixPlugins.java">
+<violation beginline="53" endline="414" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.strategy" class="HystrixPlugins" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/strategy/executionhook/HystrixCommandExecutionHook.java">
+<violation beginline="42" endline="529" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.strategy.executionhook" class="HystrixCommandExecutionHook" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/util/LongAdder.java">
+<violation beginline="58" endline="219" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.util" class="LongAdder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/main/java/com/netflix/hystrix/util/LongMaxUpdater.java">
+<violation beginline="49" endline="203" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.util" class="LongMaxUpdater" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/CommonHystrixCommandTests.java">
+<violation beginline="49" endline="805" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="CommonHystrixCommandTests" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="746" endline="746" begincolumn="17" endcolumn="371" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="CommonHystrixCommandTests" method="getCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="750" endline="750" begincolumn="17" endcolumn="394" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="CommonHystrixCommandTests" method="getCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="757" endline="757" begincolumn="17" endcolumn="403" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="CommonHystrixCommandTests" method="getCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="763" endline="763" begincolumn="17" endcolumn="427" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="CommonHystrixCommandTests" method="getCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="768" endline="768" begincolumn="26" endcolumn="460" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="CommonHystrixCommandTests" method="getCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="770" endline="770" begincolumn="26" endcolumn="490" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="CommonHystrixCommandTests" method="getCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/HystrixCircuitBreakerTest.java">
+<violation beginline="41" endline="834" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixCircuitBreakerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="430" endline="530" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixCircuitBreakerTest" method="testMultipleTimeWindowRetriesBeforeClosingCircuit" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/HystrixCollapserTest.java">
+<violation beginline="65" endline="2287" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixCollapserTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="65" endline="2287" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixCollapserTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1557" endline="1679" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixCollapserTest" method="testRequestThenTwoCacheHitsOriginalAndOneCacheHitUnsubscribed" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1682" endline="1801" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixCollapserTest" method="testRequestThenTwoCacheHitsAllUnsubscribed" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/HystrixCommandPropertiesTest.java">
+<violation beginline="28" endline="359" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandPropertiesTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="67" endline="191" begincolumn="25" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandPropertiesTest" method="asMock" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/HystrixCommandTest.java">
+<violation beginline="67" endline="5807" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="67" endline="5807" begincolumn="96" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="3624" endline="3772" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandTest" method="testRequestThenTwoCacheHitsOriginalAndOneCacheHitUnsubscribed" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3775" endline="3917" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandTest" method="testRequestThenTwoCacheHitsAllUnsubscribed" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="4883" endline="4883" begincolumn="43" endcolumn="500" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandTest" method="getCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="4889" endline="4889" begincolumn="43" endcolumn="530" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandTest" method="getCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="4898" endline="4898" begincolumn="62" endcolumn="549" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandTest$FlexibleTestHystrixCommand" method="from" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="4915" endline="4915" begincolumn="43" endcolumn="424" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandTest$AbstractFlexibleTestHystrixCommand" method="AbstractFlexibleTestHystrixCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="4992" endline="4992" begincolumn="47" endcolumn="480" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandTest$FlexibleTestHystrixCommandWithFallback" method="FlexibleTestHystrixCommandWithFallback" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="5014" endline="5014" begincolumn="45" endcolumn="426" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandTest$FlexibleTestHystrixCommandNoFallback" method="FlexibleTestHystrixCommandNoFallback" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/HystrixCommandTestWithCustomConcurrencyStrategy.java">
+<violation beginline="33" endline="328" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixCommandTestWithCustomConcurrencyStrategy" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/HystrixObservableCollapserTest.java">
+<violation beginline="61" endline="1874" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCollapserTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="61" endline="1874" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCollapserTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1101" endline="1223" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCollapserTest" method="testRequestThenTwoCacheHitsOriginalAndOneCacheHitUnsubscribed" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1226" endline="1345" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCollapserTest" method="testRequestThenTwoCacheHitsAllUnsubscribed" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/HystrixObservableCommandTest.java">
+<violation beginline="60" endline="5735" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCommandTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="60" endline="5735" begincolumn="116" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCommandTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2755" endline="2948" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCommandTest" method="testRejectedViaThreadIsolation" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="3167" endline="3273" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCommandTest" method="testRequestContextOnRejectionWithFallback" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="4676" endline="4676" begincolumn="53" endcolumn="542" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCommandTest" method="getCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="4682" endline="4682" begincolumn="53" endcolumn="572" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCommandTest" method="getCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="4690" endline="4690" begincolumn="72" endcolumn="591" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCommandTest$FlexibleTestHystrixObservableCommand" method="from" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="4705" endline="4705" begincolumn="60" endcolumn="441" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCommandTest$AbstractFlexibleTestHystrixObservableCommand" method="AbstractFlexibleTestHystrixObservableCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="4814" endline="4814" begincolumn="64" endcolumn="497" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCommandTest$FlexibleTestHystrixObservableCommandWithFallback" method="FlexibleTestHystrixObservableCommandWithFallback" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="4859" endline="4859" begincolumn="62" endcolumn="443" rule="ExcessiveParameterList" ruleset="Design" package="com.netflix.hystrix" class="HystrixObservableCommandTest$FlexibleTestHystrixObservableCommandNoFallback" method="FlexibleTestHystrixObservableCommandNoFallback" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/HystrixTest.java">
+<violation beginline="34" endline="509" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/HystrixThreadPoolPropertiesTest.java">
+<violation beginline="26" endline="285" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="HystrixThreadPoolPropertiesTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/TestableExecutionHook.java">
+<violation beginline="27" endline="266" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix" class="TestableExecutionHook" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/metric/HystrixThreadEventStreamTest.java">
+<violation beginline="32" endline="345" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.metric" class="HystrixThreadEventStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/metric/consumer/CumulativeCommandEventCounterStreamTest.java">
+<violation beginline="41" endline="590" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.metric.consumer" class="CumulativeCommandEventCounterStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/metric/consumer/CumulativeThreadPoolEventCounterStreamTest.java">
+<violation beginline="40" endline="518" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.metric.consumer" class="CumulativeThreadPoolEventCounterStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/metric/consumer/HealthCountsStreamTest.java">
+<violation beginline="47" endline="622" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.metric.consumer" class="HealthCountsStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/metric/consumer/RollingCommandEventCounterStreamTest.java">
+<violation beginline="39" endline="546" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.metric.consumer" class="RollingCommandEventCounterStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/metric/consumer/RollingCommandLatencyDistributionStreamTest.java">
+<violation beginline="39" endline="545" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.metric.consumer" class="RollingCommandLatencyDistributionStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/metric/consumer/RollingThreadPoolEventCounterStreamTest.java">
+<violation beginline="40" endline="518" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.metric.consumer" class="RollingThreadPoolEventCounterStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/metric/consumer/RollingThreadPoolMaxConcurrencyStreamTest.java">
+<violation beginline="41" endline="464" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.metric.consumer" class="RollingThreadPoolMaxConcurrencyStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/util/HystrixRollingNumberTest.java">
+<violation beginline="27" endline="694" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.util" class="HystrixRollingNumberTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-core/src/test/java/com/netflix/hystrix/util/HystrixRollingPercentileTest.java">
+<violation beginline="38" endline="797" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.util" class="HystrixRollingPercentileTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-serialization/src/main/java/com/netflix/hystrix/serial/SerialHystrixDashboardData.java">
+<violation beginline="38" endline="441" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.serial" class="SerialHystrixDashboardData" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="141" endline="328" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.netflix.hystrix.serial" class="SerialHystrixDashboardData" method="writeCommandMetrics" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Hystrix/hystrix-serialization/src/test/java/com/netflix/hystrix/serial/SerialHystrixRequestEventsTest.java">
+<violation beginline="37" endline="456" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.netflix.hystrix.serial" class="SerialHystrixRequestEventsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

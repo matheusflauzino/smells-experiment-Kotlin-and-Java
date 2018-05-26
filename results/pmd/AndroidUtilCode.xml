@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:33:57.899">
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/app/src/main/java/com/blankj/androidutilcode/feature/core/CoreUtilActivity.java">
+<violation beginline="41" endline="164" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.androidutilcode.feature.core" class="CoreUtilActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/app/src/main/java/com/blankj/androidutilcode/feature/core/activity/ActivityActivity.java">
+<violation beginline="121" endline="249" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.blankj.androidutilcode.feature.core.activity" class="ActivityActivity" method="onWidgetClick" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/app/src/main/java/com/blankj/androidutilcode/feature/core/image/ImageBean.java">
+<violation beginline="17" endline="48" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.blankj.androidutilcode.feature.core.image" class="ImageBean" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ImageBean' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/app/src/main/java/com/blankj/androidutilcode/feature/core/snackbar/SnackbarActivity.java">
+<violation beginline="72" endline="196" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.blankj.androidutilcode.feature.core.snackbar" class="SnackbarActivity" method="onWidgetClick" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/app/src/main/java/com/blankj/androidutilcode/feature/core/span/ShadowSpan.java">
+<violation beginline="15" endline="48" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.blankj.androidutilcode.feature.core.span" class="ShadowSpan" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ShadowSpan' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/app/src/main/java/com/blankj/androidutilcode/feature/core/span/SpanActivity.java">
+<violation beginline="82" endline="184" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.blankj.androidutilcode.feature.core.span" class="SpanActivity" method="initView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/app/src/main/java/com/blankj/androidutilcode/feature/core/toast/CustomToast.java">
+<violation beginline="22" endline="88" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.androidutilcode.feature.core.toast" class="CustomToast" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/app/src/main/java/com/blankj/androidutilcode/feature/sub/SubUtilActivity.java">
+<violation beginline="25" endline="76" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.androidutilcode.feature.sub" class="SubUtilActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/subutil/src/main/java/com/blankj/subutil/util/LunarUtils.java">
+<violation beginline="184" endline="205" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.blankj.subutil.util" class="LunarUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Lunar' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/ActivityUtils.java">
+<violation beginline="28" endline="1578" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.blankj.utilcode.util" class="ActivityUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="28" endline="1578" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="ActivityUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/AppUtils.java">
+<violation beginline="32" endline="952" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="AppUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="864" endline="951" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.blankj.utilcode.util" class="AppUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AppInfo' is suspected to be a Data Class (WOC=13.333%, NOPA=0, NOAM=12, WMC=15)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/CacheUtils.java">
+<violation beginline="46" endline="1015" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="CacheUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="737" endline="1004" begincolumn="38" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="CacheUtils$CacheHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/CleanUtils.java">
+<violation beginline="15" endline="158" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="CleanUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/ConvertUtils.java">
+<violation beginline="31" endline="627" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="ConvertUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/EncodeUtils.java">
+<violation beginline="19" endline="186" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="EncodeUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/EncryptUtils.java">
+<violation beginline="35" endline="1192" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.blankj.utilcode.util" class="EncryptUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="35" endline="1192" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="EncryptUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/FileIOUtils.java">
+<violation beginline="32" endline="778" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="FileIOUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/FileUtils.java">
+<violation beginline="28" endline="1207" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.blankj.utilcode.util" class="FileUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="28" endline="1207" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="FileUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/FragmentUtils.java">
+<violation beginline="29" endline="1224" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.blankj.utilcode.util" class="FragmentUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="29" endline="1224" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="FragmentUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/ImageUtils.java">
+<violation beginline="59" endline="1926" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.blankj.utilcode.util" class="ImageUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="59" endline="1926" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="ImageUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1234" endline="1429" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.blankj.utilcode.util" class="ImageUtils" method="stackBlur" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/LogUtils.java">
+<violation beginline="49" endline="721" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="LogUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/PermissionUtils.java">
+<violation beginline="38" endline="360" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="PermissionUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/ReflectUtils.java">
+<violation beginline="26" endline="556" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="ReflectUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/ResourceUtils.java">
+<violation beginline="26" endline="326" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="ResourceUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/SPUtils.java">
+<violation beginline="22" endline="440" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="SPUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/SpanUtils.java">
+<violation beginline="67" endline="1338" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.blankj.utilcode.util" class="SpanUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="67" endline="1338" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="SpanUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="769" endline="902" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.blankj.utilcode.util" class="SpanUtils" method="updateCharCharSequence" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1034" endline="1037" begincolumn="38" endcolumn="79" rule="ExcessiveParameterList" ruleset="Design" package="com.blankj.utilcode.util" class="SpanUtils$CustomQuoteSpan" method="drawLeadingMargin" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="1069" endline="1072" begincolumn="38" endcolumn="74" rule="ExcessiveParameterList" ruleset="Design" package="com.blankj.utilcode.util" class="SpanUtils$CustomBulletSpan" method="drawLeadingMargin" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/ThreadUtils.java">
+<violation beginline="29" endline="1117" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.blankj.utilcode.util" class="ThreadUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="29" endline="1117" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="ThreadUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/TimeUtils.java">
+<violation beginline="23" endline="1621" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.blankj.utilcode.util" class="TimeUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="23" endline="1621" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="TimeUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/ToastUtils.java">
+<violation beginline="32" endline="324" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="ToastUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/main/java/com/blankj/utilcode/util/ZipUtils.java">
+<violation beginline="29" endline="442" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="ZipUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/test/java/com/blankj/utilcode/util/CacheUtilsTest.java">
+<violation beginline="268" endline="325" begincolumn="12" endcolumn="5" rule="DataClass" ruleset="Design" package="com.blankj.utilcode.util" class="CacheUtilsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ParcelableTest' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=6)
+</violation>
+<violation beginline="327" endline="361" begincolumn="12" endcolumn="5" rule="DataClass" ruleset="Design" package="com.blankj.utilcode.util" class="CacheUtilsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SerializableTest' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/test/java/com/blankj/utilcode/util/EncryptUtilsTest.java">
+<violation beginline="29" endline="593" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="EncryptUtilsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/test/java/com/blankj/utilcode/util/ThreadUtilsTest.java">
+<violation beginline="17" endline="440" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util" class="ThreadUtilsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/AndroidUtilCode/utilcode/src/test/java/com/blankj/utilcode/util/reflect/ReflectUtilsTest.java">
+<violation beginline="29" endline="524" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.blankj.utilcode.util.reflect" class="ReflectUtilsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

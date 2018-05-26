@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:37:09.609">
+<file name="/home/matheus/Documentos/repositories/Java/android-async-http/library/src/main/java/com/loopj/android/http/AsyncHttpClient.java">
+<violation beginline="115" endline="1688" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.loopj.android.http" class="AsyncHttpClient" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="115" endline="1688" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.loopj.android.http" class="AsyncHttpClient" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/android-async-http/library/src/main/java/com/loopj/android/http/AsyncHttpResponseHandler.java">
+<violation beginline="82" endline="515" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.loopj.android.http" class="AsyncHttpResponseHandler" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/android-async-http/library/src/main/java/com/loopj/android/http/Base64.java">
+<violation beginline="343" endline="518" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.loopj.android.http" class="Base64$Decoder" method="process" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="577" endline="712" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.loopj.android.http" class="Base64$Encoder" method="process" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/android-async-http/library/src/main/java/com/loopj/android/http/JsonStreamerEntity.java">
+<violation beginline="196" endline="304" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.loopj.android.http" class="JsonStreamerEntity" method="writeTo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/android-async-http/library/src/main/java/com/loopj/android/http/LogHandler.java">
+<violation beginline="7" endline="134" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.loopj.android.http" class="LogHandler" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/android-async-http/library/src/main/java/com/loopj/android/http/LogInterface.java">
+<violation beginline="7" endline="51" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.loopj.android.http" class="LogInterface" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/android-async-http/library/src/main/java/com/loopj/android/http/RequestParams.java">
+<violation beginline="93" endline="704" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.loopj.android.http" class="RequestParams" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="683" endline="703" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.loopj.android.http" class="RequestParams" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StreamWrapper' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/android-async-http/library/src/main/java/com/loopj/android/http/SimpleMultipartEntity.java">
+<violation beginline="46" endline="297" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.loopj.android.http" class="SimpleMultipartEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/android-async-http/sample/src/main/java/com/loopj/android/http/sample/SampleParentActivity.java">
+<violation beginline="60" endline="402" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.loopj.android.http.sample" class="SampleParentActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/android-async-http/sample/src/main/java/com/loopj/android/http/sample/services/ExampleIntentService.java">
+<violation beginline="15" endline="87" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.loopj.android.http.sample.services" class="ExampleIntentService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ExampleIntentService' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/android-async-http/sample/src/main/java/com/loopj/android/http/sample/util/SampleJSON.java">
+<violation beginline="25" endline="77" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.loopj.android.http.sample.util" class="SampleJSON" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SampleJSON' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=5)
+</violation>
+</file>
+</pmd>

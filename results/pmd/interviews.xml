@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:33:00.216">
+<file name="/home/matheus/Documentos/repositories/Java/interviews/uva/ICanGuessTheDataStructure.java">
+<violation beginline="71" endline="171" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" class="ICanGuessTheDataStructure" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<error filename="/home/matheus/Documentos/repositories/Java/interviews/company/amazon/3Sum.java" msg="Error while parsing /home/matheus/Documentos/repositories/Java/interviews/company/amazon/3Sum.java">
+<![CDATA[net.sourceforge.pmd.PMDException: Error while parsing /home/matheus/Documentos/repositories/Java/interviews/company/amazon/3Sum.java
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:98)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:50)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:75)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: net.sourceforge.pmd.lang.java.ast.ParseException: Encountered " <INTEGER_LITERAL> "3 "" at line 13, column 14.
+Was expecting:
+    <IDENTIFIER> ...
+    
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.generateParseException(JavaParser.java:11691)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_consume_token(JavaParser.java:11575)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ClassOrInterfaceDeclaration(JavaParser.java:619)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.TypeDeclaration(JavaParser.java:534)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.CompilationUnit(JavaParser.java:271)
+	at net.sourceforge.pmd.lang.java.AbstractJavaParser.parse(AbstractJavaParser.java:57)
+	at net.sourceforge.pmd.SourceCodeProcessor.parse(SourceCodeProcessor.java:110)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:173)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:95)
+	... 9 more
+]]>
+</error>
+<error filename="/home/matheus/Documentos/repositories/Java/interviews/company/facebook/3Sum.java" msg="Error while parsing /home/matheus/Documentos/repositories/Java/interviews/company/facebook/3Sum.java">
+<![CDATA[net.sourceforge.pmd.PMDException: Error while parsing /home/matheus/Documentos/repositories/Java/interviews/company/facebook/3Sum.java
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:98)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:50)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:75)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: net.sourceforge.pmd.lang.java.ast.ParseException: Encountered " <INTEGER_LITERAL> "3 "" at line 13, column 14.
+Was expecting:
+    <IDENTIFIER> ...
+    
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.generateParseException(JavaParser.java:11691)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_consume_token(JavaParser.java:11575)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ClassOrInterfaceDeclaration(JavaParser.java:619)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.TypeDeclaration(JavaParser.java:534)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.CompilationUnit(JavaParser.java:271)
+	at net.sourceforge.pmd.lang.java.AbstractJavaParser.parse(AbstractJavaParser.java:57)
+	at net.sourceforge.pmd.SourceCodeProcessor.parse(SourceCodeProcessor.java:110)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:173)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:95)
+	... 9 more
+]]>
+</error>
+<error filename="/home/matheus/Documentos/repositories/Java/interviews/company/google/3SumSmaller.java" msg="Error while parsing /home/matheus/Documentos/repositories/Java/interviews/company/google/3SumSmaller.java">
+<![CDATA[net.sourceforge.pmd.PMDException: Error while parsing /home/matheus/Documentos/repositories/Java/interviews/company/google/3SumSmaller.java
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:98)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:50)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:75)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: net.sourceforge.pmd.lang.java.ast.ParseException: Encountered " <INTEGER_LITERAL> "3 "" at line 13, column 14.
+Was expecting:
+    <IDENTIFIER> ...
+    
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.generateParseException(JavaParser.java:11691)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_consume_token(JavaParser.java:11575)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ClassOrInterfaceDeclaration(JavaParser.java:619)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.TypeDeclaration(JavaParser.java:534)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.CompilationUnit(JavaParser.java:271)
+	at net.sourceforge.pmd.lang.java.AbstractJavaParser.parse(AbstractJavaParser.java:57)
+	at net.sourceforge.pmd.SourceCodeProcessor.parse(SourceCodeProcessor.java:110)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:173)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:95)
+	... 9 more
+]]>
+</error>
+<error filename="/home/matheus/Documentos/repositories/Java/interviews/leetcode/two-pointers/3Sum.java" msg="Error while parsing /home/matheus/Documentos/repositories/Java/interviews/leetcode/two-pointers/3Sum.java">
+<![CDATA[net.sourceforge.pmd.PMDException: Error while parsing /home/matheus/Documentos/repositories/Java/interviews/leetcode/two-pointers/3Sum.java
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:98)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:50)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:75)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: net.sourceforge.pmd.lang.java.ast.ParseException: Encountered " <INTEGER_LITERAL> "3 "" at line 13, column 14.
+Was expecting:
+    <IDENTIFIER> ...
+    
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.generateParseException(JavaParser.java:11691)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_consume_token(JavaParser.java:11575)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ClassOrInterfaceDeclaration(JavaParser.java:619)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.TypeDeclaration(JavaParser.java:534)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.CompilationUnit(JavaParser.java:271)
+	at net.sourceforge.pmd.lang.java.AbstractJavaParser.parse(AbstractJavaParser.java:57)
+	at net.sourceforge.pmd.SourceCodeProcessor.parse(SourceCodeProcessor.java:110)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:173)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:95)
+	... 9 more
+]]>
+</error>
+<error filename="/home/matheus/Documentos/repositories/Java/interviews/leetcode/two-pointers/3SumSmaller.java" msg="Error while parsing /home/matheus/Documentos/repositories/Java/interviews/leetcode/two-pointers/3SumSmaller.java">
+<![CDATA[net.sourceforge.pmd.PMDException: Error while parsing /home/matheus/Documentos/repositories/Java/interviews/leetcode/two-pointers/3SumSmaller.java
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:98)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:50)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:75)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: net.sourceforge.pmd.lang.java.ast.ParseException: Encountered " <INTEGER_LITERAL> "3 "" at line 13, column 14.
+Was expecting:
+    <IDENTIFIER> ...
+    
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.generateParseException(JavaParser.java:11691)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_consume_token(JavaParser.java:11575)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ClassOrInterfaceDeclaration(JavaParser.java:619)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.TypeDeclaration(JavaParser.java:534)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.CompilationUnit(JavaParser.java:271)
+	at net.sourceforge.pmd.lang.java.AbstractJavaParser.parse(AbstractJavaParser.java:57)
+	at net.sourceforge.pmd.SourceCodeProcessor.parse(SourceCodeProcessor.java:110)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:173)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:95)
+	... 9 more
+]]>
+</error>
+</pmd>

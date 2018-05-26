@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:42:09.776">
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/app/src/main/java/com/scwang/refreshlayout/activity/example/ListenerExampleActivity.java">
+<violation beginline="48" endline="173" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.scwang.refreshlayout.activity.example" class="ListenerExampleActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/app/src/main/java/com/scwang/refreshlayout/activity/style/FlyRefreshStyleActivity.java">
+<violation beginline="69" endline="208" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.scwang.refreshlayout.activity.style" class="FlyRefreshStyleActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/app/src/main/java/com/scwang/refreshlayout/adapter/BaseRecyclerAdapter.java">
+<violation beginline="23" endline="196" begincolumn="115" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.scwang.refreshlayout.adapter" class="BaseRecyclerAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/app/src/main/java/com/scwang/refreshlayout/util/StatusBarUtil.java">
+<violation beginline="26" endline="291" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.scwang.refreshlayout.util" class="StatusBarUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/refresh-header/src/main/java/com/scwang/smartrefresh/header/DropBoxHeader.java">
+<violation beginline="36" endline="445" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.scwang.smartrefresh.header" class="DropBoxHeader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/refresh-header/src/main/java/com/scwang/smartrefresh/header/FunGameBattleCityHeader.java">
+<violation beginline="25" endline="413" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.scwang.smartrefresh.header" class="FunGameBattleCityHeader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/refresh-header/src/main/java/com/scwang/smartrefresh/header/fungame/FunGameView.java">
+<violation beginline="40" endline="407" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.scwang.smartrefresh.header.fungame" class="FunGameView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/refresh-header/src/main/java/com/scwang/smartrefresh/header/internal/pathview/PathParser.java">
+<violation beginline="455" endline="703" begincolumn="24" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.scwang.smartrefresh.header.internal.pathview" class="PathParser$PathDataNode" method="addCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="705" endline="707" begincolumn="36" endcolumn="82" rule="ExcessiveParameterList" ruleset="Design" package="com.scwang.smartrefresh.header.internal.pathview" class="PathParser$PathDataNode" method="drawArc" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="789" endline="798" begincolumn="40" endcolumn="53" rule="ExcessiveParameterList" ruleset="Design" package="com.scwang.smartrefresh.header.internal.pathview" class="PathParser$PathDataNode" method="arcToBezier" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/refresh-header/src/main/java/com/scwang/smartrefresh/header/waveswipe/WaveView.java">
+<violation beginline="40" endline="712" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.scwang.smartrefresh.header.waveswipe" class="WaveView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/refresh-layout/src/main/java/com/scwang/smartrefresh/layout/SmartRefreshLayout.java">
+<violation beginline="87" endline="3250" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.scwang.smartrefresh.layout" class="SmartRefreshLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="87" endline="3250" begincolumn="121" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.scwang.smartrefresh.layout" class="SmartRefreshLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="378" endline="485" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.scwang.smartrefresh.layout" class="SmartRefreshLayout" method="onAttachedToWindow" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="488" endline="641" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.scwang.smartrefresh.layout" class="SmartRefreshLayout" method="onMeasure" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="821" endline="1006" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.scwang.smartrefresh.layout" class="SmartRefreshLayout" method="dispatchTouchEvent" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2823" endline="2925" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.scwang.smartrefresh.layout" class="SmartRefreshLayout$RefreshKernelImpl" method="setState" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="2975" endline="3103" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.scwang.smartrefresh.layout" class="SmartRefreshLayout$RefreshKernelImpl" method="moveSpinner" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/refresh-layout/src/main/java/com/scwang/smartrefresh/layout/api/RefreshLayout.java">
+<violation beginline="23" endline="523" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.scwang.smartrefresh.layout.api" class="RefreshLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/refresh-layout/src/main/java/com/scwang/smartrefresh/layout/footer/ClassicsFooter.java">
+<violation beginline="27" endline="223" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.scwang.smartrefresh.layout.footer" class="ClassicsFooter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ClassicsFooter' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=17)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/refresh-layout/src/main/java/com/scwang/smartrefresh/layout/header/BezierRadarHeader.java">
+<violation beginline="39" endline="419" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.scwang.smartrefresh.layout.header" class="BezierRadarHeader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/refresh-layout/src/main/java/com/scwang/smartrefresh/layout/header/ClassicsHeader.java">
+<violation beginline="73" endline="197" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.scwang.smartrefresh.layout.header" class="ClassicsHeader" method="ClassicsHeader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/SmartRefreshLayout/refresh-layout/src/main/java/com/scwang/smartrefresh/layout/listener/SimpleMultiPurposeListener.java">
+<violation beginline="15" endline="92" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.scwang.smartrefresh.layout.listener" class="SimpleMultiPurposeListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

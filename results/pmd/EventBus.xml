@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:33:09.757">
+<file name="/home/matheus/Documentos/repositories/Java/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java">
+<violation beginline="39" endline="573" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.eventbus" class="EventBus" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/EventBus/EventBus/src/org/greenrobot/eventbus/EventBusBuilder.java">
+<violation beginline="32" endline="211" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.eventbus" class="EventBusBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberExceptionEvent.java">
+<violation beginline="23" endline="44" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.eventbus" class="SubscriberExceptionEvent" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SubscriberExceptionEvent' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/EventBus/EventBusAnnotationProcessor/src/org/greenrobot/eventbus/annotationprocessor/EventBusAnnotationProcessor.java">
+<violation beginline="51" endline="432" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.eventbus.annotationprocessor" class="EventBusAnnotationProcessor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/EventBus/EventBusPerformance/src/org/greenrobot/eventbusperf/TestParams.java">
+<violation beginline="24" endline="100" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.eventbusperf" class="TestParams" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TestParams' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/EventBus/EventBusTestJava/src/main/java/org/greenrobot/eventbus/EventBusBasicTest.java">
+<violation beginline="31" endline="305" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.eventbus" class="EventBusBasicTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/EventBus/EventBusTestJava/src/main/java/org/greenrobot/eventbus/EventBusInheritanceDisabledTest.java">
+<violation beginline="26" endline="195" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.eventbus" class="EventBusInheritanceDisabledTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/EventBus/EventBusTestJava/src/main/java/org/greenrobot/eventbus/EventBusInheritanceTest.java">
+<violation beginline="26" endline="194" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.eventbus" class="EventBusInheritanceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/EventBus/EventBusTestJava/src/main/java/org/greenrobot/eventbus/EventBusMultithreadedTest.java">
+<violation beginline="27" endline="204" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.eventbus" class="EventBusMultithreadedTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/EventBus/EventBusTestJava/src/main/java/org/greenrobot/eventbus/EventBusOrderedSubscriptionsTest.java">
+<violation beginline="75" endline="142" begincolumn="39" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.eventbus" class="EventBusOrderedSubscriptionsTest$PrioSubscriber" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="144" endline="211" begincolumn="45" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.eventbus" class="EventBusOrderedSubscriptionsTest$PrioSubscriberSticky" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/EventBus/EventBusTestJava/src/main/java/org/greenrobot/eventbus/EventBusStickyEventTest.java">
+<violation beginline="25" endline="196" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.eventbus" class="EventBusStickyEventTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

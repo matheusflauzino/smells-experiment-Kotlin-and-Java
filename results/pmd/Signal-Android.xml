@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:34:50.170">
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/ApplicationContext.java">
+<violation beginline="69" endline="216" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="ApplicationContext" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/ContactSelectionListFragment.java">
+<violation beginline="70" endline="311" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="ContactSelectionListFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/ConversationActivity.java">
+<violation beginline="195" endline="2218" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.thoughtcrime.securesms" class="ConversationActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="203" endline="2218" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="ConversationActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/ConversationAdapter.java">
+<violation beginline="75" endline="465" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="ConversationAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/ConversationFragment.java">
+<violation beginline="93" endline="893" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="ConversationFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/ConversationItem.java">
+<violation beginline="108" endline="862" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="ConversationItem" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/ConversationListActivity.java">
+<violation beginline="57" endline="259" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="ConversationListActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/ConversationListFragment.java">
+<violation beginline="94" endline="630" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="ConversationListFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/CreateProfileActivity.java">
+<violation beginline="76" endline="512" begincolumn="92" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="CreateProfileActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/DatabaseMigrationActivity.java">
+<violation beginline="24" endline="194" begincolumn="84" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="DatabaseMigrationActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/DatabaseUpgradeActivity.java">
+<violation beginline="190" endline="308" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.thoughtcrime.securesms" class="DatabaseUpgradeActivity$DatabaseUpgradeTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/DeviceListFragment.java">
+<violation beginline="41" endline="217" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="DeviceListFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/GroupCreateActivity.java">
+<violation beginline="87" endline="589" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="GroupCreateActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/MediaPreviewActivity.java">
+<violation beginline="78" endline="593" begincolumn="170" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="MediaPreviewActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/MessageDetailsActivity.java">
+<violation beginline="70" endline="409" begincolumn="143" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="MessageDetailsActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/PassphrasePromptActivity.java">
+<violation beginline="66" endline="391" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="PassphrasePromptActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/PassphraseRequiredActionBarActivity.java">
+<violation beginline="23" endline="222" begincolumn="121" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="PassphraseRequiredActionBarActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/RecipientPreferenceActivity.java">
+<violation beginline="78" endline="704" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="RecipientPreferenceActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/RegistrationActivity.java">
+<violation beginline="105" endline="1101" begincolumn="119" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="RegistrationActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/ShareActivity.java">
+<violation beginline="68" endline="360" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="ShareActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/VerifyIdentityActivity.java">
+<violation beginline="201" endline="622" begincolumn="139" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="VerifyIdentityActivity$VerifyDisplayFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/WebRtcCallActivity.java">
+<violation beginline="58" endline="406" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms" class="WebRtcCallActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/attachments/Attachment.java">
+<violation beginline="9" endline="129" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.attachments" class="Attachment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Attachment' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=6, WMC=8)
+</violation>
+<violation beginline="40" endline="43" begincolumn="20" endcolumn="57" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.attachments" class="Attachment" method="Attachment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/attachments/DatabaseAttachment.java">
+<violation beginline="8" endline="76" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.attachments" class="DatabaseAttachment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DatabaseAttachment' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+<violation beginline="15" endline="20" begincolumn="28" endcolumn="65" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.attachments" class="DatabaseAttachment" method="DatabaseAttachment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/attachments/PointerAttachment.java">
+<violation beginline="18" endline="22" begincolumn="28" endcolumn="50" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.attachments" class="PointerAttachment" method="PointerAttachment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/attachments/UriAttachment.java">
+<violation beginline="18" endline="21" begincolumn="23" endcolumn="56" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.attachments" class="UriAttachment" method="UriAttachment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/audio/AudioSlidePlayer.java">
+<violation beginline="32" endline="363" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.audio" class="AudioSlidePlayer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/backup/BackupProtos.java">
+<violation beginline="6" endline="6096" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="57" endline="1640" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="59" endline="1640" begincolumn="40" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$SqlStatement" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="223" endline="956" begincolumn="42" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$SqlStatement$SqlParameter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="587" endline="948" begincolumn="103" endcolumn="7" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$SqlStatement$SqlParameter$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1160" endline="1632" begincolumn="88" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$SqlStatement$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1695" endline="2423" begincolumn="44" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$SharedPreference" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2055" endline="2415" begincolumn="92" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$SharedPreference$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2463" endline="2981" begincolumn="38" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$Attachment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2742" endline="2973" begincolumn="86" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$Attachment$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="3016" endline="3533" begincolumn="34" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$Avatar" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="3293" endline="3525" begincolumn="82" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$Avatar$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="3553" endline="3929" begincolumn="43" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$DatabaseVersion" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="3774" endline="3921" begincolumn="91" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$DatabaseVersion$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="3959" endline="4412" begincolumn="34" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$Header" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="4209" endline="4404" begincolumn="82" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$Header$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="4514" endline="5960" begincolumn="23" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="4516" endline="5960" begincolumn="39" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$BackupFrame" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="4539" endline="4656" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$BackupFrame" method="BackupFrame" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="4995" endline="5952" begincolumn="87" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.backup" class="BackupProtos$BackupFrame$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/components/InputPanel.java">
+<violation beginline="45" endline="354" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.components" class="InputPanel" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/components/KeyboardAwareLinearLayout.java">
+<violation beginline="43" endline="241" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.components" class="KeyboardAwareLinearLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/components/camera/CameraView.java">
+<violation beginline="54" endline="629" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.components.camera" class="CameraView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/components/camera/QuickAttachmentDrawer.java">
+<violation beginline="34" endline="576" begincolumn="95" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.components.camera" class="QuickAttachmentDrawer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/components/reminder/Reminder.java">
+<violation beginline="6" endline="47" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.components.reminder" class="Reminder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Reminder' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/contactshare/SharedContactDetailsActivity.java">
+<violation beginline="46" endline="259" begincolumn="124" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.contactshare" class="SharedContactDetailsActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/crypto/MasterSecretUtil.java">
+<violation beginline="57" endline="370" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.crypto" class="MasterSecretUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/crypto/storage/SignalProtocolStoreImpl.java">
+<violation beginline="20" endline="128" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.crypto.storage" class="SignalProtocolStoreImpl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/Address.java">
+<violation beginline="33" endline="261" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.database" class="Address" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/AttachmentDatabase.java">
+<violation beginline="72" endline="795" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.database" class="AttachmentDatabase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/CursorList.java">
+<violation beginline="23" endline="189" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.database" class="CursorList" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/CursorRecyclerViewAdapter.java">
+<violation beginline="33" endline="243" begincolumn="139" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.database" class="CursorRecyclerViewAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/DraftDatabase.java">
+<violation beginline="98" endline="133" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.database" class="DraftDatabase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Draft' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=2, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/GroupDatabase.java">
+<violation beginline="349" endline="433" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.database" class="GroupDatabase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GroupRecord' is suspected to be a Data Class (WOC=7.692%, NOPA=0, NOAM=11, WMC=16)
+</violation>
+<violation beginline="363" endline="365" begincolumn="23" endcolumn="86" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.database" class="GroupDatabase$GroupRecord" method="GroupRecord" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/IdentityDatabase.java">
+<violation beginline="167" endline="217" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.database" class="IdentityDatabase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'IdentityRecord' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=5, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/MessagingDatabase.java">
+<violation beginline="193" endline="222" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.database" class="MessagingDatabase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ExpirationInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/MmsDatabase.java">
+<violation beginline="83" endline="1348" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.thoughtcrime.securesms.database" class="MmsDatabase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="83" endline="1348" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.database" class="MmsDatabase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/MmsSmsDatabase.java">
+<violation beginline="203" endline="368" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.thoughtcrime.securesms.database" class="MmsSmsDatabase" method="queryTables" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/RecipientDatabase.java">
+<violation beginline="455" endline="591" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.database" class="RecipientDatabase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RecipientSettings' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=7, WMC=11)
+</violation>
+<violation beginline="476" endline="493" begincolumn="22" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.database" class="RecipientDatabase$RecipientSettings" method="RecipientSettings" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/SmsDatabase.java">
+<violation beginline="62" endline="895" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.database" class="SmsDatabase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/ThreadDatabase.java">
+<violation beginline="54" endline="703" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.database" class="ThreadDatabase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="129" endline="131" begincolumn="28" endcolumn="65" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.database" class="ThreadDatabase" method="updateThread" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/XmlBackup.java">
+<violation beginline="88" endline="162" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.database" class="XmlBackup" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'XmlBackupItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=11, WMC=13)
+</violation>
+<violation beginline="103" endline="104" begincolumn="25" endcolumn="97" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.database" class="XmlBackup$XmlBackupItem" method="XmlBackupItem" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/helpers/ClassicOpenHelper.java">
+<violation beginline="65" endline="1511" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.thoughtcrime.securesms.database.helpers" class="ClassicOpenHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="148" endline="436" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.thoughtcrime.securesms.database.helpers" class="ClassicOpenHelper" method="onApplicationLevelUpgrade" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="439" endline="1302" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.thoughtcrime.securesms.database.helpers" class="ClassicOpenHelper" method="onUpgrade" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/helpers/SQLCipherMigrationHelper.java">
+<violation beginline="57" endline="180" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.thoughtcrime.securesms.database.helpers" class="SQLCipherMigrationHelper" method="migrateCiphertext" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/model/DisplayRecord.java">
+<violation beginline="49" endline="51" begincolumn="16" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.database.model" class="DisplayRecord" method="DisplayRecord" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/model/MediaMmsMessageRecord.java">
+<violation beginline="49" endline="58" begincolumn="31" endcolumn="87" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.database.model" class="MediaMmsMessageRecord" method="MediaMmsMessageRecord" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/model/MessageRecord.java">
+<violation beginline="57" endline="64" begincolumn="16" endcolumn="37" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.database.model" class="MessageRecord" method="MessageRecord" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/model/MmsMessageRecord.java">
+<violation beginline="24" endline="30" begincolumn="19" endcolumn="74" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.database.model" class="MmsMessageRecord" method="MmsMessageRecord" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/model/NotificationMmsMessageRecord.java">
+<violation beginline="41" endline="123" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.database.model" class="NotificationMmsMessageRecord" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NotificationMmsMessageRecord' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+<violation beginline="49" endline="54" begincolumn="38" endcolumn="100" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.database.model" class="NotificationMmsMessageRecord" method="NotificationMmsMessageRecord" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/model/SmsMessageRecord.java">
+<violation beginline="41" endline="50" begincolumn="26" endcolumn="47" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.database.model" class="SmsMessageRecord" method="SmsMessageRecord" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/database/model/ThreadRecord.java">
+<violation beginline="41" endline="157" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.database.model" class="ThreadRecord" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ThreadRecord' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=6, WMC=10)
+</violation>
+<violation beginline="52" endline="56" begincolumn="22" endcolumn="43" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.database.model" class="ThreadRecord" method="ThreadRecord" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/jobs/MmsSendJob.java">
+<violation beginline="171" endline="274" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.thoughtcrime.securesms.jobs" class="MmsSendJob" method="constructSendPdu" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/jobs/PushDecryptJob.java">
+<violation beginline="102" endline="936" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.jobs" class="PushDecryptJob" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/mms/AttachmentManager.java">
+<violation beginline="74" endline="548" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.mms" class="AttachmentManager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="206" endline="330" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.thoughtcrime.securesms.mms" class="AttachmentManager" method="setMedia" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/mms/IncomingMediaMessage.java">
+<violation beginline="16" endline="128" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.mms" class="IncomingMediaMessage" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'IncomingMediaMessage' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=10, WMC=15)
+</violation>
+<violation beginline="53" endline="63" begincolumn="30" endcolumn="69" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.mms" class="IncomingMediaMessage" method="IncomingMediaMessage" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/mms/LegacyMmsConnection.java">
+<violation beginline="226" endline="295" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.mms" class="LegacyMmsConnection" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Apn' is suspected to be a Data Class (WOC=22.222%, NOPA=1, NOAM=5, WMC=23)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/mms/MediaStream.java">
+<violation beginline="21" endline="49" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.mms" class="MediaStream" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MediaStream' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/mms/OutgoingMediaMessage.java">
+<violation beginline="14" endline="124" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.mms" class="OutgoingMediaMessage" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'OutgoingMediaMessage' is suspected to be a Data Class (WOC=23.077%, NOPA=0, NOAM=7, WMC=17)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/mms/QuoteModel.java">
+<violation beginline="11" endline="40" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.mms" class="QuoteModel" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'QuoteModel' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/mms/Slide.java">
+<violation beginline="36" endline="182" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.mms" class="Slide" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="131" endline="140" begincolumn="57" endcolumn="81" rule="ExcessiveParameterList" ruleset="Design" package="org.thoughtcrime.securesms.mms" class="Slide" method="constructAttachmentFromUri" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/notifications/MessageNotifier.java">
+<violation beginline="81" endline="592" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.notifications" class="MessageNotifier" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/notifications/NotificationItem.java">
+<violation beginline="15" endline="89" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.notifications" class="NotificationItem" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NotificationItem' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=5, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/permissions/Permissions.java">
+<violation beginline="47" endline="193" begincolumn="42" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.permissions" class="Permissions$PermissionsBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/preferences/widgets/ColorPickerPreference.java">
+<violation beginline="22" endline="251" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.preferences.widgets" class="ColorPickerPreference" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ColorPickerPreference' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=11, WMC=21)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/recipients/Recipient.java">
+<violation beginline="60" endline="642" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.recipients" class="Recipient" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="112" endline="216" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="org.thoughtcrime.securesms.recipients" class="Recipient" method="Recipient" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/scribbles/ScribbleActivity.java">
+<violation beginline="43" endline="279" begincolumn="174" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.scribbles" class="ScribbleActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/scribbles/viewmodel/Font.java">
+<violation beginline="25" endline="83" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.scribbles.viewmodel" class="Font" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Font' is suspected to be a Data Class (WOC=22.222%, NOPA=0, NOAM=6, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/scribbles/viewmodel/TextLayer.java">
+<violation beginline="27" endline="96" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.scribbles.viewmodel" class="TextLayer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TextLayer' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/scribbles/widget/CanvasView.java">
+<violation beginline="36" endline="773" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.scribbles.widget" class="CanvasView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/scribbles/widget/MotionView.java">
+<violation beginline="61" endline="473" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.scribbles.widget" class="MotionView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/scribbles/widget/VerticalSlideColorPicker.java">
+<violation beginline="44" endline="202" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.scribbles.widget" class="VerticalSlideColorPicker" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'VerticalSlideColorPicker' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=4, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/scribbles/widget/entity/MotionEntity.java">
+<violation beginline="37" endline="290" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.scribbles.widget.entity" class="MotionEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/search/model/MessageResult.java">
+<violation beginline="10" endline="27" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.search.model" class="MessageResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MessageResult' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/search/model/SearchResult.java">
+<violation beginline="15" endline="64" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.search.model" class="SearchResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SearchResult' is suspected to be a Data Class (WOC=25.000%, NOPA=1, NOAM=5, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/service/ApplicationMigrationService.java">
+<violation beginline="196" endline="209" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.service" class="ApplicationMigrationService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ImportState' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/service/KeyCachingService.java">
+<violation beginline="57" endline="367" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.service" class="KeyCachingService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/service/MessageRetrievalService.java">
+<violation beginline="32" endline="248" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.service" class="MessageRetrievalService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/service/WebRtcCallService.java">
+<violation beginline="107" endline="1375" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.thoughtcrime.securesms.service" class="WebRtcCallService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="112" endline="1375" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.service" class="WebRtcCallService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/sms/MessageSender.java">
+<violation beginline="50" endline="280" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.sms" class="MessageSender" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/util/Base64.java">
+<violation beginline="139" endline="2096" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.thoughtcrime.securesms.util" class="Base64" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="140" endline="2096" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.util" class="Base64" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="910" endline="1013" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.thoughtcrime.securesms.util" class="Base64" method="encodeBytesToBytes" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/util/Conversions.java">
+<violation beginline="19" endline="180" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.util" class="Conversions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/util/SaveAttachmentTask.java">
+<violation beginline="203" endline="220" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="org.thoughtcrime.securesms.util" class="SaveAttachmentTask" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Attachment' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/util/SoftHashMap.java">
+<violation beginline="47" endline="319" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.util" class="SoftHashMap" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/util/Util.java">
+<violation beginline="74" endline="498" begincolumn="19" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.util" class="Util" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/util/ViewUtil.java">
+<violation beginline="45" endline="200" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.util" class="ViewUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Signal-Android/src/org/thoughtcrime/securesms/webrtc/WebRtcDataProtos.java">
+<violation beginline="6" endline="2248" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.thoughtcrime.securesms.webrtc" class="WebRtcDataProtos" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="29" endline="405" begincolumn="37" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.webrtc" class="WebRtcDataProtos$Connected" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="250" endline="397" begincolumn="89" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.webrtc" class="WebRtcDataProtos$Connected$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="425" endline="801" begincolumn="34" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.webrtc" class="WebRtcDataProtos$Hangup" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="646" endline="793" begincolumn="86" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.webrtc" class="WebRtcDataProtos$Hangup$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="831" endline="1278" begincolumn="48" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.webrtc" class="WebRtcDataProtos$VideoStreamingStatus" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1081" endline="1270" begincolumn="100" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.webrtc" class="WebRtcDataProtos$VideoStreamingStatus$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1330" endline="2169" begincolumn="32" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.webrtc" class="WebRtcDataProtos$Data" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1651" endline="2161" begincolumn="84" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.thoughtcrime.securesms.webrtc" class="WebRtcDataProtos$Data$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

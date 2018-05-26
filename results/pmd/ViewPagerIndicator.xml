@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:32:53.573">
+<file name="/home/matheus/Documentos/repositories/Java/ViewPagerIndicator/library/src/com/viewpagerindicator/CirclePageIndicator.java">
+<violation beginline="44" endline="555" begincolumn="72" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.viewpagerindicator" class="CirclePageIndicator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ViewPagerIndicator/library/src/com/viewpagerindicator/LinePageIndicator.java">
+<violation beginline="39" endline="448" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.viewpagerindicator" class="LinePageIndicator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/ViewPagerIndicator/library/src/com/viewpagerindicator/TitlePageIndicator.java">
+<violation beginline="47" endline="870" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.viewpagerindicator" class="TitlePageIndicator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="354" endline="542" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.viewpagerindicator" class="TitlePageIndicator" method="onDraw" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

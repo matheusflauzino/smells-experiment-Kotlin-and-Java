@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:33:56.941">
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/cache/disc/impl/BaseDiskCache.java">
+<violation beginline="38" endline="188" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.nostra13.universalimageloader.cache.disc.impl" class="BaseDiskCache" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BaseDiskCache' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=3, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/cache/disc/impl/ext/DiskLruCache.java">
+<violation beginline="87" endline="974" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.nostra13.universalimageloader.cache.disc.impl.ext" class="DiskLruCache" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/cache/disc/impl/ext/LruDiskCache.java">
+<violation beginline="39" endline="238" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.nostra13.universalimageloader.cache.disc.impl.ext" class="LruDiskCache" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LruDiskCache' is suspected to be a Data Class (WOC=0.000%, NOPA=3, NOAM=3, WMC=21)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/DefaultConfigurationFactory.java">
+<violation beginline="58" endline="183" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.nostra13.universalimageloader.core" class="DefaultConfigurationFactory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/DisplayImageOptions.java">
+<violation beginline="202" endline="486" begincolumn="37" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="com.nostra13.universalimageloader.core" class="DisplayImageOptions$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/ImageLoader.java">
+<violation beginline="49" endline="813" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.nostra13.universalimageloader.core" class="ImageLoader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/ImageLoaderConfiguration.java">
+<violation beginline="149" endline="599" begincolumn="37" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="com.nostra13.universalimageloader.core" class="ImageLoaderConfiguration$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/ImageLoaderEngine.java">
+<violation beginline="40" endline="217" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.nostra13.universalimageloader.core" class="ImageLoaderEngine" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/LoadAndDisplayImageTask.java">
+<violation beginline="51" endline="482" begincolumn="79" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.nostra13.universalimageloader.core" class="LoadAndDisplayImageTask" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/assist/deque/BlockingDeque.java">
+<violation beginline="175" endline="617" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.nostra13.universalimageloader.core.assist.deque" class="BlockingDeque" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/assist/deque/Deque.java">
+<violation beginline="168" endline="550" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.nostra13.universalimageloader.core.assist.deque" class="Deque" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/assist/deque/LinkedBlockingDeque.java">
+<violation beginline="46" endline="1197" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.nostra13.universalimageloader.core.assist.deque" class="LinkedBlockingDeque" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="48" endline="1197" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.nostra13.universalimageloader.core.assist.deque" class="LinkedBlockingDeque" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/decode/ImageDecodingInfo.java">
+<violation beginline="34" endline="150" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.nostra13.universalimageloader.core.decode" class="ImageDecodingInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ImageDecodingInfo' is suspected to be a Data Class (WOC=9.091%, NOPA=0, NOAM=9, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/utils/L.java">
+<violation beginline="27" endline="113" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.nostra13.universalimageloader.utils" class="L" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/Android-Universal-Image-Loader/sample/src/main/java/com/nostra13/universalimageloader/sample/ext/OldRoundedBitmapDisplayer.java">
+<violation beginline="70" endline="176" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.nostra13.universalimageloader.sample.ext" class="OldRoundedBitmapDisplayer" method="roundCorners" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

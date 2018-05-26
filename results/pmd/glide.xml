@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:37:11.142">
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/src/main/java/com/bumptech/glide/annotation/compiler/GlideExtensionValidator.java">
+<violation beginline="35" endline="316" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.annotation.compiler" class="GlideExtensionValidator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/src/main/java/com/bumptech/glide/annotation/compiler/ProcessorUtil.java">
+<violation beginline="57" endline="602" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.annotation.compiler" class="ProcessorUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/src/main/java/com/bumptech/glide/annotation/compiler/RequestManagerGenerator.java">
+<violation beginline="55" endline="365" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.annotation.compiler" class="RequestManagerGenerator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/src/main/java/com/bumptech/glide/annotation/compiler/RequestOptionsGenerator.java">
+<violation beginline="73" endline="674" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.annotation.compiler" class="RequestOptionsGenerator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/java/com/bumptech/glide/annotation/compiler/GlideExtensionOptionsTest.java">
+<violation beginline="27" endline="146" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.annotation.compiler" class="GlideExtensionOptionsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/java/com/bumptech/glide/annotation/compiler/InvalidGlideOptionsExtensionTest.java">
+<violation beginline="24" endline="364" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.annotation.compiler" class="InvalidGlideOptionsExtensionTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/java/com/bumptech/glide/annotation/compiler/InvalidGlideTypeExtensionTest.java">
+<violation beginline="27" endline="381" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.annotation.compiler" class="InvalidGlideTypeExtensionTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/java/com/bumptech/glide/annotation/compiler/LegacyGlideExtensionOptionsTest.java">
+<violation beginline="28" endline="134" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.annotation.compiler" class="LegacyGlideExtensionOptionsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/EmptyAppGlideModuleTest/GlideOptions.java">
+<violation beginline="32" endline="619" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/EmptyAppGlideModuleTest/GlideRequest.java">
+<violation beginline="55" endline="777" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/EmptyAppGlideModuleTest/GlideRequests.java">
+<violation beginline="35" endline="173" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequests" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionOptionsTest/MemoizeStaticMethod/GlideOptions.java">
+<violation beginline="33" endline="643" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionOptionsTest/MemoizeStaticMethod/GlideRequest.java">
+<violation beginline="55" endline="791" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionOptionsTest/OverrideExtend/GlideOptions.java">
+<violation beginline="33" endline="632" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionOptionsTest/OverrideExtend/GlideRequest.java">
+<violation beginline="55" endline="777" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionOptionsTest/OverrideExtendMultipleArguments/GlideOptions.java">
+<violation beginline="33" endline="622" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionOptionsTest/OverrideExtendMultipleArguments/GlideRequest.java">
+<violation beginline="55" endline="777" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionOptionsTest/OverrideReplace/GlideOptions.java">
+<violation beginline="33" endline="630" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionOptionsTest/OverrideReplace/GlideRequest.java">
+<violation beginline="55" endline="777" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionOptionsTest/SkipStaticMethod/GlideOptions.java">
+<violation beginline="33" endline="629" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionOptionsTest/SkipStaticMethod/GlideRequest.java">
+<violation beginline="55" endline="791" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionOptionsTest/StaticMethodName/GlideOptions.java">
+<violation beginline="33" endline="637" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionOptionsTest/StaticMethodName/GlideRequest.java">
+<violation beginline="55" endline="791" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionWithOptionTest/GlideOptions.java">
+<violation beginline="33" endline="637" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionWithOptionTest/GlideRequest.java">
+<violation beginline="55" endline="791" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionWithTypeTest/GlideOptions.java">
+<violation beginline="33" endline="620" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/GlideExtensionWithTypeTest/GlideRequests.java">
+<violation beginline="36" endline="183" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequests" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionOptionsTest/MemoizeStaticMethod/GlideOptions.java">
+<violation beginline="33" endline="647" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionOptionsTest/MemoizeStaticMethod/GlideRequest.java">
+<violation beginline="55" endline="791" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionOptionsTest/OverrideExtend/GlideOptions.java">
+<violation beginline="33" endline="637" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionOptionsTest/OverrideExtend/GlideRequest.java">
+<violation beginline="55" endline="777" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionOptionsTest/OverrideReplace/GlideOptions.java">
+<violation beginline="33" endline="634" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionOptionsTest/OverrideReplace/GlideRequest.java">
+<violation beginline="55" endline="777" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionOptionsTest/SkipStaticMethod/GlideOptions.java">
+<violation beginline="33" endline="633" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionOptionsTest/SkipStaticMethod/GlideRequest.java">
+<violation beginline="55" endline="791" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionOptionsTest/StaticMethodName/GlideOptions.java">
+<violation beginline="33" endline="641" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionOptionsTest/StaticMethodName/GlideRequest.java">
+<violation beginline="55" endline="791" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionWithOptionTest/GlideOptions.java">
+<violation beginline="33" endline="641" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionWithOptionTest/GlideRequest.java">
+<violation beginline="55" endline="791" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionWithTypeTest/GlideOptions.java">
+<violation beginline="33" endline="620" begincolumn="77" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/annotation/compiler/test/src/test/resources/LegacyGlideExtensionWithTypeTest/GlideRequests.java">
+<violation beginline="36" endline="185" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="GlideRequests" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/instrumentation/src/androidTest/java/com/bumptech/glide/AsBytesTest.java">
+<violation beginline="32" endline="221" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="AsBytesTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/instrumentation/src/androidTest/java/com/bumptech/glide/CachingTest.java">
+<violation beginline="57" endline="493" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="CachingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/instrumentation/src/androidTest/java/com/bumptech/glide/DownsampleVideoTest.java">
+<violation beginline="23" endline="207" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="DownsampleVideoTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/instrumentation/src/androidTest/java/com/bumptech/glide/LoadBitmapTest.java">
+<violation beginline="41" endline="363" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="LoadBitmapTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/instrumentation/src/androidTest/java/com/bumptech/glide/LoadBytesTest.java">
+<violation beginline="50" endline="525" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="LoadBytesTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/instrumentation/src/androidTest/java/com/bumptech/glide/LoadVideoResourceTest.java">
+<violation beginline="30" endline="323" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="LoadVideoResourceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/instrumentation/src/androidTest/java/com/bumptech/glide/NonBitmapDrawableResourcesTest.java">
+<violation beginline="37" endline="544" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="NonBitmapDrawableResourcesTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/instrumentation/src/androidTest/java/com/bumptech/glide/WideGamutTest.java">
+<violation beginline="31" endline="228" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="WideGamutTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/instrumentation/src/androidTest/java/com/bumptech/glide/test/ConcurrencyHelper.java">
+<violation beginline="32" endline="327" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.test" class="ConcurrencyHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/integration/gifencoder/src/test/java/com/bumptech/glide/integration/gifencoder/ReEncodingGifResourceEncoderTest.java">
+<violation beginline="50" endline="338" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.integration.gifencoder" class="ReEncodingGifResourceEncoderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/integration/volley/src/test/java/com/bumptech/glide/integration/volley/VolleyStreamFetcherServerTest.java">
+<violation beginline="51" endline="233" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.integration.volley" class="VolleyStreamFetcherServerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/Glide.java">
+<violation beginline="101" endline="844" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="Glide" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="312" endline="322" begincolumn="8" endcolumn="79" rule="ExcessiveParameterList" ruleset="Design" package="com.bumptech.glide" class="Glide" method="Glide" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="312" endline="517" begincolumn="3" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.bumptech.glide" class="Glide" method="Glide" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/Registry.java">
+<violation beginline="39" endline="661" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="Registry" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/RequestBuilder.java">
+<violation beginline="48" endline="1073" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.bumptech.glide" class="RequestBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="49" endline="1073" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="RequestBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="943" endline="1046" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.bumptech.glide" class="RequestBuilder" method="buildThumbnailRequestRecursive" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/RequestManager.java">
+<violation beginline="51" endline="659" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="RequestManager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java">
+<violation beginline="46" endline="60" begincolumn="16" endcolumn="42" rule="ExcessiveParameterList" ruleset="Design" package="com.bumptech.glide.load.engine" class="DecodeHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java">
+<violation beginline="41" endline="728" begincolumn="14" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine" class="DecodeJob" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="84" endline="101" begincolumn="20" endcolumn="16" rule="ExcessiveParameterList" ruleset="Design" package="com.bumptech.glide.load.engine" class="DecodeJob" method="init" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/load/engine/Engine.java">
+<violation beginline="33" endline="525" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine" class="Engine" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="71" endline="83" begincolumn="9" endcolumn="47" rule="ExcessiveParameterList" ruleset="Design" package="com.bumptech.glide.load.engine" class="Engine" method="Engine" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="149" endline="167" begincolumn="29" endcolumn="26" rule="ExcessiveParameterList" ruleset="Design" package="com.bumptech.glide.load.engine" class="Engine" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="412" endline="427" begincolumn="27" endcolumn="39" rule="ExcessiveParameterList" ruleset="Design" package="com.bumptech.glide.load.engine" class="Engine$DecodeJobFactory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/load/engine/EngineJob.java">
+<violation beginline="25" endline="338" begincolumn="14" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine" class="EngineJob" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/LruBitmapPool.java">
+<violation beginline="23" endline="332" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine.bitmap_recycle" class="LruBitmapPool" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/load/engine/executor/GlideExecutor.java">
+<violation beginline="25" endline="456" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine.executor" class="GlideExecutor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransitionOptions.java">
+<violation beginline="17" endline="133" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.resource.bitmap" class="BitmapTransitionOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java">
+<violation beginline="40" endline="736" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.resource.bitmap" class="Downsampler" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="218" endline="322" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.bumptech.glide.load.resource.bitmap" class="Downsampler" method="decodeFromWrappedStreams" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="324" endline="335" begincolumn="39" endcolumn="36" rule="ExcessiveParameterList" ruleset="Design" package="com.bumptech.glide.load.resource.bitmap" class="Downsampler" method="calculateScaling" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="324" endline="466" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.bumptech.glide.load.resource.bitmap" class="Downsampler" method="calculateScaling" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream.java">
+<violation beginline="40" endline="420" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.resource.bitmap" class="RecyclableBufferedInputStream" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/TransformationUtils.java">
+<violation beginline="36" endline="599" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.resource.bitmap" class="TransformationUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java">
+<violation beginline="29" endline="418" begincolumn="16" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.resource.gif" class="GifDrawable" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/request/ErrorRequestCoordinator.java">
+<violation beginline="10" endline="158" begincolumn="13" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.request" class="ErrorRequestCoordinator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java">
+<violation beginline="56" endline="284" begincolumn="14" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.request" class="RequestFutureTarget" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/request/RequestOptions.java">
+<violation beginline="44" endline="1728" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.bumptech.glide.request" class="RequestOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="44" endline="1728" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.request" class="RequestOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java">
+<violation beginline="38" endline="669" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.request" class="SingleRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="120" endline="134" begincolumn="44" endcolumn="52" rule="ExcessiveParameterList" ruleset="Design" package="com.bumptech.glide.request" class="SingleRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="164" endline="178" begincolumn="20" endcolumn="52" rule="ExcessiveParameterList" ruleset="Design" package="com.bumptech.glide.request" class="SingleRequest" method="init" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java">
+<violation beginline="11" endline="191" begincolumn="13" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.request" class="ThumbnailRequestCoordinator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/util/ExceptionCatchingInputStream.java">
+<violation beginline="17" endline="137" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.util" class="ExceptionCatchingInputStream" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/src/main/java/com/bumptech/glide/util/Util.java">
+<violation beginline="20" endline="245" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.util" class="Util" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/GlideTest.java">
+<violation beginline="101" endline="904" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="GlideTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/ListPreloaderTest.java">
+<violation beginline="34" endline="403" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="ListPreloaderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/RequestBuilderTest.java">
+<violation beginline="40" endline="165" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="RequestBuilderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/RequestManagerTest.java">
+<violation beginline="48" endline="273" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide" class="RequestManagerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/data/BufferedOutputStreamTest.java">
+<violation beginline="27" endline="940" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.data" class="BufferedOutputStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/data/HttpUrlFetcherServerTest.java">
+<violation beginline="40" endline="253" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.data" class="HttpUrlFetcherServerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/engine/ActiveResourcesTest.java">
+<violation beginline="30" endline="395" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine" class="ActiveResourcesTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/engine/EngineJobTest.java">
+<violation beginline="41" endline="547" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine" class="EngineJobTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/engine/EngineKeyTest.java">
+<violation beginline="58" endline="184" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.bumptech.glide.load.engine" class="EngineKeyTest" method="testEqualsAndHashCode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/engine/EngineResourceTest.java">
+<violation beginline="25" endline="169" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine" class="EngineResourceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/engine/EngineTest.java">
+<violation beginline="48" endline="715" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine" class="EngineTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/engine/ResourceCacheKeyTest.java">
+<violation beginline="48" endline="192" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.bumptech.glide.load.engine" class="ResourceCacheKeyTest" method="testEqualsAndHashCode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/engine/bitmap_recycle/LruArrayPoolTest.java">
+<violation beginline="23" endline="205" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine.bitmap_recycle" class="LruArrayPoolTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/engine/bitmap_recycle/LruBitmapPoolTest.java">
+<violation beginline="32" endline="285" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine.bitmap_recycle" class="LruBitmapPoolTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/engine/cache/LruCacheTest.java">
+<violation beginline="26" endline="386" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine.cache" class="LruCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/engine/cache/LruResourceCacheTest.java">
+<violation beginline="27" endline="227" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine.cache" class="LruResourceCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/engine/prefill/BitmapPreFillRunnerTest.java">
+<violation beginline="47" endline="354" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine.prefill" class="BitmapPreFillRunnerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/engine/prefill/BitmapPreFillerTest.java">
+<violation beginline="34" endline="289" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.engine.prefill" class="BitmapPreFillerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/model/LazyHeadersTest.java">
+<violation beginline="20" endline="394" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.model" class="LazyHeadersTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/model/MultiModelLoaderFactoryTest.java">
+<violation beginline="30" endline="328" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.model" class="MultiModelLoaderFactoryTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParserTest.java">
+<violation beginline="26" endline="403" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.resource.bitmap" class="DefaultImageHeaderParserTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/resource/bitmap/DownsampleStrategyTest.java">
+<violation beginline="12" endline="116" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.resource.bitmap" class="DownsampleStrategyTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStreamTest.java">
+<violation beginline="26" endline="292" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.resource.bitmap" class="RecyclableBufferedInputStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/resource/bitmap/TransformationUtilsTest.java">
+<violation beginline="37" endline="450" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.resource.bitmap" class="TransformationUtilsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/resource/gif/GifDrawableTest.java">
+<violation beginline="59" endline="647" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.resource.gif" class="GifDrawableTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/load/resource/gif/GifFrameLoaderTest.java">
+<violation beginline="47" endline="361" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.load.resource.gif" class="GifFrameLoaderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/manager/DefaultConnectivityMonitorTest.java">
+<violation beginline="33" endline="198" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.manager" class="DefaultConnectivityMonitorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/manager/LifecycleTest.java">
+<violation beginline="17" endline="125" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.manager" class="LifecycleTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/manager/RequestManagerRetrieverTest.java">
+<violation beginline="40" endline="434" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.manager" class="RequestManagerRetrieverTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/manager/RequestTrackerTest.java">
+<violation beginline="25" endline="393" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.manager" class="RequestTrackerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/request/ErrorRequestCoordinatorTest.java">
+<violation beginline="17" endline="629" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.request" class="ErrorRequestCoordinatorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/request/RequestFutureTargetTest.java">
+<violation beginline="33" endline="407" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.request" class="RequestFutureTargetTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/request/RequestOptionsTest.java">
+<violation beginline="33" endline="708" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.request" class="RequestOptionsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/request/SingleRequestTest.java">
+<violation beginline="59" endline="1168" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.bumptech.glide.request" class="SingleRequestTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="59" endline="1168" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.request" class="SingleRequestTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/request/ThumbnailRequestCoordinatorTest.java">
+<violation beginline="25" endline="407" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.request" class="ThumbnailRequestCoordinatorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/request/target/AppWidgetTargetTest.java">
+<violation beginline="27" endline="145" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.request.target" class="AppWidgetTargetTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/request/target/ViewTargetTest.java">
+<violation beginline="55" endline="835" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.request.target" class="ViewTargetTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/util/ContentLengthInputStreamTest.java">
+<violation beginline="22" endline="161" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.util" class="ContentLengthInputStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/util/ExceptionCatchingInputStreamTest.java">
+<violation beginline="25" endline="173" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.util" class="ExceptionCatchingInputStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/library/test/src/test/java/com/bumptech/glide/util/MarkEnforcingInputStreamTest.java">
+<violation beginline="15" endline="169" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.util" class="MarkEnforcingInputStreamTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/samples/flickr/src/main/java/com/bumptech/glide/samples/flickr/api/Photo.java">
+<violation beginline="11" endline="142" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.bumptech.glide.samples.flickr.api" class="Photo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Photo' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=6, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/samples/gallery/src/main/java/com/bumptech/glide/samples/gallery/MediaStoreDataLoader.java">
+<violation beginline="17" endline="165" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.samples.gallery" class="MediaStoreDataLoader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java">
+<violation beginline="21" endline="515" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.gifdecoder" class="GifHeaderParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/StandardGifDecoder.java">
+<violation beginline="62" endline="848" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.gifdecoder" class="StandardGifDecoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="691" endline="818" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.bumptech.glide.gifdecoder" class="StandardGifDecoder" method="decodeBitmapData" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/third_party/gif_decoder/src/test/java/com/bumptech/glide/gifdecoder/GifDecoderTest.java">
+<violation beginline="28" endline="242" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.gifdecoder" class="GifDecoderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/third_party/gif_decoder/src/test/java/com/bumptech/glide/gifdecoder/GifHeaderParserTest.java">
+<violation beginline="23" endline="316" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.gifdecoder" class="GifHeaderParserTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/glide/third_party/gif_encoder/src/main/java/com/bumptech/glide/gifencoder/AnimatedGifEncoder.java">
+<violation beginline="40" endline="581" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.bumptech.glide.gifencoder" class="AnimatedGifEncoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

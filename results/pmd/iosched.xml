@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:33:01.717">
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/androidTest/java/com/google/samples/apps/iosched/mockdata/ExploreMockCursor.java">
+<violation beginline="164" endline="305" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.mockdata" class="ExploreMockCursor" method="getCursor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/androidTest/java/com/google/samples/apps/iosched/mockdata/VideosMockCursor.java">
+<violation beginline="87" endline="230" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.mockdata" class="VideosMockCursor" method="getCursorForVideos" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/appwidget/ScheduleWidgetRemoteViewsService.java">
+<violation beginline="110" endline="211" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.appwidget" class="ScheduleWidgetRemoteViewsService$WidgetRemoteViewsFactory" method="getViewAt" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/debug/DebugFragment.java">
+<violation beginline="68" endline="234" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.debug" class="DebugFragment" method="onCreateView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/fcm/command/NotificationCommand.java">
+<violation beginline="79" endline="203" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.fcm.command" class="NotificationCommand" method="processCommand" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/feed/data/FeedMessage.java">
+<violation beginline="33" endline="195" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.samples.apps.iosched.feed.data" class="FeedMessage" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FeedMessage' is suspected to be a Data Class (WOC=26.667%, NOPA=11, NOAM=10, WMC=17)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/info/about/AboutInfo.java">
+<violation beginline="16" endline="62" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.samples.apps.iosched.info.about" class="AboutInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AboutInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/info/event/EventInfo.java">
+<violation beginline="16" endline="83" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.samples.apps.iosched.info.event" class="EventInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EventInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/info/travel/TravelInfo.java">
+<violation beginline="16" endline="72" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.samples.apps.iosched.info.travel" class="TravelInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TravelInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/map/MapActivity.java">
+<violation beginline="50" endline="329" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.map" class="MapActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/map/MapFragment.java">
+<violation beginline="76" endline="623" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.map" class="MapFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/map/MapInfoFragment.java">
+<violation beginline="59" endline="455" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.map" class="MapInfoFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/map/SlideableInfoFragment.java">
+<violation beginline="42" endline="199" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.map" class="SlideableInfoFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/map/util/MarkerModel.java">
+<violation beginline="25" endline="53" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.samples.apps.iosched.map.util" class="MarkerModel" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MarkerModel' is suspected to be a Data Class (WOC=0.000%, NOPA=16, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/map/util/SessionLoader.java">
+<violation beginline="33" endline="35" begincolumn="25" endcolumn="66" rule="ExcessiveParameterList" ruleset="Design" package="com.google.samples.apps.iosched.map.util" class="SessionLoader" method="SessionLoader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/myio/MyIOActivity.java">
+<violation beginline="78" endline="439" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.myio" class="MyIOActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/myio/MyIOFragment.java">
+<violation beginline="50" endline="214" begincolumn="75" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.myio" class="MyIOFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/provider/ScheduleContract.java">
+<violation beginline="45" endline="1150" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.samples.apps.iosched.provider" class="ScheduleContract" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="684" endline="952" begincolumn="38" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.provider" class="ScheduleContract$Sessions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/provider/ScheduleDatabase.java">
+<violation beginline="62" endline="708" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.provider" class="ScheduleDatabase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="248" endline="435" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.provider" class="ScheduleDatabase" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="569" endline="703" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.provider" class="ScheduleDatabase" method="onUpgrade" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/provider/ScheduleProvider.java">
+<violation beginline="81" endline="1042" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.provider" class="ScheduleProvider" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="322" endline="439" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.provider" class="ScheduleProvider" method="insert" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="579" endline="689" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.provider" class="ScheduleProvider" method="buildSimpleSelection" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="708" endline="1005" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.provider" class="ScheduleProvider" method="buildExpandedSelection" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/schedule/ScheduleActivity.java">
+<violation beginline="63" endline="358" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.schedule" class="ScheduleActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/schedule/ScheduleFilterFragment.java">
+<violation beginline="38" endline="188" begincolumn="89" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.schedule" class="ScheduleFilterFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/schedule/ScheduleModel.java">
+<violation beginline="53" endline="429" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.schedule" class="ScheduleModel" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/schedule/SchedulePagerFragment.java">
+<violation beginline="129" endline="245" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.schedule" class="SchedulePagerFragment" method="onViewCreated" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/schedule/ScheduleSingleDayFragment.java">
+<violation beginline="60" endline="301" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.schedule" class="ScheduleSingleDayFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/schedule/TagFilterHolder.java">
+<violation beginline="44" endline="211" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.schedule" class="TagFilterHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/service/SessionAlarmService.java">
+<violation beginline="242" endline="354" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.service" class="SessionAlarmService" method="notifySessionFeedback" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="357" endline="491" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.service" class="SessionAlarmService" method="notifySession" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/service/SessionCalendarService.java">
+<violation beginline="65" endline="398" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.samples.apps.iosched.service" class="SessionCalendarService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SessionCalendarService' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=30)
+</violation>
+<violation beginline="237" endline="380" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.service" class="SessionCalendarService" method="processSessionCalendar" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/session/SessionDetailFragment.java">
+<violation beginline="108" endline="1247" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.samples.apps.iosched.session" class="SessionDetailFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="110" endline="1247" begincolumn="19" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.session" class="SessionDetailFragment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="218" endline="320" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.session" class="SessionDetailFragment" method="onViewCreated" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/session/SessionDetailModel.java">
+<violation beginline="88" endline="1202" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.samples.apps.iosched.session" class="SessionDetailModel" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="89" endline="1202" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.session" class="SessionDetailModel" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="271" endline="383" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.session" class="SessionDetailModel" method="initReservationListeners" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/settings/SettingsUtils.java">
+<violation beginline="36" endline="398" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.settings" class="SettingsUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/sync/SyncHelper.java">
+<violation beginline="62" endline="411" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.sync" class="SyncHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="132" endline="235" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.sync" class="SyncHelper" method="performSync" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/sync/userdata/UserAction.java">
+<violation beginline="18" endline="36" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.samples.apps.iosched.sync.userdata" class="UserAction" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UserAction' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/ui/BaseActivity.java">
+<violation beginline="71" endline="455" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.ui" class="BaseActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/ui/SearchActivity.java">
+<violation beginline="55" endline="332" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.ui" class="SearchActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/util/LogUtils.java">
+<violation beginline="23" endline="110" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.util" class="LogUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/util/MapUtils.java">
+<violation beginline="51" endline="412" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.util" class="MapUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/util/SelectionBuilder.java">
+<violation beginline="44" endline="213" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.util" class="SelectionBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/util/UIUtils.java">
+<violation beginline="90" endline="815" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.util" class="UIUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/main/java/com/google/samples/apps/iosched/welcome/WelcomeActivity.java">
+<violation beginline="72" endline="260" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.welcome" class="WelcomeActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/test/java/com/google/samples/apps/iosched/archframework/ModelWithLoaderManagerImplTest.java">
+<violation beginline="46" endline="328" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.archframework" class="ModelWithLoaderManagerImplTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/lib/src/test/java/com/google/samples/apps/iosched/session/StarredSessionDetailModelTest.java">
+<violation beginline="61" endline="945" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.session" class="StarredSessionDetailModelTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/server/src/main/java/com/google/samples/apps/iosched/server/gcm/db/models/Device.java">
+<violation beginline="24" endline="44" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.samples.apps.iosched.server.gcm.db.models" class="Device" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Device' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/server/src/main/java/com/google/samples/apps/iosched/server/gcm/db/models/MulticastMessage.java">
+<violation beginline="26" endline="64" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.samples.apps.iosched.server.gcm.db.models" class="MulticastMessage" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MulticastMessage' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=7, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/server/src/main/java/com/google/samples/apps/iosched/server/schedule/feedback/model/Rating.java">
+<violation beginline="21" endline="45" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.samples.apps.iosched.server.schedule.feedback.model" class="Rating" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Rating' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/server/src/main/java/com/google/samples/apps/iosched/server/schedule/feedback/model/SessionFeedback.java">
+<violation beginline="21" endline="45" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.samples.apps.iosched.server.schedule.feedback.model" class="SessionFeedback" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SessionFeedback' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/server/src/main/java/com/google/samples/apps/iosched/server/schedule/model/DataCheck.java">
+<violation beginline="60" endline="213" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.server.schedule.model" class="DataCheck" method="check" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/server/src/main/java/com/google/samples/apps/iosched/server/schedule/model/DataExtractor.java">
+<violation beginline="284" endline="418" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.server.schedule.model" class="DataExtractor" method="extractSessions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/server/src/main/java/com/google/samples/apps/iosched/server/schedule/reservations/LoadSessionsServlet.java">
+<violation beginline="90" endline="317" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.server.schedule.reservations" class="LoadSessionsServlet" method="doGet" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/server/src/main/java/com/google/samples/apps/iosched/server/schedule/server/APIUpdater.java">
+<violation beginline="60" endline="167" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.samples.apps.iosched.server.schedule.server" class="APIUpdater" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/server/src/main/java/com/google/samples/apps/iosched/server/userdata/UserdataEndpoint.java">
+<violation beginline="57" endline="392" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.samples.apps.iosched.server.userdata" class="UserdataEndpoint" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/basic-http-client/src/com/turbomanage/httpclient/AbstractHttpClient.java">
+<violation beginline="24" endline="480" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.turbomanage.httpclient" class="AbstractHttpClient" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/basic-http-client/src/com/turbomanage/httpclient/HttpRequest.java">
+<violation beginline="8" endline="52" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.turbomanage.httpclient" class="HttpRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HttpRequest' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=4, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/basic-http-client/src/com/turbomanage/httpclient/HttpResponse.java">
+<violation beginline="13" endline="54" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.turbomanage.httpclient" class="HttpResponse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HttpResponse' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/basic-http-client/src/com/turbomanage/httpclient/ParameterMap.java">
+<violation beginline="16" endline="132" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.turbomanage.httpclient" class="ParameterMap" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/disklrucache/src/main/java/com/jakewharton/disklrucache/DiskLruCache.java">
+<violation beginline="88" endline="930" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jakewharton.disklrucache" class="DiskLruCache" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/disklrucache/src/test/java/com/jakewharton/disklrucache/DiskLruCacheTest.java">
+<violation beginline="42" endline="1031" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.jakewharton.disklrucache" class="DiskLruCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/demos/codelabs/building-beautiful-apps/complete/app/src/main/java/io/material/demo/codelab/buildingbeautifulapps/ProductEntry.java">
+<violation beginline="23" endline="35" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.material.demo.codelab.buildingbeautifulapps" class="ProductEntry" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProductEntry' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/demos/codelabs/building-beautiful-apps/starter/app/src/main/java/io/material/demo/codelab/buildingbeautifulapps/ProductEntry.java">
+<violation beginline="23" endline="35" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.material.demo.codelab.buildingbeautifulapps" class="ProductEntry" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProductEntry' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/demos/java/io/material/demo/shrine/products/ProductEntry.java">
+<violation beginline="22" endline="37" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.material.demo.shrine.products" class="ProductEntry" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ProductEntry' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/lib/base/android/support/design/widget/FloatingActionButtonImpl.java">
+<violation beginline="41" endline="532" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="FloatingActionButtonImpl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/lib/src/android/support/design/internal/NavigationMenuPresenter.java">
+<violation beginline="53" endline="664" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.design.internal" class="NavigationMenuPresenter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/lib/src/android/support/design/widget/AppBarLayout.java">
+<violation beginline="104" endline="1538" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="android.support.design.widget" class="AppBarLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="104" endline="1538" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="AppBarLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="752" endline="1418" begincolumn="69" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="AppBarLayout$Behavior" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/lib/src/android/support/design/widget/BaseTransientBottomBar.java">
+<violation beginline="59" endline="713" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="BaseTransientBottomBar" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/lib/src/android/support/design/widget/BottomSheetBehavior.java">
+<violation beginline="49" endline="809" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="BottomSheetBehavior" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/lib/src/android/support/design/widget/CollapsingTextHelper.java">
+<violation beginline="40" endline="730" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="CollapsingTextHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/lib/src/android/support/design/widget/CollapsingToolbarLayout.java">
+<violation beginline="107" endline="1272" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="android.support.design.widget" class="CollapsingToolbarLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="107" endline="1272" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="CollapsingToolbarLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/lib/src/android/support/design/widget/CoordinatorLayout.java">
+<violation beginline="106" endline="3098" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="android.support.design.widget" class="CoordinatorLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="106" endline="3098" begincolumn="83" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="CoordinatorLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1271" endline="1373" begincolumn="9" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="android.support.design.widget" class="CoordinatorLayout" method="onChildViewsChanged" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1968" endline="2541" begincolumn="57" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="CoordinatorLayout$Behavior" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="2544" endline="2928" begincolumn="73" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="CoordinatorLayout$LayoutParams" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/lib/src/android/support/design/widget/FloatingActionButton.java">
+<violation beginline="67" endline="827" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="FloatingActionButton" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/lib/src/android/support/design/widget/TabLayout.java">
+<violation beginline="149" endline="2244" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="android.support.design.widget" class="TabLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="149" endline="2244" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="TabLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/material-components-android/lib/src/android/support/design/widget/TextInputLayout.java">
+<violation beginline="112" endline="1489" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="android.support.design.widget" class="TextInputLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="112" endline="1489" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="android.support.design.widget" class="TextInputLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/sticky-headers/StickyHeaders/src/main/java/io/doist/recyclerviewext/sticky_headers/StickyHeadersLinearLayoutManager.java">
+<violation beginline="22" endline="670" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.doist.recyclerviewext.sticky_headers" class="StickyHeadersLinearLayoutManager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/svg-android/src/main/java/com/larvalabs/svgandroid/ParserHelper.java">
+<violation beginline="75" endline="335" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.larvalabs.svgandroid" class="ParserHelper" method="parseFloat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/svg-android/src/main/java/com/larvalabs/svgandroid/SVG.java">
+<violation beginline="22" endline="124" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.larvalabs.svgandroid" class="SVG" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SVG' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/svg-android/src/main/java/com/larvalabs/svgandroid/SVGParser.java">
+<violation beginline="47" endline="1604" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.larvalabs.svgandroid" class="SVGParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="298" endline="490" begincolumn="24" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.larvalabs.svgandroid" class="SVGParser" method="doPath" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="501" endline="502" begincolumn="36" endcolumn="51" rule="ExcessiveParameterList" ruleset="Design" package="com.larvalabs.svgandroid" class="SVGParser" method="drawArc" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="832" endline="1603" begincolumn="56" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="com.larvalabs.svgandroid" class="SVGParser$SVGHandler" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1251" endline="1522" begincolumn="24" endcolumn="17" rule="ExcessiveMethodLength" ruleset="Design" package="com.larvalabs.svgandroid" class="SVGParser$SVGHandler" method="startElement" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/volley/src/com/android/volley/NetworkResponse.java">
+<violation beginline="27" endline="62" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.android.volley" class="NetworkResponse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NetworkResponse' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/volley/src/com/android/volley/Request.java">
+<violation beginline="38" endline="573" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.volley" class="Request" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/volley/src/com/android/volley/toolbox/DiskBasedCache.java">
+<violation beginline="42" endline="556" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.volley.toolbox" class="DiskBasedCache" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/volley/tests/src/com/android/volley/toolbox/HttpClientStackTest.java">
+<violation beginline="36" endline="147" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.volley.toolbox" class="HttpClientStackTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/volley/tests/src/com/android/volley/toolbox/HttpHeaderParserTest.java">
+<violation beginline="33" endline="200" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.volley.toolbox" class="HttpHeaderParserTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/iosched/third_party/volley/tests/src/com/android/volley/toolbox/HurlStackTest.java">
+<violation beginline="27" endline="154" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.android.volley.toolbox" class="HurlStackTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

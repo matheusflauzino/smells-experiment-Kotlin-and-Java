@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:28:42.870">
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho-js-rhino/src/main/java/com/facebook/stetho/rhino/JsFormat.java">
+<violation beginline="91" endline="263" begincolumn="19" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.facebook.stetho.rhino" class="JsFormat" method="parse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho-js-rhino/src/main/java/com/facebook/stetho/rhino/JsRuntimeReplFactoryBuilder.java">
+<violation beginline="45" endline="274" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.rhino" class="JsRuntimeReplFactoryBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho-okhttp/src/main/java/com/facebook/stetho/okhttp/StethoInterceptor.java">
+<violation beginline="194" endline="267" begincolumn="98" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.okhttp" class="StethoInterceptor$OkHttpInspectorResponse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho-okhttp3/src/main/java/com/facebook/stetho/okhttp3/StethoInterceptor.java">
+<violation beginline="186" endline="259" begincolumn="98" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.okhttp3" class="StethoInterceptor$OkHttpInspectorResponse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho-sample/src/main/java/com/facebook/stetho/sample/APODActivity.java">
+<violation beginline="159" endline="173" begincolumn="18" endcolumn="3" rule="DataClass" ruleset="Design" package="com.facebook.stetho.sample" class="APODActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/Stetho.java">
+<violation beginline="238" endline="425" begincolumn="60" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho" class="Stetho$DefaultInspectorModulesBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/common/LogRedirector.java">
+<violation beginline="25" endline="121" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.common" class="LogRedirector" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/common/LogUtil.java">
+<violation beginline="19" endline="142" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.common" class="LogUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/common/Util.java">
+<violation beginline="23" endline="157" begincolumn="19" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.common" class="Util" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/dumpapp/GlobalOptions.java">
+<violation beginline="15" endline="34" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.facebook.stetho.dumpapp" class="GlobalOptions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GlobalOptions' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/dumpapp/plugins/FilesDumperPlugin.java">
+<violation beginline="34" endline="230" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.dumpapp.plugins" class="FilesDumperPlugin" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/inspector/elements/AbstractChainedDescriptor.java">
+<violation beginline="38" endline="177" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.inspector.elements" class="AbstractChainedDescriptor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/inspector/elements/Document.java">
+<violation beginline="31" endline="751" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.inspector.elements" class="Document" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="356" endline="495" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.facebook.stetho.inspector.elements" class="Document" method="applyDocumentUpdate" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/inspector/elements/android/ViewDescriptor.java">
+<violation beginline="43" endline="570" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.inspector.elements.android" class="ViewDescriptor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/inspector/network/NetworkEventReporter.java">
+<violation beginline="54" endline="327" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.inspector.network" class="NetworkEventReporter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/inspector/network/NetworkEventReporterImpl.java">
+<violation beginline="35" endline="465" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.inspector.network" class="NetworkEventReporterImpl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/inspector/network/ResponseHandlingInputStream.java">
+<violation beginline="31" endline="278" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.inspector.network" class="ResponseHandlingInputStream" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/inspector/protocol/module/DOM.java">
+<violation beginline="44" endline="593" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.inspector.protocol.module" class="DOM" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/inspector/protocol/module/Page.java">
+<violation beginline="31" endline="305" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.inspector.protocol.module" class="Page" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/server/CompositeInputStream.java">
+<violation beginline="20" endline="115" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.server" class="CompositeInputStream" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/main/java/com/facebook/stetho/websocket/WebSocketSession.java">
+<violation beginline="23" endline="195" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.websocket" class="WebSocketSession" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/stetho/stetho/src/test/java/com/facebook/stetho/inspector/network/AsyncPrettyPrintResponseBodyTest.java">
+<violation beginline="183" endline="241" begincolumn="89" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.facebook.stetho.inspector.network" class="AsyncPrettyPrintResponseBodyTest$TestInspectorResponse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

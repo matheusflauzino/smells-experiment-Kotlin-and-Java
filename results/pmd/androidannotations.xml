@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:34:45.351">
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-api/src/main/java/org/androidannotations/api/BackgroundExecutor.java">
+<violation beginline="34" endline="491" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.api" class="BackgroundExecutor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-api/src/main/java/org/androidannotations/api/ViewServer.java">
+<violation beginline="115" endline="874" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.api" class="ViewServer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-api/src/main/java/org/androidannotations/api/builder/FragmentBuilder.java">
+<violation beginline="26" endline="179" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.api.builder" class="FragmentBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-api/src/main/java/org/androidannotations/api/builder/IntentBuilder.java">
+<violation beginline="28" endline="209" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.api.builder" class="IntentBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/main/java/org/androidannotations/test/ItemClicksHandledActivity.java">
+<violation beginline="34" endline="172" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test" class="ItemClicksHandledActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/main/java/org/androidannotations/test/SeekBarChangeListenedActivity.java">
+<violation beginline="27" endline="93" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test" class="SeekBarChangeListenedActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/main/java/org/androidannotations/test/TextWatchedActivity.java">
+<violation beginline="28" endline="137" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test" class="TextWatchedActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/main/java/org/androidannotations/test/ThreadActivity.java">
+<violation beginline="35" endline="168" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test" class="ThreadActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/main/java/org/androidannotations/test/preference/PreferenceEventsHandledActivity.java">
+<violation beginline="29" endline="104" begincolumn="73" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test.preference" class="PreferenceEventsHandledActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/main/java/org/androidannotations/test/receiver/ViewGroupWithReceiver.java">
+<violation beginline="27" endline="59" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.test.receiver" class="ViewGroupWithReceiver" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewGroupWithReceiver' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/main/java/org/androidannotations/test/receiver/ViewWithReceiver.java">
+<violation beginline="27" endline="59" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.test.receiver" class="ViewWithReceiver" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewWithReceiver' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/main/java/org/androidannotations/test/trace/TracedActivity.java">
+<violation beginline="37" endline="169" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test.trace" class="TracedActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/test/java/org/androidannotations/test/PageChangeListenerActivityTest.java">
+<violation beginline="30" endline="210" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test" class="PageChangeListenerActivityTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/test/java/org/androidannotations/test/TextWatchedActivityTest.java">
+<violation beginline="35" endline="197" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test" class="TextWatchedActivityTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/test/java/org/androidannotations/test/ThreadActivityTest.java">
+<violation beginline="46" endline="419" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test" class="ThreadActivityTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/test/java/org/androidannotations/test/ViewsInjectedActivityTest.java">
+<violation beginline="29" endline="103" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test" class="ViewsInjectedActivityTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/test/java/org/androidannotations/test/ebean/BeanInjectedActivityTest.java">
+<violation beginline="27" endline="120" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test.ebean" class="BeanInjectedActivityTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/test/java/org/androidannotations/test/efragment/MyListFragmentTest.java">
+<violation beginline="43" endline="216" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test.efragment" class="MyListFragmentTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/test/java/org/androidannotations/test/preference/PreferenceEventsHandledActivityTest.java">
+<violation beginline="32" endline="156" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test.preference" class="PreferenceEventsHandledActivityTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/test/java/org/androidannotations/test/prefs/PrefsActivityTest.java">
+<violation beginline="36" endline="267" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test.prefs" class="PrefsActivityTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/test/java/org/androidannotations/test/res/ResActivityTest.java">
+<violation beginline="33" endline="133" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test.res" class="ResActivityTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/test/java/org/androidannotations/test/supposethread/SupposeThreadTest.java">
+<violation beginline="38" endline="211" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test.supposethread" class="SupposeThreadTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-test/src/test/java/org/androidannotations/test/trace/TracedActivityTest.java">
+<violation beginline="37" endline="172" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.test.trace" class="TracedActivityTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-testutils/src/main/java/org/androidannotations/testutils/ClassFinder.java">
+<violation beginline="257" endline="359" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.androidannotations.testutils" class="ClassFinder" method="findSubclasses" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations-testutils/src/main/java/org/androidannotations/testutils/ProcessorTestHelper.java">
+<violation beginline="49" endline="446" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.testutils" class="ProcessorTestHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/helper/APTCodeModelHelper.java">
+<violation beginline="79" endline="614" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.helper" class="APTCodeModelHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/helper/AndroidManifest.java">
+<violation beginline="24" endline="139" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.helper" class="AndroidManifest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AndroidManifest' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=9, WMC=13)
+</violation>
+<violation beginline="55" endline="55" begincolumn="32" endcolumn="318" rule="ExcessiveParameterList" ruleset="Design" package="org.androidannotations.helper" class="AndroidManifest" method="AndroidManifest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/helper/AnnotationHelper.java">
+<violation beginline="55" endline="459" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.helper" class="AnnotationHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/helper/BundleHelper.java">
+<violation beginline="95" endline="195" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.androidannotations.helper" class="BundleHelper" method="BundleHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/helper/ValidatorHelper.java">
+<violation beginline="68" endline="773" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.helper" class="ValidatorHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/helper/ValidatorParameterHelper.java">
+<violation beginline="31" endline="548" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.helper" class="ValidatorParameterHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="104" endline="186" begincolumn="105" endcolumn="9" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.helper" class="ValidatorParameterHelper$BaseParamValidator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/holder/EComponentHolder.java">
+<violation beginline="33" endline="125" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.holder" class="EComponentHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EComponentHolder' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=7, WMC=19)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/holder/EIntentServiceHolder.java">
+<violation beginline="33" endline="84" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.holder" class="EIntentServiceHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EIntentServiceHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/holder/EReceiverHolder.java">
+<violation beginline="32" endline="122" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.holder" class="EReceiverHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EReceiverHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/holder/KeyEventCallbackMethodsDelegate.java">
+<violation beginline="26" endline="145" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.holder" class="KeyEventCallbackMethodsDelegate" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'KeyEventCallbackMethodsDelegate' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=9, WMC=23)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/holder/OnActivityResultDelegate.java">
+<violation beginline="31" endline="117" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.holder" class="OnActivityResultDelegate" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'OnActivityResultDelegate' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=5, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/holder/OnSeekBarChangeListenerHolder.java">
+<violation beginline="24" endline="99" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.holder" class="OnSeekBarChangeListenerHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'OnSeekBarChangeListenerHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/holder/PageChangeHolder.java">
+<violation beginline="25" endline="113" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.holder" class="PageChangeHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PageChangeHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/holder/SharedPrefHolder.java">
+<violation beginline="55" endline="205" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.holder" class="SharedPrefHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SharedPrefHolder' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=5, WMC=21)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/holder/TextWatcherHolder.java">
+<violation beginline="25" endline="132" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.holder" class="TextWatcherHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TextWatcherHolder' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=13, WMC=17)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/internal/AndroidAnnotationProcessor.java">
+<violation beginline="62" endline="270" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.internal" class="AndroidAnnotationProcessor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/internal/InternalAndroidAnnotationsEnvironment.java">
+<violation beginline="41" endline="205" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.internal" class="InternalAndroidAnnotationsEnvironment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'InternalAndroidAnnotationsEnvironment' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/internal/core/CorePlugin.java">
+<violation beginline="130" endline="249" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.androidannotations.internal.core" class="CorePlugin" method="getHandlers" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/internal/core/handler/HttpsClientHandler.java">
+<violation beginline="84" endline="197" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.androidannotations.internal.core.handler" class="HttpsClientHandler" method="assignValue" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/internal/core/helper/ActivityIntentBuilder.java">
+<violation beginline="50" endline="261" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.internal.core.helper" class="ActivityIntentBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/internal/core/helper/CoreValidatorHelper.java">
+<violation beginline="65" endline="499" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.internal.core.helper" class="CoreValidatorHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/internal/helper/AndroidManifestFinder.java">
+<violation beginline="51" endline="486" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.internal.helper" class="AndroidManifestFinder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/internal/helper/AnnotationArrayParamExtractor.java">
+<violation beginline="30" endline="112" begincolumn="112" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.internal.helper" class="AnnotationArrayParamExtractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/internal/helper/AnnotationParamExtractor.java">
+<violation beginline="34" endline="130" begincolumn="91" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.internal.helper" class="AnnotationParamExtractor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/main/java/org/androidannotations/logger/Logger.java">
+<violation beginline="21" endline="107" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.logger" class="Logger" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/test/java/org/androidannotations/generation/ActivityWithViewPager.java">
+<violation beginline="27" endline="111" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.generation" class="ActivityWithViewPager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/test/java/org/androidannotations/helper/ValidatorParameterHelperTest.java">
+<violation beginline="45" endline="348" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.helper" class="ValidatorParameterHelperTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-core/androidannotations/src/test/java/org/androidannotations/keyevents/ActivityWithKeyEvents.java">
+<violation beginline="26" endline="129" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.keyevents" class="ActivityWithKeyEvents" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-ormlite/ormlite-test/src/main/java/org/androidannotations/ormlite/test/Car.java">
+<violation beginline="22" endline="64" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.ormlite.test" class="Car" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Car' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-ormlite/ormlite-test/src/main/java/org/androidannotations/ormlite/test/User.java">
+<violation beginline="22" endline="64" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.ormlite.test" class="User" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-rest-spring/rest-spring-test/src/main/java/org/androidannotations/rest/spring/test/Event.java">
+<violation beginline="18" endline="81" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.androidannotations.rest.spring.test" class="Event" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Event' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-rest-spring/rest-spring-test/src/main/java/org/androidannotations/rest/spring/test/MyService.java">
+<violation beginline="55" endline="320" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.rest.spring.test" class="MyService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-rest-spring/rest-spring-test/src/test/java/org/androidannotations/rest/spring/test/MyServiceTest.java">
+<violation beginline="45" endline="370" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.rest.spring.test" class="MyServiceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-rest-spring/rest-spring-test/src/test/java/org/androidannotations/rest/spring/test/RequestTestBuilder.java">
+<violation beginline="41" endline="174" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.rest.spring.test" class="RequestTestBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-rest-spring/rest-spring/src/main/java/org/androidannotations/rest/spring/helper/RestAnnotationHelper.java">
+<violation beginline="75" endline="607" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.rest.spring.helper" class="RestAnnotationHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-rest-spring/rest-spring/src/main/java/org/androidannotations/rest/spring/helper/RestSpringValidatorHelper.java">
+<violation beginline="69" endline="619" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.rest.spring.helper" class="RestSpringValidatorHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="116" endline="238" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.androidannotations.rest.spring.helper" class="RestSpringValidatorHelper" method="unannotatedMethodReturnsRestTemplate" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-rest-spring/rest-spring/src/main/java/org/androidannotations/rest/spring/holder/RestHolder.java">
+<violation beginline="47" endline="301" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.rest.spring.holder" class="RestHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-rest-spring/rest-spring/src/test/java/org/androidannotations/rest/spring/RestTest.java">
+<violation beginline="25" endline="181" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.rest.spring" class="RestTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/androidannotations/AndroidAnnotations/androidannotations-roboguice/roboguice/src/main/java/org/androidannotations/roboguice/handler/RoboGuiceHandler.java">
+<violation beginline="57" endline="252" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.androidannotations.roboguice.handler" class="RoboGuiceHandler" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

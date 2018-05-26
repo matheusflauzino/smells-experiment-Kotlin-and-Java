@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:34:42.989">
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-adapters/rxjava/src/test/java/retrofit2/adapter/rxjava/ObservableTest.java">
+<violation beginline="34" endline="194" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2.adapter.rxjava" class="ObservableTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-adapters/rxjava/src/test/java/retrofit2/adapter/rxjava/RecordingSubscriber.java">
+<violation beginline="31" endline="146" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2.adapter.rxjava" class="RecordingSubscriber" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-adapters/rxjava/src/test/java/retrofit2/adapter/rxjava/SingleTest.java">
+<violation beginline="33" endline="174" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2.adapter.rxjava" class="SingleTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-adapters/rxjava2/src/test/java/retrofit2/adapter/rxjava2/FlowableTest.java">
+<violation beginline="32" endline="187" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2.adapter.rxjava2" class="FlowableTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-adapters/rxjava2/src/test/java/retrofit2/adapter/rxjava2/RecordingMaybeObserver.java">
+<violation beginline="34" endline="130" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2.adapter.rxjava2" class="RecordingMaybeObserver" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-adapters/rxjava2/src/test/java/retrofit2/adapter/rxjava2/RecordingObserver.java">
+<violation beginline="32" endline="136" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2.adapter.rxjava2" class="RecordingObserver" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-adapters/rxjava2/src/test/java/retrofit2/adapter/rxjava2/RecordingSingleObserver.java">
+<violation beginline="33" endline="125" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2.adapter.rxjava2" class="RecordingSingleObserver" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-adapters/rxjava2/src/test/java/retrofit2/adapter/rxjava2/RecordingSubscriber.java">
+<violation beginline="32" endline="154" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2.adapter.rxjava2" class="RecordingSubscriber" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-converters/protobuf/src/test/java/retrofit2/converter/protobuf/PhoneProtos.java">
+<violation beginline="44" endline="601" begincolumn="22" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="retrofit2.converter.protobuf" class="PhoneProtos$Phone" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="318" endline="566" begincolumn="65" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="retrofit2.converter.protobuf" class="PhoneProtos$Phone$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-converters/scalars/src/test/java/retrofit2/converter/scalars/ScalarsConverterFactoryTest.java">
+<violation beginline="38" endline="70" begincolumn="21" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="retrofit2.converter.scalars" class="ScalarsConverterFactoryTest$Service" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="100" endline="221" begincolumn="16" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="retrofit2.converter.scalars" class="ScalarsConverterFactoryTest" method="supportedRequestTypes" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-converters/simplexml/src/test/java/retrofit2/converter/simplexml/MyObject.java">
+<violation beginline="23" endline="65" begincolumn="7" endcolumn="1" rule="DataClass" ruleset="Design" package="retrofit2.converter.simplexml" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MyObject' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-mock/src/main/java/retrofit2/mock/NetworkBehavior.java">
+<violation beginline="42" endline="212" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2.mock" class="NetworkBehavior" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-mock/src/test/java/retrofit2/mock/CallsTest.java">
+<violation beginline="36" endline="294" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2.mock" class="CallsTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit-mock/src/test/java/retrofit2/mock/NetworkBehaviorTest.java">
+<violation beginline="31" endline="226" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2.mock" class="NetworkBehaviorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit/src/main/java/retrofit2/Response.java">
+<violation beginline="27" endline="154" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2" class="Response" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit/src/main/java/retrofit2/Retrofit.java">
+<violation beginline="60" endline="605" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2" class="Retrofit" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="394" endline="604" begincolumn="37" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="retrofit2" class="Retrofit$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit/src/main/java/retrofit2/ServiceMethod.java">
+<violation beginline="130" endline="766" begincolumn="36" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="retrofit2" class="ServiceMethod$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="360" endline="723" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="retrofit2" class="ServiceMethod$Builder" method="parseParameterAnnotation" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit/src/main/java/retrofit2/Utils.java">
+<violation beginline="33" endline="505" begincolumn="19" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2" class="Utils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit/src/test/java/retrofit2/CallTest.java">
+<violation beginline="53" endline="1248" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="retrofit2" class="CallTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="53" endline="1248" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2" class="CallTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit/src/test/java/retrofit2/RequestBuilderTest.java">
+<violation beginline="68" endline="2727" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="retrofit2" class="RequestBuilderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="68" endline="2727" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2" class="RequestBuilderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit/src/test/java/retrofit2/ResponseTest.java">
+<violation beginline="26" endline="192" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2" class="ResponseTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/retrofit/retrofit/src/test/java/retrofit2/RetrofitTest.java">
+<violation beginline="68" endline="1369" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="retrofit2" class="RetrofitTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="68" endline="1369" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="retrofit2" class="RetrofitTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

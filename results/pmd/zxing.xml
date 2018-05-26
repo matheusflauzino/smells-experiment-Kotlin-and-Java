@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:32:47.797">
+<file name="/home/matheus/Documentos/repositories/Java/zxing/android-integration/src/main/java/com/google/zxing/integration/android/IntentIntegrator.java">
+<violation beginline="110" endline="510" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.integration.android" class="IntentIntegrator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/android-integration/src/main/java/com/google/zxing/integration/android/IntentResult.java">
+<violation beginline="24" endline="93" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.integration.android" class="IntentResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'IntentResult' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/android/src/com/google/zxing/client/android/CaptureActivity.java">
+<violation beginline="81" endline="768" begincolumn="87" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.client.android" class="CaptureActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="147" endline="265" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.client.android" class="CaptureActivity" method="onResume" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/android/src/com/google/zxing/client/android/history/HistoryManager.java">
+<violation beginline="53" endline="319" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.client.android.history" class="HistoryManager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/android/src/com/google/zxing/client/android/result/ResultHandler.java">
+<violation beginline="58" endline="525" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.client.android.result" class="ResultHandler" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="184" endline="199" begincolumn="24" endcolumn="37" rule="ExcessiveParameterList" ruleset="Design" package="com.google.zxing.client.android.result" class="ResultHandler" method="addContact" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="184" endline="299" begincolumn="9" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.client.android.result" class="ResultHandler" method="addContact" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/android/src/com/google/zxing/client/android/wifi/WifiConfigManager.java">
+<violation beginline="34" endline="294" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.client.android.wifi" class="WifiConfigManager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/Result.java">
+<violation beginline="27" endline="153" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing" class="Result" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Result' is suspected to be a Data Class (WOC=30.769%, NOPA=0, NOAM=6, WMC=21)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/aztec/encoder/AztecCode.java">
+<violation beginline="26" endline="89" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.aztec.encoder" class="AztecCode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AztecCode' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/aztec/encoder/Encoder.java">
+<violation beginline="63" endline="201" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.aztec.encoder" class="Encoder" method="encode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/client/result/AddressBookParsedResult.java">
+<violation beginline="25" endline="220" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.client.result" class="AddressBookParsedResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AddressBookParsedResult' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=30)
+</violation>
+<violation beginline="69" endline="84" begincolumn="33" endcolumn="46" rule="ExcessiveParameterList" ruleset="Design" package="com.google.zxing.client.result" class="AddressBookParsedResult" method="AddressBookParsedResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/client/result/CalendarParsedResult.java">
+<violation beginline="36" endline="259" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.client.result" class="CalendarParsedResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CalendarParsedResult' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=9, WMC=35)
+</violation>
+<violation beginline="62" endline="71" begincolumn="30" endcolumn="47" rule="ExcessiveParameterList" ruleset="Design" package="com.google.zxing.client.result" class="CalendarParsedResult" method="CalendarParsedResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/client/result/EmailAddressParsedResult.java">
+<violation beginline="25" endline="99" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.client.result" class="EmailAddressParsedResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'EmailAddressParsedResult' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/client/result/ExpandedProductParsedResult.java">
+<violation beginline="38" endline="207" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.client.result" class="ExpandedProductParsedResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ExpandedProductParsedResult' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=15, WMC=22)
+</violation>
+<violation beginline="60" endline="74" begincolumn="37" endcolumn="68" rule="ExcessiveParameterList" ruleset="Design" package="com.google.zxing.client.result" class="ExpandedProductParsedResult" method="ExpandedProductParsedResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/client/result/ExpandedProductResultParser.java">
+<violation beginline="44" endline="173" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.client.result" class="ExpandedProductResultParser" method="parse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/client/result/GeoParsedResult.java">
+<violation beginline="25" endline="104" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.client.result" class="GeoParsedResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GeoParsedResult' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/client/result/ResultParser.java">
+<violation beginline="40" endline="259" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.client.result" class="ResultParser" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/client/result/SMSParsedResult.java">
+<violation beginline="25" endline="114" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.client.result" class="SMSParsedResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SMSParsedResult' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=4, WMC=16)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/client/result/VCardResultParser.java">
+<violation beginline="103" endline="221" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.client.result" class="VCardResultParser" method="matchVCardPrefixedField" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/client/result/VINParsedResult.java">
+<violation beginline="23" endline="106" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.client.result" class="VINParsedResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'VINParsedResult' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=9, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/client/result/WifiParsedResult.java">
+<violation beginline="24" endline="97" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.client.result" class="WifiParsedResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'WifiParsedResult' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/common/BitArray.java">
+<violation beginline="26" endline="357" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.common" class="BitArray" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/common/BitMatrix.java">
+<violation beginline="36" endline="481" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.common" class="BitMatrix" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/common/DecoderResult.java">
+<violation beginline="28" endline="152" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.common" class="DecoderResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DecoderResult' is suspected to be a Data Class (WOC=5.882%, NOPA=0, NOAM=14, WMC=19)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/common/DefaultGridSampler.java">
+<violation beginline="27" endline="37" begincolumn="30" endcolumn="59" rule="ExcessiveParameterList" ruleset="Design" package="com.google.zxing.common" class="DefaultGridSampler" method="sampleGrid" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/common/GridSampler.java">
+<violation beginline="87" endline="97" begincolumn="39" endcolumn="68" rule="ExcessiveParameterList" ruleset="Design" package="com.google.zxing.common" class="GridSampler" method="sampleGrid" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/common/PerspectiveTransform.java">
+<violation beginline="52" endline="59" begincolumn="66" endcolumn="87" rule="ExcessiveParameterList" ruleset="Design" package="com.google.zxing.common" class="PerspectiveTransform" method="quadrilateralToQuadrilateral" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/common/StringUtils.java">
+<violation beginline="51" endline="195" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.common" class="StringUtils" method="guessEncoding" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/common/detector/WhiteRectangleDetector.java">
+<violation beginline="85" endline="238" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.common.detector" class="WhiteRectangleDetector" method="detect" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/common/reedsolomon/GenericGF.java">
+<violation beginline="30" endline="166" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.common.reedsolomon" class="GenericGF" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GenericGF' is suspected to be a Data Class (WOC=0.000%, NOPA=8, NOAM=2, WMC=23)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/datamatrix/decoder/Version.java">
+<violation beginline="27" endline="237" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.datamatrix.decoder" class="Version" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Version' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=6, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/datamatrix/detector/Detector.java">
+<violation beginline="57" endline="214" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.datamatrix.detector" class="Detector" method="detect" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/datamatrix/encoder/HighLevelEncoder.java">
+<violation beginline="209" endline="358" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.datamatrix.encoder" class="HighLevelEncoder" method="lookAheadTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/multi/qrcode/detector/MultiFinderPatternFinder.java">
+<violation beginline="106" endline="229" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.multi.qrcode.detector" class="MultiFinderPatternFinder" method="selectMutipleBestPatterns" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/oned/Code128Reader.java">
+<violation beginline="236" endline="537" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.oned" class="Code128Reader" method="decodeRow" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/oned/Code128Writer.java">
+<violation beginline="76" endline="209" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.oned" class="Code128Writer" method="encode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/oned/EANManufacturerOrgSupport.java">
+<violation beginline="59" endline="169" begincolumn="24" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.oned" class="EANManufacturerOrgSupport" method="initIfNeeded" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/oned/rss/RSS14Reader.java">
+<violation beginline="351" endline="466" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.oned.rss" class="RSS14Reader" method="adjustOddEvenCounts" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/oned/rss/expanded/RSSExpandedReader.java">
+<violation beginline="53" endline="774" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.oned.rss.expanded" class="RSSExpandedReader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/oned/rss/expanded/decoders/GeneralAppIdDecoder.java">
+<violation beginline="37" endline="469" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.oned.rss.expanded.decoders" class="GeneralAppIdDecoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/pdf417/PDF417ResultMetadata.java">
+<violation beginline="22" endline="171" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.pdf417" class="PDF417ResultMetadata" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PDF417ResultMetadata' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=20)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/pdf417/decoder/DecodedBitStreamParser.java">
+<violation beginline="329" endline="505" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.pdf417.decoder" class="DecodedBitStreamParser" method="decodeTextCompaction" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/pdf417/decoder/PDF417ScanningDecoder.java">
+<violation beginline="37" endline="631" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.pdf417.decoder" class="PDF417ScanningDecoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/pdf417/encoder/Dimensions.java">
+<violation beginline="24" endline="54" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.pdf417.encoder" class="Dimensions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Dimensions' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/pdf417/encoder/PDF417HighLevelEncoder.java">
+<violation beginline="251" endline="364" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.pdf417.encoder" class="PDF417HighLevelEncoder" method="encodeText" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/qrcode/decoder/Version.java">
+<violation beginline="245" endline="576" begincolumn="18" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.qrcode.decoder" class="Version" method="buildVersions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/qrcode/detector/Detector.java">
+<violation beginline="39" endline="405" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.qrcode.detector" class="Detector" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/qrcode/detector/FinderPatternFinder.java">
+<violation beginline="40" endline="689" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.qrcode.detector" class="FinderPatternFinder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/qrcode/encoder/Encoder.java">
+<violation beginline="38" endline="617" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.qrcode.encoder" class="Encoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/qrcode/encoder/MatrixUtil.java">
+<violation beginline="28" endline="476" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.qrcode.encoder" class="MatrixUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/main/java/com/google/zxing/qrcode/encoder/QRCode.java">
+<violation beginline="27" endline="108" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.qrcode.encoder" class="QRCode" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'QRCode' is suspected to be a Data Class (WOC=8.333%, NOPA=1, NOAM=10, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/aztec/encoder/EncoderTest.java">
+<violation beginline="45" endline="565" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.aztec.encoder" class="EncoderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/client/result/AddressBookParsedResultTestCase.java">
+<violation beginline="29" endline="165" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.client.result" class="AddressBookParsedResultTestCase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="136" endline="147" begincolumn="29" endcolumn="41" rule="ExcessiveParameterList" ruleset="Design" package="com.google.zxing.client.result" class="AddressBookParsedResultTestCase" method="doTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/client/result/CalendarParsedResultTestCase.java">
+<violation beginline="35" endline="250" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.client.result" class="CalendarParsedResultTestCase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="216" endline="225" begincolumn="29" endcolumn="46" rule="ExcessiveParameterList" ruleset="Design" package="com.google.zxing.client.result" class="CalendarParsedResultTestCase" method="doTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/client/result/ParsedReaderResultTestCase.java">
+<violation beginline="36" endline="366" begincolumn="62" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.client.result" class="ParsedReaderResultTestCase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/common/AbstractBlackBoxTestCase.java">
+<violation beginline="135" endline="253" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.common" class="AbstractBlackBoxTestCase" method="testBlackBoxCountingResults" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/common/BitArrayTestCase.java">
+<violation beginline="27" endline="258" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.common" class="BitArrayTestCase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/common/BitMatrixTestCase.java">
+<violation beginline="26" endline="310" begincolumn="53" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.common" class="BitMatrixTestCase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/common/TestResult.java">
+<violation beginline="22" endline="58" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.google.zxing.common" class="TestResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TestResult' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/common/reedsolomon/ReedSolomonTestCase.java">
+<violation beginline="81" endline="394" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.common.reedsolomon" class="ReedSolomonTestCase" method="testAztec" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/datamatrix/encoder/HighLevelEncodeTestCase.java">
+<violation beginline="29" endline="399" begincolumn="59" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.datamatrix.encoder" class="HighLevelEncodeTestCase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/oned/rss/expanded/RSSExpandedImage2binaryTestCase.java">
+<violation beginline="50" endline="196" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.oned.rss.expanded" class="RSSExpandedImage2binaryTestCase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/oned/rss/expanded/RSSExpandedImage2stringTestCase.java">
+<violation beginline="51" endline="212" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.oned.rss.expanded" class="RSSExpandedImage2stringTestCase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/pdf417/PDF417BlackBox4TestCase.java">
+<violation beginline="76" endline="176" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.pdf417" class="PDF417BlackBox4TestCase" method="testPDF417BlackBoxCountingResults" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/qrcode/encoder/EncoderTestCase.java">
+<violation beginline="37" endline="753" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.qrcode.encoder" class="EncoderTestCase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/core/src/test/java/com/google/zxing/qrcode/encoder/MatrixUtilTestCase.java">
+<violation beginline="30" endline="311" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.google.zxing.qrcode.encoder" class="MatrixUtilTestCase" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/zxing/zxingorg/src/main/java/com/google/zxing/web/DecodeServlet.java">
+<violation beginline="145" endline="281" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.zxing.web" class="DecodeServlet" method="doGet" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+</pmd>

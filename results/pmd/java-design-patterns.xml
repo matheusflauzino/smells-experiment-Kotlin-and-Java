@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:28:32.987">
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/aggregator-microservices/aggregator-service/src/main/java/com/iluwatar/aggregator/microservices/Product.java">
+<violation beginline="28" endline="57" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.aggregator.microservices" class="Product" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Product' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/api-gateway/api-gateway-service/src/main/java/com/iluwatar/api/gateway/DesktopProduct.java">
+<violation beginline="28" endline="54" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.api.gateway" class="DesktopProduct" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DesktopProduct' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/builder/src/main/java/com/iluwatar/builder/Hero.java">
+<violation beginline="30" endline="149" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.builder" class="Hero" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Hero' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/caching/src/main/java/com/iluwatar/caching/UserAccount.java">
+<violation beginline="28" endline="70" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.caching" class="UserAccount" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'UserAccount' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/command/src/main/java/com/iluwatar/command/Target.java">
+<violation beginline="33" endline="66" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.command" class="Target" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Target' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/cqrs/src/main/java/com/iluwatar/cqrs/domain/model/Author.java">
+<violation beginline="35" endline="98" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.cqrs.domain.model" class="Author" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Author' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/cqrs/src/main/java/com/iluwatar/cqrs/domain/model/Book.java">
+<violation beginline="36" endline="100" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.cqrs.domain.model" class="Book" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Book' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/dao/src/main/java/com/iluwatar/dao/Customer.java">
+<violation beginline="30" endline="93" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.dao" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Customer' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/data-mapper/src/main/java/com/iluwatar/datamapper/Student.java">
+<violation beginline="27" endline="140" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.datamapper" class="Student" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Student' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/double-dispatch/src/main/java/com/iluwatar/doubledispatch/GameObject.java">
+<violation beginline="30" endline="70" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.doubledispatch" class="GameObject" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GameObject' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/double-dispatch/src/main/java/com/iluwatar/doubledispatch/Rectangle.java">
+<violation beginline="30" endline="72" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.doubledispatch" class="Rectangle" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Rectangle' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/event-asynchronous/src/main/java/com/iluwatar/event/asynchronous/EventManager.java">
+<violation beginline="33" endline="218" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.iluwatar.event.asynchronous" class="EventManager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/event-sourcing/src/main/java/com/iluwatar/event/sourcing/event/DomainEvent.java">
+<violation beginline="32" endline="101" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.event.sourcing.event" class="DomainEvent" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DomainEvent' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/fluentinterface/src/main/java/com/iluwatar/fluentinterface/fluentiterable/simple/SimpleFluentIterable.java">
+<violation beginline="42" endline="224" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.iluwatar.fluentinterface.fluentiterable.simple" class="SimpleFluentIterable" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/fluentinterface/src/test/java/com/iluwatar/fluentinterface/fluentiterable/FluentIterableTest.java">
+<violation beginline="48" endline="202" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.iluwatar.fluentinterface.fluentiterable" class="FluentIterableTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/intercepting-filter/src/main/java/com/iluwatar/intercepting/filter/Order.java">
+<violation beginline="29" endline="89" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.intercepting.filter" class="Order" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Order' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/layers/src/main/java/com/iluwatar/layers/Cake.java">
+<violation beginline="42" endline="90" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.layers" class="Cake" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Cake' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/layers/src/main/java/com/iluwatar/layers/CakeLayer.java">
+<violation beginline="37" endline="93" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.layers" class="CakeLayer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CakeLayer' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/layers/src/main/java/com/iluwatar/layers/CakeTopping.java">
+<violation beginline="37" endline="93" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.layers" class="CakeTopping" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CakeTopping' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/memento/src/main/java/com/iluwatar/memento/Star.java">
+<violation beginline="102" endline="131" begincolumn="18" endcolumn="3" rule="DataClass" ruleset="Design" package="com.iluwatar.memento" class="Star" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StarMementoInternal' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/model-view-controller/src/main/java/com/iluwatar/model/view/controller/GiantModel.java">
+<violation beginline="30" endline="70" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.model.view.controller" class="GiantModel" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'GiantModel' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/monad/src/main/java/com/iluwatar/monad/User.java">
+<violation beginline="28" endline="63" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.monad" class="User" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/monostate/src/main/java/com/iluwatar/monostate/Server.java">
+<violation beginline="34" endline="63" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.monostate" class="Server" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Server' is suspected to be a Data Class (WOC=25.000%, NOPA=3, NOAM=2, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/private-class-data/src/main/java/com/iluwatar/privateclassdata/StewData.java">
+<violation beginline="30" endline="62" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.privateclassdata" class="StewData" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StewData' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/reactor/src/main/java/com/iluwatar/reactor/framework/NioDatagramChannel.java">
+<violation beginline="133" endline="185" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="com.iluwatar.reactor.framework" class="NioDatagramChannel" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DatagramPacket' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/reactor/src/main/java/com/iluwatar/reactor/framework/NioReactor.java">
+<violation beginline="57" endline="264" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.iluwatar.reactor.framework" class="NioReactor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/repository/src/main/java/com/iluwatar/repository/Person.java">
+<violation beginline="35" endline="145" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.repository" class="Person" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Person' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/serverless/src/main/java/com/iluwatar/serverless/baas/model/Address.java">
+<violation beginline="35" endline="141" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.serverless.baas.model" class="Address" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Address' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/serverless/src/main/java/com/iluwatar/serverless/baas/model/Person.java">
+<violation beginline="38" endline="124" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.serverless.baas.model" class="Person" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Person' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/serverless/src/main/java/com/iluwatar/serverless/faas/LambdaInfo.java">
+<violation beginline="30" endline="140" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.serverless.faas" class="LambdaInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LambdaInfo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/service-layer/src/main/java/com/iluwatar/servicelayer/app/App.java">
+<violation beginline="79" endline="179" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.iluwatar.servicelayer.app" class="App" method="initData" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/service-layer/src/main/java/com/iluwatar/servicelayer/spell/Spell.java">
+<violation beginline="43" endline="91" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.servicelayer.spell" class="Spell" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Spell' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/service-layer/src/main/java/com/iluwatar/servicelayer/spellbook/Spellbook.java">
+<violation beginline="49" endline="115" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.servicelayer.spellbook" class="Spellbook" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Spellbook' is suspected to be a Data Class (WOC=9.091%, NOPA=0, NOAM=8, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/service-layer/src/main/java/com/iluwatar/servicelayer/wizard/Wizard.java">
+<violation beginline="46" endline="100" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.servicelayer.wizard" class="Wizard" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Wizard' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=6, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/step-builder/src/main/java/com/iluwatar/stepbuilder/Character.java">
+<violation beginline="30" endline="104" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.stepbuilder" class="Character" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Character' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=13)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/step-builder/src/main/java/com/iluwatar/stepbuilder/CharacterStepBuilder.java">
+<violation beginline="99" endline="186" begincolumn="30" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.iluwatar.stepbuilder" class="CharacterStepBuilder$CharacterSteps" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/java-design-patterns/tolerant-reader/src/main/java/com/iluwatar/tolerantreader/RainbowFish.java">
+<violation beginline="32" endline="67" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.iluwatar.tolerantreader" class="RainbowFish" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RainbowFish' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:32:58.410">
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso-pollexor/src/test/java/com/squareup/picasso3/pollexor/PollexorRequestTransformerTest.java">
+<violation beginline="23" endline="135" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3.pollexor" class="PollexorRequestTransformerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/main/java/com/squareup/picasso3/BitmapHunter.java">
+<violation beginline="56" endline="655" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="BitmapHunter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="462" endline="612" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.squareup.picasso3" class="BitmapHunter" method="transformResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/main/java/com/squareup/picasso3/Dispatcher.java">
+<violation beginline="59" endline="542" begincolumn="18" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="Dispatcher" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/main/java/com/squareup/picasso3/Picasso.java">
+<violation beginline="70" endline="832" begincolumn="22" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="Picasso" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="160" endline="164" begincolumn="10" endcolumn="29" rule="ExcessiveParameterList" ruleset="Design" package="com.squareup.picasso3" class="Picasso" method="Picasso" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="655" endline="818" begincolumn="31" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="Picasso$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/main/java/com/squareup/picasso3/Request.java">
+<violation beginline="281" endline="674" begincolumn="37" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="Request$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/main/java/com/squareup/picasso3/RequestCreator.java">
+<violation beginline="57" endline="786" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="RequestCreator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/main/java/com/squareup/picasso3/Stats.java">
+<violation beginline="27" endline="162" begincolumn="13" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="Stats" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/main/java/com/squareup/picasso3/StatsSnapshot.java">
+<violation beginline="44" endline="47" begincolumn="16" endcolumn="93" rule="ExcessiveParameterList" ruleset="Design" package="com.squareup.picasso3" class="StatsSnapshot" method="StatsSnapshot" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/test/java/com/squareup/picasso3/BitmapHunterTest.java">
+<violation beginline="95" endline="1187" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.squareup.picasso3" class="BitmapHunterTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="95" endline="1187" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="BitmapHunterTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/test/java/com/squareup/picasso3/DeferredRequestCreatorTest.java">
+<violation beginline="42" endline="207" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="DeferredRequestCreatorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/test/java/com/squareup/picasso3/DispatcherTest.java">
+<violation beginline="74" endline="591" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="DispatcherTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/test/java/com/squareup/picasso3/PicassoTest.java">
+<violation beginline="70" endline="599" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="PicassoTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/test/java/com/squareup/picasso3/PlatformLruCacheTest.java">
+<violation beginline="33" endline="238" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="PlatformLruCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/test/java/com/squareup/picasso3/RequestCreatorTest.java">
+<violation beginline="77" endline="868" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="RequestCreatorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/test/java/com/squareup/picasso3/RequestHandlerTest.java">
+<violation beginline="32" endline="123" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="RequestHandlerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/picasso/picasso/src/test/java/com/squareup/picasso3/TestUtils.java">
+<violation beginline="58" endline="354" begincolumn="17" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.squareup.picasso3" class="TestUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

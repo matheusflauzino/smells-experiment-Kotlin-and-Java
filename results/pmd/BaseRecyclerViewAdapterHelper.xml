@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:36:59.228">
+<file name="/home/matheus/Documentos/repositories/Java/BaseRecyclerViewAdapterHelper/app/src/main/java/com/chad/baserecyclerviewadapterhelper/entity/ClickEntity.java">
+<violation beginline="27" endline="43" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.chad.baserecyclerviewadapterhelper.entity" class="ClickEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ClickEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/BaseRecyclerViewAdapterHelper/app/src/main/java/com/chad/baserecyclerviewadapterhelper/entity/HomeItem.java">
+<violation beginline="6" endline="34" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.chad.baserecyclerviewadapterhelper.entity" class="HomeItem" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HomeItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/BaseRecyclerViewAdapterHelper/app/src/main/java/com/chad/baserecyclerviewadapterhelper/entity/Movie.java">
+<violation beginline="7" endline="20" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.chad.baserecyclerviewadapterhelper.entity" class="Movie" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Movie' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/BaseRecyclerViewAdapterHelper/app/src/main/java/com/chad/baserecyclerviewadapterhelper/entity/MultipleItem.java">
+<violation beginline="8" endline="52" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.chad.baserecyclerviewadapterhelper.entity" class="MultipleItem" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MultipleItem' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/BaseRecyclerViewAdapterHelper/app/src/main/java/com/chad/baserecyclerviewadapterhelper/entity/NormalMultipleEntity.java">
+<violation beginline="11" endline="28" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.chad.baserecyclerviewadapterhelper.entity" class="NormalMultipleEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NormalMultipleEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/BaseRecyclerViewAdapterHelper/app/src/main/java/com/chad/baserecyclerviewadapterhelper/entity/Status.java">
+<violation beginline="6" endline="63" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.chad.baserecyclerviewadapterhelper.entity" class="Status" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Status' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=8, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/BaseRecyclerViewAdapterHelper/app/src/main/java/com/chad/baserecyclerviewadapterhelper/entity/Video.java">
+<violation beginline="6" endline="30" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.chad.baserecyclerviewadapterhelper.entity" class="Video" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Video' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/BaseRecyclerViewAdapterHelper/app/src/main/java/com/chad/baserecyclerviewadapterhelper/util/SpannableStringUtils.java">
+<violation beginline="443" endline="543" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.chad.baserecyclerviewadapterhelper.util" class="SpannableStringUtils$Builder" method="setSpan" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/BaseRecyclerViewAdapterHelper/app/src/main/java/com/chad/baserecyclerviewadapterhelper/util/ToastUtils.java">
+<violation beginline="8" endline="279" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.chad.baserecyclerviewadapterhelper.util" class="ToastUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/BaseRecyclerViewAdapterHelper/library/src/main/java/com/chad/library/adapter/base/BaseItemDraggableAdapter.java">
+<violation beginline="22" endline="263" begincolumn="108" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.chad.library.adapter.base" class="BaseItemDraggableAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/BaseRecyclerViewAdapterHelper/library/src/main/java/com/chad/library/adapter/base/BaseQuickAdapter.java">
+<violation beginline="68" endline="2062" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.chad.library.adapter.base" class="BaseQuickAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="68" endline="2062" begincolumn="101" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.chad.library.adapter.base" class="BaseQuickAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

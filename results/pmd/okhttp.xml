@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:35:31.967">
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/mockwebserver/src/main/java/okhttp3/mockwebserver/MockResponse.java">
+<violation beginline="28" endline="316" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.mockwebserver" class="MockResponse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/mockwebserver/src/main/java/okhttp3/mockwebserver/MockWebServer.java">
+<violation beginline="101" endline="1002" begincolumn="80" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.mockwebserver" class="MockWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="402" endline="559" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="okhttp3.mockwebserver" class="MockWebServer" method="serveConnection" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/mockwebserver/src/main/java/okhttp3/mockwebserver/PushPromise.java">
+<violation beginline="21" endline="49" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="okhttp3.mockwebserver" class="PushPromise" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PushPromise' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/mockwebserver/src/main/java/okhttp3/mockwebserver/RecordedRequest.java">
+<violation beginline="28" endline="137" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="okhttp3.mockwebserver" class="RecordedRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RecordedRequest' is suspected to be a Data Class (WOC=15.385%, NOPA=0, NOAM=10, WMC=20)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/mockwebserver/src/test/java/okhttp3/mockwebserver/MockWebServerTest.java">
+<violation beginline="54" endline="488" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.mockwebserver" class="MockWebServerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okcurl/src/main/java/okhttp3/curl/Main.java">
+<violation beginline="58" endline="289" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.curl" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-android-support/src/main/java/okhttp3/internal/huc/JavaApiConverter.java">
+<violation beginline="61" endline="892" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.huc" class="JavaApiConverter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-android-support/src/test/java/okhttp3/internal/huc/JavaApiConverterTest.java">
+<violation beginline="68" endline="693" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.huc" class="JavaApiConverterTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-android-support/src/test/java/okhttp3/internal/huc/ResponseCacheTest.java">
+<violation beginline="93" endline="2200" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="okhttp3.internal.huc" class="ResponseCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="93" endline="2200" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.huc" class="ResponseCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-apache/src/main/java/okhttp3/apache/OkApacheClient.java">
+<violation beginline="40" endline="208" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.apache" class="OkApacheClient" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-apache/src/test/java/okhttp3/apache/OkApacheClientTest.java">
+<violation beginline="33" endline="281" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.apache" class="OkApacheClientTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-hpacktests/src/test/java/okhttp3/internal/http2/hpackjson/Case.java">
+<violation beginline="29" endline="67" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="okhttp3.internal.http2.hpackjson" class="Case" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Case' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-logging-interceptor/src/main/java/okhttp3/logging/HttpLoggingInterceptor.java">
+<violation beginline="139" endline="286" begincolumn="20" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="okhttp3.logging" class="HttpLoggingInterceptor" method="intercept" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-logging-interceptor/src/test/java/okhttp3/logging/HttpLoggingInterceptorTest.java">
+<violation beginline="55" endline="777" begincolumn="47" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.logging" class="HttpLoggingInterceptorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-testing-support/src/main/java/okhttp3/internal/io/InMemoryFileSystem.java">
+<violation beginline="37" endline="138" begincolumn="71" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.io" class="InMemoryFileSystem" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/CacheControlTest.java">
+<violation beginline="28" endline="197" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="CacheControlTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/CacheTest.java">
+<violation beginline="64" endline="2605" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="okhttp3" class="CacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="64" endline="2605" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="CacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/CallTest.java">
+<violation beginline="95" endline="3363" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="okhttp3" class="CallTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="95" endline="3363" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="CallTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/CertificateChainCleanerTest.java">
+<violation beginline="33" endline="274" begincolumn="48" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="CertificateChainCleanerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/CertificatePinnerTest.java">
+<violation beginline="32" endline="306" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="CertificatePinnerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/CipherSuiteTest.java">
+<violation beginline="30" endline="220" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="CipherSuiteTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/ConnectionCoalescingTest.java">
+<violation beginline="41" endline="335" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="ConnectionCoalescingTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/ConnectionReuseTest.java">
+<violation beginline="36" endline="363" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="ConnectionReuseTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/ConnectionSpecTest.java">
+<violation beginline="32" endline="303" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="ConnectionSpecTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/CookieTest.java">
+<violation beginline="35" endline="579" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="CookieTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/CookiesTest.java">
+<violation beginline="44" endline="341" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="CookiesTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/DelegatingSSLSocket.java">
+<violation beginline="37" endline="338" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="DelegatingSSLSocket" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/DispatcherTest.java">
+<violation beginline="26" endline="345" begincolumn="35" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="DispatcherTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/EventListenerTest.java">
+<violation beginline="77" endline="1034" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="EventListenerTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/HeadersTest.java">
+<violation beginline="37" endline="474" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="HeadersTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/HttpUrlTest.java">
+<violation beginline="35" endline="1573" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="okhttp3" class="HttpUrlTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="35" endline="1573" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="HttpUrlTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/InterceptorTest.java">
+<violation beginline="52" endline="951" begincolumn="36" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="InterceptorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/MediaTypeTest.java">
+<violation beginline="33" endline="181" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="MediaTypeTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/OkHttpClientTest.java">
+<violation beginline="34" endline="202" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="OkHttpClientTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/RecordedResponse.java">
+<violation beginline="32" endline="195" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="RecordedResponse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/RecordingEventListener.java">
+<violation beginline="32" endline="414" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="RecordingEventListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/RequestTest.java">
+<violation beginline="32" endline="250" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="RequestTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/ResponseBodyTest.java">
+<violation beginline="34" endline="412" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="ResponseBodyTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/URLConnectionTest.java">
+<violation beginline="114" endline="3893" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="okhttp3" class="URLConnectionTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="114" endline="3893" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="URLConnectionTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/cache/DiskLruCacheTest.java">
+<violation beginline="53" endline="1815" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="okhttp3.internal.cache" class="DiskLruCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="53" endline="1815" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.cache" class="DiskLruCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/cache2/FileOperatorTest.java">
+<violation beginline="36" endline="200" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.cache2" class="FileOperatorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/cache2/RelayTest.java">
+<violation beginline="43" endline="255" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.cache2" class="RelayTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/connection/RouteSelectorTest.java">
+<violation beginline="53" endline="459" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.connection" class="RouteSelectorTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/http2/HpackTest.java">
+<violation beginline="31" endline="1100" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="okhttp3.internal.http2" class="HpackTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="31" endline="1100" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http2" class="HpackTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/http2/Http2ConnectionTest.java">
+<violation beginline="57" endline="1647" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="okhttp3.internal.http2" class="Http2ConnectionTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="57" endline="1647" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http2" class="Http2ConnectionTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/http2/Http2Test.java">
+<violation beginline="43" endline="768" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http2" class="Http2Test" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/http2/HttpOverHttp2Test.java">
+<violation beginline="93" endline="1356" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="okhttp3.internal.http2" class="HttpOverHttp2Test" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="93" endline="1356" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http2" class="HttpOverHttp2Test" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/http2/MockHttp2Peer.java">
+<violation beginline="41" endline="309" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http2" class="MockHttp2Peer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="206" endline="308" begincolumn="17" endcolumn="3" rule="DataClass" ruleset="Design" package="okhttp3.internal.http2" class="MockHttp2Peer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'InFrame' is suspected to be a Data Class (WOC=0.000%, NOPA=16, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/platform/OptionalMethodTest.java">
+<violation beginline="34" endline="347" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.platform" class="OptionalMethodTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/tls/HostnameVerifierTest.java">
+<violation beginline="39" endline="553" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.tls" class="HostnameVerifierTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/ws/RealWebSocketTest.java">
+<violation beginline="40" endline="388" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.ws" class="RealWebSocketTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/ws/WebSocketHttpTest.java">
+<violation beginline="59" endline="711" begincolumn="38" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.ws" class="WebSocketHttpTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/ws/WebSocketReaderTest.java">
+<violation beginline="33" endline="324" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.ws" class="WebSocketReaderTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/ws/WebSocketRecorder.java">
+<violation beginline="36" endline="406" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.ws" class="WebSocketRecorder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-tests/src/test/java/okhttp3/internal/ws/WebSocketWriterTest.java">
+<violation beginline="44" endline="412" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.ws" class="WebSocketWriterTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-urlconnection/src/main/java/okhttp3/internal/huc/OkHttpURLConnection.java">
+<violation beginline="72" endline="657" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.huc" class="OkHttpURLConnection" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-urlconnection/src/test/java/okhttp3/OkUrlFactoryTest.java">
+<violation beginline="34" endline="285" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="OkUrlFactoryTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp-urlconnection/src/test/java/okhttp3/UrlConnectionCacheTest.java">
+<violation beginline="71" endline="1849" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="okhttp3" class="UrlConnectionCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="71" endline="1849" begincolumn="43" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="UrlConnectionCacheTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/Address.java">
+<violation beginline="38" endline="202" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="okhttp3" class="Address" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Address' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=7, WMC=23)
+</violation>
+<violation beginline="38" endline="202" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="Address" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="51" endline="55" begincolumn="17" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="okhttp3" class="Address" method="Address" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/Cache.java">
+<violation beginline="137" endline="770" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="Cache" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/CacheControl.java">
+<violation beginline="13" endline="373" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="CacheControl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="45" endline="48" begincolumn="23" endcolumn="35" rule="ExcessiveParameterList" ruleset="Design" package="okhttp3" class="CacheControl" method="CacheControl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/Cookie.java">
+<violation beginline="46" endline="612" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="Cookie" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="222" endline="325" begincolumn="20" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="okhttp3" class="Cookie" method="parse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/Dispatcher.java">
+<violation beginline="39" endline="239" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="Dispatcher" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/EventListener.java">
+<violation beginline="58" endline="307" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="EventListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/Headers.java">
+<violation beginline="50" endline="358" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="Headers" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/HttpUrl.java">
+<violation beginline="288" endline="1761" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="okhttp3" class="HttpUrl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="288" endline="1761" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="HttpUrl" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="977" endline="1606" begincolumn="37" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="HttpUrl$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1321" endline="1444" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="okhttp3" class="HttpUrl$Builder" method="parse" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1707" endline="1709" begincolumn="27" endcolumn="22" rule="ExcessiveParameterList" ruleset="Design" package="okhttp3" class="HttpUrl" method="canonicalize" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/OkHttpClient.java">
+<violation beginline="127" endline="952" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="OkHttpClient" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="450" endline="951" begincolumn="37" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="OkHttpClient$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/Request.java">
+<violation beginline="100" endline="259" begincolumn="31" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="Request$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/Response.java">
+<violation beginline="43" endline="444" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="Response" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="298" endline="443" begincolumn="31" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="Response$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/ResponseBody.java">
+<violation beginline="102" endline="264" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3" class="ResponseBody" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/Internal.java">
+<violation beginline="41" endline="81" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal" class="Internal" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/Util.java">
+<violation beginline="47" endline="622" begincolumn="25" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal" class="Util" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/cache/DiskLruCache.java">
+<violation beginline="87" endline="1053" begincolumn="65" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.cache" class="DiskLruCache" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java">
+<violation beginline="75" endline="604" begincolumn="90" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.connection" class="RealConnection" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/connection/StreamAllocation.java">
+<violation beginline="77" endline="534" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.connection" class="StreamAllocation" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="160" endline="279" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="okhttp3.internal.connection" class="StreamAllocation" method="findConnection" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/http/HttpHeaders.java">
+<violation beginline="40" endline="276" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http" class="HttpHeaders" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/http/RealInterceptorChain.java">
+<violation beginline="36" endline="167" begincolumn="70" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http" class="RealInterceptorChain" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="50" endline="52" begincolumn="30" endcolumn="89" rule="ExcessiveParameterList" ruleset="Design" package="okhttp3.internal.http" class="RealInterceptorChain" method="RealInterceptorChain" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/http/RetryAndFollowUpInterceptor.java">
+<violation beginline="278" endline="390" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="okhttp3.internal.http" class="RetryAndFollowUpInterceptor" method="followUpRequest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/http1/Http1Codec.java">
+<violation beginline="69" endline="524" begincolumn="52" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http1" class="Http1Codec" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/http2/Header.java">
+<violation beginline="22" endline="71" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="okhttp3.internal.http2" class="Header" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Header' is suspected to be a Data Class (WOC=0.000%, NOPA=8, NOAM=0, WMC=3)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/http2/Hpack.java">
+<violation beginline="115" endline="352" begincolumn="29" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http2" class="Hpack$Reader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java">
+<violation beginline="60" endline="940" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http2" class="Http2Connection" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="587" endline="811" begincolumn="77" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http2" class="Http2Connection$ReaderRunnable" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/http2/Http2Reader.java">
+<violation beginline="59" endline="505" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http2" class="Http2Reader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/http2/Http2Stream.java">
+<violation beginline="32" endline="613" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http2" class="Http2Stream" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/http2/Http2Writer.java">
+<violation beginline="46" endline="311" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.http2" class="Http2Writer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/platform/AndroidPlatform.java">
+<violation beginline="45" endline="430" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.platform" class="AndroidPlatform" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/platform/Platform.java">
+<violation beginline="77" endline="281" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.platform" class="Platform" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/okhttp/src/main/java/okhttp3/internal/ws/RealWebSocket.java">
+<violation beginline="56" endline="615" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="okhttp3.internal.ws" class="RealWebSocket" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/samples/guide/src/main/java/okhttp3/recipes/PrintEvents.java">
+<violation beginline="76" endline="182" begincolumn="74" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="okhttp3.recipes" class="PrintEvents$PrintingEventListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/samples/guide/src/main/java/okhttp3/recipes/PrintEventsNonConcurrent.java">
+<violation beginline="63" endline="157" begincolumn="74" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="okhttp3.recipes" class="PrintEventsNonConcurrent$PrintingEventListener" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/okhttp/samples/slack/src/main/java/okhttp3/slack/OAuthSession.java">
+<violation beginline="20" endline="42" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="okhttp3.slack" class="OAuthSession" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'OAuthSession' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=1)
+</violation>
+</file>
+</pmd>

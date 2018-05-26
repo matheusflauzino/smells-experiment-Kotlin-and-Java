@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:35:30.606">
+<file name="/home/matheus/Documentos/repositories/Java/material-dialogs/commons/src/main/java/com/afollestad/materialdialogs/color/ColorChooserDialog.java">
+<violation beginline="41" endline="808" begincolumn="63" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.afollestad.materialdialogs.color" class="ColorChooserDialog" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="284" endline="426" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.afollestad.materialdialogs.color" class="ColorChooserDialog" method="onCreateDialog" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="436" endline="544" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.afollestad.materialdialogs.color" class="ColorChooserDialog" method="toggleCustom" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="623" endline="759" begincolumn="55" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.afollestad.materialdialogs.color" class="ColorChooserDialog$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/material-dialogs/commons/src/main/java/com/afollestad/materialdialogs/simplelist/MaterialSimpleListItem.java">
+<violation beginline="62" endline="141" begincolumn="31" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.afollestad.materialdialogs.simplelist" class="MaterialSimpleListItem$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/material-dialogs/core/src/main/java/com/afollestad/materialdialogs/DialogInit.java">
+<violation beginline="80" endline="429" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.afollestad.materialdialogs" class="DialogInit" method="init" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/material-dialogs/core/src/main/java/com/afollestad/materialdialogs/MaterialDialog.java">
+<violation beginline="62" endline="2149" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.afollestad.materialdialogs" class="MaterialDialog" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="63" endline="2149" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.afollestad.materialdialogs" class="MaterialDialog" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="1038" endline="2148" begincolumn="17" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="com.afollestad.materialdialogs" class="MaterialDialog" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="1038" endline="2148" begincolumn="31" endcolumn="3" rule="TooManyMethods" ruleset="Design" package="com.afollestad.materialdialogs" class="MaterialDialog$Builder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/material-dialogs/core/src/main/java/com/afollestad/materialdialogs/internal/MDRootLayout.java">
+<violation beginline="31" endline="650" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.afollestad.materialdialogs.internal" class="MDRootLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="341" endline="445" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.afollestad.materialdialogs.internal" class="MDRootLayout" method="onLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/material-dialogs/core/src/main/java/com/afollestad/materialdialogs/util/DialogUtils.java">
+<violation beginline="24" endline="313" begincolumn="26" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.afollestad.materialdialogs.util" class="DialogUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/material-dialogs/sample/src/main/java/com/afollestad/materialdialogssample/MainActivity.java">
+<violation beginline="50" endline="881" begincolumn="42" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.afollestad.materialdialogssample" class="MainActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:35:48.484">
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/BaseDataManager.java">
+<violation beginline="47" endline="176" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="io.plaidapp.data" class="BaseDataManager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BaseDataManager' is suspected to be a Data Class (WOC=28.571%, NOPA=0, NOAM=4, WMC=28)
+</violation>
+<violation beginline="47" endline="176" begincolumn="72" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.data" class="BaseDataManager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/DataManager.java">
+<violation beginline="43" endline="451" begincolumn="86" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.data" class="DataManager" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/PlaidItem.java">
+<violation beginline="22" endline="52" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="io.plaidapp.data" class="PlaidItem" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PlaidItem' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/api/designernews/PostStoryService.java">
+<violation beginline="39" endline="118" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.plaidapp.data.api.designernews" class="PostStoryService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PostStoryService' is suspected to be a Data Class (WOC=0.000%, NOPA=10, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/api/designernews/model/Comment.java">
+<violation beginline="29" endline="198" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.plaidapp.data.api.designernews.model" class="Comment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Comment' is suspected to be a Data Class (WOC=0.000%, NOPA=12, NOAM=0, WMC=5)
+</violation>
+<violation beginline="46" endline="56" begincolumn="19" endcolumn="42" rule="ExcessiveParameterList" ruleset="Design" package="io.plaidapp.data.api.designernews.model" class="Comment" method="Comment" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/api/designernews/model/Story.java">
+<violation beginline="31" endline="267" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.plaidapp.data.api.designernews.model" class="Story" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Story' is suspected to be a Data Class (WOC=0.000%, NOPA=12, NOAM=0, WMC=5)
+</violation>
+<violation beginline="46" endline="60" begincolumn="17" endcolumn="40" rule="ExcessiveParameterList" ruleset="Design" package="io.plaidapp.data.api.designernews.model" class="Story" method="Story" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/api/designernews/model/User.java">
+<violation beginline="22" endline="96" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.plaidapp.data.api.designernews.model" class="User" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/api/dribbble/DribbbleService.java">
+<violation beginline="41" endline="254" begincolumn="34" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.data.api.dribbble" class="DribbbleService" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/api/dribbble/model/Shot.java">
+<violation beginline="65" endline="89" begincolumn="16" endcolumn="26" rule="ExcessiveParameterList" ruleset="Design" package="io.plaidapp.data.api.dribbble.model" class="Shot" method="Shot" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/api/dribbble/model/Team.java">
+<violation beginline="29" endline="98" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.plaidapp.data.api.dribbble.model" class="Team" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Team' is suspected to be a Data Class (WOC=0.000%, NOPA=8, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/api/dribbble/model/User.java">
+<violation beginline="59" endline="84" begincolumn="16" endcolumn="32" rule="ExcessiveParameterList" ruleset="Design" package="io.plaidapp.data.api.dribbble.model" class="User" method="User" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/api/producthunt/model/Post.java">
+<violation beginline="48" endline="60" begincolumn="16" endcolumn="51" rule="ExcessiveParameterList" ruleset="Design" package="io.plaidapp.data.api.producthunt.model" class="Post" method="Post" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/data/api/producthunt/model/User.java">
+<violation beginline="29" endline="98" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.plaidapp.data.api.producthunt.model" class="User" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=2)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/DesignerNewsLogin.java">
+<violation beginline="78" endline="344" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.ui" class="DesignerNewsLogin" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/DesignerNewsStory.java">
+<violation beginline="106" endline="1156" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="io.plaidapp.ui" class="DesignerNewsStory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="106" endline="1156" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.ui" class="DesignerNewsStory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="596" endline="975" begincolumn="67" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.ui" class="DesignerNewsStory$DesignerNewsCommentsAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="825" endline="968" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="io.plaidapp.ui" class="DesignerNewsStory$DesignerNewsCommentsAdapter" method="createCommentReplyHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/DribbbleLogin.java">
+<violation beginline="56" endline="221" begincolumn="45" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.ui" class="DribbbleLogin" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/DribbbleShot.java">
+<violation beginline="104" endline="1073" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.ui" class="DribbbleShot" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="285" endline="403" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="io.plaidapp.ui" class="DribbbleShot" method="bindShot" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="815" endline="964" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="io.plaidapp.ui" class="DribbbleShot$CommentsAdapter" method="createCommentHolder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/FeedAdapter.java">
+<violation beginline="100" endline="741" begincolumn="78" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.ui" class="FeedAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/FilterAdapter.java">
+<violation beginline="52" endline="401" begincolumn="90" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.ui" class="FilterAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/HomeActivity.java">
+<violation beginline="103" endline="837" begincolumn="44" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.ui" class="HomeActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="134" endline="262" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="io.plaidapp.ui" class="HomeActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/PlayerActivity.java">
+<violation beginline="192" endline="308" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="io.plaidapp.ui" class="PlayerActivity" method="bindPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/SearchActivity.java">
+<violation beginline="71" endline="362" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.ui" class="SearchActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/drawable/MorphDrawable.java">
+<violation beginline="35" endline="124" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.plaidapp.ui.drawable" class="MorphDrawable" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MorphDrawable' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=2, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/transitions/CircularReveal.java">
+<violation beginline="41" endline="148" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.plaidapp.ui.transitions" class="CircularReveal" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CircularReveal' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=14)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/transitions/FabTransform.java">
+<violation beginline="144" endline="297" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="io.plaidapp.ui.transitions" class="FabTransform" method="createAnimator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/transitions/GravityArcMotion.java">
+<violation beginline="110" endline="212" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="io.plaidapp.ui.transitions" class="GravityArcMotion" method="getPath" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/widget/BaselineGridTextView.java">
+<violation beginline="41" endline="205" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.plaidapp.ui.widget" class="BaselineGridTextView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'BaselineGridTextView' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=24)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/widget/BottomSheet.java">
+<violation beginline="46" endline="348" begincolumn="46" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.ui.widget" class="BottomSheet" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/widget/ElasticDragDismissFrameLayout.java">
+<violation beginline="41" endline="306" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.ui.widget" class="ElasticDragDismissFrameLayout" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/widget/InkPageIndicator.java">
+<violation beginline="44" endline="840" begincolumn="88" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.ui.widget" class="InkPageIndicator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="377" endline="550" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="io.plaidapp.ui.widget" class="InkPageIndicator" method="getUnselectedPath" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/ui/widget/ParallaxScrimageView.java">
+<violation beginline="39" endline="180" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="io.plaidapp.ui.widget" class="ParallaxScrimageView" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ParallaxScrimageView' is suspected to be a Data Class (WOC=22.222%, NOPA=1, NOAM=6, WMC=19)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/app/src/main/java/io/plaidapp/util/CollapsingTextHelper.java">
+<violation beginline="43" endline="550" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="io.plaidapp.util" class="CollapsingTextHelper" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/third_party/bypass/src/main/java/in/uncod/android/bypass/Bypass.java">
+<violation beginline="114" endline="299" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="in.uncod.android.bypass" class="Bypass" method="recurseElement" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/plaid/third_party/bypass/src/main/java/in/uncod/android/bypass/style/FancyQuoteSpan.java">
+<violation beginline="47" endline="58" begincolumn="34" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="in.uncod.android.bypass.style" class="FancyQuoteSpan" method="drawLeadingMargin" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+</pmd>

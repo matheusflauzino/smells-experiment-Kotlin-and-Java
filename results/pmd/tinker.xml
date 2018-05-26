@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:35:25.850">
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dex/AnnotationsDirectory.java">
+<violation beginline="27" endline="137" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.tencent.tinker.android.dex" class="AnnotationsDirectory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AnnotationsDirectory' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dex/ClassData.java">
+<violation beginline="22" endline="135" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.tencent.tinker.android.dex" class="ClassData" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ClassData' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dex/ClassDef.java">
+<violation beginline="24" endline="88" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.tencent.tinker.android.dex" class="ClassDef" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ClassDef' is suspected to be a Data Class (WOC=0.000%, NOPA=10, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dex/Code.java">
+<violation beginline="22" endline="154" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.tencent.tinker.android.dex" class="Code" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Code' is suspected to be a Data Class (WOC=0.000%, NOPA=7, NOAM=0, WMC=1)
+</violation>
+<violation beginline="128" endline="153" begincolumn="19" endcolumn="5" rule="DataClass" ruleset="Design" package="com.tencent.tinker.android.dex" class="Code" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CatchHandler' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dex/DebugInfoItem.java">
+<violation beginline="27" endline="75" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="com.tencent.tinker.android.dex" class="DebugInfoItem" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DebugInfoItem' is suspected to be a Data Class (WOC=0.000%, NOPA=13, NOAM=0, WMC=1)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dex/Dex.java">
+<violation beginline="49" endline="988" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.android.dex" class="Dex" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="610" endline="879" begincolumn="54" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.android.dex" class="Dex$Section" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dex/EncodedValueReader.java">
+<violation beginline="24" endline="287" begincolumn="39" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.android.dex" class="EncodedValueReader" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dex/io/DexDataBuffer.java">
+<violation beginline="50" endline="915" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.android.dex.io" class="DexDataBuffer" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dex/util/CompareUtils.java">
+<violation beginline="25" endline="253" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.android.dex.util" class="CompareUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dx/instruction/InstructionCodec.java">
+<violation beginline="25" endline="787" begincolumn="37" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionCodec" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="262" endline="500" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionCodec" method="getInstructionIndexType" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="502" endline="786" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionCodec" method="getInstructionFormat" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dx/instruction/InstructionComparator.java">
+<violation beginline="58" endline="198" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionComparator" method="readInstructionsIntoHolders" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="117" endline="117" begincolumn="50" endcolumn="161" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionComparator" method="visitFourRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="133" endline="133" begincolumn="50" endcolumn="168" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionComparator" method="visitFiveRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="268" endline="403" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionComparator" method="isSameInstruction" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dx/instruction/InstructionPromoter.java">
+<violation beginline="28" endline="504" begincolumn="67" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionPromoter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="194" endline="323" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionPromoter" method="visitTwoRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="399" endline="399" begincolumn="38" endcolumn="149" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionPromoter" method="visitFourRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="418" endline="418" begincolumn="38" endcolumn="156" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionPromoter" method="visitFiveRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dx/instruction/InstructionReader.java">
+<violation beginline="36" endline="561" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionReader" method="accept" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dx/instruction/InstructionVisitor.java">
+<violation beginline="55" endline="55" begincolumn="38" endcolumn="149" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionVisitor" method="visitFourRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="61" endline="61" begincolumn="38" endcolumn="156" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionVisitor" method="visitFiveRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dx/instruction/InstructionWriter.java">
+<violation beginline="121" endline="290" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionWriter" method="visitOneRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="292" endline="477" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionWriter" method="visitTwoRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="561" endline="561" begincolumn="38" endcolumn="149" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionWriter" method="visitFourRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="586" endline="586" begincolumn="38" endcolumn="156" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="InstructionWriter" method="visitFiveRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dx/instruction/ShortArrayCodeOutput.java">
+<violation beginline="22" endline="188" begincolumn="60" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.android.dx.instruction" class="ShortArrayCodeOutput" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/dx/util/Hex.java">
+<violation beginline="22" endline="310" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.android.dx.util" class="Hex" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/utils/SparseBoolArray.java">
+<violation beginline="40" endline="355" begincolumn="51" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.android.utils" class="SparseBoolArray" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/aosp-dexutils/src/main/java/com/tencent/tinker/android/utils/SparseIntArray.java">
+<violation beginline="40" endline="321" begincolumn="50" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.android.utils" class="SparseIntArray" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/bsdiff-util/src/main/java/com/tencent/tinker/bsdiff/BSDiff.java">
+<violation beginline="324" endline="527" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.bsdiff" class="BSDiff" method="bsdiff" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/bsdiff-util/src/main/java/com/tencent/tinker/bsdiff/BSPatch.java">
+<violation beginline="101" endline="211" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.bsdiff" class="BSPatch" method="patchLessMemory" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/tinker-ziputils/src/main/java/com/tencent/tinker/ziputils/ziputil/Streams.java">
+<violation beginline="33" endline="206" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.ziputils.ziputil" class="Streams" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/tinker-ziputils/src/main/java/com/tencent/tinker/ziputils/ziputil/TinkerZipEntry.java">
+<violation beginline="60" endline="62" begincolumn="26" endcolumn="69" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.ziputils.ziputil" class="TinkerZipEntry" method="TinkerZipEntry" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/third-party/tinker-ziputils/src/main/java/com/tencent/tinker/ziputils/ziputil/TinkerZipOutputStream.java">
+<violation beginline="228" endline="340" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.ziputils.ziputil" class="TinkerZipOutputStream" method="closeEntry" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="416" endline="518" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.ziputils.ziputil" class="TinkerZipOutputStream" method="putNextEntry" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/patch/BsDiffPatchInternal.java">
+<violation beginline="71" endline="210" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.lib.patch" class="BsDiffPatchInternal" method="extractBsDiffInternals" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/patch/DexDiffPatchInternal.java">
+<violation beginline="59" endline="693" begincolumn="61" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.lib.patch" class="DexDiffPatchInternal" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="388" endline="558" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.lib.patch" class="DexDiffPatchInternal" method="extractDexDiffInternals" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/patch/ResDiffPatchInternal.java">
+<violation beginline="85" endline="237" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.lib.patch" class="ResDiffPatchInternal" method="extractResourceDiffInternals" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="239" endline="352" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.lib.patch" class="ResDiffPatchInternal" method="checkAndExtractResourceLargeFile" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/patch/UpgradePatch.java">
+<violation beginline="43" endline="165" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.lib.patch" class="UpgradePatch" method="tryPatch" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/reporter/DefaultLoadReporter.java">
+<violation beginline="41" endline="345" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.lib.reporter" class="DefaultLoadReporter" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/tinker/Tinker.java">
+<violation beginline="78" endline="80" begincolumn="19" endcolumn="94" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.lib.tinker" class="Tinker" method="Tinker" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/tinker/TinkerLoadResult.java">
+<violation beginline="75" endline="340" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.lib.tinker" class="TinkerLoadResult" method="parseTinkerResult" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-android/tinker-android-loader/src/main/java/com/tencent/tinker/loader/TinkerDexLoader.java">
+<violation beginline="71" endline="204" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.loader" class="TinkerDexLoader" method="loadTinkerJars" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-android/tinker-android-loader/src/main/java/com/tencent/tinker/loader/TinkerLoader.java">
+<violation beginline="64" endline="305" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.loader" class="TinkerLoader" method="tryLoadPatchFilesInternal" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-android/tinker-android-loader/src/main/java/com/tencent/tinker/loader/hotplug/IncrementComponentManager.java">
+<violation beginline="90" endline="285" begincolumn="9" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.loader.hotplug" class="IncrementComponentManager" method="onTranslate" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-android/tinker-android-loader/src/main/java/com/tencent/tinker/loader/hotplug/interceptor/TinkerHackInstrumentation.java">
+<violation beginline="26" endline="156" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.loader.hotplug.interceptor" class="TinkerHackInstrumentation" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="71" endline="71" begincolumn="32" endcolumn="223" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.loader.hotplug.interceptor" class="TinkerHackInstrumentation" method="newActivity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-android/tinker-android-loader/src/main/java/com/tencent/tinker/loader/shareutil/SharePatchFileUtil.java">
+<violation beginline="43" endline="534" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.loader.shareutil" class="SharePatchFileUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-cli/src/main/java/com/tencent/tinker/patch/CliMain.java">
+<violation beginline="141" endline="214" begincolumn="13" endcolumn="5" rule="DataClass" ruleset="Design" package="com.tencent.tinker.patch" class="CliMain" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ReadArgs' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=21)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/aapt/AaptUtil.java">
+<violation beginline="47" endline="490" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.build.aapt" class="AaptUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/aapt/FileUtil.java">
+<violation beginline="49" endline="1184" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.tencent.tinker.build.aapt" class="FileUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="49" endline="1184" begincolumn="29" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.build.aapt" class="FileUtil" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/decoder/DexDiffDecoder.java">
+<violation beginline="67" endline="799" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.build.decoder" class="DexDiffDecoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="205" endline="312" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.build.decoder" class="DexDiffDecoder" method="generateChangedClassesDexFile" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/decoder/ManifestDecoder.java">
+<violation beginline="71" endline="194" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.build.decoder" class="ManifestDecoder" method="patch" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/decoder/ResDiffDecoder.java">
+<violation beginline="56" endline="567" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.build.decoder" class="ResDiffDecoder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="290" endline="399" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.build.decoder" class="ResDiffDecoder" method="onAllPatchesEnd" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/dexpatcher/DexPatchGenerator.java">
+<violation beginline="136" endline="252" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.build.dexpatcher" class="DexPatchGenerator" method="DexPatchGenerator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="286" endline="512" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.build.dexpatcher" class="DexPatchGenerator" method="executeAndSaveTo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="566" endline="670" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.build.dexpatcher" class="DexPatchGenerator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/dexpatcher/algorithms/diff/DexSectionDiffAlgorithm.java">
+<violation beginline="257" endline="369" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.build.dexpatcher.algorithms.diff" class="DexSectionDiffAlgorithm" method="execute" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/dexpatcher/util/ChangedClassesDexClassInfoCollector.java">
+<violation beginline="189" endline="189" begincolumn="42" endcolumn="153" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.build.dexpatcher.util" class="ChangedClassesDexClassInfoCollector$ReferToClassesCheckVisitor" method="visitFourRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="194" endline="194" begincolumn="42" endcolumn="160" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.build.dexpatcher.util" class="ChangedClassesDexClassInfoCollector$ReferToClassesCheckVisitor" method="visitFiveRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/patch/Configuration.java">
+<violation beginline="49" endline="616" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.build.patch" class="Configuration" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/patch/InputParam.java">
+<violation beginline="83" endline="110" begincolumn="23" endcolumn="5" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.build.patch" class="InputParam" method="InputParam" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/util/DexClassesComparator.java">
+<violation beginline="59" endline="1548" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.tencent.tinker.build.util" class="DexClassesComparator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="168" endline="294" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.build.util" class="DexClassesComparator" method="startCheck" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="948" endline="1054" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.build.util" class="DexClassesComparator" method="isSameEncodedValue" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1206" endline="1366" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.build.util" class="DexClassesComparator" method="isSameDebugInfo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/util/ExcludedClassModifiedChecker.java">
+<violation beginline="71" endline="213" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.build.util" class="ExcludedClassModifiedChecker" method="checkIfExcludedClassWasModifiedInNewDex" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/util/FileOperation.java">
+<violation beginline="41" endline="407" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.build.util" class="FileOperation" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-build/tinker-patch-lib/src/main/java/org/jf/dexlib2/builder/BuilderMutableMethodImplementation.java">
+<violation beginline="148" endline="1141" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.jf.dexlib2.builder" class="BuilderMutableMethodImplementation" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="463" endline="577" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.jf.dexlib2.builder" class="BuilderMutableMethodImplementation" method="fixInstructions" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="661" endline="770" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.jf.dexlib2.builder" class="BuilderMutableMethodImplementation" method="convertAndSetInstruction" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-commons/src/main/java/com/tencent/tinker/commons/dexpatcher/DexPatchApplier.java">
+<violation beginline="109" endline="253" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="com.tencent.tinker.commons.dexpatcher" class="DexPatchApplier" method="executeAndSaveTo" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-commons/src/main/java/com/tencent/tinker/commons/dexpatcher/struct/DexPatchFile.java">
+<violation beginline="33" endline="187" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="com.tencent.tinker.commons.dexpatcher.struct" class="DexPatchFile" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DexPatchFile' is suspected to be a Data Class (WOC=0.000%, NOPA=2, NOAM=21, WMC=28)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-commons/src/main/java/com/tencent/tinker/commons/dexpatcher/util/AbstractIndexMap.java">
+<violation beginline="48" endline="486" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.commons.dexpatcher.util" class="AbstractIndexMap" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-commons/src/main/java/com/tencent/tinker/commons/dexpatcher/util/InstructionTransformer.java">
+<violation beginline="89" endline="89" begincolumn="42" endcolumn="153" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.commons.dexpatcher.util" class="InstructionTransformer$InstructionTransformVisitor" method="visitFourRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="95" endline="95" begincolumn="42" endcolumn="160" rule="ExcessiveParameterList" ruleset="Design" package="com.tencent.tinker.commons.dexpatcher.util" class="InstructionTransformer$InstructionTransformVisitor" method="visitFiveRegisterInsn" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-commons/src/main/java/com/tencent/tinker/commons/dexpatcher/util/SparseIndexMap.java">
+<violation beginline="28" endline="324" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="com.tencent.tinker.commons.dexpatcher.util" class="SparseIndexMap" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/tinker/tinker-sample-android/app/src/main/java/tinker/sample/android/reporter/SampleTinkerReport.java">
+<violation beginline="29" endline="557" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="tinker.sample.android.reporter" class="SampleTinkerReport" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>

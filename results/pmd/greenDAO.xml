@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.1.0" timestamp="2018-05-26T10:32:56.027">
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/AbstractDao.java">
+<violation beginline="62" endline="1012" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao" class="AbstractDao" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/AbstractDaoSession.java">
+<violation beginline="52" endline="239" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao" class="AbstractDaoSession" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/DaoLog.java">
+<violation beginline="27" endline="93" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao" class="DaoLog" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/Property.java">
+<violation beginline="30" endline="120" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao" class="Property" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/async/AsyncOperationExecutor.java">
+<violation beginline="34" endline="376" begincolumn="68" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.async" class="AsyncOperationExecutor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/async/AsyncSession.java">
+<violation beginline="39" endline="350" begincolumn="27" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.async" class="AsyncSession" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/identityscope/IdentityScopeLong.java">
+<violation beginline="31" endline="159" begincolumn="69" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.identityscope" class="IdentityScopeLong" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/internal/DaoConfig.java">
+<violation beginline="36" endline="177" begincolumn="14" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.internal" class="DaoConfig" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DaoConfig' is suspected to be a Data Class (WOC=20.000%, NOPA=9, NOAM=2, WMC=20)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/internal/FastCursor.java">
+<violation beginline="28" endline="261" begincolumn="49" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.internal" class="FastCursor" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/internal/SqlUtils.java">
+<violation beginline="22" endline="167" begincolumn="23" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.internal" class="SqlUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/internal/TableStatements.java">
+<violation beginline="25" endline="155" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.internal" class="TableStatements" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TableStatements' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=9, WMC=27)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/query/LazyList.java">
+<violation beginline="45" endline="363" begincolumn="56" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.query" class="LazyList" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/query/Query.java">
+<violation beginline="37" endline="191" begincolumn="57" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.query" class="Query" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/query/QueryBuilder.java">
+<violation beginline="48" endline="498" begincolumn="30" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.query" class="QueryBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/rx/RxDao.java">
+<violation beginline="43" endline="406" begincolumn="41" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.rx" class="RxDao" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoCore/src/main/java/org/greenrobot/greendao/test/AbstractDaoTestSinglePk.java">
+<violation beginline="40" endline="372" begincolumn="115" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.test" class="AbstractDaoTestSinglePk" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoGenerator/src/org/greenrobot/greendao/generator/ContentProvider.java">
+<violation beginline="24" endline="98" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.generator" class="ContentProvider" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ContentProvider' is suspected to be a Data Class (WOC=15.385%, NOPA=0, NOAM=10, WMC=17)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoGenerator/src/org/greenrobot/greendao/generator/Entity.java">
+<violation beginline="43" endline="742" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.generator" class="Entity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoGenerator/src/org/greenrobot/greendao/generator/Property.java">
+<violation beginline="25" endline="190" begincolumn="41" endcolumn="5" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.generator" class="Property$PropertyBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoGenerator/src/org/greenrobot/greendao/generator/Schema.java">
+<violation beginline="32" endline="209" begincolumn="21" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.generator" class="Schema" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/DaoGenerator/src/org/greenrobot/greendao/generator/ToOne.java">
+<violation beginline="23" endline="136" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.generator" class="ToOne" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ToOne' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=24)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/examples/DaoExample/src/main/java/org/greenrobot/greendao/example/Note.java">
+<violation beginline="16" endline="88" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.example" class="Note" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Note' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=9, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/examples/RxDaoExample/src/main/java/org/greenrobot/greendao/rxexample/Note.java">
+<violation beginline="16" endline="88" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.rxexample" class="Note" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Note' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=9, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTest/src/androidTest/java/org/greenrobot/greendao/daotest/DaoSessionConcurrentTest.java">
+<violation beginline="32" endline="366" begincolumn="93" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.daotest" class="DaoSessionConcurrentTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTest/src/androidTest/java/org/greenrobot/greendao/daotest/async/BasicAsyncTest.java">
+<violation beginline="29" endline="199" begincolumn="55" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.daotest.async" class="BasicAsyncTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTest/src/androidTest/java/org/greenrobot/greendao/daotest/entity/RelationEntityTest.java">
+<violation beginline="32" endline="204" begincolumn="98" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.daotest.entity" class="RelationEntityTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTest/src/androidTest/java/org/greenrobot/greendao/daotest/entity/ToManyEntityTest.java">
+<violation beginline="37" endline="230" begincolumn="85" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.daotest.entity" class="ToManyEntityTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTest/src/androidTest/java/org/greenrobot/greendao/daotest/query/LazyListTest.java">
+<violation beginline="32" endline="205" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.daotest.query" class="LazyListTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTest/src/androidTest/java/org/greenrobot/greendao/daotest/query/QueryBuilderSimpleTest.java">
+<violation beginline="33" endline="264" begincolumn="64" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.daotest.query" class="QueryBuilderSimpleTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTest/src/androidTest/java/org/greenrobot/greendao/daotest/rx/RxDaoTest.java">
+<violation beginline="33" endline="355" begincolumn="81" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.daotest.rx" class="RxDaoTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/AbcdefEntity.java">
+<violation beginline="11" endline="147" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="AbcdefEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AbcdefEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=24, WMC=25)
+</violation>
+<violation beginline="36" endline="36" begincolumn="24" endcolumn="153" rule="ExcessiveParameterList" ruleset="Design" package="org.greenrobot.greendao.daotest" class="AbcdefEntity" method="AbcdefEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/AnActiveEntity.java">
+<violation beginline="14" endline="102" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="AnActiveEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AnActiveEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/CustomTypeEntity.java">
+<violation beginline="13" endline="51" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="CustomTypeEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CustomTypeEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/DaoSession.java">
+<violation beginline="56" endline="286" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="DaoSession" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DaoSession' is suspected to be a Data Class (WOC=5.000%, NOPA=0, NOAM=18, WMC=20)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/DateEntity.java">
+<violation beginline="13" endline="69" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="DateEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DateEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/ExtendsImplementsEntity.java">
+<violation beginline="11" endline="47" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="ExtendsImplementsEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ExtendsImplementsEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/IndexedStringEntity.java">
+<violation beginline="11" endline="49" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="IndexedStringEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'IndexedStringEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/JoinManyToDateEntity.java">
+<violation beginline="11" endline="57" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="JoinManyToDateEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'JoinManyToDateEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/RelationEntity.java">
+<violation beginline="14" endline="261" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="RelationEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RelationEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=11)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/RelationEntityDao.java">
+<violation beginline="19" endline="289" begincolumn="74" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.daotest" class="RelationEntityDao" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/SimpleEntity.java">
+<violation beginline="11" endline="127" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="SimpleEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SimpleEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=21)
+</violation>
+<violation beginline="34" endline="34" begincolumn="24" endcolumn="212" rule="ExcessiveParameterList" ruleset="Design" package="org.greenrobot.greendao.daotest" class="SimpleEntity" method="SimpleEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/SimpleEntityNotNull.java">
+<violation beginline="11" endline="135" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="SimpleEntityNotNull" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SimpleEntityNotNull' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=18, WMC=19)
+</violation>
+<violation beginline="38" endline="38" begincolumn="31" endcolumn="215" rule="ExcessiveParameterList" ruleset="Design" package="org.greenrobot.greendao.daotest" class="SimpleEntityNotNull" method="SimpleEntityNotNull" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/SpecialNamesEntity.java">
+<violation beginline="11" endline="127" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="SpecialNamesEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SpecialNamesEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=21)
+</violation>
+<violation beginline="34" endline="34" begincolumn="30" endcolumn="161" rule="ExcessiveParameterList" ruleset="Design" package="org.greenrobot.greendao.daotest" class="SpecialNamesEntity" method="SpecialNamesEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/SqliteMaster.java">
+<violation beginline="14" endline="86" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="SqliteMaster" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SqliteMaster' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/StringKeyValueEntity.java">
+<violation beginline="11" endline="47" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="StringKeyValueEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'StringKeyValueEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/TestEntity.java">
+<violation beginline="13" endline="152" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="TestEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TestEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=19, WMC=20)
+</violation>
+<violation beginline="45" endline="45" begincolumn="22" endcolumn="244" rule="ExcessiveParameterList" ruleset="Design" package="org.greenrobot.greendao.daotest" class="TestEntity" method="TestEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/ToManyEntity.java">
+<violation beginline="15" endline="242" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="ToManyEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ToManyEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/ToManyTargetEntity.java">
+<violation beginline="11" endline="67" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="ToManyTargetEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ToManyTargetEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=9)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/ToManyTargetEntityDao.java">
+<violation beginline="19" endline="224" begincolumn="82" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.daotest" class="ToManyTargetEntityDao" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/TreeEntity.java">
+<violation beginline="15" endline="161" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest" class="TreeEntity" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TreeEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest/TreeEntityDao.java">
+<violation beginline="21" endline="247" begincolumn="66" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.daotest" class="TreeEntityDao" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest2/ToManyTarget2.java">
+<violation beginline="14" endline="56" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest2" class="ToManyTarget2" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ToManyTarget2' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest2/dao/DaoSession.java">
+<violation beginline="28" endline="90" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest2.dao" class="DaoSession" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DaoSession' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest2/specialdao/RelationSource2Dao.java">
+<violation beginline="25" endline="236" begincolumn="76" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.daotest2.specialdao" class="RelationSource2Dao" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestBase/src/main/java/org/greenrobot/greendao/daotest2/specialentity/RelationSource2.java">
+<violation beginline="24" endline="176" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.daotest2.specialentity" class="RelationSource2" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'RelationSource2' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestEntityAnnotation/src/main/java/org/greenrobot/greendao/test/entityannotation/NotNullThing.java">
+<violation beginline="9" endline="121" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.test.entityannotation" class="NotNullThing" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'NotNullThing' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=18, WMC=18)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestEntityAnnotation/src/main/java/org/greenrobot/greendao/test/entityannotation/Order.java">
+<violation beginline="14" endline="152" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.test.entityannotation" class="Order" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Order' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestEntityAnnotation/src/main/java/org/greenrobot/greendao/test/entityannotation/TypesInInnerClass.java">
+<violation beginline="10" endline="65" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="org.greenrobot.greendao.test.entityannotation" class="TypesInInnerClass" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TypesInInnerClass' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestGenerator/src/org/greenrobot/greendao/generator/gentest/TestDaoGenerator.java">
+<violation beginline="32" endline="317" begincolumn="31" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.generator.gentest" class="TestDaoGenerator" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestPerformance/src/androidTest/java/org/greenrobot/greendao/performance/LoockupPerformanceTest.java">
+<violation beginline="33" endline="200" begincolumn="54" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.performance" class="LoockupPerformanceTest" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestPerformance/src/androidTest/java/org/greenrobot/greendao/performance/target/ArrayUtils.java">
+<violation beginline="32" endline="137" begincolumn="1" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.performance.target" class="ArrayUtils" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestPerformance/src/androidTest/java/org/greenrobot/greendao/performance/target/LongHashMapJDBM.java">
+<violation beginline="38" endline="585" begincolumn="58" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.performance.target" class="LongHashMapJDBM" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="/home/matheus/Documentos/repositories/Java/greenDAO/tests/DaoTestPerformance/src/androidTest/java/org/greenrobot/greendao/performance/target/LongSparseArray.java">
+<violation beginline="30" endline="366" begincolumn="33" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="org.greenrobot.greendao.performance.target" class="LongSparseArray" externalInfoUrl="https://pmd.github.io/pmd-6.1.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+</pmd>
