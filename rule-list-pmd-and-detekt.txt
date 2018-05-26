@@ -1,0 +1,18 @@
+#rule list pdm
+Large Class: 			https://pmd.github.io/pmd-6.3.0/pmd_rules_java_design.html#excessiveclasslength
+Long Method: 			https://pmd.github.io/pmd-6.3.0/pmd_rules_java_design.html#excessivemethodlength
+Long Parameter List: 	https://pmd.github.io/pmd-6.3.0/pmd_rules_java_design.html#excessivemethodlength
+Data Class: 			https://pmd.github.io/pmd-6.3.0/pmd_rules_java_design.html#dataclass
+Many methods:	 		https://pmd.github.io/pmd-6.3.0/pmd_rules_java_design.html#toomanymethods
+
+
+
+#rule list detekt
+Large Class: 			https://arturbosch.github.io/detekt/complexity.html#largeclass
+Long Method: 			https://arturbosch.github.io/detekt/complexity.html#longmethod
+Long Parameter List: 	https://arturbosch.github.io/detekt/complexity.html#longparameterlist
+Data Class: 			https://arturbosch.github.io/detekt/style.html#usedataclass
+Many methods:			https://arturbosch.github.io/detekt/complexity.html#toomanyfunctions
+
+
+Larg Class, Long Method, Long Parameter List, Data Class and Many methods.
