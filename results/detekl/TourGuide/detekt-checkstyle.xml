@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/TourGuide/tourguide/src/main/java/tourguide/tourguide/ToolTip.kt">
+	<error line="11" column="1" severity="warning" message="Class &apos;ToolTip&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/TourGuide/tourguide/src/main/java/tourguide/tourguide/Overlay.kt">
+	<error line="7" column="1" severity="warning" message="Class &apos;Overlay&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/TourGuide/tourguide/src/main/java/tourguide/tourguide/FrameLayoutWithHole.kt">
+	<error line="17" column="1" severity="warning" message="Class &apos;FrameLayoutWithHole&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/TourGuide/tourguide/src/main/java/tourguide/tourguide/TourGuide.kt">
+	<error line="22" column="1" severity="warning" message="Class TourGuide is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="22" column="1" severity="warning" message="Class &apos;TourGuide&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

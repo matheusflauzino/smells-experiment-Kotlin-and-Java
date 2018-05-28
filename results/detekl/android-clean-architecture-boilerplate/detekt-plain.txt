@@ -1,0 +1,1 @@
+TooManyFunctions - 12/11 - [BrowseActivity] at /home/matheus/Documentos/repositories/Kotlin/android-clean-architecture-boilerplate/mobile-ui/src/main/java/org/buffer/android/boilerplate/ui/browse/BrowseActivity.kt:15:1 - Signature=BrowseActivity.kt$BrowseActivity : AppCompatActivityView

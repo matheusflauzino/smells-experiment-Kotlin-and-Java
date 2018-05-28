@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/android-architecture-components/GithubBrowserSample/app/src/main/java/com/android/example/github/db/RepoDao.kt">
+	<error line="32" column="1" severity="warning" message="Class &apos;RepoDao&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

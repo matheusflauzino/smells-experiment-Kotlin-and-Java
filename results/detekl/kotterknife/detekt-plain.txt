@@ -1,0 +1,1 @@
+TooManyFunctions - 37/11 - [ButterKnife.kt] at /home/matheus/Documentos/repositories/Kotlin/kotterknife/src/main/kotlin/kotterknife/ButterKnife.kt:1:1 - Signature=ButterKnife.kt$kotterknife.ButterKnife.kt

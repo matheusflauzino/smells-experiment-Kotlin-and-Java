@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fuel/sample/src/main/kotlin/com/example/fuel/MainActivity.kt">
+	<error line="34" column="1" severity="warning" message="Class &apos;MainActivity&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fuel/fuel/src/main/kotlin/com/github/kittinunf/fuel/core/Request.kt">
+	<error line="23" column="1" severity="warning" message="Class &apos;Request&apos; with &apos;34&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fuel/fuel/src/main/kotlin/com/github/kittinunf/fuel/core/FuelManager.kt">
+	<error line="20" column="1" severity="warning" message="Class &apos;FuelManager&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fuel/fuel/src/main/kotlin/com/github/kittinunf/fuel/Fuel.kt">
+	<error line="17" column="5" severity="warning" message="Object &apos;Companion&apos; with &apos;21&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;Fuel.kt&apos; with &apos;16&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

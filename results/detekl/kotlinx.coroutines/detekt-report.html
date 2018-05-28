@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 167
+</li>
+<li>
+number of packages: 31
+</li>
+<li>
+number of classes: 320
+</li>
+<li>
+number of functions: 1798
+</li>
+<li>
+number of properties: 1750
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/reactive/kotlinx-coroutines-rx1/src/main/kotlin/kotlinx/coroutines/experimental/rx1/RxObservable.kt:77:1
+</span>
+<br />
+<span class="message">
+Class 'RxObservableCoroutine' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/reactive/kotlinx-coroutines-rx2/src/main/kotlin/kotlinx/coroutines/experimental/rx2/RxAwait.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'RxAwait.kt' with '12' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/benchmarks/src/jmh/kotlin/benchmarks/ChannelCopyBenchmark.kt:29:1
+</span>
+<br />
+<span class="message">
+Class 'ChannelCopyBenchmark' with '19' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-io/src/main/kotlin/kotlinx/coroutines/experimental/io/ByteBufferChannel.kt:21:1
+</span>
+<br />
+<span class="message">
+Class 'ByteBufferChannel' with '139' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-io/src/main/kotlin/kotlinx/coroutines/experimental/io/internal/RingBufferCapacity.kt:3:1
+</span>
+<br />
+<span class="message">
+Class 'RingBufferCapacity' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-io/src/main/kotlin/kotlinx/coroutines/experimental/io/ByteReadChannel.kt:8:1
+</span>
+<br />
+<span class="message">
+Interface 'ByteReadChannel' with '22' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-io/src/main/kotlin/kotlinx/coroutines/experimental/io/ByteWriteChannel.kt:9:1
+</span>
+<br />
+<span class="message">
+Interface 'ByteWriteChannel' with '20' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/Job.kt:32:1
+</span>
+<br />
+<span class="message">
+Interface 'Job' with '12' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/Job.kt:512:1
+</span>
+<br />
+<span class="message">
+Class 'JobSupport' with '60' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/internal/LockFreeLinkedList.kt:54:1
+</span>
+<br />
+<span class="message">
+Class 'LockFreeLinkedListNode' with '24' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/internal/ThreadSafeHeap.kt:26:1
+</span>
+<br />
+<span class="message">
+Class 'ThreadSafeHeap' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/selects/Select.kt:29:1
+</span>
+<br />
+<span class="message">
+Interface 'SelectBuilder' with '11' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/selects/Select.kt:222:1
+</span>
+<br />
+<span class="message">
+Class 'SelectBuilderImpl' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/channels/AbstractChannel.kt:25:1
+</span>
+<br />
+<span class="message">
+Class 'AbstractSendChannel' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/channels/AbstractChannel.kt:444:1
+</span>
+<br />
+<span class="message">
+Class 'AbstractChannel' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/channels/Channels.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Channels.kt' with '103' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/EventLoop.kt:83:1
+</span>
+<br />
+<span class="message">
+Class 'EventLoopBase' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/js/kotlinx-coroutines-core-js/src/main/kotlin/kotlinx/coroutines/experimental/Job.kt:356:1
+</span>
+<br />
+<span class="message">
+Class 'JobSupport' with '51' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/knit/src/Knit.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Knit.kt' with '20' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/common/kotlinx-coroutines-core-common/src/main/kotlin/kotlinx/coroutines/experimental/AbstractCoroutine.kt:23:1
+</span>
+<br />
+<span class="message">
+Class 'AbstractCoroutine' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/common/kotlinx-coroutines-core-common/src/main/kotlin/kotlinx/coroutines/experimental/CommonJob.kt:66:1
+</span>
+<br />
+<span class="message">
+Class 'JobSupport' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LargeClass
+</span>
+<span class="description">
+One class should have one responsibility. Large classes tend to handle many things at once. Split up large classes into smaller classes that are easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/benchmarks/src/jmh/kotlin/benchmarks/ChannelCopyBenchmark.kt:29:1
+</span>
+<br />
+<span class="message">
+Class ChannelCopyBenchmark is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-io/src/main/kotlin/kotlinx/coroutines/experimental/io/ByteBufferChannel.kt:21:1
+</span>
+<br />
+<span class="message">
+Class ByteBufferChannel is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/Job.kt:512:1
+</span>
+<br />
+<span class="message">
+Class JobSupport is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/internal/LockFreeLinkedList.kt:54:1
+</span>
+<br />
+<span class="message">
+Class LockFreeLinkedListNode is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/channels/AbstractChannel.kt:444:1
+</span>
+<br />
+<span class="message">
+Class AbstractChannel is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/js/kotlinx-coroutines-core-js/src/main/kotlin/kotlinx/coroutines/experimental/Job.kt:356:1
+</span>
+<br />
+<span class="message">
+Class JobSupport is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongMethod
+</span>
+<span class="description">
+One method should have one responsibility. Long methods tend to handle many things at once. Prefer smaller methods to make them easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/knit/src/Knit.kt:78:1
+</span>
+<br />
+<span class="message">
+The function knit is too long. The maximum length is 20.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

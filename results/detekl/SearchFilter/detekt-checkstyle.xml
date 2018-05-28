@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/SearchFilter/filter/src/main/java/com/yalantis/filter/animator/FiltersListItemAnimator.kt">
+	<error line="443" column="5" severity="warning" message="The function endAnimations is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="12" column="1" severity="warning" message="Class FiltersListItemAnimator is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="12" column="1" severity="warning" message="Class &apos;FiltersListItemAnimator&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/SearchFilter/filter/src/main/java/com/yalantis/filter/widget/Filter.kt">
+	<error line="28" column="1" severity="warning" message="Class Filter is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="28" column="1" severity="warning" message="Class &apos;Filter&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/SearchFilter/filter/src/main/java/com/yalantis/filter/widget/FilterItem.kt">
+	<error line="24" column="1" severity="warning" message="Class &apos;FilterItem&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

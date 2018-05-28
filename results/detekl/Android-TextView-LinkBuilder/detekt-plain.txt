@@ -1,0 +1,2 @@
+TooManyFunctions - 14/11 - [LinkBuilder] at /home/matheus/Documentos/repositories/Kotlin/Android-TextView-LinkBuilder/library/src/main/java/com/klinker/android/link_builder/LinkBuilder.kt:28:1 - Signature=LinkBuilder.kt$LinkBuilder
+TooManyFunctions - 14/11 - [Link] at /home/matheus/Documentos/repositories/Kotlin/Android-TextView-LinkBuilder/library/src/main/java/com/klinker/android/link_builder/Link.kt:22:1 - Signature=Link.kt$Link

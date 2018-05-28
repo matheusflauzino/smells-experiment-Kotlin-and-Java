@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 88
+</li>
+<li>
+number of packages: 24
+</li>
+<li>
+number of classes: 87
+</li>
+<li>
+number of functions: 483
+</li>
+<li>
+number of properties: 748
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/p3c/eclipse-plugin/com.alibaba.smartfox.eclipse.plugin/src/main/kotlin/com/alibaba/smartfox/eclipse/ui/InspectionResultView.kt:49:1
+</span>
+<br />
+<span class="message">
+Class 'InspectionResultView' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/p3c/eclipse-plugin/com.alibaba.smartfox.eclipse.plugin/src/main/kotlin/com/alibaba/smartfox/eclipse/ui/pmd/ContentBuilder.kt:15:1
+</span>
+<br />
+<span class="message">
+Class 'ContentBuilder' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/p3c/eclipse-plugin/com.alibaba.smartfox.eclipse.plugin/src/main/kotlin/com/alibaba/smartfox/eclipse/ui/pmd/StyleExtractor.kt:10:1
+</span>
+<br />
+<span class="message">
+Class 'StyleExtractor' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/p3c/idea-plugin/p3c-common/src/main/kotlin/com/alibaba/p3c/idea/inspection/AliPmdInspection.kt:31:1
+</span>
+<br />
+<span class="message">
+Class 'AliPmdInspection' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/p3c/idea-plugin/p3c-common/src/main/kotlin/com/alibaba/p3c/idea/inspection/DelegateLocalInspectionTool.kt:29:1
+</span>
+<br />
+<span class="message">
+Class 'DelegateLocalInspectionTool' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/p3c/idea-plugin/p3c-common/src/main/kotlin/com/alibaba/smartfox/idea/common/util/BalloonNotifications.kt:78:25
+</span>
+<br />
+<span class="message">
+The function showNotification has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/p3c/idea-plugin/p3c-common/src/main/kotlin/com/alibaba/p3c/idea/action/AliInspectionAction.kt:112:35
+</span>
+<br />
+<span class="message">
+The function inspectForKeyEvent has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/p3c/idea-plugin/p3c-common/src/main/kotlin/com/alibaba/p3c/idea/util/ProblemsUtils.kt:45:42
+</span>
+<br />
+<span class="message">
+The function createProblemDescriptorForPmdRule has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/p3c/idea-plugin/p3c-common/src/main/kotlin/com/alibaba/p3c/idea/util/ProblemsUtils.kt:126:39
+</span>
+<br />
+<span class="message">
+The function createTextRangeProblem has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

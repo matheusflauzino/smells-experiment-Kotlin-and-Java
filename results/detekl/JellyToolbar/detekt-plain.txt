@@ -1,0 +1,1 @@
+TooManyFunctions - 13/11 - [JellyView] at /home/matheus/Documentos/repositories/Kotlin/JellyToolbar/library/src/main/java/com/yalantis/jellytoolbar/widget/JellyView.kt:17:1 - Signature=JellyView.kt$JellyView : ViewJellyWidget

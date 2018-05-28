@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/carpenter/ClassCarpenter.kt">
+	<error line="55" column="1" severity="warning" message="Class ClassCarpenterImpl is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="55" column="1" severity="warning" message="Class &apos;ClassCarpenterImpl&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/amqp/FingerPrinter.kt">
+	<error line="181" column="37" severity="warning" message="The function fingerprintForObject has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/amqp/SerializationOutput.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;SerializationOutput&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/amqp/AMQPSerializer.kt">
+	<error line="35" column="20" severity="warning" message="The function writeObject has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/amqp/SerializerFactory.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;SerializerFactory&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/amqp/SerializationHelper.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;SerializationHelper.kt&apos; with &apos;29&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/tools/shell/src/main/kotlin/net/corda/tools/shell/InteractiveShell.kt">
+	<error line="238" column="30" severity="warning" message="The function runFlowByNameFragment has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="383" column="25" severity="warning" message="The function runRPCFromString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="70" column="1" severity="warning" message="Class InteractiveShell is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="70" column="1" severity="warning" message="Object &apos;InteractiveShell&apos; with &apos;15&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/tools/demobench/src/main/kotlin/net/corda/demobench/views/NodeTabView.kt">
+	<error line="33" column="1" severity="warning" message="Class NodeTabView is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/tools/demobench/src/main/kotlin/net/corda/demobench/model/NodeController.kt">
+	<error line="24" column="1" severity="warning" message="Class &apos;NodeController&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/tools/loadtest/src/main/kotlin/net/corda/loadtest/NodeConnection.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;NodeConnection&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/tools/explorer/src/main/kotlin/net/corda/explorer/identicon/IdenticonRenderer.kt">
+	<error line="152" column="26" severity="warning" message="The function drawPatch has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="98" column="5" severity="warning" message="The function render is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/tools/explorer/src/main/kotlin/net/corda/explorer/views/Network.kt">
+	<error line="43" column="1" severity="warning" message="Class Network is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/internal/InternalTestUtils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;InternalTestUtils.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/internal/vault/VaultFiller.kt">
+	<error line="96" column="37" severity="warning" message="The function fillWithSomeTestLinearStates has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="131" column="29" severity="warning" message="The function fillWithSomeTestCash has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="146" column="29" severity="warning" message="The function fillWithSomeTestCash has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="29" column="1" severity="warning" message="Class &apos;VaultFiller&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/dsl/TransactionDSLInterpreter.kt">
+	<error line="40" column="15" severity="warning" message="The function output has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="79" column="1" severity="warning" message="Class &apos;TransactionDSL&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/dsl/TestDSL.kt">
+	<error line="148" column="1" severity="warning" message="Class &apos;TestLedgerDSLInterpreter&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/core/Expect.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Expect.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-common/src/main/kotlin/net/corda/testing/common/internal/ParametersUtilities.kt">
+	<error line="10" column="26" severity="warning" message="The function testNetworkParameters has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/driver/DriverDSL.kt">
+	<error line="74" column="18" severity="warning" message="The function startNode has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/driver/Driver.kt">
+	<error line="166" column="13" severity="warning" message="The function copy has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="364" column="13" severity="warning" message="The function copy has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="394" column="13" severity="warning" message="The function copy has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="245" column="1" severity="warning" message="Class &apos;DriverParameters&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/performance/Injectors.kt">
+	<error line="58" column="37" severity="warning" message="The function startPublishingFixedRateInjector has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/RPCDriver.kt">
+	<error line="103" column="18" severity="warning" message="The function rpcDriver has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="237" column="40" severity="warning" message="The function startInVmRpcServer has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="304" column="36" severity="warning" message="The function startRpcServer has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="165" column="1" severity="warning" message="Class &apos;RPCDriverDSL&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/ProcessUtilities.kt">
+	<error line="17" column="26" severity="warning" message="The function startCordaProcess has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="30" column="29" severity="warning" message="The function startJavaProcessImpl has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/DriverDSLImpl.kt">
+	<error line="201" column="36" severity="warning" message="The function startRegisteredNode has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="767" column="42" severity="warning" message="The function startOutOfProcessNode has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1114" column="23" severity="warning" message="The function internalDriver has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="80" column="1" severity="warning" message="Class DriverDSLImpl is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="80" column="1" severity="warning" message="Class &apos;DriverDSLImpl&apos; with &apos;23&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/InternalMockNetwork.kt">
+	<error line="98" column="1" severity="warning" message="Class &apos;InternalMockNetwork&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="222" column="5" severity="warning" message="Class &apos;MockNode&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/InMemoryMessagingNetwork.kt">
+	<error line="125" column="34" severity="warning" message="The function createNodeWithID has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="354" column="5" severity="warning" message="Class &apos;InMemoryMessaging&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/integration-test/kotlin/net/corda/testing/driver/DriverTests.kt">
+	<error line="37" column="1" severity="warning" message="Class &apos;DriverTests&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/client/jfx/src/main/kotlin/net/corda/client/jfx/utils/ConcatenatedList.kt">
+	<error line="9" column="1" severity="warning" message="Class ConcatenatedList is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/client/jfx/src/main/kotlin/net/corda/client/jfx/utils/ObservableUtilities.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ObservableUtilities.kt&apos; with &apos;35&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/client/jfx/src/main/kotlin/net/corda/client/jfx/utils/ReadOnlyBackedObservableMapBase.kt">
+	<error line="9" column="1" severity="warning" message="Class &apos;ReadOnlyBackedObservableMapBase&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/client/mock/src/main/kotlin/net/corda/client/mock/Generator.kt">
+	<error line="77" column="5" severity="warning" message="Object &apos;Companion&apos; with &apos;25&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/client/rpc/src/main/kotlin/net/corda/client/rpc/internal/RPCClientProxyHandler.kt">
+	<error line="58" column="1" severity="warning" message="Class RPCClientProxyHandler is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="58" column="1" severity="warning" message="Class &apos;RPCClientProxyHandler&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/client/rpc/src/integration-test/kotlin/net/corda/client/rpc/RPCStabilityTests.kt">
+	<error line="37" column="1" severity="warning" message="Class RPCStabilityTests is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="37" column="1" severity="warning" message="Class &apos;RPCStabilityTests&apos; with &apos;21&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/Node.kt">
+	<error line="62" column="1" severity="warning" message="Class Node is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="62" column="1" severity="warning" message="Class &apos;Node&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/CordaRPCOpsImpl.kt">
+	<error line="41" column="1" severity="warning" message="Class &apos;CordaRPCOpsImpl&apos; with &apos;49&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/cordapp/CordappLoader.kt">
+	<error line="36" column="1" severity="warning" message="Class &apos;CordappLoader&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/NodeStartup.kt">
+	<error line="42" column="1" severity="warning" message="Class NodeStartup is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="42" column="1" severity="warning" message="Class &apos;NodeStartup&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/AbstractNode.kt">
+	<error line="693" column="29" severity="warning" message="The function makeServices has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="167" column="1" severity="warning" message="Class AbstractNode is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="167" column="1" severity="warning" message="Class &apos;AbstractNode&apos; with &apos;42&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/transactions/BFTSMaRt.kt">
+	<error line="173" column="5" severity="warning" message="Class &apos;Replica&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/messaging/ArtemisMessagingServer.kt">
+	<error line="146" column="31" severity="warning" message="The function restrictedRole has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/messaging/Messaging.kt">
+	<error line="118" column="26" severity="warning" message="The function send has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/messaging/P2PMessagingClient.kt">
+	<error line="67" column="1" severity="warning" message="Class P2PMessagingClient is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="67" column="1" severity="warning" message="Class &apos;P2PMessagingClient&apos; with &apos;24&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/messaging/RPCServer.kt">
+	<error line="68" column="1" severity="warning" message="Class RPCServer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="68" column="1" severity="warning" message="Class &apos;RPCServer&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/identity/PersistentIdentityService.kt">
+	<error line="31" column="1" severity="warning" message="Class &apos;PersistentIdentityService&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/SingleThreadedStateMachineManager.kt">
+	<error line="478" column="39" severity="warning" message="The function startInitiatedFlow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="496" column="38" severity="warning" message="The function startFlowInternal has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="577" column="41" severity="warning" message="The function createFlowFromCheckpoint has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="55" column="1" severity="warning" message="Class SingleThreadedStateMachineManager is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="55" column="1" severity="warning" message="Class &apos;SingleThreadedStateMachineManager&apos; with &apos;36&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/FlowSessionImpl.kt">
+	<error line="17" column="1" severity="warning" message="Class &apos;FlowSessionImpl&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/ActionExecutorImpl.kt">
+	<error line="22" column="1" severity="warning" message="Class &apos;ActionExecutorImpl&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/FlowLogicRefFactoryImpl.kt">
+	<error line="22" column="1" severity="warning" message="Class &apos;FlowLogicRefFactoryImpl&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/transitions/TopLevelTransition.kt">
+	<error line="8" column="1" severity="warning" message="Class &apos;TopLevelTransition&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/transitions/StartedFlowTransition.kt">
+	<error line="11" column="1" severity="warning" message="Class StartedFlowTransition is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="11" column="1" severity="warning" message="Class &apos;StartedFlowTransition&apos; with &apos;21&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/FlowStateMachineImpl.kt">
+	<error line="39" column="1" severity="warning" message="Class &apos;FlowStateMachineImpl&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/StateMachineState.kt">
+	<error line="67" column="19" severity="warning" message="The function create has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/network/PersistentNetworkMapCache.kt">
+	<error line="71" column="1" severity="warning" message="Class PersistentNetworkMapCache is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="71" column="1" severity="warning" message="Class &apos;PersistentNetworkMapCache&apos; with &apos;27&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/vault/NodeVaultService.kt">
+	<error line="403" column="5" severity="warning" message="The function _queryBy is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="38" column="1" severity="warning" message="Class NodeVaultService is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="38" column="1" severity="warning" message="Class &apos;NodeVaultService&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/vault/HibernateQueryCriteriaParser.kt">
+	<error line="167" column="1" severity="warning" message="Class HibernateQueryCriteriaParser is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="167" column="1" severity="warning" message="Class &apos;HibernateQueryCriteriaParser&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/rpc/RpcBrokerConfiguration.kt">
+	<error line="124" column="31" severity="warning" message="The function restrictedRole has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/rpc/ArtemisRpcBroker.kt">
+	<error line="36" column="20" severity="warning" message="The function withSsl has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="40" column="23" severity="warning" message="The function withoutSsl has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/utilities/AppendOnlyPersistentMap.kt">
+	<error line="16" column="1" severity="warning" message="Class &apos;AppendOnlyPersistentMapBase&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/integration-test/kotlin/net/corda/node/amqp/CertificateRevocationListNodeTests.kt">
+	<error line="297" column="29" severity="warning" message="The function createServer has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="60" column="1" severity="warning" message="Class CertificateRevocationListNodeTests is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="60" column="1" severity="warning" message="Class &apos;CertificateRevocationListNodeTests&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/integration-test/kotlin/net/corda/node/amqp/AMQPBridgeTest.kt">
+	<error line="48" column="5" severity="warning" message="The function test acked and nacked messages is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node/src/integration-test/kotlin/net/corda/node/amqp/ProtonWrapperTests.kt">
+	<error line="107" column="5" severity="warning" message="The function Test AMQP Client with invalid root certificate is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="238" column="5" severity="warning" message="The function Send a message from AMQP to Artemis inbox is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="264" column="5" severity="warning" message="The function Send a message larger then maxMessageSize from AMQP to Artemis inbox is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="41" column="1" severity="warning" message="Class ProtonWrapperTests is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="41" column="1" severity="warning" message="Class &apos;ProtonWrapperTests&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/ContractFunctions.kt">
+	<error line="7" column="9" severity="warning" message="The function swap has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="13" column="12" severity="warning" message="The function fx_swap has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="27" column="13" severity="warning" message="The function fx_swap2 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/Util.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Util.kt&apos; with &apos;21&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/UniversalContract.kt">
+	<error line="16" column="1" severity="warning" message="Class UniversalContract is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="16" column="1" severity="warning" message="Class &apos;UniversalContract&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/Perceivable.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Perceivable.kt&apos; with &apos;44&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/Literal.kt">
+	<error line="53" column="1" severity="warning" message="Class &apos;ContractBuilder&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/experimental/behave/src/main/kotlin/net/corda/behave/network/Network.kt">
+	<error line="25" column="1" severity="warning" message="Class &apos;Network&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/experimental/behave/src/main/kotlin/net/corda/behave/node/Node.kt">
+	<error line="29" column="1" severity="warning" message="Class &apos;Node&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="230" column="5" severity="warning" message="Class &apos;Builder&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/experimental/behave/src/main/kotlin/net/corda/behave/ssh/SSHClient.kt">
+	<error line="101" column="9" severity="warning" message="The function connect is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/transactions/WireTransaction.kt">
+	<error line="236" column="34" severity="warning" message="The function createComponentGroups has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/transactions/SignedTransaction.kt">
+	<error line="22" column="1" severity="warning" message="Class &apos;SignedTransaction&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/transactions/BaseTransaction.kt">
+	<error line="11" column="1" severity="warning" message="Class &apos;BaseTransaction&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/transactions/TransactionBuilder.kt">
+	<error line="24" column="1" severity="warning" message="Class &apos;TransactionBuilder&apos; with &apos;25&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/transactions/LedgerTransaction.kt">
+	<error line="405" column="13" severity="warning" message="The function copy has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="15" column="1" severity="warning" message="Class &apos;LedgerTransaction&apos; with &apos;31&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/internal/InternalUtils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;InternalUtils.kt&apos; with &apos;51&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/internal/X509EdDSAEngine.kt">
+	<error line="9" column="1" severity="warning" message="Class &apos;X509EdDSAEngine&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/internal/concurrent/CordaFutureImpl.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;CordaFutureImpl.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/internal/PathUtils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;PathUtils.kt&apos; with &apos;33&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/messaging/CordaRPCOps.kt">
+	<error line="474" column="78" severity="warning" message="The function startFlow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="484" column="81" severity="warning" message="The function startFlow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="539" column="85" severity="warning" message="The function startTrackedFlow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="550" column="88" severity="warning" message="The function startTrackedFlow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="96" column="1" severity="warning" message="Interface &apos;CordaRPCOps&apos; with &apos;45&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;CordaRPCOps.kt&apos; with &apos;17&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/node/ServiceHub.kt">
+	<error line="85" column="1" severity="warning" message="Interface &apos;ServiceHub&apos; with &apos;22&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/node/NetworkParameters.kt">
+	<error line="64" column="13" severity="warning" message="The function copy has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/node/services/VaultService.kt">
+	<error line="149" column="1" severity="warning" message="Interface &apos;VaultService&apos; with &apos;18&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/node/services/NetworkMapCache.kt">
+	<error line="46" column="1" severity="warning" message="Interface &apos;NetworkMapCacheBase&apos; with &apos;12&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/node/services/vault/QueryCriteriaUtils.kt">
+	<error line="230" column="1" severity="warning" message="Object &apos;Builder&apos; with &apos;78&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/flows/FlowLogic.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;FlowLogic&apos; with &apos;27&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/utilities/ByteArrays.kt">
+	<error line="13" column="1" severity="warning" message="Class &apos;ByteSequence&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/utilities/EncodingUtils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;EncodingUtils.kt&apos; with &apos;18&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/crypto/CryptoUtils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;CryptoUtils.kt&apos; with &apos;25&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/crypto/CompositeKey.kt">
+	<error line="12" column="1" severity="warning" message="Class &apos;CompositeKey&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/crypto/Crypto.kt">
+	<error line="48" column="1" severity="warning" message="Class Crypto is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="48" column="1" severity="warning" message="Object &apos;Crypto&apos; with &apos;46&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/samples/irs-demo/cordapp/src/main/kotlin/net/corda/irs/contract/IRS.kt">
+	<error line="198" column="13" severity="warning" message="The function copy has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="370" column="17" severity="warning" message="The function copy has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="450" column="17" severity="warning" message="The function copy has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="693" column="26" severity="warning" message="The function generateAgreement has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="209" column="1" severity="warning" message="Class &apos;InterestRateSwap&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/samples/network-visualiser/src/main/kotlin/net/corda/netmap/VisualiserView.kt">
+	<error line="201" column="5" severity="warning" message="The function makeTopBar is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="28" column="1" severity="warning" message="Class VisualiserView is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/samples/network-visualiser/src/main/kotlin/net/corda/netmap/NetworkMapVisualiser.kt">
+	<error line="35" column="1" severity="warning" message="Class NetworkMapVisualiser is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="35" column="1" severity="warning" message="Class &apos;NetworkMapVisualiser&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/samples/simm-valuation-demo/flows/src/main/kotlin/net/corda/vega/flows/SimmFlow.kt">
+	<error line="139" column="9" severity="warning" message="The function agreeValuation is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="234" column="9" severity="warning" message="The function agreeValuation is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/samples/simm-valuation-demo/flows/src/main/kotlin/net/corda/vega/analytics/example/OGSwapPricingExample.kt">
+	<error line="67" column="1" severity="warning" message="Class &apos;SwapPricingExample&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/samples/simm-valuation-demo/flows/src/main/kotlin/net/corda/vega/analytics/example/OGSwapPricingCcpExample.kt">
+	<error line="127" column="5" severity="warning" message="The function calculate is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/samples/simm-valuation-demo/src/main/kotlin/net/corda/vega/api/PortfolioApi.kt">
+	<error line="33" column="1" severity="warning" message="Class &apos;PortfolioApi&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/webserver/src/main/kotlin/net/corda/webserver/WebServer.kt">
+	<error line="14" column="1" severity="warning" message="The function main is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/docs/source/example-code/src/main/kotlin/net/corda/docs/FlowCookbook.kt">
+	<error line="87" column="5" severity="warning" message="The function call is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/RPCApi.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;RPCApi.kt&apos; with &apos;15&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/config/ConfigUtilities.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ConfigUtilities.kt&apos; with &apos;14&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/persistence/HibernateStatistics.kt">
+	<error line="18" column="1" severity="warning" message="Class &apos;DelegatingStatisticsService&apos; with &apos;51&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/network/NetworkBootstrapper.kt">
+	<error line="41" column="1" severity="warning" message="Class NetworkBootstrapper is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="41" column="1" severity="warning" message="Class &apos;NetworkBootstrapper&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/protonwrapper/engine/ConnectionStateMachine.kt">
+	<error line="31" column="1" severity="warning" message="Class ConnectionStateMachine is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="31" column="1" severity="warning" message="Class &apos;ConnectionStateMachine&apos; with &apos;29&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/protonwrapper/engine/NettyWritable.kt">
+	<error line="8" column="1" severity="warning" message="Class &apos;NettyWritable&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/crypto/X509Utilities.kt">
+	<error line="151" column="33" severity="warning" message="The function createPartialCertificate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="199" column="26" severity="warning" message="The function createCertificate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="235" column="26" severity="warning" message="The function createCertificate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="263" column="26" severity="warning" message="The function createCertificate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="40" column="1" severity="warning" message="Object &apos;X509Utilities&apos; with &apos;19&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/crypto/X509KeyStore.kt">
+	<error line="11" column="1" severity="warning" message="Class &apos;X509KeyStore&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/ArtemisTcpTransport.kt">
+	<error line="15" column="5" severity="warning" message="Object &apos;Companion&apos; with &apos;11&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/cash/selection/AbstractCashSelection.kt">
+	<error line="80" column="40" severity="warning" message="The function executeQuery has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="100" column="40" severity="warning" message="The function unconsumedCashStatesForSpending has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="128" column="29" severity="warning" message="The function attemptSpend has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/OnLedgerAsset.kt">
+	<error line="57" column="58" severity="warning" message="The function generateSpend has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="91" column="58" severity="warning" message="The function generateSpend has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="231" column="57" severity="warning" message="The function generateExit has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="253" column="57" severity="warning" message="The function generateExit has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/Cash.kt">
+	<error line="176" column="35" severity="warning" message="The function verifyIssueCommand has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="259" column="26" severity="warning" message="The function generateSpend has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/Obligation.kt">
+	<error line="543" column="26" severity="warning" message="The function generateCashIssue has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="565" column="22" severity="warning" message="The function generateIssue has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="77" column="1" severity="warning" message="Class Obligation is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="77" column="1" severity="warning" message="Class &apos;Obligation&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/FinanceTypes.kt">
+	<error line="243" column="34" severity="warning" message="The function createGenericSchedule has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/Currencies.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Currencies.kt&apos; with &apos;16&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/utils/PhysicalLocationStructures.kt">
+	<error line="25" column="16" severity="warning" message="The function project has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+</checkstyle>

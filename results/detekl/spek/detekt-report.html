@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 66
+</li>
+<li>
+number of packages: 18
+</li>
+<li>
+number of classes: 132
+</li>
+<li>
+number of functions: 298
+</li>
+<li>
+number of properties: 221
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-runner/junit5/src/main/kotlin/org/spekframework/spek2/junit/TestDescriptorAdapter.kt:15:1
+</span>
+<br />
+<span class="message">
+Class 'TestDescriptorAdapter' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-runner/junit5/src/main/kotlin/org/spekframework/spek2/junit/RuntimeExecutionListenerAdapter.kt:12:1
+</span>
+<br />
+<span class="message">
+Class 'RuntimeExecutionListenerAdapter' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-runtime/common/src/main/kotlin/org/spekframework/spek2/runtime/Collectors.kt:21:1
+</span>
+<br />
+<span class="message">
+Class 'Collector' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-runtime/common/src/main/kotlin/org/spekframework/spek2/runtime/execution/Execution.kt:13:1
+</span>
+<br />
+<span class="message">
+Interface 'ExecutionListener' with '11' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-runtime/common/src/main/kotlin/org/spekframework/spek2/runtime/FixturesAdapter.kt:8:1
+</span>
+<br />
+<span class="message">
+Class 'FixturesAdapter' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-runtime/common/src/main/kotlin/org/spekframework/spek2/runtime/DelegatingExecutionListener.kt:9:1
+</span>
+<br />
+<span class="message">
+Class 'DelegatingExecutionListener' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-extension/data-driven/common/src/main/kotlin/org/spekframework/spek2/data_driven/namespace.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'namespace.kt' with '19' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-ide-plugin/intellij-jvm/src/main/kotlin/org/spekframework/intellij/spek2.kt:37:1
+</span>
+<br />
+<span class="message">
+Class 'Spek2JvmRunConfiguration' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-ide-plugin/interop-jvm/src/main/kotlin/org/spekframework/ide/ServiceMessageAdapter.kt:12:1
+</span>
+<br />
+<span class="message">
+Class 'ServiceMessageAdapter' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-ide-plugin/intellij-common/src/main/kotlin/org/spekframework/intellij/base.kt:31:1
+</span>
+<br />
+<span class="message">
+Class 'SpekBaseRunConfiguration' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-ide-plugin/intellij-common/src/main/kotlin/org/spekframework/intellij/util.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'util.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-extension/data-driven/common/src/main/kotlin/org/spekframework/spek2/data_driven/namespace.kt:96:40
+</span>
+<br />
+<span class="message">
+The function data has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-extension/data-driven/common/src/main/kotlin/org/spekframework/spek2/data_driven/namespace.kt:97:44
+</span>
+<br />
+<span class="message">
+The function data has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-extension/data-driven/common/src/main/kotlin/org/spekframework/spek2/data_driven/namespace.kt:98:48
+</span>
+<br />
+<span class="message">
+The function data has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-extension/data-driven/common/src/main/kotlin/org/spekframework/spek2/data_driven/namespace.kt:99:52
+</span>
+<br />
+<span class="message">
+The function data has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/spek/spek-extension/data-driven/common/src/main/kotlin/org/spekframework/spek2/data_driven/namespace.kt:100:56
+</span>
+<br />
+<span class="message">
+The function data has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

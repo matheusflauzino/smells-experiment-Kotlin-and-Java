@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/preview/PreviewStream.kt">
+	<error line="13" column="1" severity="warning" message="Class &apos;PreviewStream&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/configuration/CameraConfiguration.kt">
+	<error line="37" column="5" severity="warning" message="Class &apos;Builder&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/configuration/UpdateConfiguration.kt">
+	<error line="22" column="5" severity="warning" message="Class &apos;Builder&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/selector/PreviewFpsRangeSelectors.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;PreviewFpsRangeSelectors.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/parameter/camera/apply/CameraParametersApplicator.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;CameraParametersApplicator.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/hardware/CameraDevice.kt">
+	<error line="40" column="1" severity="warning" message="Class &apos;CameraDevice&apos; with &apos;26&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/hardware/Device.kt">
+	<error line="24" column="1" severity="warning" message="Class &apos;Device&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/Fotoapparat.kt">
+	<error line="31" column="1" severity="warning" message="Class &apos;Fotoapparat&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/FotoapparatBuilder.kt">
+	<error line="17" column="1" severity="warning" message="Class &apos;FotoapparatBuilder&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 122
+</li>
+<li>
+number of packages: 39
+</li>
+<li>
+number of classes: 78
+</li>
+<li>
+number of functions: 356
+</li>
+<li>
+number of properties: 173
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/preview/PreviewStream.kt:13:1
+</span>
+<br />
+<span class="message">
+Class 'PreviewStream' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/configuration/CameraConfiguration.kt:37:5
+</span>
+<br />
+<span class="message">
+Class 'Builder' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/configuration/UpdateConfiguration.kt:22:5
+</span>
+<br />
+<span class="message">
+Class 'Builder' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/selector/PreviewFpsRangeSelectors.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'PreviewFpsRangeSelectors.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/parameter/camera/apply/CameraParametersApplicator.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'CameraParametersApplicator.kt' with '12' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/hardware/CameraDevice.kt:40:1
+</span>
+<br />
+<span class="message">
+Class 'CameraDevice' with '26' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/hardware/Device.kt:24:1
+</span>
+<br />
+<span class="message">
+Class 'Device' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/Fotoapparat.kt:31:1
+</span>
+<br />
+<span class="message">
+Class 'Fotoapparat' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Fotoapparat/fotoapparat/src/main/java/io/fotoapparat/FotoapparatBuilder.kt:17:1
+</span>
+<br />
+<span class="message">
+Class 'FotoapparatBuilder' with '19' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+</ul>
+
+</body>
+</html>

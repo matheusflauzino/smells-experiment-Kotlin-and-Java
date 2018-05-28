@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generator/src/org/jetbrains/android/anko/utils/ClassTree.kt">
+	<error line="28" column="1" severity="warning" message="Class &apos;ClassTree&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generator/src/org/jetbrains/android/anko/writer/AbstractWriter.kt">
+	<error line="9" column="1" severity="warning" message="Class &apos;AbstractWriter&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/supportV4/src/Support.kt">
+	<error line="31" column="43" severity="warning" message="The function configuration has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/supportV4/src/SupportDialogs.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;SupportDialogs.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/sqlite/src/Database.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Database.kt&apos; with &apos;16&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/sqlite/src/SqlParsers.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;SqlParsers.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/sqlite/src/SelectQueryBuilder.kt">
+	<error line="81" column="37" severity="warning" message="The function execQuery has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="25" column="1" severity="warning" message="Class &apos;SelectQueryBuilder&apos; with &apos;24&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/platform/src/CustomViews.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;CustomViews.kt&apos; with &apos;26&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/RelativeLayoutLayoutParamsHelpers.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;RelativeLayoutLayoutParamsHelpers.kt&apos; with &apos;41&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/Internals.kt">
+	<error line="216" column="26" severity="warning" message="The function testConfiguration has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="39" column="1" severity="warning" message="Class AnkoInternals is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="39" column="1" severity="warning" message="Object &apos;AnkoInternals&apos; with &apos;17&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/Async.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Async.kt&apos; with &apos;14&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/Helpers.kt">
+	<error line="96" column="42" severity="warning" message="The function configuration has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="130" column="43" severity="warning" message="The function configuration has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="164" column="49" severity="warning" message="The function configuration has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="198" column="43" severity="warning" message="The function configuration has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/dialogs/AlertDialogBuilder.kt">
+	<error line="31" column="1" severity="warning" message="Class &apos;AlertDialogBuilder&apos; with &apos;31&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/dialogs/Toasts.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Toasts.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/dialogs/AndroidAlertBuilder.kt">
+	<error line="31" column="1" severity="warning" message="Class &apos;AndroidAlertBuilder&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/dialogs/AlertBuilder.kt">
+	<error line="32" column="1" severity="warning" message="Interface &apos;AlertBuilder&apos; with &apos;12&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/dialogs/AndroidDialogs.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;AndroidDialogs.kt&apos; with &apos;22&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/Logging.kt">
+	<error line="251" column="23" severity="warning" message="The function log has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;Logging.kt&apos; with &apos;17&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/Theme.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Theme.kt&apos; with &apos;14&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/Dimensions.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Dimensions.kt&apos; with &apos;28&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/commons/src/Intents.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Intents.kt&apos; with &apos;38&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/design/src/Snackbar.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Snackbar.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/static/appcompatV7/src/SupportAlertBuilder.kt">
+	<error line="33" column="1" severity="warning" message="Class &apos;AppcompatAlertBuilder&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk19-listeners/src/Listeners.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Listeners.kt&apos; with &apos;52&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk25-coroutines/src/ListenersWithCoroutines.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ListenersWithCoroutines.kt&apos; with &apos;58&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk23-listeners/src/Listeners.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Listeners.kt&apos; with &apos;58&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk23/src/Layouts.kt">
+	<error line="31" column="1" severity="warning" message="Class &apos;_AppWidgetHostView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="297" column="1" severity="warning" message="Class &apos;_FrameLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="479" column="1" severity="warning" message="Class &apos;_GridLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="678" column="1" severity="warning" message="Class &apos;_HorizontalScrollView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="798" column="1" severity="warning" message="Class &apos;_ImageSwitcher&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="918" column="1" severity="warning" message="Class &apos;_LinearLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1238" column="1" severity="warning" message="Class &apos;_ScrollView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1358" column="1" severity="warning" message="Class &apos;_TableLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1477" column="1" severity="warning" message="Class &apos;_TableRow&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1614" column="1" severity="warning" message="Class &apos;_TextSwitcher&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1734" column="1" severity="warning" message="Class &apos;_Toolbar&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1890" column="1" severity="warning" message="Class &apos;_ViewAnimator&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="2010" column="1" severity="warning" message="Class &apos;_ViewSwitcher&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk23/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;644&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/appcompat-v7/src/Layouts.kt">
+	<error line="24" column="1" severity="warning" message="Class &apos;_ListMenuItemView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="144" column="1" severity="warning" message="Class &apos;_ActionBarContainer&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="424" column="1" severity="warning" message="Class &apos;_AlertDialogLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="544" column="1" severity="warning" message="Class &apos;_ButtonBarLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="664" column="1" severity="warning" message="Class &apos;_LinearLayoutCompat&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="868" column="1" severity="warning" message="Class &apos;_ScrollingTabContainerView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="988" column="1" severity="warning" message="Class &apos;_Toolbar&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/appcompat-v7/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;336&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk15-coroutines/src/ListenersWithCoroutines.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ListenersWithCoroutines.kt&apos; with &apos;50&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk25/src/Layouts.kt">
+	<error line="31" column="1" severity="warning" message="Class &apos;_AppWidgetHostView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="297" column="1" severity="warning" message="Class &apos;_FrameLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="479" column="1" severity="warning" message="Class &apos;_GridLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="678" column="1" severity="warning" message="Class &apos;_HorizontalScrollView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="798" column="1" severity="warning" message="Class &apos;_ImageSwitcher&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="918" column="1" severity="warning" message="Class &apos;_LinearLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1238" column="1" severity="warning" message="Class &apos;_ScrollView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1358" column="1" severity="warning" message="Class &apos;_TableLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1477" column="1" severity="warning" message="Class &apos;_TableRow&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1614" column="1" severity="warning" message="Class &apos;_TextSwitcher&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1734" column="1" severity="warning" message="Class &apos;_Toolbar&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1890" column="1" severity="warning" message="Class &apos;_ViewAnimator&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="2010" column="1" severity="warning" message="Class &apos;_ViewSwitcher&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk25/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;644&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sqlite/src/SqlParserHelpers.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;SqlParserHelpers.kt&apos; with &apos;22&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk23-coroutines/src/ListenersWithCoroutines.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ListenersWithCoroutines.kt&apos; with &apos;58&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk19-coroutines/src/ListenersWithCoroutines.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ListenersWithCoroutines.kt&apos; with &apos;52&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk21/src/Layouts.kt">
+	<error line="31" column="1" severity="warning" message="Class &apos;_AppWidgetHostView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="297" column="1" severity="warning" message="Class &apos;_FrameLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="479" column="1" severity="warning" message="Class &apos;_GridLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="678" column="1" severity="warning" message="Class &apos;_HorizontalScrollView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="798" column="1" severity="warning" message="Class &apos;_ImageSwitcher&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="918" column="1" severity="warning" message="Class &apos;_LinearLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1238" column="1" severity="warning" message="Class &apos;_ScrollView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1358" column="1" severity="warning" message="Class &apos;_TableLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1477" column="1" severity="warning" message="Class &apos;_TableRow&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1614" column="1" severity="warning" message="Class &apos;_TextSwitcher&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1734" column="1" severity="warning" message="Class &apos;_Toolbar&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1890" column="1" severity="warning" message="Class &apos;_ViewAnimator&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="2010" column="1" severity="warning" message="Class &apos;_ViewSwitcher&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk21/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;644&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/percent/src/Layouts.kt">
+	<error line="13" column="1" severity="warning" message="Class &apos;_PercentFrameLayout&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/percent/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;24&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/constraint-layout/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;28&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk21-listeners/src/Listeners.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Listeners.kt&apos; with &apos;56&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/cardview-v7/src/Layouts.kt">
+	<error line="12" column="1" severity="warning" message="Class &apos;_CardView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/cardview-v7/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk25-listeners/src/Listeners.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Listeners.kt&apos; with &apos;58&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/recyclerview-v7/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk15/src/Layouts.kt">
+	<error line="360" column="1" severity="warning" message="Class &apos;_GridLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1149" column="1" severity="warning" message="Class &apos;_TableLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1268" column="1" severity="warning" message="Class &apos;_TableRow&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk15/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;600&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/support-v4/src/Layouts.kt">
+	<error line="16" column="1" severity="warning" message="Class &apos;_FragmentTabHost&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="177" column="1" severity="warning" message="Class &apos;_DrawerLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="297" column="1" severity="warning" message="Class &apos;_NestedScrollView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="417" column="1" severity="warning" message="Class &apos;_SlidingPaneLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/support-v4/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;104&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/design/src/Layouts.kt">
+	<error line="18" column="1" severity="warning" message="Class &apos;_AppBarLayout&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="156" column="1" severity="warning" message="Class &apos;_BottomNavigationView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="276" column="1" severity="warning" message="Class &apos;_CollapsingToolbarLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="474" column="1" severity="warning" message="Class &apos;_TabLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="594" column="1" severity="warning" message="Class &apos;_TextInputLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/design/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;96&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk15-listeners/src/Listeners.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Listeners.kt&apos; with &apos;50&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/gridlayout-v7/src/Layouts.kt">
+	<error line="11" column="1" severity="warning" message="Class &apos;_GridLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/gridlayout-v7/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk21-coroutines/src/ListenersWithCoroutines.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ListenersWithCoroutines.kt&apos; with &apos;56&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk19/src/Layouts.kt">
+	<error line="28" column="1" severity="warning" message="Class &apos;_AppWidgetHostView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="214" column="1" severity="warning" message="Class &apos;_FrameLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="396" column="1" severity="warning" message="Class &apos;_GridLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="595" column="1" severity="warning" message="Class &apos;_HorizontalScrollView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="715" column="1" severity="warning" message="Class &apos;_ImageSwitcher&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="835" column="1" severity="warning" message="Class &apos;_LinearLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1155" column="1" severity="warning" message="Class &apos;_ScrollView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1275" column="1" severity="warning" message="Class &apos;_TableLayout&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1394" column="1" severity="warning" message="Class &apos;_TableRow&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1531" column="1" severity="warning" message="Class &apos;_TextSwitcher&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1651" column="1" severity="warning" message="Class &apos;_ViewAnimator&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1771" column="1" severity="warning" message="Class &apos;_ViewSwitcher&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/library/generated/sdk19/src/Views.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Views.kt&apos; with &apos;608&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/idea-plugin/intentions/src/org/jetbrains/anko/idea/intentions/AnkoIntention.kt">
+	<error line="22" column="1" severity="warning" message="Class &apos;AnkoIntention&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/idea-plugin/xml-converter/src/org/jetbrains/kotlin/android/xmlconverter/ViewAttributeRenderer.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ViewAttributeRenderer.kt&apos; with &apos;18&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/idea-plugin/xml-converter/src/org/jetbrains/kotlin/android/xmlconverter/ConvertAction.kt">
+	<error line="40" column="1" severity="warning" message="Class &apos;ConvertAction&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/idea-plugin/xml-converter/src/org/jetbrains/kotlin/android/xmlconverter/AttributeParser.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;AttributeParser.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/idea-plugin/preview/src/org/jetbrains/kotlin/android/dslpreview/LayoutPsiFile.kt">
+	<error line="55" column="1" severity="warning" message="Class &apos;LayoutPsiFile&apos; with &apos;76&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="188" column="5" severity="warning" message="Class &apos;LayoutPsiDirectory&apos; with &apos;73&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/anko/anko/idea-plugin/preview/src/org/jetbrains/kotlin/android/dslpreview/AnkoNlPreviewManager.kt">
+	<error line="36" column="1" severity="warning" message="Class &apos;AnkoNlPreviewManager&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

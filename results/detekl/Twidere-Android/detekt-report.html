@@ -1,0 +1,2286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 824
+</li>
+<li>
+number of packages: 132
+</li>
+<li>
+number of classes: 1003
+</li>
+<li>
+number of functions: 5119
+</li>
+<li>
+number of properties: 9510
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/debug/kotlin/org/mariotaku/twidere/util/stetho/UserStreamDumperPlugin.kt:99:36
+</span>
+<br />
+<span class="message">
+The function beginMastodonStream has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/debug/kotlin/org/mariotaku/twidere/util/stetho/UserStreamDumperPlugin.kt:137:35
+</span>
+<br />
+<span class="message">
+The function beginTwitterStream has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/debug/kotlin/org/mariotaku/twidere/util/stetho/UserStreamDumperPlugin.kt:196:34
+</span>
+<br />
+<span class="message">
+The function beginFanfouStream has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/debug/kotlin/org/mariotaku/twidere/util/stetho/Commons.kt:39:37
+</span>
+<br />
+<span class="message">
+The function printHelp has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/ktextension/SQLiteDatabaseExtensions.kt:26:34
+</span>
+<br />
+<span class="message">
+The function queryReference has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/GlideExtensions.kt:37:36
+</span>
+<br />
+<span class="message">
+The function loadProfileImage has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/GlideExtensions.kt:53:36
+</span>
+<br />
+<span class="message">
+The function loadProfileImage has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/GlideExtensions.kt:58:36
+</span>
+<br />
+<span class="message">
+The function loadProfileImage has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/GlideExtensions.kt:74:36
+</span>
+<br />
+<span class="message">
+The function loadProfileImage has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/GlideExtensions.kt:101:36
+</span>
+<br />
+<span class="message">
+The function loadProfileImage has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/GlideExtensions.kt:113:36
+</span>
+<br />
+<span class="message">
+The function loadProfileImage has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/ParcelableMessageExtensions.kt:27:28
+</span>
+<br />
+<span class="message">
+The function getSummaryText has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/ContentResolverExtensions.kt:34:26
+</span>
+<br />
+<span class="message">
+The function query has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/ContentResolverExtensions.kt:45:35
+</span>
+<br />
+<span class="message">
+The function queryReference has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/ContentResolverExtensions.kt:64:33
+</span>
+<br />
+<span class="message">
+The function queryOne has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/ContentResolverExtensions.kt:73:33
+</span>
+<br />
+<span class="message">
+The function queryAll has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/SupportTabsAdapter.kt:132:12
+</span>
+<br />
+<span class="message">
+The function add has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/ActivityTitleSummaryMessage.kt:24:16
+</span>
+<br />
+<span class="message">
+The function get has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/ActivityTitleSummaryMessage.kt:225:42
+</span>
+<br />
+<span class="message">
+The function getTitleStringAboutMe has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/util/ParcelableUserListUtils.kt:31:14
+</span>
+<br />
+<span class="message">
+The function check has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/util/ParcelableMessageUtils.kt:120:56
+</span>
+<br />
+<span class="message">
+The function applyInfoUpdatedEvent has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/util/ParcelableMediaUtils.kt:46:25
+</span>
+<br />
+<span class="message">
+The function fromCard has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/LinkCreator.kt:72:38
+</span>
+<br />
+<span class="message">
+The function getTwidereUserListRelatedLink has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/MenuUtils.kt:106:23
+</span>
+<br />
+<span class="message">
+The function setupForStatus has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/MenuUtils.kt:114:23
+</span>
+<br />
+<span class="message">
+The function setupForStatus has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/MenuUtils.kt:220:26
+</span>
+<br />
+<span class="message">
+The function handleStatusClick has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/MenuUtils.kt:379:36
+</span>
+<br />
+<span class="message">
+The function addIntentToMenuForExtension has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/OnLinkClickHandler.kt:127:33
+</span>
+<br />
+<span class="message">
+The function openMedia has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/text/StatusTextValidator.kt:31:24
+</span>
+<br />
+<span class="message">
+The function calculateLength has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreFunctions.kt:104:60
+</span>
+<br />
+<span class="message">
+The function updateStatusInfo has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreFunctions.kt:120:36
+</span>
+<br />
+<span class="message">
+The function updateItems has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreFunctions.kt:145:60
+</span>
+<br />
+<span class="message">
+The function getUnreadMessagesEntriesCursorReference has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/database/SuggestionsCursorCreator.kt:164:31
+</span>
+<br />
+<span class="message">
+The function getUsersCursor has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/database/CachedUsersQueryBuilder.kt:44:25
+</span>
+<br />
+<span class="message">
+The function withRelationship has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/database/CachedUsersQueryBuilder.kt:51:25
+</span>
+<br />
+<span class="message">
+The function withRelationship has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/database/CachedUsersQueryBuilder.kt:92:18
+</span>
+<br />
+<span class="message">
+The function withScore has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/database/ContentFiltersUtils.kt:41:32
+</span>
+<br />
+<span class="message">
+The function isFilteredQuery has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/IntentUtils.kt:59:24
+</span>
+<br />
+<span class="message">
+The function openUserProfile has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/IntentUtils.kt:137:18
+</span>
+<br />
+<span class="message">
+The function openMedia has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/IntentUtils.kt:145:18
+</span>
+<br />
+<span class="message">
+The function openMedia has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/IntentUtils.kt:152:18
+</span>
+<br />
+<span class="message">
+The function openMedia has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/IntentUtils.kt:175:26
+</span>
+<br />
+<span class="message">
+The function openMediaDirectly has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/IntentUtils.kt:209:26
+</span>
+<br />
+<span class="message">
+The function openMediaDirectly has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/IntentUtils.kt:429:28
+</span>
+<br />
+<span class="message">
+The function openUserListDetails has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/ThemeUtils.kt:399:35
+</span>
+<br />
+<span class="message">
+The function applyColorFilterToMenuIcon has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreUtils.kt:345:25
+</span>
+<br />
+<span class="message">
+The function getStatusesCount has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreUtils.kt:378:27
+</span>
+<br />
+<span class="message">
+The function getActivitiesCount has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreUtils.kt:397:27
+</span>
+<br />
+<span class="message">
+The function getActivitiesCount has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreUtils.kt:683:40
+</span>
+<br />
+<span class="message">
+The function getObjectFieldArray has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreUtils.kt:703:36
+</span>
+<br />
+<span class="message">
+The function getStringFieldArray has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreUtils.kt:722:34
+</span>
+<br />
+<span class="message">
+The function getLongFieldArray has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreUtils.kt:741:38
+</span>
+<br />
+<span class="message">
+The function getFieldsArray has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreUtils.kt:861:29
+</span>
+<br />
+<span class="message">
+The function getInteractionsCount has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/view/AppBarChildBehavior.kt:265:28
+</span>
+<br />
+<span class="message">
+The function onTargetChanged has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/UpdateStatusTask.kt:699:39
+</span>
+<br />
+<span class="message">
+The function uploadMicroBlogMediaShared has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/UpdateStatusTask.kt:746:32
+</span>
+<br />
+<span class="message">
+The function uploadMastodonMedia has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/UpdateStatusTask.kt:788:29
+</span>
+<br />
+<span class="message">
+The function getBodyFromMedia has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/UpdateStatusTask.kt:886:32
+</span>
+<br />
+<span class="message">
+The function imageStream has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/UpdateStatusTask.kt:962:32
+</span>
+<br />
+<span class="message">
+The function videoStream has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/GetStatusesTask.kt:136:28
+</span>
+<br />
+<span class="message">
+The function storeStatus has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/GetStatusesTask.kt:228:27
+</span>
+<br />
+<span class="message">
+The function getPositionKey has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/message/GetMessagesTask.kt:542:78
+</span>
+<br />
+<span class="message">
+The function addConversation has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/message/GetMessagesTask.kt:583:44
+</span>
+<br />
+<span class="message">
+The function addConversationMessage has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/GetActivitiesTask.kt:125:32
+</span>
+<br />
+<span class="message">
+The function storeActivities has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/CardMediaContainer.kt:78:21
+</span>
+<br />
+<span class="message">
+The function displayMedia has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/CardMediaContainer.kt:249:33
+</span>
+<br />
+<span class="message">
+The function measureGridMedia has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/ktextension/BundleExtensions.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'BundleExtensions.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/ktextension/MenuExtensions.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'MenuExtensions.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/ktextension/CollectionExtensions.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'CollectionExtensions.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/app/TwidereApplication.kt:87:1
+</span>
+<br />
+<span class="message">
+Class 'TwidereApplication' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/GlideExtensions.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'GlideExtensions.kt' with '12' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/AccountExtensions.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'AccountExtensions.kt' with '20' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/api/StatusExtensions.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'StatusExtensions.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/ParcelableStatusExtensions.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'ParcelableStatusExtensions.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/ParcelableActivityExtensions.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'ParcelableActivityExtensions.kt' with '12' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/ParcelableActivitiesAdapter.kt:60:1
+</span>
+<br />
+<span class="message">
+Class 'ParcelableActivitiesAdapter' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/SelectableUsersAdapter.kt:39:1
+</span>
+<br />
+<span class="message">
+Class 'SelectableUsersAdapter' with '25' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/ParcelableUsersAdapter.kt:37:1
+</span>
+<br />
+<span class="message">
+Class 'ParcelableUsersAdapter' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/ParcelableStatusesAdapter.kt:60:1
+</span>
+<br />
+<span class="message">
+Class 'ParcelableStatusesAdapter' with '31' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/StatusDetailsAdapter.kt:52:1
+</span>
+<br />
+<span class="message">
+Class 'StatusDetailsAdapter' with '36' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/iface/IStatusesAdapter.kt:9:1
+</span>
+<br />
+<span class="message">
+Interface 'IStatusesAdapter' with '12' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/SupportTabsAdapter.kt:41:1
+</span>
+<br />
+<span class="message">
+Class 'SupportTabsAdapter' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/DummyItemAdapter.kt:25:1
+</span>
+<br />
+<span class="message">
+Class 'DummyItemAdapter' with '21' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/util/ParcelableMessageUtils.kt:22:1
+</span>
+<br />
+<span class="message">
+Object 'ParcelableMessageUtils' with '12' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/util/ParcelableMediaUtils.kt:17:1
+</span>
+<br />
+<span class="message">
+Object 'ParcelableMediaUtils' with '12' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/tab/TabConfiguration.kt:75:5
+</span>
+<br />
+<span class="message">
+Class 'ExtraConfiguration' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/provider/TwidereDataProvider.kt:62:1
+</span>
+<br />
+<span class="message">
+Class 'TwidereDataProvider' with '19' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/LinkCreator.kt:30:1
+</span>
+<br />
+<span class="message">
+Object 'LinkCreator' with '13' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/content/TwidereSQLiteOpenHelper.kt:45:1
+</span>
+<br />
+<span class="message">
+Class 'TwidereSQLiteOpenHelper' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/dagger/ApplicationModule.kt:72:1
+</span>
+<br />
+<span class="message">
+Class 'ApplicationModule' with '43' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/dagger/GeneralComponent.kt:57:1
+</span>
+<br />
+<span class="message">
+Interface 'GeneralComponent' with '46' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/streaming/TwitterTimelineStreamCallback.kt:27:1
+</span>
+<br />
+<span class="message">
+Class 'TwitterTimelineStreamCallback' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/StatusCodeMessageUtils.kt:31:1
+</span>
+<br />
+<span class="message">
+Object 'StatusCodeMessageUtils' with '11' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/Utils.kt:95:1
+</span>
+<br />
+<span class="message">
+Object 'Utils' with '49' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/net/TwidereDns.kt:38:1
+</span>
+<br />
+<span class="message">
+Class 'TwidereDns' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/MultiSelectEventHandler.kt:48:1
+</span>
+<br />
+<span class="message">
+Class 'MultiSelectEventHandler' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/UserColorNameManager.kt:34:1
+</span>
+<br />
+<span class="message">
+Class 'UserColorNameManager' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/HttpClientFactory.kt:30:1
+</span>
+<br />
+<span class="message">
+Object 'HttpClientFactory' with '11' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/AsyncTwitterWrapper.kt:61:1
+</span>
+<br />
+<span class="message">
+Class 'AsyncTwitterWrapper' with '45' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/IntentUtils.kt:33:1
+</span>
+<br />
+<span class="message">
+Object 'IntentUtils' with '62' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/ThemeUtils.kt:62:1
+</span>
+<br />
+<span class="message">
+Object 'ThemeUtils' with '42' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreUtils.kt:68:1
+</span>
+<br />
+<span class="message">
+Object 'DataStoreUtils' with '54' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/notification/ContentNotificationManager.kt:68:1
+</span>
+<br />
+<span class="message">
+Class 'ContentNotificationManager' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/sync/FileBasedKeyValueSyncAction.kt:14:1
+</span>
+<br />
+<span class="message">
+Class 'FileBasedKeyValueSyncAction' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/sync/SingleFileBasedDataSyncAction.kt:10:1
+</span>
+<br />
+<span class="message">
+Class 'SingleFileBasedDataSyncAction' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/sync/FileBasedFiltersDataSyncAction.kt:14:1
+</span>
+<br />
+<span class="message">
+Class 'FileBasedFiltersDataSyncAction' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/TrendsSuggestionsFragment.kt:52:1
+</span>
+<br />
+<span class="message">
+Class 'TrendsSuggestionsFragment' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/SavedSearchesListFragment.kt:42:1
+</span>
+<br />
+<span class="message">
+Class 'SavedSearchesListFragment' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/drafts/DraftsListFragment.kt:73:1
+</span>
+<br />
+<span class="message">
+Class 'DraftsListFragment' with '21' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsContentRecyclerViewFragment.kt:44:1
+</span>
+<br />
+<span class="message">
+Class 'AbsContentRecyclerViewFragment' with '33' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserListFragment.kt:72:1
+</span>
+<br />
+<span class="message">
+Class 'UserListFragment' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/filter/BaseFiltersFragment.kt:63:1
+</span>
+<br />
+<span class="message">
+Class 'BaseFiltersFragment' with '19' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/filter/FiltersSubscriptionsFragment.kt:50:1
+</span>
+<br />
+<span class="message">
+Class 'FiltersSubscriptionsFragment' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/filter/FilteredUsersFragment.kt:56:1
+</span>
+<br />
+<span class="message">
+Class 'FilteredUsersFragment' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/filter/BaseFiltersImportFragment.kt:44:1
+</span>
+<br />
+<span class="message">
+Class 'BaseFiltersImportFragment' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/ParcelableUserListsFragment.kt:48:1
+</span>
+<br />
+<span class="message">
+Class 'ParcelableUserListsFragment' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsActivitiesFragment.kt:76:1
+</span>
+<br />
+<span class="message">
+Class 'AbsActivitiesFragment' with '33' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/CustomTabsFragment.kt:76:1
+</span>
+<br />
+<span class="message">
+Class 'CustomTabsFragment' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/ParcelableUsersFragment.kt:61:1
+</span>
+<br />
+<span class="message">
+Class 'ParcelableUsersFragment' with '24' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserProfileEditorFragment.kt:68:1
+</span>
+<br />
+<span class="message">
+Class 'UserProfileEditorFragment' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsStatusesFragment.kt:73:1
+</span>
+<br />
+<span class="message">
+Class 'AbsStatusesFragment' with '36' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/ExtensionsListFragment.kt:47:1
+</span>
+<br />
+<span class="message">
+Class 'ExtensionsListFragment' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/CursorStatusesFragment.kt:58:1
+</span>
+<br />
+<span class="message">
+Class 'CursorStatusesFragment' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AccountsDashboardFragment.kt:94:1
+</span>
+<br />
+<span class="message">
+Class 'AccountsDashboardFragment' with '29' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/ParcelableGroupsFragment.kt:47:1
+</span>
+<br />
+<span class="message">
+Class 'ParcelableGroupsFragment' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsToolbarTabPagesFragment.kt:36:1
+</span>
+<br />
+<span class="message">
+Class 'AbsToolbarTabPagesFragment' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/HostMappingsListFragment.kt:52:1
+</span>
+<br />
+<span class="message">
+Class 'HostMappingsListFragment' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsMediaStatusesFragment.kt:42:1
+</span>
+<br />
+<span class="message">
+Class 'AbsMediaStatusesFragment' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AccountsManagerFragment.kt:50:1
+</span>
+<br />
+<span class="message">
+Class 'AccountsManagerFragment' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/message/MessagesConversationFragment.kt:94:1
+</span>
+<br />
+<span class="message">
+Class 'MessagesConversationFragment' with '31' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/message/MessageConversationInfoFragment.kt:103:1
+</span>
+<br />
+<span class="message">
+Class 'MessageConversationInfoFragment' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/message/MessageNewConversationFragment.kt:64:1
+</span>
+<br />
+<span class="message">
+Class 'MessageNewConversationFragment' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/message/MessagesEntriesFragment.kt:69:1
+</span>
+<br />
+<span class="message">
+Class 'MessagesEntriesFragment' with '19' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/status/RetweetQuoteDialogFragment.kt:62:1
+</span>
+<br />
+<span class="message">
+Class 'RetweetQuoteDialogFragment' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/status/StatusFragment.kt:111:1
+</span>
+<br />
+<span class="message">
+Class 'StatusFragment' with '40' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserFragment.kt:153:1
+</span>
+<br />
+<span class="message">
+Class 'UserFragment' with '61' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsContentListViewFragment.kt:43:1
+</span>
+<br />
+<span class="message">
+Class 'AbsContentListViewFragment' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/CursorActivitiesFragment.kt:55:1
+</span>
+<br />
+<span class="message">
+Class 'CursorActivitiesFragment' with '19' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/ParcelableStatusesFragment.kt:50:1
+</span>
+<br />
+<span class="message">
+Class 'ParcelableStatusesFragment' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/media/ExoPlayerPageFragment.kt:83:1
+</span>
+<br />
+<span class="message">
+Class 'ExoPlayerPageFragment' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/media/VideoPageFragment.kt:65:1
+</span>
+<br />
+<span class="message">
+Class 'VideoPageFragment' with '25' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/service/LengthyOperationsService.kt:73:1
+</span>
+<br />
+<span class="message">
+Class 'LengthyOperationsService' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/service/StreamingService.kt:260:24
+</span>
+<br />
+<span class="message">
+Object 'null' with '11' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/UpdateStatusTask.kt:64:1
+</span>
+<br />
+<span class="message">
+Class 'UpdateStatusTask' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/UpdateStatusTask.kt:694:5
+</span>
+<br />
+<span class="message">
+Object 'Companion' with '12' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/LinkHandlerActivity.kt:82:1
+</span>
+<br />
+<span class="message">
+Class 'LinkHandlerActivity' with '25' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/SettingsActivity.kt:58:1
+</span>
+<br />
+<span class="message">
+Class 'SettingsActivity' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/ComposeActivity.kt:118:1
+</span>
+<br />
+<span class="message">
+Class 'ComposeActivity' with '78' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/QuickSearchBarActivity.kt:75:1
+</span>
+<br />
+<span class="message">
+Class 'QuickSearchBarActivity' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/QuickSearchBarActivity.kt:362:5
+</span>
+<br />
+<span class="message">
+Class 'SuggestionsAdapter' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/UserListSelectorActivity.kt:51:1
+</span>
+<br />
+<span class="message">
+Class 'UserListSelectorActivity' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/SignInActivity.kt:115:1
+</span>
+<br />
+<span class="message">
+Class 'SignInActivity' with '29' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/BaseActivity.kt:90:1
+</span>
+<br />
+<span class="message">
+Class 'BaseActivity' with '30' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/HomeActivity.kt:114:1
+</span>
+<br />
+<span class="message">
+Class 'HomeActivity' with '52' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/ImageCropperActivity.kt:35:1
+</span>
+<br />
+<span class="message">
+Class 'ImageCropperActivity' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/MainActivity.kt:76:1
+</span>
+<br />
+<span class="message">
+Class 'MainActivity' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/MediaViewerActivity.kt:78:1
+</span>
+<br />
+<span class="message">
+Class 'MediaViewerActivity' with '35' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/ExtendedRecyclerView.kt:34:1
+</span>
+<br />
+<span class="message">
+Class 'ExtendedRecyclerView' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/holder/StatusViewHolder.kt:51:1
+</span>
+<br />
+<span class="message">
+Class 'StatusViewHolder' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/CardMediaContainer.kt:40:1
+</span>
+<br />
+<span class="message">
+Class 'CardMediaContainer' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongMethod
+</span>
+<span class="description">
+One method should have one responsibility. Long methods tend to handle many things at once. Prefer smaller methods to make them easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/app/TwidereApplication.kt:142:5
+</span>
+<br />
+<span class="message">
+The function onCreate is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/api/UserExtensions.kt:60:1
+</span>
+<br />
+<span class="message">
+The function toParcelableInternal is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/api/microblog/ActivityExtensions.kt:57:1
+</span>
+<br />
+<span class="message">
+The function toParcelable is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/api/StatusExtensions.kt:64:1
+</span>
+<br />
+<span class="message">
+The function applyTo is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/api/mastodon/AccountExtensions.kt:45:1
+</span>
+<br />
+<span class="message">
+The function toParcelable is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/api/mastodon/StatusExtensions.kt:51:1
+</span>
+<br />
+<span class="message">
+The function applyTo is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/DraftExtensions.kt:45:1
+</span>
+<br />
+<span class="message">
+The function writeMimeMessageTo is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/MenuUtils.kt:113:5
+</span>
+<br />
+<span class="message">
+The function setupForStatus is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/content/TwidereSQLiteOpenHelper.kt:51:5
+</span>
+<br />
+<span class="message">
+The function onCreate is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/content/TwidereSQLiteOpenHelper.kt:204:5
+</span>
+<br />
+<span class="message">
+The function handleVersionChange is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/notification/ContentNotificationManager.kt:168:5
+</span>
+<br />
+<span class="message">
+The function showInteractions is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/notification/ContentNotificationManager.kt:369:5
+</span>
+<br />
+<span class="message">
+The function showDraft is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/sync/FileBasedDraftsSyncAction.kt:26:5
+</span>
+<br />
+<span class="message">
+The function execute is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/loader/statuses/AbsRequestStatusesLoader.kt:104:5
+</span>
+<br />
+<span class="message">
+The function loadInBackground is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/CustomTabsFragment.kt:236:9
+</span>
+<br />
+<span class="message">
+The function onShow is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/NetworkDiagnosticsFragment.kt:101:9
+</span>
+<br />
+<span class="message">
+The function doInBackground is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AccountsDashboardFragment.kt:122:5
+</span>
+<br />
+<span class="message">
+The function onActivityCreated is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AccountsDashboardFragment.kt:332:5
+</span>
+<br />
+<span class="message">
+The function updateAccountActions is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AccountsDashboardFragment.kt:426:5
+</span>
+<br />
+<span class="message">
+The function onAccountSelected is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/message/MessagesConversationFragment.kt:126:5
+</span>
+<br />
+<span class="message">
+The function onActivityCreated is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/message/MessageConversationInfoFragment.kt:122:5
+</span>
+<br />
+<span class="message">
+The function onActivityCreated is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserFragment.kt:408:5
+</span>
+<br />
+<span class="message">
+The function displayUser is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserFragment.kt:655:5
+</span>
+<br />
+<span class="message">
+The function onActivityCreated is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserFragment.kt:784:5
+</span>
+<br />
+<span class="message">
+The function onPrepareOptionsMenu is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserFragment.kt:1385:5
+</span>
+<br />
+<span class="message">
+The function setUiColor is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserFragment.kt:1490:5
+</span>
+<br />
+<span class="message">
+The function updateScrollOffset is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/media/VideoPageFragment.kt:82:5
+</span>
+<br />
+<span class="message">
+The function onActivityCreated is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/UpdateStatusTask.kt:962:9
+</span>
+<br />
+<span class="message">
+The function videoStream is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/GetStatusesTask.kt:136:5
+</span>
+<br />
+<span class="message">
+The function storeStatus is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/LinkHandlerActivity.kt:96:5
+</span>
+<br />
+<span class="message">
+The function onCreate is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/SettingsActivity.kt:204:5
+</span>
+<br />
+<span class="message">
+The function initEntries is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/ComposeActivity.kt:208:5
+</span>
+<br />
+<span class="message">
+The function onCreate is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/ComposeActivity.kt:980:5
+</span>
+<br />
+<span class="message">
+The function handleReplyIntent is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/ComposeActivity.kt:1549:5
+</span>
+<br />
+<span class="message">
+The function getStatusUpdate is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/QuickSearchBarActivity.kt:84:5
+</span>
+<br />
+<span class="message">
+The function onCreate is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/SignInActivity.kt:801:9
+</span>
+<br />
+<span class="message">
+The function performLogin is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/SignInActivity.kt:944:9
+</span>
+<br />
+<span class="message">
+The function authBasic is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/SignInActivity.kt:1011:9
+</span>
+<br />
+<span class="message">
+The function getOAuthSignInResponse is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/HomeActivity.kt:192:5
+</span>
+<br />
+<span class="message">
+The function onCreate is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/holder/StatusViewHolder.kt:144:5
+</span>
+<br />
+<span class="message">
+The function display is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/holder/StatusViewHolder.kt:520:5
+</span>
+<br />
+<span class="message">
+The function setupViewOptions is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/holder/status/DetailStatusViewHolder.kt:98:5
+</span>
+<br />
+<span class="message">
+The function displayStatus is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/holder/status/DetailStatusViewHolder.kt:433:5
+</span>
+<br />
+<span class="message">
+The function initViews is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/androidTest/kotlin/org/mariotaku/twidere/extension/model/DraftExtensionsTest.kt:20:5
+</span>
+<br />
+<span class="message">
+The function testMimeMessageProcessing is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/fdroid/kotlin/org/mariotaku/twidere/fragment/OpenStreetMapViewerFragment.kt:49:5
+</span>
+<br />
+<span class="message">
+The function onActivityCreated is too long. The maximum length is 20.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LargeClass
+</span>
+<span class="description">
+One class should have one responsibility. Large classes tend to handle many things at once. Split up large classes into smaller classes that are easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/ParcelableActivitiesAdapter.kt:60:1
+</span>
+<br />
+<span class="message">
+Class ParcelableActivitiesAdapter is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/ParcelableStatusesAdapter.kt:60:1
+</span>
+<br />
+<span class="message">
+Class ParcelableStatusesAdapter is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/StatusDetailsAdapter.kt:52:1
+</span>
+<br />
+<span class="message">
+Class StatusDetailsAdapter is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/provider/TwidereDataProvider.kt:62:1
+</span>
+<br />
+<span class="message">
+Class TwidereDataProvider is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/MenuUtils.kt:76:1
+</span>
+<br />
+<span class="message">
+Class MenuUtils is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/content/TwidereSQLiteOpenHelper.kt:45:1
+</span>
+<br />
+<span class="message">
+Class TwidereSQLiteOpenHelper is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/Utils.kt:95:1
+</span>
+<br />
+<span class="message">
+Class Utils is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/AsyncTwitterWrapper.kt:61:1
+</span>
+<br />
+<span class="message">
+Class AsyncTwitterWrapper is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/IntentUtils.kt:33:1
+</span>
+<br />
+<span class="message">
+Class IntentUtils is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/ThemeUtils.kt:62:1
+</span>
+<br />
+<span class="message">
+Class ThemeUtils is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreUtils.kt:68:1
+</span>
+<br />
+<span class="message">
+Class DataStoreUtils is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/notification/ContentNotificationManager.kt:68:1
+</span>
+<br />
+<span class="message">
+Class ContentNotificationManager is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsActivitiesFragment.kt:76:1
+</span>
+<br />
+<span class="message">
+Class AbsActivitiesFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserProfileEditorFragment.kt:68:1
+</span>
+<br />
+<span class="message">
+Class UserProfileEditorFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsStatusesFragment.kt:73:1
+</span>
+<br />
+<span class="message">
+Class AbsStatusesFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AccountsDashboardFragment.kt:94:1
+</span>
+<br />
+<span class="message">
+Class AccountsDashboardFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/message/MessagesConversationFragment.kt:94:1
+</span>
+<br />
+<span class="message">
+Class MessagesConversationFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/message/MessageConversationInfoFragment.kt:103:1
+</span>
+<br />
+<span class="message">
+Class MessageConversationInfoFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/status/RetweetQuoteDialogFragment.kt:62:1
+</span>
+<br />
+<span class="message">
+Class RetweetQuoteDialogFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/status/StatusFragment.kt:111:1
+</span>
+<br />
+<span class="message">
+Class StatusFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserFragment.kt:153:1
+</span>
+<br />
+<span class="message">
+Class UserFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/media/VideoPageFragment.kt:65:1
+</span>
+<br />
+<span class="message">
+Class VideoPageFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/service/LengthyOperationsService.kt:73:1
+</span>
+<br />
+<span class="message">
+Class LengthyOperationsService is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/UpdateStatusTask.kt:694:5
+</span>
+<br />
+<span class="message">
+Class Companion is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/UpdateStatusTask.kt:64:1
+</span>
+<br />
+<span class="message">
+Class UpdateStatusTask is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/LinkHandlerActivity.kt:82:1
+</span>
+<br />
+<span class="message">
+Class LinkHandlerActivity is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/SettingsActivity.kt:58:1
+</span>
+<br />
+<span class="message">
+Class SettingsActivity is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/ComposeActivity.kt:118:1
+</span>
+<br />
+<span class="message">
+Class ComposeActivity is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/QuickSearchBarActivity.kt:75:1
+</span>
+<br />
+<span class="message">
+Class QuickSearchBarActivity is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/SignInActivity.kt:115:1
+</span>
+<br />
+<span class="message">
+Class SignInActivity is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/BaseActivity.kt:90:1
+</span>
+<br />
+<span class="message">
+Class BaseActivity is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/HomeActivity.kt:114:1
+</span>
+<br />
+<span class="message">
+Class HomeActivity is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/MediaViewerActivity.kt:78:1
+</span>
+<br />
+<span class="message">
+Class MediaViewerActivity is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/holder/StatusViewHolder.kt:51:1
+</span>
+<br />
+<span class="message">
+Class StatusViewHolder is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/holder/UserViewHolder.kt:40:1
+</span>
+<br />
+<span class="message">
+Class UserViewHolder is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/holder/status/DetailStatusViewHolder.kt:70:1
+</span>
+<br />
+<span class="message">
+Class DetailStatusViewHolder is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/CardMediaContainer.kt:40:1
+</span>
+<br />
+<span class="message">
+Class CardMediaContainer is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

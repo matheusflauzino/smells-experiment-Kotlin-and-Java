@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/android-client-common/src/main/java/com/google/android/apps/muzei/provider/MuzeiDocumentsProvider.kt">
+	<error line="42" column="1" severity="warning" message="Class &apos;MuzeiDocumentsProvider&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/android-client-common/src/main/java/com/google/android/apps/muzei/provider/MuzeiProvider.kt">
+	<error line="49" column="1" severity="warning" message="Class &apos;MuzeiProvider&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/android-client-common/src/main/java/com/google/android/apps/muzei/room/ArtworkDao.kt">
+	<error line="39" column="1" severity="warning" message="Class &apos;ArtworkDao&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/MuzeiWallpaperService.kt">
+	<error line="116" column="5" severity="warning" message="Class &apos;MuzeiWallpaperEngine&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/render/MuzeiBlurRenderer.kt">
+	<error line="58" column="1" severity="warning" message="Class &apos;MuzeiBlurRenderer&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/ArtDetailViewport.kt">
+	<error line="51" column="20" severity="warning" message="The function setViewport has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/util/ScrimUtil.kt">
+	<error line="38" column="35" severity="warning" message="The function makeCubicGradientScrimDrawable has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/util/PanScaleProxyView.kt">
+	<error line="34" column="1" severity="warning" message="Class &apos;PanScaleProxyView&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/sources/ChooseSourceFragment.kt">
+	<error line="77" column="1" severity="warning" message="Class ChooseSourceFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="77" column="1" severity="warning" message="Class &apos;ChooseSourceFragment&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/ArtDetailFragment.kt">
+	<error line="209" column="5" severity="warning" message="The function onViewCreated is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="72" column="1" severity="warning" message="Class ArtDetailFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="72" column="1" severity="warning" message="Class &apos;ArtDetailFragment&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/notifications/NewWallpaperNotificationReceiver.kt">
+	<error line="100" column="9" severity="warning" message="The function maybeShowNewArtworkNotification is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/source-gallery/src/main/java/com/google/android/apps/muzei/gallery/GallerySettingsActivity.kt">
+	<error line="789" column="40" severity="warning" message="The function maxDistanceToCorner has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="83" column="1" severity="warning" message="Class GallerySettingsActivity is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="83" column="1" severity="warning" message="Class &apos;GallerySettingsActivity&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/source-gallery/src/main/java/com/google/android/apps/muzei/gallery/ChosenPhotoDao.kt">
+	<error line="38" column="1" severity="warning" message="Class &apos;ChosenPhotoDao&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/source-gallery/src/main/java/com/google/android/apps/muzei/gallery/GalleryArtSource.kt">
+	<error line="53" column="1" severity="warning" message="Class GalleryArtSource is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="53" column="1" severity="warning" message="Class &apos;GalleryArtSource&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/wearable/src/main/java/com/google/android/apps/muzei/util/PanView.kt">
+	<error line="35" column="1" severity="warning" message="Class &apos;PanView&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/wearable/src/main/java/com/google/android/apps/muzei/datalayer/ActivateMuzeiIntentService.kt">
+	<error line="65" column="9" severity="warning" message="The function maybeShowActivateMuzeiNotification is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/muzei/wearable/src/main/java/com/google/android/apps/muzei/MuzeiWatchFace.kt">
+	<error line="117" column="5" severity="warning" message="Class Engine is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="117" column="5" severity="warning" message="Class &apos;Engine&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

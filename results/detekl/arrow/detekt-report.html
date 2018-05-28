@@ -1,0 +1,3193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 303
+</li>
+<li>
+number of packages: 47
+</li>
+<li>
+number of classes: 823
+</li>
+<li>
+number of functions: 3984
+</li>
+<li>
+number of properties: 562
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/dagger/arrow-dagger/src/main/kotlin/arrow/dagger/instances/number.kt:11:1
+</span>
+<br />
+<span class="message">
+Class 'NumberInstances' with '24' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/effects/arrow-effects-rx2/src/main/kotlin/arrow/effects/ObservableK.kt:56:3
+</span>
+<br />
+<span class="message">
+Object 'Companion' with '12' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/effects/arrow-effects-rx2/src/main/kotlin/arrow/effects/FlowableK.kt:57:3
+</span>
+<br />
+<span class="message">
+Object 'Companion' with '27' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-free/src/main/kotlin/arrow/free/Cofree.kt:16:1
+</span>
+<br />
+<span class="message">
+Class 'Cofree' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-core/src/main/kotlin/arrow/legacy/Disjunction.kt:5:1
+</span>
+<br />
+<span class="message">
+Class 'Disjunction' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-core/src/main/kotlin/arrow/core/Either.kt:11:1
+</span>
+<br />
+<span class="message">
+Class 'Either' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-core/src/main/kotlin/arrow/core/Either.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Either.kt' with '12' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-core/src/main/kotlin/arrow/core/Try.kt:9:1
+</span>
+<br />
+<span class="message">
+Class 'Try' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-core/src/main/kotlin/arrow/core/Option.kt:5:1
+</span>
+<br />
+<span class="message">
+Class 'Option' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-annotations-processor/src/main/java/arrow/generic/ProductFileGenerator.kt:15:1
+</span>
+<br />
+<span class="message">
+Class 'ProductFileGenerator' with '40' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'HList.kt' with '22' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-instances-data/src/main/kotlin/arrow/instances/eithert.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'eithert.kt' with '13' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/StateT.kt:29:1
+</span>
+<br />
+<span class="message">
+Class 'StateT' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/StateT.kt:43:3
+</span>
+<br />
+<span class="message">
+Object 'Companion' with '11' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/Reader.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Reader.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/Validated.kt:13:1
+</span>
+<br />
+<span class="message">
+Class 'Validated' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/Validated.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Validated.kt' with '15' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/OptionT.kt:10:1
+</span>
+<br />
+<span class="message">
+Class 'OptionT' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/Ior.kt:11:1
+</span>
+<br />
+<span class="message">
+Class 'Ior' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/WriterT.kt:13:1
+</span>
+<br />
+<span class="message">
+Class 'WriterT' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/WriterT.kt:16:3
+</span>
+<br />
+<span class="message">
+Object 'Companion' with '15' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/NonEmptyList.kt:10:1
+</span>
+<br />
+<span class="message">
+Class 'NonEmptyList' with '19' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/EitherT.kt:15:1
+</span>
+<br />
+<span class="message">
+Class 'EitherT' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/State.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'State.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/collections/array.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'array.kt' with '18' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/collections/tuple.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'tuple.kt' with '20' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/pipe.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'pipe.kt' with '22' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/reverse.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'reverse.kt' with '21' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/complement.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'complement.kt' with '23' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'partials.kt' with '507' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/memoization.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'memoization.kt' with '23' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/currying.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'currying.kt' with '42' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Composed.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Composed.kt' with '12' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:8:1
+</span>
+<br />
+<span class="message">
+Interface 'Applicative' with '33' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Reducible.kt:6:1
+</span>
+<br />
+<span class="message">
+Interface 'Reducible' with '11' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Reducible.kt:76:1
+</span>
+<br />
+<span class="message">
+Interface 'NonEmptyReducible' with '13' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Foldable.kt:7:1
+</span>
+<br />
+<span class="message">
+Interface 'Foldable' with '20' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Monad.kt:10:1
+</span>
+<br />
+<span class="message">
+Interface 'Monad' with '11' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-instances-core/src/main/kotlin/arrow/instances/number.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'number.kt' with '30' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-instances-core/src/main/kotlin/arrow/instances/tuple.kt:334:1
+</span>
+<br />
+<span class="message">
+Interface 'Tuple10EqInstance' with '11' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Validation.kt' with '21' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Iso.kt:21:1
+</span>
+<br />
+<span class="message">
+Interface 'PIso' with '40' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/std/tuple.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'tuple.kt' with '22' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Fold.kt:13:1
+</span>
+<br />
+<span class="message">
+Interface 'Fold' with '29' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Traversal.kt:21:1
+</span>
+<br />
+<span class="message">
+Interface 'PTraversal' with '33' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Traversal.kt:37:3
+</span>
+<br />
+<span class="message">
+Object 'Companion' with '13' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Optional.kt:20:1
+</span>
+<br />
+<span class="message">
+Interface 'POptional' with '36' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Setter.kt:19:1
+</span>
+<br />
+<span class="message">
+Interface 'PSetter' with '15' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Getter.kt:7:1
+</span>
+<br />
+<span class="message">
+Interface 'Getter' with '17' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Lens.kt:21:1
+</span>
+<br />
+<span class="message">
+Interface 'PLens' with '33' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Prism.kt:21:1
+</span>
+<br />
+<span class="message">
+Interface 'PPrism' with '29' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:54:31
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:55:34
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:56:37
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:57:40
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:58:43
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:59:46
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:60:49
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:61:52
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:62:55
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:63:58
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:64:61
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:65:64
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:66:67
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:67:70
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:68:73
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:69:76
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt:70:79
+</span>
+<br />
+<span class="message">
+The function hListOf has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:53:71
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:56:71
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:59:71
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:62:71
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:65:71
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:68:71
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:71:79
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:74:79
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:77:79
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:80:79
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:83:79
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:86:79
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:89:79
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:92:87
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:95:87
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:98:87
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:101:87
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:104:87
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:107:87
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:110:87
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:113:87
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:116:95
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:119:95
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:122:95
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:125:95
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:128:95
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:131:95
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:134:95
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:137:95
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:140:95
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:143:105
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:146:105
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:149:105
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:152:105
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:155:105
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:158:105
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:161:105
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:164:105
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:167:105
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:170:105
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:173:115
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:176:115
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:179:115
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:182:115
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:185:115
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:188:115
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:191:115
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:194:115
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:197:115
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:200:115
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:203:115
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:206:125
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:209:125
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:212:125
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:215:125
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:218:125
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:221:125
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:224:125
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:227:125
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:230:125
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:233:125
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:236:125
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:239:125
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:242:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:245:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:248:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:251:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:254:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:257:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:260:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:263:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:266:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:269:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:272:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:275:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:278:135
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:281:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:284:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:287:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:290:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:293:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:296:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:299:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:302:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:305:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:308:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:311:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:314:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:317:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:320:145
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:323:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:326:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:329:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:332:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:335:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:338:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:341:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:344:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:347:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:350:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:353:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:356:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:359:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:362:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:365:155
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:368:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:371:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:374:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:377:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:380:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:383:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:386:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:389:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:392:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:395:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:398:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:401:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:404:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:407:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:410:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:413:165
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:416:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:419:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:422:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:425:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:428:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:431:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:434:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:437:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:440:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:443:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:446:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:449:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:452:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:455:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:458:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:461:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:464:175
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:467:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:470:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:473:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:476:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:479:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:482:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:485:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:488:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:491:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:494:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:497:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:500:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:503:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:506:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:509:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:512:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:515:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:518:185
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:521:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:524:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:527:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:530:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:533:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:536:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:539:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:542:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:545:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:548:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:551:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:554:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:557:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:560:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:563:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:566:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:569:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:572:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:575:195
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:578:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:581:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:584:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:587:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:590:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:593:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:596:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:599:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:602:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:605:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:608:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:611:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:614:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:617:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:620:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:623:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:626:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:629:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:632:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:635:205
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:638:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:641:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:644:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:647:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:650:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:653:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:656:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:659:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:662:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:665:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:668:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:671:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:674:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:677:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:680:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:683:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:686:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:689:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:692:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:695:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:698:215
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:701:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:704:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:707:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:710:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:713:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:716:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:719:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:722:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:725:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:728:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:731:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:734:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:737:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:740:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:743:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:746:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:749:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:752:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:755:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:758:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:761:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt:764:225
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:51:72
+</span>
+<br />
+<span class="message">
+The function product has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:60:78
+</span>
+<br />
+<span class="message">
+The function product has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:70:84
+</span>
+<br />
+<span class="message">
+The function product has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:81:90
+</span>
+<br />
+<span class="message">
+The function product has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:119:33
+</span>
+<br />
+<span class="message">
+The function tupled has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:128:36
+</span>
+<br />
+<span class="message">
+The function tupled has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:138:39
+</span>
+<br />
+<span class="message">
+The function tupled has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:149:42
+</span>
+<br />
+<span class="message">
+The function tupled has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:161:45
+</span>
+<br />
+<span class="message">
+The function tupled has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:196:29
+</span>
+<br />
+<span class="message">
+The function map has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:205:33
+</span>
+<br />
+<span class="message">
+The function map has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:215:36
+</span>
+<br />
+<span class="message">
+The function map has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:226:39
+</span>
+<br />
+<span class="message">
+The function map has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:239:42
+</span>
+<br />
+<span class="message">
+The function map has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt:253:45
+</span>
+<br />
+<span class="message">
+The function map has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:55:82
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:71:92
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:88:102
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:106:112
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:125:122
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:145:133
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:166:144
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:188:155
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:211:166
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:235:177
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:260:188
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:286:199
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:313:210
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:341:221
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:370:232
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:400:243
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:431:254
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt:463:265
+</span>
+<br />
+<span class="message">
+The function validate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Traversal.kt:95:37
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Traversal.kt:109:37
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Traversal.kt:124:37
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Traversal.kt:140:37
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Traversal.kt:157:37
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Traversal.kt:175:37
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

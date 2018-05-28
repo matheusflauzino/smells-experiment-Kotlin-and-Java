@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 65
+</li>
+<li>
+number of packages: 5
+</li>
+<li>
+number of classes: 383
+</li>
+<li>
+number of functions: 2155
+</li>
+<li>
+number of properties: 2039
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/FX.kt:83:5
+</span>
+<br />
+<span class="message">
+Object 'Companion' with '19' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/FX.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'FX.kt' with '32' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/TabPane.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'TabPane.kt' with '24' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Nodes.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Nodes.kt' with '126' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/ItemControls.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'ItemControls.kt' with '56' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/App.kt:24:1
+</span>
+<br />
+<span class="message">
+Class 'App' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Layouts.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Layouts.kt' with '59' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Animation.kt' with '31' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Drawer.kt:26:1
+</span>
+<br />
+<span class="message">
+Class 'Drawer' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Json.kt:157:1
+</span>
+<br />
+<span class="message">
+Class 'JsonBuilder' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Json.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Json.kt' with '52' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/LayoutDebugger.kt:25:1
+</span>
+<br />
+<span class="message">
+Class 'LayoutDebugger' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Menu.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Menu.kt' with '31' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Async.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Async.kt' with '18' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/SmartResize.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'SmartResize.kt' with '36' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Workspace.kt:39:1
+</span>
+<br />
+<span class="message">
+Class 'Workspace' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Properties.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Properties.kt' with '281' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Charts.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Charts.kt' with '12' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Controls.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Controls.kt' with '58' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/TreeView.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'TreeView.kt' with '14' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:88:1
+</span>
+<br />
+<span class="message">
+Class 'Component' with '30' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:306:1
+</span>
+<br />
+<span class="message">
+Class 'UIComponent' with '109' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Lib.kt:18:1
+</span>
+<br />
+<span class="message">
+Class 'SortedFilteredList' with '34' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Lib.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Lib.kt' with '40' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/ViewModel.kt:27:1
+</span>
+<br />
+<span class="message">
+Class 'ViewModel' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/ViewModel.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'ViewModel.kt' with '26' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Rest.kt:38:1
+</span>
+<br />
+<span class="message">
+Class 'Rest' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Shapes.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Shapes.kt' with '18' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/CSS.kt:55:1
+</span>
+<br />
+<span class="message">
+Interface 'SelectionHolder' with '16' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/CSS.kt:918:1
+</span>
+<br />
+<span class="message">
+Class 'CssSelectionBlock' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/CSS.kt:1166:1
+</span>
+<br />
+<span class="message">
+Class 'Dimension' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/CSS.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'CSS.kt' with '45' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Binding.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Binding.kt' with '18' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/AutoCompleteComboBoxSkin.kt:176:1
+</span>
+<br />
+<span class="message">
+Class 'AutoCompleteComboBoxSkin' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/DataGrid.kt:475:1
+</span>
+<br />
+<span class="message">
+Class 'DataGridSelectionModel' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/DataGrid.kt:625:1
+</span>
+<br />
+<span class="message">
+Class 'DataGridSkin' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Collections.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Collections.kt' with '20' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/ItemControls.kt:68:52
+</span>
+<br />
+<span class="message">
+The function spinner has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Keyboard.kt:140:12
+</span>
+<br />
+<span class="message">
+The function key has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:58:21
+</span>
+<br />
+<span class="message">
+The function move has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:77:14
+</span>
+<br />
+<span class="message">
+The function move has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:108:23
+</span>
+<br />
+<span class="message">
+The function rotate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:128:16
+</span>
+<br />
+<span class="message">
+The function rotate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:157:22
+</span>
+<br />
+<span class="message">
+The function scale has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:177:15
+</span>
+<br />
+<span class="message">
+The function scale has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:208:21
+</span>
+<br />
+<span class="message">
+The function fade has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:228:14
+</span>
+<br />
+<span class="message">
+The function fade has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:261:26
+</span>
+<br />
+<span class="message">
+The function transform has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:288:19
+</span>
+<br />
+<span class="message">
+The function transform has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:378:22
+</span>
+<br />
+<span class="message">
+The function animateFill has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:392:24
+</span>
+<br />
+<span class="message">
+The function animateStroke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt:406:16
+</span>
+<br />
+<span class="message">
+The function follow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:784:20
+</span>
+<br />
+<span class="message">
+The function item has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:793:20
+</span>
+<br />
+<span class="message">
+The function item has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:818:70
+</span>
+<br />
+<span class="message">
+The function openInternalWindow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:829:70
+</span>
+<br />
+<span class="message">
+The function openInternalWindow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:842:37
+</span>
+<br />
+<span class="message">
+The function openInternalWindow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:854:37
+</span>
+<br />
+<span class="message">
+The function openInternalWindow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:868:37
+</span>
+<br />
+<span class="message">
+The function openInternalWindow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:878:44
+</span>
+<br />
+<span class="message">
+The function openInternalBuilderWindow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:891:19
+</span>
+<br />
+<span class="message">
+The function openWindow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:900:18
+</span>
+<br />
+<span class="message">
+The function openModal has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:1069:22
+</span>
+<br />
+<span class="message">
+The function builderWindow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:1080:15
+</span>
+<br />
+<span class="message">
+The function dialog has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Shapes.kt:6:15
+</span>
+<br />
+<span class="message">
+The function arc has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Shapes.kt:12:22
+</span>
+<br />
+<span class="message">
+The function cubiccurve has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Shapes.kt:39:15
+</span>
+<br />
+<span class="message">
+The function arcTo has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Shapes.kt:55:21
+</span>
+<br />
+<span class="message">
+The function quadcurve has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Dialogs.kt:17:19
+</span>
+<br />
+<span class="message">
+The function confirm has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Dialogs.kt:31:17
+</span>
+<br />
+<span class="message">
+The function alert has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Dialogs.kt:50:19
+</span>
+<br />
+<span class="message">
+The function warning has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Dialogs.kt:53:17
+</span>
+<br />
+<span class="message">
+The function error has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Dialogs.kt:56:23
+</span>
+<br />
+<span class="message">
+The function information has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Dialogs.kt:59:24
+</span>
+<br />
+<span class="message">
+The function confirmation has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LargeClass
+</span>
+<span class="description">
+One class should have one responsibility. Large classes tend to handle many things at once. Split up large classes into smaller classes that are easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Drawer.kt:26:1
+</span>
+<br />
+<span class="message">
+Class Drawer is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/LayoutDebugger.kt:25:1
+</span>
+<br />
+<span class="message">
+Class LayoutDebugger is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Wizard.kt:23:1
+</span>
+<br />
+<span class="message">
+Class Wizard is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Workspace.kt:39:1
+</span>
+<br />
+<span class="message">
+Class Workspace is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt:306:1
+</span>
+<br />
+<span class="message">
+Class UIComponent is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/ViewModel.kt:27:1
+</span>
+<br />
+<span class="message">
+Class ViewModel is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/CSS.kt:94:5
+</span>
+<br />
+<span class="message">
+Class Companion is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/CSS.kt:500:1
+</span>
+<br />
+<span class="message">
+Class PropertyHolder is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/AutoCompleteComboBoxSkin.kt:176:1
+</span>
+<br />
+<span class="message">
+Class AutoCompleteComboBoxSkin is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

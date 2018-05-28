@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 81
+</li>
+<li>
+number of packages: 13
+</li>
+<li>
+number of classes: 100
+</li>
+<li>
+number of functions: 364
+</li>
+<li>
+number of properties: 398
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+LargeClass
+</span>
+<span class="description">
+One class should have one responsibility. Large classes tend to handle many things at once. Split up large classes into smaller classes that are easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/android-topeka/base/src/main/java/com/google/samples/apps/topeka/persistence/TopekaDatabaseHelper.kt:53:1
+</span>
+<br />
+<span class="message">
+Class TopekaDatabaseHelper is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/android-topeka/base/src/main/java/com/google/samples/apps/topeka/persistence/TopekaDatabaseHelper.kt:53:1
+</span>
+<br />
+<span class="message">
+Class 'TopekaDatabaseHelper' with '25' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/android-topeka/base/src/main/java/com/google/samples/apps/topeka/fragment/SignInFragment.kt:55:1
+</span>
+<br />
+<span class="message">
+Class 'SignInFragment' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/android-topeka/base/src/main/java/com/google/samples/apps/topeka/helper/CredentialsHelper.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'CredentialsHelper.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/android-topeka/quiz/src/main/java/com/google/samples/apps/topeka/fragment/QuizFragment.kt:45:1
+</span>
+<br />
+<span class="message">
+Class 'QuizFragment' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/android-topeka/quiz/src/main/java/com/google/samples/apps/topeka/activity/QuizActivity.kt:69:1
+</span>
+<br />
+<span class="message">
+Class 'QuizActivity' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/android-topeka/quiz/src/main/java/com/google/samples/apps/topeka/widget/quiz/AbsQuizView.kt:53:1
+</span>
+<br />
+<span class="message">
+Class 'AbsQuizView' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/android-topeka/quiz/src/androidTest/java/com/google/samples/apps/topeka/SolveQuizUtil.kt:62:1
+</span>
+<br />
+<span class="message">
+Object 'SolveQuizUtil' with '11' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/android-topeka/categories/src/main/java/com/google/samples/apps/topeka/adapter/CategoryAdapter.kt:40:1
+</span>
+<br />
+<span class="message">
+Class 'CategoryAdapter' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/android-topeka/categories/src/main/java/com/google/samples/apps/topeka/activity/CategorySelectionActivity.kt:44:1
+</span>
+<br />
+<span class="message">
+Class 'CategorySelectionActivity' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+</ul>
+
+</body>
+</html>

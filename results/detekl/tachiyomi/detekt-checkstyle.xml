@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/base/controller/RxController.kt">
+	<error line="10" column="1" severity="warning" message="Class &apos;RxController&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/recently_read/RecentlyReadController.kt">
+	<error line="18" column="1" severity="warning" message="Class &apos;RecentlyReadController&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/download/DownloadController.kt">
+	<error line="17" column="1" severity="warning" message="Class &apos;DownloadController&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/extension/ExtensionDetailsController.kt">
+	<error line="57" column="5" severity="warning" message="The function onViewCreated is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="30" column="1" severity="warning" message="Class &apos;ExtensionDetailsController&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/extension/ExtensionController.kt">
+	<error line="17" column="1" severity="warning" message="Class &apos;ExtensionController&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/library/LibraryCategoryView.kt">
+	<error line="24" column="1" severity="warning" message="Class &apos;LibraryCategoryView&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/library/LibraryController.kt">
+	<error line="47" column="1" severity="warning" message="Class LibraryController is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="47" column="1" severity="warning" message="Class &apos;LibraryController&apos; with &apos;34&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/library/LibraryPresenter.kt">
+	<error line="40" column="1" severity="warning" message="Class &apos;LibraryPresenter&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/recent_updates/RecentChaptersController.kt">
+	<error line="26" column="1" severity="warning" message="Class &apos;RecentChaptersController&apos; with &apos;30&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/category/CategoryController.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;CategoryController&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/migration/MigrationController.kt">
+	<error line="20" column="1" severity="warning" message="Class &apos;MigrationController&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/ReaderCustomFilterDialog.kt">
+	<error line="23" column="1" severity="warning" message="Class &apos;ReaderCustomFilterDialog&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/viewer/base/BaseReader.kt">
+	<error line="11" column="1" severity="warning" message="Class &apos;BaseReader&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/viewer/webtoon/WebtoonReader.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;WebtoonReader&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/viewer/webtoon/WebtoonHolder.kt">
+	<error line="25" column="1" severity="warning" message="Class &apos;WebtoonHolder&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/viewer/pager/PageView.kt">
+	<error line="27" column="1" severity="warning" message="Class &apos;PageView&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/viewer/pager/PagerReader.kt">
+	<error line="16" column="1" severity="warning" message="Class &apos;PagerReader&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/ReaderActivity.kt">
+	<error line="45" column="1" severity="warning" message="Class ReaderActivity is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="45" column="1" severity="warning" message="Class &apos;ReaderActivity&apos; with &apos;38&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/ReaderPresenter.kt">
+	<error line="37" column="1" severity="warning" message="Class ReaderPresenter is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="37" column="1" severity="warning" message="Class &apos;ReaderPresenter&apos; with &apos;23&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/setting/PreferenceDSL.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;PreferenceDSL.kt&apos; with &apos;15&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/catalogue/global_search/CatalogueSearchController.kt">
+	<error line="16" column="1" severity="warning" message="Class &apos;CatalogueSearchController&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/catalogue/browse/BrowseCatalogueController.kt">
+	<error line="37" column="1" severity="warning" message="Class BrowseCatalogueController is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="37" column="1" severity="warning" message="Class &apos;BrowseCatalogueController&apos; with &apos;25&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/catalogue/browse/BrowseCataloguePresenter.kt">
+	<error line="28" column="1" severity="warning" message="Class &apos;BrowseCataloguePresenter&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/catalogue/CatalogueController.kt">
+	<error line="30" column="1" severity="warning" message="Class &apos;CatalogueController&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/track/TrackController.kt">
+	<error line="18" column="1" severity="warning" message="Class &apos;TrackController&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/chapter/ChaptersController.kt">
+	<error line="32" column="1" severity="warning" message="Class ChaptersController is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="32" column="1" severity="warning" message="Class &apos;ChaptersController&apos; with &apos;48&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/chapter/ChaptersPresenter.kt">
+	<error line="25" column="1" severity="warning" message="Class ChaptersPresenter is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="25" column="1" severity="warning" message="Class &apos;ChaptersPresenter&apos; with &apos;28&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/info/MangaInfoPresenter.kt">
+	<error line="23" column="1" severity="warning" message="Class &apos;MangaInfoPresenter&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/info/MangaInfoController.kt">
+	<error line="61" column="1" severity="warning" message="Class MangaInfoController is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="61" column="1" severity="warning" message="Class &apos;MangaInfoController&apos; with &apos;25&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/extension/ExtensionManager.kt">
+	<error line="23" column="1" severity="warning" message="Class &apos;ExtensionManager&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/download/Downloader.kt">
+	<error line="26" column="1" severity="warning" message="Class Downloader is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="26" column="1" severity="warning" message="Class &apos;Downloader&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/download/DownloadManager.kt">
+	<error line="13" column="1" severity="warning" message="Class &apos;DownloadManager&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/track/myanimelist/MyAnimeList.kt">
+	<error line="12" column="1" severity="warning" message="Class &apos;Myanimelist&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/track/myanimelist/MyanimelistApi.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;MyanimelistApi&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/track/anilist/Anilist.kt">
+	<error line="15" column="1" severity="warning" message="Class &apos;Anilist&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/track/kitsu/Kitsu.kt">
+	<error line="15" column="1" severity="warning" message="Class &apos;Kitsu&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/track/TrackService.kt">
+	<error line="14" column="1" severity="warning" message="Class &apos;TrackService&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/library/LibraryUpdateService.kt">
+	<error line="41" column="1" severity="warning" message="Class &apos;LibraryUpdateService&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/database/queries/ChapterQueries.kt">
+	<error line="16" column="1" severity="warning" message="Interface &apos;ChapterQueries&apos; with &apos;12&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/database/queries/MangaQueries.kt">
+	<error line="18" column="1" severity="warning" message="Interface &apos;MangaQueries&apos; with &apos;16&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/preference/PreferencesHelper.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;PreferencesHelper&apos; with &apos;66&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/preference/EmptyPreferenceDataStore.kt">
+	<error line="5" column="1" severity="warning" message="Class &apos;EmptyPreferenceDataStore&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/preference/SharedPreferencesDataStore.kt">
+	<error line="6" column="1" severity="warning" message="Class &apos;SharedPreferencesDataStore&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/backup/BackupRestoreService.kt">
+	<error line="319" column="37" severity="warning" message="The function mangaFetchObservable has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="347" column="39" severity="warning" message="The function mangaNoFetchObservable has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="40" column="1" severity="warning" message="Class &apos;BackupRestoreService&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/backup/BackupManager.kt">
+	<error line="39" column="1" severity="warning" message="Class BackupManager is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="39" column="1" severity="warning" message="Class &apos;BackupManager&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/util/ContextExtensions.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ContextExtensions.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/widget/preference/SwitchPreferenceCategory.kt">
+	<error line="18" column="1" severity="warning" message="Class &apos;SwitchPreferenceCategory&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/english/Readmangatoday.kt">
+	<error line="14" column="1" severity="warning" message="Class &apos;Readmangatoday&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/english/Kissmanga.kt">
+	<error line="18" column="1" severity="warning" message="Class &apos;Kissmanga&apos; with &apos;23&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/english/Mangafox.kt">
+	<error line="14" column="1" severity="warning" message="Class &apos;Mangafox&apos; with &apos;21&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/english/Mangasee.kt">
+	<error line="15" column="1" severity="warning" message="Class &apos;Mangasee&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/english/Mangahere.kt">
+	<error line="18" column="1" severity="warning" message="Class &apos;Mangahere&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/russian/Mintmanga.kt">
+	<error line="15" column="1" severity="warning" message="Class &apos;Mintmanga&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/russian/Readmanga.kt">
+	<error line="15" column="1" severity="warning" message="Class &apos;Readmanga&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/russian/Mangachan.kt">
+	<error line="14" column="1" severity="warning" message="Class &apos;Mangachan&apos; with &apos;23&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/HttpSource.kt">
+	<error line="20" column="1" severity="warning" message="Class &apos;HttpSource&apos; with &apos;30&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/ParsedHttpSource.kt">
+	<error line="12" column="1" severity="warning" message="Class &apos;ParsedHttpSource&apos; with &apos;21&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/german/WieManga.kt">
+	<error line="14" column="1" severity="warning" message="Class &apos;WieManga&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

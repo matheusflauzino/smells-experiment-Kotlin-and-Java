@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/JellyToolbar/library/src/main/java/com/yalantis/jellytoolbar/widget/JellyView.kt">
+	<error line="17" column="1" severity="warning" message="Class &apos;JellyView&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

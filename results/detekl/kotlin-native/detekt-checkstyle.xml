@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/tools/kotlin-native-gradle-plugin/src/main/kotlin/org/jetbrains/kotlin/gradle/plugin/KonanPlugin.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;KonanPlugin.kt&apos; with &apos;20&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/tools/kotlin-native-gradle-plugin/src/main/kotlin/org/jetbrains/kotlin/gradle/plugin/tasks/KonanCompileTask.kt">
+	<error line="34" column="1" severity="warning" message="Class &apos;KonanCompileTask&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/tools/kotlin-native-gradle-plugin/src/main/kotlin/org/jetbrains/kotlin/gradle/plugin/tasks/KonanInteropTask.kt">
+	<error line="34" column="1" severity="warning" message="Class &apos;KonanInteropTask&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/tools/kotlin-native-gradle-plugin/src/main/kotlin/org/jetbrains/kotlin/gradle/plugin/KonanSpecs.kt">
+	<error line="44" column="1" severity="warning" message="Interface &apos;KonanCompileSpec&apos; with &apos;18&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="80" column="1" severity="warning" message="Interface &apos;KonanInteropSpec&apos; with &apos;14&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/tools/kotlin-native-gradle-plugin/src/main/kotlin/org/jetbrains/kotlin/gradle/plugin/KonanBuildingConfig.kt">
+	<error line="34" column="1" severity="warning" message="Class &apos;KonanBuildingConfig&apos; with &apos;31&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/tools/kotlin-native-gradle-plugin/src/main/kotlin/org/jetbrains/kotlin/gradle/plugin/KonanInteropLibrary.kt">
+	<error line="31" column="1" severity="warning" message="Class &apos;KonanInteropLibrary&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/tools/kotlin-native-gradle-plugin/src/main/kotlin/org/jetbrains/kotlin/gradle/plugin/KonanArtifactContainer.kt">
+	<error line="28" column="1" severity="warning" message="Class &apos;KonanArtifactContainer&apos; with &apos;53&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/tools/kotlin-native-gradle-plugin/src/main/kotlin/org/jetbrains/kotlin/gradle/plugin/KonanCompileConfig.kt">
+	<error line="29" column="1" severity="warning" message="Class &apos;KonanCompileConfig&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/performance/src/main/kotlin/org/jetbrains/ring/Data.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Data.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/performance/src/main/kotlin/org/jetbrains/ring/IntListBenchmark.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;IntListBenchmark&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/performance/src/main/kotlin/org/jetbrains/ring/ClassArrayBenchmark.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;ClassArrayBenchmark&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/performance/src/main/kotlin/org/jetbrains/ring/ClassListBenchmark.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;ClassListBenchmark&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/performance/src/main/kotlin/org/jetbrains/ring/IntStreamBenchmark.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;IntStreamBenchmark&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/performance/src/main/kotlin/org/jetbrains/ring/launcher.kt">
+	<error line="71" column="5" severity="warning" message="The function runBenchmarks is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="280" column="5" severity="warning" message="The function runIntArrayBenchmark is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="26" column="1" severity="warning" message="Class Launcher is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="26" column="1" severity="warning" message="Class &apos;Launcher&apos; with &apos;29&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/performance/src/main/kotlin/org/jetbrains/ring/SwitchBenchmark.kt">
+	<error line="90" column="1" severity="warning" message="Class SwitchBenchmark is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="90" column="1" severity="warning" message="Class &apos;SwitchBenchmark&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/performance/src/main/kotlin/org/jetbrains/ring/LambdaBenchmark.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;LambdaBenchmark&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/performance/src/main/kotlin/org/jetbrains/ring/IntArrayBenchmark.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;IntArrayBenchmark&apos; with &apos;21&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/performance/src/main/kotlin/org/jetbrains/ring/DefaultArgumentBenchmark.kt">
+	<error line="42" column="17" severity="warning" message="The function sumEight has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/performance/src/main/kotlin/org/jetbrains/ring/ParameterNotNullAssertionBenchmark.kt">
+	<error line="39" column="41" severity="warning" message="The function methodWithEightNotnullParameters has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="43" column="56" severity="warning" message="The function privateMethodWithEightNotnullParameters has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="21" column="1" severity="warning" message="Class &apos;ParameterNotNullAssertionBenchmark&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/performance/src/main/kotlin/org/jetbrains/ring/ClassStreamBenchmark.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;ClassStreamBenchmark&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/konan/TypedArrays.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;TypedArrays.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/konan/internal/ObjCExportUtils.kt">
+	<error line="76" column="1" severity="warning" message="Class &apos;NSDictionaryAsKMap&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;ObjCExportUtils.kt&apos; with &apos;34&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/konan/internal/HexStringParser.kt">
+	<error line="28" column="1" severity="warning" message="Class HexStringParser is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="28" column="1" severity="warning" message="Class &apos;HexStringParser&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/konan/internal/Boxing.kt">
+	<error line="91" column="1" severity="warning" message="Class &apos;ByteBox&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="122" column="1" severity="warning" message="Class &apos;ShortBox&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="153" column="1" severity="warning" message="Class &apos;IntBox&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="184" column="1" severity="warning" message="Class &apos;LongBox&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="215" column="1" severity="warning" message="Class &apos;FloatBox&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="242" column="1" severity="warning" message="Class &apos;DoubleBox&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;Boxing.kt&apos; with &apos;20&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/konan/internal/NumberConverter.kt">
+	<error line="21" column="50" severity="warning" message="The function bigIntDigitGeneratorInstImpl has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="27" column="1" severity="warning" message="Class NumberConverter is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/konan/internal/Intrinsics.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Intrinsics.kt&apos; with &apos;14&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/konan/internal/RuntimeUtils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;RuntimeUtils.kt&apos; with &apos;26&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/konan/internal/Strings.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Strings.kt&apos; with &apos;22&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/konan/internal/FloatingPointParser.kt">
+	<error line="84" column="5" severity="warning" message="The function initialParse is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="66" column="1" severity="warning" message="Class FloatingPointParser is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/io/Console.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Console.kt&apos; with &apos;22&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/SuspendFunctions.kt">
+	<error line="46" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="50" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="54" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="58" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="62" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="66" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="70" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="74" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="78" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="82" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="86" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="90" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="94" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="98" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="102" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="106" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="110" column="32" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/Char.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;Char&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/text/regex/Lexer.kt">
+	<error line="76" column="1" severity="warning" message="Class Lexer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="76" column="1" severity="warning" message="Class &apos;Lexer&apos; with &apos;26&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/text/regex/CharClass.kt">
+	<error line="36" column="1" severity="warning" message="Class CharClass is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/text/regex/AbstractCharClass.kt">
+	<error line="294" column="5" severity="warning" message="Class Companion is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/text/regex/Pattern.kt">
+	<error line="36" column="1" severity="warning" message="Class Pattern is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="36" column="1" severity="warning" message="Class &apos;Pattern&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/text/regex/MatchResultImpl.kt">
+	<error line="36" column="1" severity="warning" message="Class &apos;MatchResultImpl&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/text/MatchResult.kt">
+	<error line="97" column="5" severity="warning" message="Class &apos;Destructured&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/text/Char.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Char.kt&apos; with &apos;23&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/text/StringBuilder.kt">
+	<error line="97" column="1" severity="warning" message="Class StringBuilder is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="97" column="1" severity="warning" message="Class &apos;StringBuilder&apos; with &apos;39&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;StringBuilder.kt&apos; with &apos;16&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/text/Regex.kt">
+	<error line="77" column="1" severity="warning" message="Class &apos;Regex&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/text/Strings.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Strings.kt&apos; with &apos;229&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/text/StringNumberConversions.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;StringNumberConversions.kt&apos; with &apos;27&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/collections/ArrayList.kt">
+	<error line="19" column="1" severity="warning" message="Class ArrayList is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="19" column="1" severity="warning" message="Class &apos;ArrayList&apos; with &apos;36&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/collections/HashMap.kt">
+	<error line="19" column="1" severity="warning" message="Class HashMap is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="19" column="1" severity="warning" message="Class &apos;HashMap&apos; with &apos;42&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="623" column="1" severity="warning" message="Class &apos;HashMapValues&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="663" column="1" severity="warning" message="Class &apos;HashMapEntrySet&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/collections/ArrayUtil.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ArrayUtil.kt&apos; with &apos;48&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/collections/Maps.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Maps.kt&apos; with &apos;88&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/collections/HashSet.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;HashSet&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/collections/Sets.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Sets.kt&apos; with &apos;19&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/collections/MutableCollections.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;MutableCollections.kt&apos; with &apos;30&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/collections/List.kt">
+	<error line="72" column="1" severity="warning" message="Interface &apos;MutableList&apos; with &apos;13&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/collections/MapWithDefault.kt">
+	<error line="90" column="1" severity="warning" message="Class &apos;MutableMapWithDefaultImpl&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/collections/AbstractList.kt">
+	<error line="151" column="1" severity="warning" message="Class &apos;AbstractMutableList&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/collections/Collections.kt">
+	<error line="2623" column="50" severity="warning" message="The function joinTo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="2646" column="40" severity="warning" message="The function joinToString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="30" column="1" severity="warning" message="Object &apos;EmptyList&apos; with &apos;14&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;Collections.kt&apos; with &apos;224&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/Numbers.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Numbers.kt&apos; with &apos;14&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/math/math.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;math.kt&apos; with &apos;88&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/util/Sort.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Sort.kt&apos; with &apos;30&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/sequences/Sequences.kt">
+	<error line="1995" column="50" severity="warning" message="The function joinTo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="2015" column="40" severity="warning" message="The function joinToString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;Sequences.kt&apos; with &apos;146&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/comparisons/Comparisons.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Comparisons.kt&apos; with &apos;56&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/Primitives.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;Byte&apos; with &apos;59&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="248" column="1" severity="warning" message="Class &apos;Short&apos; with &apos;59&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="475" column="1" severity="warning" message="Class &apos;Int&apos; with &apos;62&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="711" column="1" severity="warning" message="Class &apos;Long&apos; with &apos;62&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="947" column="1" severity="warning" message="Class &apos;Float&apos; with &apos;52&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1166" column="1" severity="warning" message="Class &apos;Double&apos; with &apos;52&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/Arrays.kt">
+	<error line="12727" column="51" severity="warning" message="The function joinTo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12749" column="45" severity="warning" message="The function joinTo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12772" column="46" severity="warning" message="The function joinTo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12795" column="44" severity="warning" message="The function joinTo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12818" column="45" severity="warning" message="The function joinTo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12841" column="46" severity="warning" message="The function joinTo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12864" column="47" severity="warning" message="The function joinTo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12887" column="48" severity="warning" message="The function joinTo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12913" column="45" severity="warning" message="The function joinTo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12937" column="41" severity="warning" message="The function joinToString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12947" column="34" severity="warning" message="The function joinToString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12957" column="35" severity="warning" message="The function joinToString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12967" column="33" severity="warning" message="The function joinToString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12977" column="34" severity="warning" message="The function joinToString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12987" column="35" severity="warning" message="The function joinToString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12997" column="36" severity="warning" message="The function joinToString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="13007" column="37" severity="warning" message="The function joinToString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="13017" column="34" severity="warning" message="The function joinToString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;Arrays.kt&apos; with &apos;1270&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/BitSet.kt">
+	<error line="19" column="1" severity="warning" message="Class BitSet is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="19" column="1" severity="warning" message="Class &apos;BitSet&apos; with &apos;33&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/ranges/_Ranges.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;_Ranges.kt&apos; with &apos;65&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/ranges/Ranges.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Ranges.kt&apos; with &apos;48&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/Functions.kt">
+	<error line="46" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="50" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="54" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="58" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="62" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="66" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="70" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="74" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="78" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="82" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="86" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="90" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="94" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="98" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="102" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="106" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="110" column="24" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/shared/src/main/kotlin/org/jetbrains/kotlin/konan/file/File.kt">
+	<error line="26" column="1" severity="warning" message="Class &apos;File&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;File.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/shared/src/main/kotlin/org/jetbrains/kotlin/konan/util/DependencyDownloader.kt">
+	<error line="77" column="27" severity="warning" message="The function doDownload has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/shared/src/main/kotlin/org/jetbrains/kotlin/konan/target/Linker.kt">
+	<error line="54" column="30" severity="warning" message="The function linkCommands has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/JsRuntime/src/main/kotlin/jsinterop.kt">
+	<error line="122" column="30" severity="warning" message="The function setString has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;jsinterop.kt&apos; with &apos;18&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/StubGenerator/src/main/kotlin/org/jetbrains/kotlin/native/interop/gen/jvm/main.kt">
+	<error line="177" column="1" severity="warning" message="The function processCLib is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;main.kt&apos; with &apos;14&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/StubGenerator/src/main/kotlin/org/jetbrains/kotlin/native/interop/gen/jvm/StubGenerator.kt">
+	<error line="29" column="1" severity="warning" message="Class StubGenerator is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="29" column="1" severity="warning" message="Class &apos;StubGenerator&apos; with &apos;36&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/StubGenerator/src/main/kotlin/org/jetbrains/kotlin/native/interop/gen/ObjCStubs.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ObjCStubs.kt&apos; with &apos;15&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/StubGenerator/src/main/kotlin/org/jetbrains/kotlin/native/interop/gen/wasm/StubGenerator.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;StubGenerator.kt&apos; with &apos;47&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Indexer/prebuilt/nativeInteropStubs/kotlin/clang/clang.kt">
+	<error line="405" column="46" severity="warning" message="The function clang_createTranslationUnitFromSourceFile has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="427" column="31" severity="warning" message="The function clang_parseTranslationUnit has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="433" column="32" severity="warning" message="The function clang_parseTranslationUnit2 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="439" column="40" severity="warning" message="The function clang_parseTranslationUnit2FullArgv has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="611" column="40" severity="warning" message="The function clang_getCursorPlatformAvailability has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1613" column="41" severity="warning" message="The function clang_getDefinitionSpellingAndExtent has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1697" column="25" severity="warning" message="The function clang_codeCompleteAt has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1929" column="26" severity="warning" message="The function clang_indexSourceFile has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1935" column="34" severity="warning" message="The function clang_indexSourceFileFullArgv has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1941" column="31" severity="warning" message="The function clang_indexTranslationUnit has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1947" column="35" severity="warning" message="The function clang_indexLoc_getFileLocation has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="3954" column="33" severity="warning" message="The function kniBridge68 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="3958" column="33" severity="warning" message="The function kniBridge72 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="3959" column="33" severity="warning" message="The function kniBridge73 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="3960" column="33" severity="warning" message="The function kniBridge74 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="3993" column="34" severity="warning" message="The function kniBridge107 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="4128" column="34" severity="warning" message="The function kniBridge242 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="4143" column="34" severity="warning" message="The function kniBridge257 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="4185" column="34" severity="warning" message="The function kniBridge299 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="4186" column="34" severity="warning" message="The function kniBridge300 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="4187" column="34" severity="warning" message="The function kniBridge301 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="4188" column="34" severity="warning" message="The function kniBridge302 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="2965" column="1" severity="warning" message="Class CXCursorKind is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="1" column="1" severity="warning" message="File &apos;clang.kt&apos; with &apos;626&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Indexer/src/main/kotlin/org/jetbrains/kotlin/native/interop/indexer/Utils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Utils.kt&apos; with &apos;34&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Indexer/src/main/kotlin/org/jetbrains/kotlin/native/interop/indexer/Indexer.kt">
+	<error line="79" column="1" severity="warning" message="Class NativeIndexImpl is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="79" column="1" severity="warning" message="Class &apos;NativeIndexImpl&apos; with &apos;33&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/main/kotlin/kotlinx/cinterop/Utils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Utils.kt&apos; with &apos;47&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/main/kotlin/kotlinx/cinterop/Types.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Types.kt&apos; with &apos;23&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/main/kotlin/kotlinx/cinterop/Generated.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Generated.kt&apos; with &apos;36&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/native/kotlin/kotlinx/cinterop/FunctionPointers.kt">
+	<error line="34" column="119" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="36" column="127" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="38" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="40" column="143" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="42" column="153" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="44" column="163" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="46" column="173" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="48" column="183" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="50" column="193" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="52" column="203" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="54" column="213" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="56" column="223" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="58" column="233" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="60" column="243" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="62" column="253" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="64" column="263" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="66" column="273" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;FunctionPointers.kt&apos; with &apos;32&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/native/kotlin/kotlinx/cinterop/NativeTypes.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;NativeTypes.kt&apos; with &apos;29&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/native/kotlin/kotlinx/cinterop/ObjectiveCImpl.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ObjectiveCImpl.kt&apos; with &apos;30&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/native/kotlin/kotlinx/cinterop/NativeMem.kt">
+	<error line="28" column="1" severity="warning" message="Object &apos;nativeMemUtils&apos; with &apos;21&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/native/kotlin/kotlinx/cinterop/Pinning.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Pinning.kt&apos; with &apos;17&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/native/kotlin/kotlinx/cinterop/Varargs.kt">
+	<error line="121" column="20" severity="warning" message="The function callWithVarargs has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="167" column="41" severity="warning" message="The function callFunctionPointer has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/jvm/kotlin/kotlinx/cinterop/JvmUtils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;JvmUtils.kt&apos; with &apos;14&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/jvm/kotlin/kotlinx/cinterop/JvmNativeMem.kt">
+	<error line="40" column="1" severity="warning" message="Object &apos;nativeMemUtils&apos; with &apos;22&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/jvm/kotlin/kotlinx/cinterop/JvmTypes.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;JvmTypes.kt&apos; with &apos;27&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/Interop/Runtime/src/jvm/kotlin/kotlinx/cinterop/JvmCallbacks.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;JvmCallbacks.kt&apos; with &apos;37&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/samples/tetris/src/main/kotlin/Tetris.kt">
+	<error line="852" column="24" severity="warning" message="The function drawInt has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="898" column="25" severity="warning" message="The function copyRect has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="719" column="5" severity="warning" message="The function drawBorder is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="508" column="1" severity="warning" message="Class SDL_Visualizer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="247" column="1" severity="warning" message="Class &apos;GameField&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="508" column="1" severity="warning" message="Class &apos;SDL_Visualizer&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/samples/opengl/src/main/kotlin/OpenGlTeapot.kt">
+	<error line="57" column="1" severity="warning" message="The function initialize is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/samples/tensorflow/src/main/kotlin/HelloTensorflow.kt">
+	<error line="92" column="1" severity="warning" message="Class &apos;Session&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/samples/androidNativeActivity/src/main/kotlin/Renderer.kt">
+	<error line="60" column="1" severity="warning" message="Class Renderer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/samples/torch/src/main/kotlin/Tensors.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Tensors.kt&apos; with &apos;23&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/samples/torch/src/main/kotlin/ClassifierDemo.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ClassifierDemo.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/utilities/src/main/kotlin/org/jetbrains/kotlin/cli/utilities/InteropCompiler.kt">
+	<error line="35" column="1" severity="warning" message="The function invokeInterop is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/codegen/controlflow/for_loops_types.kt">
+	<error line="5" column="1" severity="warning" message="The function runTest is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/codegen/controlflow/for_loops.kt">
+	<error line="5" column="1" severity="warning" message="The function runTest is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/codegen/kclass/kclass0.kt">
+	<error line="10" column="1" severity="warning" message="The function main is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/codegen/function/eqeq.kt">
+	<error line="33" column="1" severity="warning" message="The function runTest is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;eqeq.kt&apos; with &apos;23&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/testing/assertions.kt">
+	<error line="5" column="1" severity="warning" message="Class &apos;BasicAssertionsTest&apos; with &apos;24&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/runtime/text/chars0.kt">
+	<error line="71" column="1" severity="warning" message="The function testCategory is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/runtime/text/string_builder0.kt">
+	<error line="105" column="1" severity="warning" message="The function testInsert is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="168" column="1" severity="warning" message="The function testReverse is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="243" column="1" severity="warning" message="The function testBasic is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;string_builder0.kt&apos; with &apos;21&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/runtime/text/utf8.kt">
+	<error line="105" column="1" severity="warning" message="The function test16to8 is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="163" column="1" severity="warning" message="The function test16to8CustomBorders is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="282" column="1" severity="warning" message="The function test8to16CustomBorders is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;utf8.kt&apos; with &apos;24&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/runtime/collections/hash_map0.kt">
+	<error line="30" column="1" severity="warning" message="The function testBasic is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;hash_map0.kt&apos; with &apos;20&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/runtime/collections/hash_set0.kt">
+	<error line="25" column="1" severity="warning" message="The function testBasic is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;hash_set0.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/runtime/collections/array_list1.kt">
+	<error line="25" column="1" severity="warning" message="The function testBasic is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="349" column="1" severity="warning" message="The function runTest is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;array_list1.kt&apos; with &apos;33&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/runtime/collections/array1.kt">
+	<error line="5" column="1" severity="warning" message="The function runTest is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/runtime/collections/BitSet.kt">
+	<error line="41" column="1" severity="warning" message="The function testSet is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="178" column="1" severity="warning" message="The function testFlip is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="239" column="1" severity="warning" message="The function testNextBit is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="344" column="1" severity="warning" message="The function testLogic is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="413" column="1" severity="warning" message="The function testEqualsHashCode is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;BitSet.kt&apos; with &apos;17&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/text/StringNumberConversionTest.kt">
+	<error line="5" column="1" severity="warning" message="Class StringNumberConversionTest is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/text/harmony_regex/MatchResultTest.kt">
+	<error line="136" column="5" severity="warning" message="The function testMatchesQuantifiers is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="23" column="1" severity="warning" message="Class MatchResultTest is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/text/harmony_regex/MatchResultTest2.kt">
+	<error line="24" column="5" severity="warning" message="The function testErrorConditions2 is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/text/harmony_regex/ModeTest.kt">
+	<error line="24" column="5" severity="warning" message="The function testCase is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="56" column="5" severity="warning" message="The function testMultiline is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/text/harmony_regex/PatternTest2.kt">
+	<error line="105" column="5" severity="warning" message="The function testGroups is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="160" column="5" severity="warning" message="The function testReplace is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="196" column="5" severity="warning" message="The function testEscapes is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="372" column="5" severity="warning" message="The function testCharacterClasses is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="886" column="5" severity="warning" message="The function testCompile3 is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="22" column="1" severity="warning" message="Class PatternTest2 is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="22" column="1" severity="warning" message="Class &apos;PatternTest2&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/text/harmony_regex/ReplaceTest.kt">
+	<error line="39" column="5" severity="warning" message="The function testCaptureReplace is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/text/harmony_regex/PatternTest.kt">
+	<error line="35" column="5" severity="warning" message="The function testSplitCharSequenceint is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="95" column="5" severity="warning" message="The function testFlags is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="202" column="5" severity="warning" message="The function testFlagsMethod is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="573" column="5" severity="warning" message="The function testNonCaptConstr is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="642" column="5" severity="warning" message="The function testAlternations is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="751" column="5" severity="warning" message="The function testEmbeddedFlags is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="789" column="5" severity="warning" message="The function testCanonEqFlag is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="959" column="5" severity="warning" message="The function testIndexesCanonicalEq is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="990" column="5" severity="warning" message="The function testCanonEqFlagWithSupplementaryCharacters is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1030" column="5" severity="warning" message="The function testRangesWithSurrogatesSupplementary is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1082" column="5" severity="warning" message="The function testSequencesWithSurrogatesSupplementary is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1110" column="5" severity="warning" message="The function testPredefinedClassesWithSurrogatesSupplementary is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1188" column="5" severity="warning" message="The function testDotConstructionWithSurrogatesSupplementary is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="23" column="1" severity="warning" message="Class PatternTest is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/text/harmony_regex/SplitTest.kt">
+	<error line="35" column="5" severity="warning" message="The function testSplit1 is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/text/StringTest.kt">
+	<error line="53" column="1" severity="warning" message="Class StringTest is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/collections/MapTest.kt">
+	<error line="6" column="1" severity="warning" message="Class MapTest is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/collections/IterableTests.kt">
+	<error line="31" column="1" severity="warning" message="Class OrderedIterableTests is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="213" column="1" severity="warning" message="Class IterableTests is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="31" column="1" severity="warning" message="Class &apos;OrderedIterableTests&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="213" column="1" severity="warning" message="Class &apos;IterableTests&apos; with &apos;39&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/collections/ArraysTest.kt">
+	<error line="441" column="5" severity="warning" message="The function indexOfInPrimitiveArrays is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1136" column="5" severity="warning" message="The function sort is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="35" column="1" severity="warning" message="Class ArraysTest is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/collections/SequenceTest.kt">
+	<error line="248" column="5" severity="warning" message="The function windowed is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="28" column="1" severity="warning" message="Class SequenceTest is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/collections/CollectionTest.kt">
+	<error line="24" column="1" severity="warning" message="Class CollectionTest is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/coroutines/CoroutineContextTest.kt">
+	<error line="45" column="5" severity="warning" message="The function testGetPlusFold is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="87" column="5" severity="warning" message="The function testMinusKey is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/coroutines/SequenceBuilderTest.kt">
+	<error line="23" column="1" severity="warning" message="Class SequenceBuilderTest is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/numbers/HarmonyMathTests.kt">
+	<error line="23" column="1" severity="warning" message="Class HarmonyMath is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="23" column="1" severity="warning" message="Class &apos;HarmonyMath&apos; with &apos;52&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/numbers/MathTest.kt">
+	<error line="38" column="5" severity="warning" message="The function trigonometric is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="135" column="5" severity="warning" message="The function powers is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="168" column="5" severity="warning" message="The function logarithms is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="237" column="5" severity="warning" message="The function roundingConversion is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="432" column="5" severity="warning" message="The function trigonometric is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="530" column="5" severity="warning" message="The function powers is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="561" column="5" severity="warning" message="The function logarithms is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="628" column="5" severity="warning" message="The function roundingConversion is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="36" column="1" severity="warning" message="Class DoubleMathTest is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="425" column="1" severity="warning" message="Class FloatMathTest is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/stdlib_external/ranges/RangeTest.kt">
+	<error line="6" column="5" severity="warning" message="The function intRange is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="41" column="5" severity="warning" message="The function byteRange is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="76" column="5" severity="warning" message="The function shortRange is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="109" column="5" severity="warning" message="The function longRange is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="173" column="5" severity="warning" message="The function doubleRange is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="219" column="5" severity="warning" message="The function floatRange is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="346" column="5" severity="warning" message="The function illegalProgressionCreation is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="5" column="1" severity="warning" message="Class RangeTest is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/reified/checkCast/maxStack.kt">
+	<error line="7" column="9" severity="warning" message="The function call has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/defaultValues/33Parameters.kt">
+	<error line="9" column="9" severity="warning" message="The function test has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/defaultValues/maskElimination/32Parameters.kt">
+	<error line="7" column="16" severity="warning" message="The function test has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/defaultValues/maskElimination/33Parameters.kt">
+	<error line="7" column="16" severity="warning" message="The function test has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/capture/simpleCapturingInPackage.kt">
+	<error line="3" column="18" severity="warning" message="The function inline has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/capture/simpleCapturingInClass.kt">
+	<error line="5" column="22" severity="warning" message="The function inline has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/simpleThrow.kt">
+	<error line="182" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/severalCatchClause.kt">
+	<error line="276" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;severalCatchClause.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/nested.kt">
+	<error line="9" column="25" severity="warning" message="The function doCall has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="98" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/nestedWithReturns.kt">
+	<error line="9" column="25" severity="warning" message="The function doCall has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="42" column="10" severity="warning" message="The function test0 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="100" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/innerAndExternalNested.kt">
+	<error line="9" column="25" severity="warning" message="The function doCall has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="122" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/nonLocalReturns/tryFinally/callSite/callSite.kt">
+	<error line="74" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/nonLocalReturns/tryFinally/callSite/callSiteComplex.kt">
+	<error line="78" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/nonLocalReturns/tryFinally/declSite/complex.kt">
+	<error line="81" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/boxInline/property/property.kt">
+	<error line="120" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/primitiveTypes/comparisonWithNaN.kt">
+	<error line="12" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/primitiveTypes/rangeTo.kt">
+	<error line="1" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/primitiveTypes/conversions.kt">
+	<error line="4" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/primitiveTypes/equalsHashCodeToString.kt">
+	<error line="1" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/regressions/collections.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;collections.kt&apos; with &apos;28&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/regressions/kt344.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;kt344.kt&apos; with &apos;15&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/defaultArguments/function/topLevelManyArgs.kt">
+	<error line="1" column="8" severity="warning" message="The function foo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="36" column="8" severity="warning" message="The function bar has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="80" column="8" severity="warning" message="The function baz has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/defaultArguments/function/memberFunctionManyArgs.kt">
+	<error line="2" column="12" severity="warning" message="The function foo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="37" column="12" severity="warning" message="The function bar has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="81" column="12" severity="warning" message="The function baz has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="157" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/defaultArguments/function/innerExtentionFunctionManyArgs.kt">
+	<error line="2" column="16" severity="warning" message="The function foo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="37" column="19" severity="warning" message="The function bar has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="81" column="17" severity="warning" message="The function baz has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/defaultArguments/function/extensionFunctionManyArgs.kt">
+	<error line="1" column="12" severity="warning" message="The function foo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="36" column="15" severity="warning" message="The function bar has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="80" column="13" severity="warning" message="The function baz has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/specialBuiltins/bridges.kt">
+	<error line="65" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/specialBuiltins/removeAtTwoSpecialBridges.kt">
+	<error line="3" column="1" severity="warning" message="Class &apos;A0&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/specialBuiltins/irrelevantRemoveAtOverride.kt">
+	<error line="11" column="1" severity="warning" message="Class &apos;A&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/specialBuiltins/notEmptyListAny.kt">
+	<error line="4" column="1" severity="warning" message="Object &apos;NotEmptyList&apos; with &apos;20&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/jvmName/classMembers.kt">
+	<error line="66" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/secondaryConstructors/innerClasses.kt">
+	<error line="52" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/secondaryConstructors/localClasses.kt">
+	<error line="2" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/vararg/kt6192.kt">
+	<error line="35" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;kt6192.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/vararg/varargInFunParam.kt">
+	<error line="1" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/vararg/doNotCopyImmediatelyCreatedArrays.kt">
+	<error line="37" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/collections/irrelevantImplMutableListKotlin.kt">
+	<error line="14" column="1" severity="warning" message="Class &apos;AImpl&apos; with &apos;21&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/collections/strList.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;KList&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/collections/irrelevantRemoveAtOverrideInJava.kt">
+	<error line="17" column="1" severity="warning" message="Class &apos;A&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/collections/removeAtInt.kt">
+	<error line="28" column="1" severity="warning" message="Class &apos;A&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/collections/irrelevantImplMutableListSubstitution.kt">
+	<error line="7" column="21" severity="warning" message="Class &apos;AImpl&apos; with &apos;23&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/collections/mutableList.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;KList&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/collections/irrelevantImplMutableList.kt">
+	<error line="7" column="21" severity="warning" message="Class &apos;AImpl&apos; with &apos;23&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/constructorCall/earlyReturnInConstructorArguments.kt">
+	<error line="31" column="8" severity="warning" message="The function foo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/coroutines/32defaultParametersInSuspend.kt">
+	<error line="8" column="28" severity="warning" message="The function suspendHere has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/coroutines/suspendFunctionAsCoroutine/operators.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;operators.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/objectIntrinsics/objects.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;objects.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/properties/augmentedAssignmentsAndIncrements.kt">
+	<error line="45" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/properties/commonPropertiesKJK.kt">
+	<error line="54" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/builtinStubMethods/delegationToArrayList.kt">
+	<error line="17" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/builtinStubMethods/SubstitutedList.kt">
+	<error line="4" column="1" severity="warning" message="Class &apos;MyList&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/builtinStubMethods/ListWithAllImplementations.kt">
+	<error line="4" column="1" severity="warning" message="Class &apos;MyList&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/builtinStubMethods/List.kt">
+	<error line="4" column="1" severity="warning" message="Class &apos;MyList&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/builtinStubMethods/ListWithAllInheritedImplementations.kt">
+	<error line="17" column="1" severity="warning" message="Class &apos;MyList&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/controlStructures/continueInFor.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;continueInFor.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/controlStructures/continueToLabelInFor.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;continueToLabelInFor.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/controlStructures/kt628.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;kt628.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/controlStructures/forUserType.kt">
+	<error line="4" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/asForConstants.kt">
+	<error line="4" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/isNullablePrimitive.kt">
+	<error line="1" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/mutableCollections/reifiedIsWithMutable.kt">
+	<error line="36" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/mutableCollections/reifiedAsWithMutable.kt">
+	<error line="53" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/mutableCollections/asWithMutable.kt">
+	<error line="54" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/mutableCollections/isWithMutable.kt">
+	<error line="33" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/mutableCollections/safeAsWithMutable.kt">
+	<error line="54" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/mutableCollections/mutabilityMarkerInterfaces.kt">
+	<error line="36" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/mutableCollections/weirdMutableCasts.kt">
+	<error line="109" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;weirdMutableCasts.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/mutableCollections/reifiedSafeAsWithMutable.kt">
+	<error line="55" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/functions/reifiedAsFunKBig.kt">
+	<error line="16" column="8" severity="warning" message="The function fn6 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="17" column="8" severity="warning" message="The function fn7 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="18" column="8" severity="warning" message="The function fn8 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="19" column="8" severity="warning" message="The function fn9 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="20" column="9" severity="warning" message="The function fn10 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="21" column="9" severity="warning" message="The function fn11 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="22" column="9" severity="warning" message="The function fn12 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="23" column="9" severity="warning" message="The function fn13 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="24" column="9" severity="warning" message="The function fn14 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="25" column="9" severity="warning" message="The function fn15 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="26" column="9" severity="warning" message="The function fn16 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="27" column="9" severity="warning" message="The function fn17 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="28" column="9" severity="warning" message="The function fn18 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="29" column="9" severity="warning" message="The function fn19 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="30" column="9" severity="warning" message="The function fn20 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="31" column="9" severity="warning" message="The function fn21 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="32" column="9" severity="warning" message="The function fn22 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;reifiedAsFunKBig.kt&apos; with &apos;26&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/functions/reifiedIsFunKBig.kt">
+	<error line="14" column="8" severity="warning" message="The function fn6 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="15" column="8" severity="warning" message="The function fn7 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="16" column="8" severity="warning" message="The function fn8 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="17" column="8" severity="warning" message="The function fn9 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="18" column="9" severity="warning" message="The function fn10 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="19" column="9" severity="warning" message="The function fn11 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="20" column="9" severity="warning" message="The function fn12 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="21" column="9" severity="warning" message="The function fn13 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="22" column="9" severity="warning" message="The function fn14 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="23" column="9" severity="warning" message="The function fn15 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="24" column="9" severity="warning" message="The function fn16 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="25" column="9" severity="warning" message="The function fn17 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="26" column="9" severity="warning" message="The function fn18 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="27" column="9" severity="warning" message="The function fn19 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="28" column="9" severity="warning" message="The function fn20 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="29" column="9" severity="warning" message="The function fn21 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="30" column="9" severity="warning" message="The function fn22 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;reifiedIsFunKBig.kt&apos; with &apos;26&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/functions/safeAsFunKBig.kt">
+	<error line="14" column="8" severity="warning" message="The function fn6 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="15" column="8" severity="warning" message="The function fn7 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="16" column="8" severity="warning" message="The function fn8 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="17" column="8" severity="warning" message="The function fn9 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="18" column="9" severity="warning" message="The function fn10 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="19" column="9" severity="warning" message="The function fn11 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="20" column="9" severity="warning" message="The function fn12 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="21" column="9" severity="warning" message="The function fn13 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="22" column="9" severity="warning" message="The function fn14 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="23" column="9" severity="warning" message="The function fn15 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="24" column="9" severity="warning" message="The function fn16 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="25" column="9" severity="warning" message="The function fn17 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="26" column="9" severity="warning" message="The function fn18 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="27" column="9" severity="warning" message="The function fn19 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="28" column="9" severity="warning" message="The function fn20 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="29" column="9" severity="warning" message="The function fn21 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="30" column="9" severity="warning" message="The function fn22 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;safeAsFunKBig.kt&apos; with &apos;26&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/functions/asFunKBig.kt">
+	<error line="16" column="8" severity="warning" message="The function fn6 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="17" column="8" severity="warning" message="The function fn7 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="18" column="8" severity="warning" message="The function fn8 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="19" column="8" severity="warning" message="The function fn9 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="20" column="9" severity="warning" message="The function fn10 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="21" column="9" severity="warning" message="The function fn11 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="22" column="9" severity="warning" message="The function fn12 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="23" column="9" severity="warning" message="The function fn13 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="24" column="9" severity="warning" message="The function fn14 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="25" column="9" severity="warning" message="The function fn15 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="26" column="9" severity="warning" message="The function fn16 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="27" column="9" severity="warning" message="The function fn17 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="28" column="9" severity="warning" message="The function fn18 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="29" column="9" severity="warning" message="The function fn19 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="30" column="9" severity="warning" message="The function fn20 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="31" column="9" severity="warning" message="The function fn21 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="32" column="9" severity="warning" message="The function fn22 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;asFunKBig.kt&apos; with &apos;26&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/functions/isFunKBig.kt">
+	<error line="14" column="8" severity="warning" message="The function fn6 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="15" column="8" severity="warning" message="The function fn7 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="16" column="8" severity="warning" message="The function fn8 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="17" column="8" severity="warning" message="The function fn9 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="18" column="9" severity="warning" message="The function fn10 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="19" column="9" severity="warning" message="The function fn11 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="20" column="9" severity="warning" message="The function fn12 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="21" column="9" severity="warning" message="The function fn13 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="22" column="9" severity="warning" message="The function fn14 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="23" column="9" severity="warning" message="The function fn15 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="24" column="9" severity="warning" message="The function fn16 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="25" column="9" severity="warning" message="The function fn17 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="26" column="9" severity="warning" message="The function fn18 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="27" column="9" severity="warning" message="The function fn19 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="28" column="9" severity="warning" message="The function fn20 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="29" column="9" severity="warning" message="The function fn21 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="30" column="9" severity="warning" message="The function fn22 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;isFunKBig.kt&apos; with &apos;24&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/functions/reifiedSafeAsFunKBig.kt">
+	<error line="13" column="8" severity="warning" message="The function fn6 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="14" column="8" severity="warning" message="The function fn7 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="15" column="8" severity="warning" message="The function fn8 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="16" column="8" severity="warning" message="The function fn9 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="17" column="9" severity="warning" message="The function fn10 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="18" column="9" severity="warning" message="The function fn11 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="19" column="9" severity="warning" message="The function fn12 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="20" column="9" severity="warning" message="The function fn13 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="21" column="9" severity="warning" message="The function fn14 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="22" column="9" severity="warning" message="The function fn15 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="23" column="9" severity="warning" message="The function fn16 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="24" column="9" severity="warning" message="The function fn17 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="25" column="9" severity="warning" message="The function fn18 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="26" column="9" severity="warning" message="The function fn19 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="27" column="9" severity="warning" message="The function fn20 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="28" column="9" severity="warning" message="The function fn21 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="29" column="9" severity="warning" message="The function fn22 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;reifiedSafeAsFunKBig.kt&apos; with &apos;26&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/functions/isFunKSmall.kt">
+	<error line="22" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/casts/asSafeForConstants.kt">
+	<error line="4" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/increment/classWithGetSet.kt">
+	<error line="49" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/increment/mutableListElement.kt">
+	<error line="3" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/increment/arrayElement.kt">
+	<error line="1" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/increment/nullable.kt">
+	<error line="1" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/increment/genericClassWithGetSet.kt">
+	<error line="9" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/supertypes/isSubclassOfIsSuperclassOf.kt">
+	<error line="25" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/call/incorrectNumberOfArguments.kt">
+	<error line="50" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/methodsFromAny/extensionPropertyReceiverToString.kt">
+	<error line="57" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/createAnnotation/callByJava.kt">
+	<error line="50" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/createAnnotation/callJava.kt">
+	<error line="59" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/createAnnotation/equalsHashCodeToString.kt">
+	<error line="15" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/classes/companionObject.kt">
+	<error line="18" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/classes/nestedClasses.kt">
+	<error line="20" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/classes/jvmName.kt">
+	<error line="15" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/classes/qualifiedName.kt">
+	<error line="13" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/properties/privatePropertyCallIsAccessibleOnAccessors.kt">
+	<error line="13" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/properties/kotlinPropertyInheritedInJava.kt">
+	<error line="22" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/callBy/manyMaskArguments.kt">
+	<error line="12" column="12" severity="warning" message="The function foo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/callBy/manyArgumentsNoneDefaultFunction.kt">
+	<error line="10" column="12" severity="warning" message="The function foo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/callBy/primitiveDefaultValues.kt">
+	<error line="8" column="15" severity="warning" message="The function primitives has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/callBy/manyArgumentsOnlyOneDefault.kt">
+	<error line="12" column="12" severity="warning" message="The function foo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/modifiers/callableModality.kt">
+	<error line="20" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/modifiers/callableVisibility.kt">
+	<error line="11" column="1" severity="warning" message="Class &apos;Foo&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/modifiers/functions.kt">
+	<error line="23" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/modifiers/classModality.kt">
+	<error line="20" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/modifiers/classes.kt">
+	<error line="16" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/isInstance/isInstanceCastAndSafeCast.kt">
+	<error line="27" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/functions/declaredVsInheritedFunctions.kt">
+	<error line="36" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/enclosing/kt11969.kt">
+	<error line="29" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/noReflectAtRuntime/javaClass.kt">
+	<error line="10" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/types/jvmErasureOfTypeParameter.kt">
+	<error line="12" column="1" severity="warning" message="Class &apos;A&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/types/classifiersOfBuiltInTypes.kt">
+	<error line="10" column="15" severity="warning" message="The function primitives has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="21" column="23" severity="warning" message="The function nullablePrimitives has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="32" column="20" severity="warning" message="The function primitiveArrays has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="43" column="11" severity="warning" message="The function others has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/reflection/types/subtyping/simpleSubtypeSupertype.kt">
+	<error line="35" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/classLiteral/java/java.kt">
+	<error line="28" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/classLiteral/java/javaPrimitiveType.kt">
+	<error line="28" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/classLiteral/java/javaObjectType.kt">
+	<error line="18" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/binaryOp/bitwiseOpAny.kt">
+	<error line="4" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/binaryOp/bitwiseOp.kt">
+	<error line="4" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/binaryOp/bitwiseOpNullable.kt">
+	<error line="4" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/boxingOptimization/taintedValuesBox.kt">
+	<error line="3" column="19" severity="warning" message="The function put has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/boxingOptimization/progressions.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/callableReference/bound/multiCase.kt">
+	<error line="17" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/nonLocalReturns/use.kt">
+	<error line="142" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/arrays/primitiveArrays.kt">
+	<error line="172" column="24" severity="warning" message="The function checkExactArrayType has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;primitiveArrays.kt&apos; with &apos;18&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/arrays/kt2997.kt">
+	<error line="55" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/arrays/clonePrimitiveArrays.kt">
+	<error line="6" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/safeCall/safeCallEqPrimitive.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;safeCallEqPrimitive.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/safeCall/primitiveEqSafeCall.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;primitiveEqSafeCall.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/oneElementRange.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/maxValueToMinValue.kt">
+	<error line="22" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/simpleSteppedDownTo.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/inexactSteppedDownTo.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/emptyRange.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/reversedBackSequence.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/progressionMaxValueToMaxValue.kt">
+	<error line="22" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/inexactDownToMinValue.kt">
+	<error line="22" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/inexactSteppedRange.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/inexactToMaxValue.kt">
+	<error line="22" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/oneElementDownTo.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/maxValueToMaxValue.kt">
+	<error line="22" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/simpleRangeWithNonConstantEnds.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/reversedEmptyBackSequence.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/maxValueMinusTwoToMaxValue.kt">
+	<error line="22" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/progressionDownToMinValue.kt">
+	<error line="22" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/progressionMaxValueMinusTwoToMaxValue.kt">
+	<error line="22" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/simpleDownTo.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/openRange.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/reversedSimpleSteppedRange.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/progressionMaxValueToMinValue.kt">
+	<error line="22" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/emptyDownto.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/reversedInexactSteppedDownTo.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/simpleRange.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/progressionMinValueToMinValue.kt">
+	<error line="22" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/simpleSteppedRange.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/expression/reversedEmptyRange.kt">
+	<error line="5" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/contains/generated/charDownTo.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;charDownTo.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/contains/generated/longRangeLiteral.kt">
+	<error line="46" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;longRangeLiteral.kt&apos; with &apos;73&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/contains/generated/collectionIndices.kt">
+	<error line="47" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;collectionIndices.kt&apos; with &apos;73&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/contains/generated/charRangeLiteral.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;charRangeLiteral.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/contains/generated/doubleRangeLiteral.kt">
+	<error line="46" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;doubleRangeLiteral.kt&apos; with &apos;73&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/contains/generated/longUntil.kt">
+	<error line="46" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;longUntil.kt&apos; with &apos;73&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/contains/generated/charSequenceIndices.kt">
+	<error line="47" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;charSequenceIndices.kt&apos; with &apos;73&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/contains/generated/floatRangeLiteral.kt">
+	<error line="46" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;floatRangeLiteral.kt&apos; with &apos;73&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/contains/generated/charUntil.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;charUntil.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/contains/generated/intUntil.kt">
+	<error line="46" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;intUntil.kt&apos; with &apos;73&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/contains/generated/arrayIndices.kt">
+	<error line="51" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;arrayIndices.kt&apos; with &apos;145&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ranges/contains/generated/intRangeLiteral.kt">
+	<error line="46" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;intRangeLiteral.kt&apos; with &apos;73&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/bridges/jsName.kt">
+	<error line="26" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/external/codegen/box/ieee754/equalsNaN.kt">
+	<error line="71" column="1" severity="warning" message="The function box is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/framework/stdlib/stdlib.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;stdlib.kt&apos; with &apos;15&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/framework/values/values.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;values.kt&apos; with &apos;17&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/interop/objc/smoke.kt">
+	<error line="12" column="1" severity="warning" message="The function run is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="105" column="1" severity="warning" message="The function testTypeOps is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;smoke.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/interop/basics/opengl_teapot.kt">
+	<error line="41" column="1" severity="warning" message="The function initialize is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/tests/interop/basics/bf.kt">
+	<error line="9" column="10" severity="warning" message="The function check has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="29" column="11" severity="warning" message="The function assign has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="38" column="19" severity="warning" message="The function assignReversed has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="47" column="9" severity="warning" message="The function test has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/lower/SuspendFunctionsLowering.kt">
+	<error line="301" column="9" severity="warning" message="The function build is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="274" column="5" severity="warning" message="Class &apos;CoroutineBuilder&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/lower/Autoboxing.kt">
+	<error line="51" column="1" severity="warning" message="Class &apos;AutoboxingTransformer&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/lower/ForLoopsLowering.kt">
+	<error line="66" column="1" severity="warning" message="Class ForLoopsTransformer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="66" column="1" severity="warning" message="Class &apos;ForLoopsTransformer&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/lower/DeepCopyIrTreeWithDescriptors.kt">
+	<error line="70" column="5" severity="warning" message="Class &apos;DescriptorCollectorCreatePhase&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="236" column="5" severity="warning" message="Class &apos;DescriptorCollectorInitPhase&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="453" column="5" severity="warning" message="Class &apos;InlineCopyIr&apos; with &apos;30&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/lower/FinallyBlocksLowering.kt">
+	<error line="175" column="37" severity="warning" message="The function performHighLevelJump has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="46" column="1" severity="warning" message="Class &apos;FinallyBlocksLowering&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/lower/EnumClassLowering.kt">
+	<error line="178" column="5" severity="warning" message="Class EnumClassTransformer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="178" column="5" severity="warning" message="Class &apos;EnumClassTransformer&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/lower/LocalDeclarationsLowering.kt">
+	<error line="159" column="5" severity="warning" message="Class LocalDeclarationsTransformer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="159" column="5" severity="warning" message="Class &apos;LocalDeclarationsTransformer&apos; with &apos;21&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="209" column="9" severity="warning" message="Class &apos;FunctionBodiesRewriter&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/lower/CallableReferenceLowering.kt">
+	<error line="176" column="9" severity="warning" message="The function build is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/lower/InteropLowering.kt">
+	<error line="61" column="1" severity="warning" message="Class InteropLoweringPart1 is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="61" column="1" severity="warning" message="Class &apos;InteropLoweringPart1&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/serialization/SerializeIr.kt">
+	<error line="60" column="1" severity="warning" message="Class IrSerializer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="705" column="1" severity="warning" message="Class IrDeserializer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="60" column="1" severity="warning" message="Class &apos;IrSerializer&apos; with &apos;52&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="705" column="1" severity="warning" message="Class &apos;IrDeserializer&apos; with &apos;47&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/serialization/KonanDescriptorSerializer.kt">
+	<error line="75" column="5" severity="warning" message="The function classProto is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="171" column="5" severity="warning" message="The function propertyProto is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="56" column="1" severity="warning" message="Class KonanDescriptorSerializer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="56" column="1" severity="warning" message="Class &apos;KonanDescriptorSerializer&apos; with &apos;23&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/serialization/IrDescriptorDeserializer.kt">
+	<error line="54" column="1" severity="warning" message="Class IrDescriptorDeserializer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="54" column="1" severity="warning" message="Class &apos;IrDescriptorDeserializer&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/serialization/ProtobufUtil.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ProtobufUtil.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/serialization/KonanSerializerExtension.kt">
+	<error line="26" column="1" severity="warning" message="Class &apos;KonanSerializerExtension&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/KonanLower.kt">
+	<error line="98" column="5" severity="warning" message="The function lowerFile is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/objcexport/ObjCExportMapper.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ObjCExportMapper.kt&apos; with &apos;18&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/objcexport/ObjCExportHeaderGenerator.kt">
+	<error line="35" column="1" severity="warning" message="Class ObjCExportHeaderGenerator is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="35" column="1" severity="warning" message="Class &apos;ObjCExportHeaderGenerator&apos; with &apos;27&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/library/SearchPathResolverExtensions.kt">
+	<error line="24" column="49" severity="warning" message="The function resolveImmediateLibraries has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/library/impl/KonanLibraryWriterImpl.kt">
+	<error line="117" column="26" severity="warning" message="The function buildLibrary has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/descriptors/DeepVisitor.kt">
+	<error line="24" column="1" severity="warning" message="Class &apos;DeepVisitor&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="117" column="1" severity="warning" message="Class &apos;EmptyDescriptorVisitorVoid&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/descriptors/DeepPrintVisitor.kt">
+	<error line="33" column="1" severity="warning" message="Class &apos;PrintVisitor&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/ObjCInterop.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ObjCInterop.kt&apos; with &apos;21&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/optimizations/EscapeAnalysis.kt">
+	<error line="422" column="9" severity="warning" message="Class PointsToGraph is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/optimizations/DataFlowIR.kt">
+	<error line="437" column="5" severity="warning" message="Class SymbolTable is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="437" column="5" severity="warning" message="Class &apos;SymbolTable&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/optimizations/DFGSerializer.kt">
+	<error line="42" column="1" severity="warning" message="Class DFGSerializer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="44" column="5" severity="warning" message="Class &apos;ArraySlice&apos; with &apos;26&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="635" column="9" severity="warning" message="Object &apos;Companion&apos; with &apos;13&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/optimizations/Devirtualization.kt">
+	<error line="399" column="9" severity="warning" message="The function analyze is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="593" column="9" severity="warning" message="Class ConstraintGraphBuilder is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="104" column="5" severity="warning" message="Class DevirtualizationAnalysis is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/irasdescriptors/FakeIrUtils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;FakeIrUtils.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/llvm/DebugUtils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;DebugUtils.kt&apos; with &apos;17&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/llvm/objcexport/ObjCExportCodeGenerator.kt">
+	<error line="38" column="1" severity="warning" message="Class &apos;ObjCExportCodeGenerator&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;ObjCExportCodeGenerator.kt&apos; with &apos;30&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/llvm/StaticObjects.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;StaticObjects.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/llvm/IrToBitcode.kt">
+	<error line="54" column="1" severity="warning" message="The function emitLLVM is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1290" column="5" severity="warning" message="The function evaluateInstanceOf is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="263" column="1" severity="warning" message="Class CodeGeneratorVisitor is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="182" column="1" severity="warning" message="Interface &apos;CodeContext&apos; with &apos;14&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="263" column="1" severity="warning" message="Class &apos;CodeGeneratorVisitor&apos; with &apos;103&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="273" column="5" severity="warning" message="Object &apos;TopLevelCodeContext&apos; with &apos;15&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/llvm/RTTIGenerator.kt">
+	<error line="136" column="5" severity="warning" message="The function generate is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="284" column="5" severity="warning" message="The function generateSyntheticInterfaceImpl is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="30" column="1" severity="warning" message="Class RTTIGenerator is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/llvm/Dwarf.kt">
+	<error line="120" column="1" severity="warning" message="Class DwarfOp is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/llvm/CodeGenerator.kt">
+	<error line="652" column="5" severity="warning" message="The function getObjectValue is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="160" column="1" severity="warning" message="Class FunctionGenerationContext is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="160" column="1" severity="warning" message="Class &apos;FunctionGenerationContext&apos; with &apos;75&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/llvm/LlvmUtils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;LlvmUtils.kt&apos; with &apos;28&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/llvm/VariableManager.kt">
+	<error line="150" column="44" severity="warning" message="The function debugInfoLocalVariableLocation has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="164" column="40" severity="warning" message="The function debugInfoParameterLocation has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="29" column="1" severity="warning" message="Class &apos;VariableManager&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/LinkStage.kt">
+	<error line="29" column="1" severity="warning" message="Class &apos;LinkStage&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/CAdapterGenerator.kt">
+	<error line="746" column="5" severity="warning" message="The function makeGlobalStruct is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="198" column="1" severity="warning" message="Class ExportedElement is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="491" column="1" severity="warning" message="Class CAdapterGenerator is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="198" column="1" severity="warning" message="Class &apos;ExportedElement&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="491" column="1" severity="warning" message="Class &apos;CAdapterGenerator&apos; with &apos;34&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/Context.kt">
+	<error line="173" column="1" severity="warning" message="Class &apos;Context&apos; with &apos;27&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/common/AbstractValueUsageTransformer.kt">
+	<error line="32" column="1" severity="warning" message="Class &apos;AbstractValueUsageTransformer&apos; with &apos;27&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/ir/util/IrUtils2.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;IrUtils2.kt&apos; with &apos;22&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/ir/util/IrUnboundSymbolReplacer.kt">
+	<error line="111" column="1" severity="warning" message="Class IrUnboundSymbolReplacer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="111" column="1" severity="warning" message="Class &apos;IrUnboundSymbolReplacer&apos; with &apos;24&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

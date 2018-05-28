@@ -1,0 +1,5 @@
+TooManyFunctions - 19/11 - [ToolTip] at /home/matheus/Documentos/repositories/Kotlin/TourGuide/tourguide/src/main/java/tourguide/tourguide/ToolTip.kt:11:1 - Signature=ToolTip.kt$ToolTip
+TooManyFunctions - 17/11 - [Overlay] at /home/matheus/Documentos/repositories/Kotlin/TourGuide/tourguide/src/main/java/tourguide/tourguide/Overlay.kt:7:1 - Signature=Overlay.kt$Overlay
+TooManyFunctions - 11/11 - [FrameLayoutWithHole] at /home/matheus/Documentos/repositories/Kotlin/TourGuide/tourguide/src/main/java/tourguide/tourguide/FrameLayoutWithHole.kt:17:1 - Signature=FrameLayoutWithHole.kt$FrameLayoutWithHole : FrameLayout
+LargeClass - 277/150 - [TourGuide] at /home/matheus/Documentos/repositories/Kotlin/TourGuide/tourguide/src/main/java/tourguide/tourguide/TourGuide.kt:22:1 - Signature=TourGuide.kt$TourGuide
+TooManyFunctions - 20/11 - [TourGuide] at /home/matheus/Documentos/repositories/Kotlin/TourGuide/tourguide/src/main/java/tourguide/tourguide/TourGuide.kt:22:1 - Signature=TourGuide.kt$TourGuide

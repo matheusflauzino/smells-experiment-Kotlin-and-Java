@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 278
+</li>
+<li>
+number of packages: 33
+</li>
+<li>
+number of classes: 198
+</li>
+<li>
+number of functions: 893
+</li>
+<li>
+number of properties: 499
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/tooling-builders/src/main/kotlin/org/gradle/kotlin/dsl/tooling/builders/KotlinBuildScriptModelBuilder.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'KotlinBuildScriptModelBuilder.kt' with '13' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/buildSrc/src/main/kotlin/integration/Benchmark.kt:46:1
+</span>
+<br />
+<span class="message">
+Class 'Benchmark' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/support/EmbeddedKotlinProvider.kt:78:1
+</span>
+<br />
+<span class="message">
+Class 'EmbeddedKotlinProvider' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/support/KotlinCompiler.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'KotlinCompiler.kt' with '13' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/resolver/SourceDistributionProvider.kt:39:1
+</span>
+<br />
+<span class="message">
+Class 'SourceDistributionResolver' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/resolver/ResolverEventLogger.kt:49:1
+</span>
+<br />
+<span class="message">
+Object 'ResolverEventLogger' with '16' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/KotlinInitScript.kt:86:1
+</span>
+<br />
+<span class="message">
+Class 'InitScriptApi' with '19' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/KotlinSettingsScript.kt:95:1
+</span>
+<br />
+<span class="message">
+Class 'SettingsScriptApi' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/accessors/AccessorsClassPath.kt:170:1
+</span>
+<br />
+<span class="message">
+Class 'TypeAccessibilityProvider' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/accessors/AccessorsClassPath.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'AccessorsClassPath.kt' with '28' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/accessors/CodeGenerator.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'CodeGenerator.kt' with '16' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/provider/KotlinBuildScriptCompiler.kt:73:1
+</span>
+<br />
+<span class="message">
+Class 'KotlinBuildScriptCompiler' with '30' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/provider/KotlinBuildScriptCompiler.kt:357:1
+</span>
+<br />
+<span class="message">
+Class 'BuildscriptBlockEvaluator' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/provider/ScriptApi.kt:36:1
+</span>
+<br />
+<span class="message">
+Interface 'ScriptApi' with '18' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/provider/CachingKotlinCompiler.kt:73:1
+</span>
+<br />
+<span class="message">
+Class 'CachingKotlinCompiler' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/DependencyHandlerScope.kt:26:1
+</span>
+<br />
+<span class="message">
+Class 'DependencyHandlerScope' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/ProjectExtensions.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'ProjectExtensions.kt' with '21' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/DependencyHandlerExtensions.kt:47:29
+</span>
+<br />
+<span class="message">
+The function create has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/DependencyHandlerExtensions.kt:80:29
+</span>
+<br />
+<span class="message">
+The function module has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/DependencyHandlerExtensions.kt:113:29
+</span>
+<br />
+<span class="message">
+The function module has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/DependencyHandlerExtensions.kt:168:15
+</span>
+<br />
+<span class="message">
+The function module has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/DependencyHandlerScope.kt:68:31
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/DependencyHandlerScope.kt:94:31
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/DependencyHandlerScope.kt:153:38
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/DependencyHandlerScope.kt:179:38
+</span>
+<br />
+<span class="message">
+The function invoke has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

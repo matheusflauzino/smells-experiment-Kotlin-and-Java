@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 431
+</li>
+<li>
+number of packages: 68
+</li>
+<li>
+number of classes: 810
+</li>
+<li>
+number of functions: 2326
+</li>
+<li>
+number of properties: 3427
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-utils/src/io/ktor/util/StringValues.kt:75:1
+</span>
+<br />
+<span class="message">
+Class 'StringValuesSingleImpl' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-utils/src/io/ktor/util/StringValues.kt:101:1
+</span>
+<br />
+<span class="message">
+Class 'StringValuesImpl' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-utils/src/io/ktor/util/StringValues.kt:126:1
+</span>
+<br />
+<span class="message">
+Class 'StringValuesBuilder' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-utils/src/io/ktor/util/StringValues.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'StringValues.kt' with '13' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-client/ktor-client-core/src/io/ktor/client/request/builders.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'builders.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-benchmarks/src-jmh/io/ktor/server/benchmarks/IntegrationBenchmark.kt:21:1
+</span>
+<br />
+<span class="message">
+Class 'IntegrationBenchmark' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-benchmarks/src-jmh/io/ktor/server/benchmarks/AsyncIntegrationBenchmark.kt:21:1
+</span>
+<br />
+<span class="message">
+Class 'AsyncIntegrationBenchmark' with '26' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-netty/src/io/ktor/server/netty/cio/NettyResponsePipeline.kt:18:1
+</span>
+<br />
+<span class="message">
+Class 'NettyResponsePipeline' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-netty/src/io/ktor/server/netty/cio/RequestBodyHandler.kt:11:1
+</span>
+<br />
+<span class="message">
+Class 'RequestBodyHandler' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-host-common/src/io/ktor/server/engine/ApplicationEngineEnvironmentReloading.kt:21:1
+</span>
+<br />
+<span class="message">
+Class 'ApplicationEngineEnvironmentReloading' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-host-common/src/io/ktor/server/engine/BaseApplicationResponse.kt:13:1
+</span>
+<br />
+<span class="message">
+Class 'BaseApplicationResponse' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/content/StaticContent.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'StaticContent.kt' with '13' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/features/CORS.kt:13:1
+</span>
+<br />
+<span class="message">
+Class 'CORS' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/routing/RoutingBuilder.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'RoutingBuilder.kt' with '24' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/sessions/SessionSerializerReflection.kt:17:1
+</span>
+<br />
+<span class="message">
+Class 'SessionSerializerReflection' with '26' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/sessions/SessionsBuilder.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'SessionsBuilder.kt' with '16' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/response/ApplicationResponseFunctions.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'ApplicationResponseFunctions.kt' with '12' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/response/ApplicationResponseProperties.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'ApplicationResponseProperties.kt' with '15' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/request/ApplicationRequestProperties.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'ApplicationRequestProperties.kt' with '23' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-test-host/src/io/ktor/server/testing/EngineTestBase.kt:28:1
+</span>
+<br />
+<span class="message">
+Class 'EngineTestBase' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-test-host/src/io/ktor/server/testing/EngineTestSuite.kt:36:1
+</span>
+<br />
+<span class="message">
+Class 'EngineTestSuite' with '51' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http/src/io/ktor/http/FileContentType.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'FileContentType.kt' with '12' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http/src/io/ktor/http/Cookie.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Cookie.kt' with '12' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http/src/io/ktor/http/HttpMessageProperties.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'HttpMessageProperties.kt' with '25' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth-jwt/src/io/ktor/auth/jwt/JWTAuth.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'JWTAuth.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-locations/src/io/ktor/locations/Location.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Location.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-locations/src/io/ktor/locations/Locations.kt:13:1
+</span>
+<br />
+<span class="message">
+Class 'Locations' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/OAuth1a.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'OAuth1a.kt' with '15' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/internals/CharBufferBuilder.kt:5:1
+</span>
+<br />
+<span class="message">
+Class 'CharBufferBuilder' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/internals/Chars.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Chars.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/Multipart.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Multipart.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/Render.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Render.kt' with '13' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/TLSClientHandshake.kt:24:1
+</span>
+<br />
+<span class="message">
+Class 'TLSClientHandshake' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/certificates/Certificates.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Certificates.kt' with '25' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-client/ktor-client-core/src/io/ktor/client/request/builders.kt:48:46
+</span>
+<br />
+<span class="message">
+The function get has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-client/ktor-client-core/src/io/ktor/client/request/builders.kt:66:47
+</span>
+<br />
+<span class="message">
+The function post has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-client/ktor-client-features/ktor-client-websocket/src/io/ktor/client/features/websocket/builders.kt:29:36
+</span>
+<br />
+<span class="message">
+The function webSocketRaw has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-client/ktor-client-features/ktor-client-websocket/src/io/ktor/client/features/websocket/builders.kt:47:33
+</span>
+<br />
+<span class="message">
+The function webSocket has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-client/ktor-client-features/ktor-client-websocket/src/io/ktor/client/features/websocket/builders.kt:65:29
+</span>
+<br />
+<span class="message">
+The function wsRaw has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-client/ktor-client-features/ktor-client-websocket/src/io/ktor/client/features/websocket/builders.kt:70:30
+</span>
+<br />
+<span class="message">
+The function wssRaw has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-client/ktor-client-features/ktor-client-websocket/src/io/ktor/client/features/websocket/builders.kt:79:26
+</span>
+<br />
+<span class="message">
+The function ws has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-client/ktor-client-features/ktor-client-websocket/src/io/ktor/client/features/websocket/builders.kt:84:27
+</span>
+<br />
+<span class="message">
+The function wss has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-host-common/src/io/ktor/server/engine/EmbeddedServer.kt:23:23
+</span>
+<br />
+<span class="message">
+The function embeddedServer has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/response/ResponseCookies.kt:16:15
+</span>
+<br />
+<span class="message">
+The function append has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http/src/io/ktor/http/Cookie.kt:74:26
+</span>
+<br />
+<span class="message">
+The function renderSetCookieHeader has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http/src/io/ktor/http/Codecs.kt:37:23
+</span>
+<br />
+<span class="message">
+The function decodeImpl has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/OAuth1a.kt:67:39
+</span>
+<br />
+<span class="message">
+The function simpleOAuth1aStep1 has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/OAuth1a.kt:122:39
+</span>
+<br />
+<span class="message">
+The function simpleOAuth1aStep2 has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/OAuth2.kt:52:64
+</span>
+<br />
+<span class="message">
+The function redirectAuthenticateOAuth2 has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/OAuth2.kt:62:39
+</span>
+<br />
+<span class="message">
+The function simpleOAuth2Step2 has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/OAuth2.kt:84:63
+</span>
+<br />
+<span class="message">
+The function redirectAuthenticateOAuth2 has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/OAuth2.kt:111:38
+</span>
+<br />
+<span class="message">
+The function simpleOAuth2Step2 has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/Headers.kt:111:32
+</span>
+<br />
+<span class="message">
+The function digestAuthChallenge has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/OAuth.kt:111:71
+</span>
+<br />
+<span class="message">
+The function oauthHandleCallback has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network/src/io/ktor/network/sockets/CIOWriter.kt:11:34
+</span>
+<br />
+<span class="message">
+The function attachForWritingImpl has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network/src/io/ktor/network/sockets/CIOReader.kt:11:34
+</span>
+<br />
+<span class="message">
+The function attachForReadingImpl has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/Pipeline.kt:28:28
+</span>
+<br />
+<span class="message">
+The function startConnectionPipeline has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/Pipeline.kt:163:37
+</span>
+<br />
+<span class="message">
+The function handleConnectionPipeline has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/internals/AsciiCharTree.kt:40:36
+</span>
+<br />
+<span class="message">
+The function build has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/websocket/PingPong.kt:40:11
+</span>
+<br />
+<span class="message">
+The function pinger has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/HttpHeadersMap.kt:30:12
+</span>
+<br />
+<span class="message">
+The function put has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/Cipher.kt:11:27
+</span>
+<br />
+<span class="message">
+The function encryptCipher has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/Cipher.kt:63:27
+</span>
+<br />
+<span class="message">
+The function decryptCipher has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/certificates/Certificates.kt:24:24
+</span>
+<br />
+<span class="message">
+The function generateCertificate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/certificates/Certificates.kt:81:45
+</span>
+<br />
+<span class="message">
+The function writeX509Info has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/certificates/Certificates.kt:181:48
+</span>
+<br />
+<span class="message">
+The function writeCertificate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LargeClass
+</span>
+<span class="description">
+One class should have one responsibility. Large classes tend to handle many things at once. Split up large classes into smaller classes that are easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-netty/src/io/ktor/server/netty/cio/NettyResponsePipeline.kt:18:1
+</span>
+<br />
+<span class="message">
+Class NettyResponsePipeline is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-host-common/src/io/ktor/server/engine/ApplicationEngineEnvironmentReloading.kt:21:1
+</span>
+<br />
+<span class="message">
+Class ApplicationEngineEnvironmentReloading is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/sessions/SessionSerializerReflection.kt:17:1
+</span>
+<br />
+<span class="message">
+Class SessionSerializerReflection is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-test-host/src/io/ktor/server/testing/EngineTestSuite.kt:36:1
+</span>
+<br />
+<span class="message">
+Class EngineTestSuite is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/TLSClientHandshake.kt:24:1
+</span>
+<br />
+<span class="message">
+Class TLSClientHandshake is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongMethod
+</span>
+<span class="description">
+One method should have one responsibility. Long methods tend to handle many things at once. Prefer smaller methods to make them easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-host-common/src/io/ktor/server/engine/CommandLine.kt:11:1
+</span>
+<br />
+<span class="message">
+The function commandLineEnvironment is too long. The maximum length is 20.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

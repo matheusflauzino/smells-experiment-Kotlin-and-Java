@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/ClassName.kt">
+	<error line="28" column="1" severity="warning" message="Class &apos;ClassName&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/TypeName.kt">
+	<error line="38" column="1" severity="warning" message="Class &apos;TypeName&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/TypeSpec.kt">
+	<error line="30" column="1" severity="warning" message="Class TypeSpec is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/CodeWriter.kt">
+	<error line="33" column="1" severity="warning" message="Class CodeWriter is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="33" column="1" severity="warning" message="Class &apos;CodeWriter&apos; with &apos;25&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/jvm/JvmAnnotations.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;JvmAnnotations.kt&apos; with &apos;22&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/CodeBlock.kt">
+	<error line="163" column="3" severity="warning" message="Class &apos;Builder&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/Util.kt">
+	<error line="58" column="27" severity="warning" message="The function isOneOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;Util.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

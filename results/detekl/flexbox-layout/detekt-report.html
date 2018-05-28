@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 24
+</li>
+<li>
+number of packages: 3
+</li>
+<li>
+number of classes: 26
+</li>
+<li>
+number of functions: 128
+</li>
+<li>
+number of properties: 250
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/flexbox/src/androidTest/java/com/google/android/flexbox/FakeFlexContainer.kt:23:1
+</span>
+<br />
+<span class="message">
+Class 'FakeFlexContainer' with '38' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/demo-playground/src/main/java/com/google/android/flexbox/FragmentHelper.kt:30:1
+</span>
+<br />
+<span class="message">
+Class 'FragmentHelper' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongMethod
+</span>
+<span class="description">
+One method should have one responsibility. Long methods tend to handle many things at once. Prefer smaller methods to make them easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/flexbox/src/androidTest/java/com/google/android/flexbox/FlexboxHelperTest.kt:53:5
+</span>
+<br />
+<span class="message">
+The function testCalculateHorizontalFlexLines is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/flexbox/src/androidTest/java/com/google/android/flexbox/FlexboxHelperTest.kt:106:5
+</span>
+<br />
+<span class="message">
+The function testCalculateVerticalFlexLines is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/flexbox/src/androidTest/java/com/google/android/flexbox/FlexboxHelperTest.kt:160:5
+</span>
+<br />
+<span class="message">
+The function testDetermineMainSize_direction_row_flexGrowSet is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/flexbox/src/androidTest/java/com/google/android/flexbox/FlexboxHelperTest.kt:203:5
+</span>
+<br />
+<span class="message">
+The function testDetermineMainSize_direction_column_flexGrowSet is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/flexbox/src/androidTest/java/com/google/android/flexbox/FlexboxHelperTest.kt:246:5
+</span>
+<br />
+<span class="message">
+The function testDetermineMainSize_direction_row_flexShrinkSet is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/flexbox/src/androidTest/java/com/google/android/flexbox/FlexboxHelperTest.kt:287:5
+</span>
+<br />
+<span class="message">
+The function testDetermineMainSize_direction_column_flexShrinkSet is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/flexbox/src/androidTest/java/com/google/android/flexbox/FlexboxHelperTest.kt:328:5
+</span>
+<br />
+<span class="message">
+The function testDetermineCrossSize_direction_row_alignContent_stretch is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/flexbox/src/androidTest/java/com/google/android/flexbox/FlexboxHelperTest.kt:369:5
+</span>
+<br />
+<span class="message">
+The function testDetermineCrossSize_direction_column_alignContent_stretch is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/demo-playground/src/main/java/com/google/android/flexbox/FlexItemEditFragment.kt:89:5
+</span>
+<br />
+<span class="message">
+The function onCreateView is too long. The maximum length is 20.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LargeClass
+</span>
+<span class="description">
+One class should have one responsibility. Large classes tend to handle many things at once. Split up large classes into smaller classes that are easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/flexbox/src/androidTest/java/com/google/android/flexbox/FlexboxHelperTest.kt:33:1
+</span>
+<br />
+<span class="message">
+Class FlexboxHelperTest is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/demo-playground/src/main/java/com/google/android/flexbox/FlexItemEditFragment.kt:36:1
+</span>
+<br />
+<span class="message">
+Class FlexItemEditFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/flexbox-layout/demo-playground/src/main/java/com/google/android/flexbox/FragmentHelper.kt:138:34
+</span>
+<br />
+<span class="message">
+The function initializeSpinner has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

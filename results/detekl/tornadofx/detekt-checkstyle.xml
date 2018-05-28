@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/FX.kt">
+	<error line="83" column="5" severity="warning" message="Object &apos;Companion&apos; with &apos;19&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;FX.kt&apos; with &apos;32&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/TabPane.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;TabPane.kt&apos; with &apos;24&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Nodes.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Nodes.kt&apos; with &apos;126&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/ItemControls.kt">
+	<error line="68" column="52" severity="warning" message="The function spinner has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;ItemControls.kt&apos; with &apos;56&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Keyboard.kt">
+	<error line="140" column="12" severity="warning" message="The function key has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/App.kt">
+	<error line="24" column="1" severity="warning" message="Class &apos;App&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Layouts.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Layouts.kt&apos; with &apos;59&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Animation.kt">
+	<error line="58" column="21" severity="warning" message="The function move has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="77" column="14" severity="warning" message="The function move has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="108" column="23" severity="warning" message="The function rotate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="128" column="16" severity="warning" message="The function rotate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="157" column="22" severity="warning" message="The function scale has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="177" column="15" severity="warning" message="The function scale has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="208" column="21" severity="warning" message="The function fade has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="228" column="14" severity="warning" message="The function fade has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="261" column="26" severity="warning" message="The function transform has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="288" column="19" severity="warning" message="The function transform has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="378" column="22" severity="warning" message="The function animateFill has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="392" column="24" severity="warning" message="The function animateStroke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="406" column="16" severity="warning" message="The function follow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;Animation.kt&apos; with &apos;31&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Drawer.kt">
+	<error line="26" column="1" severity="warning" message="Class Drawer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="26" column="1" severity="warning" message="Class &apos;Drawer&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Json.kt">
+	<error line="157" column="1" severity="warning" message="Class &apos;JsonBuilder&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;Json.kt&apos; with &apos;52&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/LayoutDebugger.kt">
+	<error line="25" column="1" severity="warning" message="Class LayoutDebugger is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="25" column="1" severity="warning" message="Class &apos;LayoutDebugger&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Menu.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Menu.kt&apos; with &apos;31&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Async.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Async.kt&apos; with &apos;18&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/SmartResize.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;SmartResize.kt&apos; with &apos;36&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Wizard.kt">
+	<error line="23" column="1" severity="warning" message="Class Wizard is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Workspace.kt">
+	<error line="39" column="1" severity="warning" message="Class Workspace is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="39" column="1" severity="warning" message="Class &apos;Workspace&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Properties.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Properties.kt&apos; with &apos;281&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Charts.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Charts.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Controls.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Controls.kt&apos; with &apos;58&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/TreeView.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;TreeView.kt&apos; with &apos;14&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Component.kt">
+	<error line="784" column="20" severity="warning" message="The function item has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="793" column="20" severity="warning" message="The function item has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="818" column="70" severity="warning" message="The function openInternalWindow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="829" column="70" severity="warning" message="The function openInternalWindow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="842" column="37" severity="warning" message="The function openInternalWindow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="854" column="37" severity="warning" message="The function openInternalWindow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="868" column="37" severity="warning" message="The function openInternalWindow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="878" column="44" severity="warning" message="The function openInternalBuilderWindow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="891" column="19" severity="warning" message="The function openWindow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="900" column="18" severity="warning" message="The function openModal has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1069" column="22" severity="warning" message="The function builderWindow has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1080" column="15" severity="warning" message="The function dialog has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="306" column="1" severity="warning" message="Class UIComponent is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="88" column="1" severity="warning" message="Class &apos;Component&apos; with &apos;30&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="306" column="1" severity="warning" message="Class &apos;UIComponent&apos; with &apos;109&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Lib.kt">
+	<error line="18" column="1" severity="warning" message="Class &apos;SortedFilteredList&apos; with &apos;34&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;Lib.kt&apos; with &apos;40&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/ViewModel.kt">
+	<error line="27" column="1" severity="warning" message="Class ViewModel is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="27" column="1" severity="warning" message="Class &apos;ViewModel&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;ViewModel.kt&apos; with &apos;26&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Rest.kt">
+	<error line="38" column="1" severity="warning" message="Class &apos;Rest&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Shapes.kt">
+	<error line="6" column="15" severity="warning" message="The function arc has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="12" column="22" severity="warning" message="The function cubiccurve has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="39" column="15" severity="warning" message="The function arcTo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="55" column="21" severity="warning" message="The function quadcurve has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;Shapes.kt&apos; with &apos;18&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/CSS.kt">
+	<error line="94" column="5" severity="warning" message="Class Companion is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="500" column="1" severity="warning" message="Class PropertyHolder is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="55" column="1" severity="warning" message="Interface &apos;SelectionHolder&apos; with &apos;16&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="918" column="1" severity="warning" message="Class &apos;CssSelectionBlock&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1166" column="1" severity="warning" message="Class &apos;Dimension&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;CSS.kt&apos; with &apos;45&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Binding.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Binding.kt&apos; with &apos;18&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Dialogs.kt">
+	<error line="17" column="19" severity="warning" message="The function confirm has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="31" column="17" severity="warning" message="The function alert has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="50" column="19" severity="warning" message="The function warning has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="53" column="17" severity="warning" message="The function error has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="56" column="23" severity="warning" message="The function information has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="59" column="24" severity="warning" message="The function confirmation has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/AutoCompleteComboBoxSkin.kt">
+	<error line="176" column="1" severity="warning" message="Class AutoCompleteComboBoxSkin is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="176" column="1" severity="warning" message="Class &apos;AutoCompleteComboBoxSkin&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/DataGrid.kt">
+	<error line="475" column="1" severity="warning" message="Class &apos;DataGridSelectionModel&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="625" column="1" severity="warning" message="Class &apos;DataGridSkin&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/tornadofx/src/main/java/tornadofx/Collections.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Collections.kt&apos; with &apos;20&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Flowables.kt">
+	<error line="40" column="48" severity="warning" message="The function combineLatest has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="47" column="51" severity="warning" message="The function combineLatest has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="53" column="54" severity="warning" message="The function combineLatest has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="61" column="57" severity="warning" message="The function combineLatest has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="69" column="60" severity="warning" message="The function combineLatest has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="107" column="38" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="115" column="41" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="121" column="44" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="129" column="47" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="137" column="50" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="8" column="1" severity="warning" message="Object &apos;Flowables&apos; with &apos;20&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Singles.kt">
+	<error line="32" column="16" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="39" column="16" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="46" column="16" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="54" column="16" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="62" column="16" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Maybes.kt">
+	<error line="31" column="16" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="38" column="16" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="45" column="16" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="53" column="16" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="61" column="16" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/observable.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;observable.kt&apos; with &apos;28&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Observables.kt">
+	<error line="40" column="48" severity="warning" message="The function combineLatest has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="47" column="51" severity="warning" message="The function combineLatest has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="53" column="54" severity="warning" message="The function combineLatest has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="61" column="57" severity="warning" message="The function combineLatest has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="69" column="60" severity="warning" message="The function combineLatest has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="107" column="38" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="115" column="41" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="121" column="44" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="129" column="47" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="137" column="50" severity="warning" message="The function zip has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="7" column="1" severity="warning" message="Object &apos;Observables&apos; with &apos;20&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/flowable.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;flowable.kt&apos; with &apos;30&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/examples/kotlin/io/reactivex/rxkotlin/examples/examples.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;examples.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

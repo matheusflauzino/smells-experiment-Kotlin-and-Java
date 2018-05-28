@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 20
+</li>
+<li>
+number of packages: 5
+</li>
+<li>
+number of classes: 82
+</li>
+<li>
+number of functions: 592
+</li>
+<li>
+number of properties: 496
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/internal/config_helpers.kt:66:1
+</span>
+<br />
+<span class="message">
+Class 'ReverseLayoutConfigHelper' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/internal/config_helpers.kt:107:1
+</span>
+<br />
+<span class="message">
+Class 'HorizontalConfigHelper' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/internal/graph.kt:25:1
+</span>
+<br />
+<span class="message">
+Class 'GraphManager' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/internal/graph.kt:254:1
+</span>
+<br />
+<span class="message">
+Class 'SectionState' with '49' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/adapter/graph.kt:67:1
+</span>
+<br />
+<span class="message">
+Class 'Section' with '24' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/layout.kt:69:1
+</span>
+<br />
+<span class="message">
+Class 'LayoutHelper' with '44' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/layout_manager.kt:67:1
+</span>
+<br />
+<span class="message">
+Class 'SuperSlimLayoutManager' with '48' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/internal/graph.kt:657:25
+</span>
+<br />
+<span class="message">
+The function fillTop has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/internal/graph.kt:670:28
+</span>
+<br />
+<span class="message">
+The function fillBottom has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/internal/layout_helpers.kt:17:41
+</span>
+<br />
+<span class="message">
+The function acquireSubsectionHelper has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/internal/layout_helpers.kt:24:39
+</span>
+<br />
+<span class="message">
+The function useSubsectionHelper has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/internal/layout_helpers.kt:53:20
+</span>
+<br />
+<span class="message">
+The function acquire has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/internal/layout_helpers.kt:239:15
+</span>
+<br />
+<span class="message">
+The function layout has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/graph.kt:70:16
+</span>
+<br />
+<span class="message">
+The function fillTop has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/graph.kt:85:19
+</span>
+<br />
+<span class="message">
+The function fillBottom has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/layout.kt:89:24
+</span>
+<br />
+<span class="message">
+The function reInit has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/layout.kt:107:40
+</span>
+<br />
+<span class="message">
+The function acquireSubsectionHelper has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/layout.kt:117:48
+</span>
+<br />
+<span class="message">
+The function useSubsectionHelper has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LargeClass
+</span>
+<span class="description">
+One class should have one responsibility. Large classes tend to handle many things at once. Split up large classes into smaller classes that are easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/internal/graph.kt:254:1
+</span>
+<br />
+<span class="message">
+Class SectionState is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/adapter/graph.kt:67:1
+</span>
+<br />
+<span class="message">
+Class Section is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/SuperSLiM/library/src/main/kotlin/com/tonicartos/superslim/layout_manager.kt:67:1
+</span>
+<br />
+<span class="message">
+Class SuperSlimLayoutManager is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/dexcount-gradle-plugin/src/main/kotlin/com/getkeepsafe/dexcount/Tasks.kt">
+	<error line="73" column="1" severity="warning" message="Class DexMethodCountTaskBase is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/dexcount-gradle-plugin/src/main/kotlin/com/getkeepsafe/dexcount/PackageTree.kt">
+	<error line="28" column="1" severity="warning" message="Class PackageTree is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="28" column="1" severity="warning" message="Class &apos;PackageTree&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/dexcount-gradle-plugin/src/main/kotlin/com/getkeepsafe/dexcount/DexFile.kt">
+	<error line="113" column="9" severity="warning" message="The function extractDexFromAar is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+</checkstyle>

@@ -1,0 +1,1 @@
+TooManyFunctions - 12/11 - [RepoDao] at /home/matheus/Documentos/repositories/Kotlin/android-architecture-components/GithubBrowserSample/app/src/main/java/com/android/example/github/db/RepoDao.kt:32:1 - Signature=RepoDao.kt$RepoDao

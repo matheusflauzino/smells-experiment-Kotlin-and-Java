@@ -1,0 +1,6 @@
+TooManyFunctions - 14/11 - [StoreOnHeap] at /home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/store/StoreOnHeap.kt:13:1 - Signature=StoreOnHeap.kt$StoreOnHeap : MutableStore
+TooManyFunctions - 14/11 - [StoreOnHeapSer] at /home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/store/StoreOnHeapSer.kt:14:1 - Signature=StoreOnHeapSer.kt$StoreOnHeapSer : MutableStore
+TooManyFunctions - 17/11 - [StoreAppend] at /home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/store/StoreAppend.kt:20:1 - Signature=StoreAppend.kt$StoreAppend : MutableStore
+TooManyFunctions - 11/11 - [SingleEntryReadWriteLock] at /home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/util/Locks.kt:103:1 - Signature=Locks.kt$SingleEntryReadWriteLock : ReadWriteLock
+TooManyFunctions - 17/11 - [SingleEntryReadWriteSegmentedLock] at /home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/util/Locks.kt:284:1 - Signature=Locks.kt$SingleEntryReadWriteSegmentedLock
+TooManyFunctions - 13/11 - [Locks.kt] at /home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/util/Locks.kt:1:1 - Signature=Locks.kt$org.mapdb.util.Locks.kt

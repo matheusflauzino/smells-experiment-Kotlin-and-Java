@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/spek/spek-runner/junit5/src/main/kotlin/org/spekframework/spek2/junit/TestDescriptorAdapter.kt">
+	<error line="15" column="1" severity="warning" message="Class &apos;TestDescriptorAdapter&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/spek/spek-runner/junit5/src/main/kotlin/org/spekframework/spek2/junit/RuntimeExecutionListenerAdapter.kt">
+	<error line="12" column="1" severity="warning" message="Class &apos;RuntimeExecutionListenerAdapter&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/spek/spek-runtime/common/src/main/kotlin/org/spekframework/spek2/runtime/Collectors.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;Collector&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/spek/spek-runtime/common/src/main/kotlin/org/spekframework/spek2/runtime/execution/Execution.kt">
+	<error line="13" column="1" severity="warning" message="Interface &apos;ExecutionListener&apos; with &apos;11&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/spek/spek-runtime/common/src/main/kotlin/org/spekframework/spek2/runtime/FixturesAdapter.kt">
+	<error line="8" column="1" severity="warning" message="Class &apos;FixturesAdapter&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/spek/spek-runtime/common/src/main/kotlin/org/spekframework/spek2/runtime/DelegatingExecutionListener.kt">
+	<error line="9" column="1" severity="warning" message="Class &apos;DelegatingExecutionListener&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/spek/spek-extension/data-driven/common/src/main/kotlin/org/spekframework/spek2/data_driven/namespace.kt">
+	<error line="96" column="40" severity="warning" message="The function data has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="97" column="44" severity="warning" message="The function data has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="98" column="48" severity="warning" message="The function data has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="99" column="52" severity="warning" message="The function data has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="100" column="56" severity="warning" message="The function data has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;namespace.kt&apos; with &apos;19&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/spek/spek-ide-plugin/intellij-jvm/src/main/kotlin/org/spekframework/intellij/spek2.kt">
+	<error line="37" column="1" severity="warning" message="Class &apos;Spek2JvmRunConfiguration&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/spek/spek-ide-plugin/interop-jvm/src/main/kotlin/org/spekframework/ide/ServiceMessageAdapter.kt">
+	<error line="12" column="1" severity="warning" message="Class &apos;ServiceMessageAdapter&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/spek/spek-ide-plugin/intellij-common/src/main/kotlin/org/spekframework/intellij/base.kt">
+	<error line="31" column="1" severity="warning" message="Class &apos;SpekBaseRunConfiguration&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/spek/spek-ide-plugin/intellij-common/src/main/kotlin/org/spekframework/intellij/util.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;util.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

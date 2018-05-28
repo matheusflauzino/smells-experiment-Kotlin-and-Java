@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/dagger/arrow-dagger/src/main/kotlin/arrow/dagger/instances/number.kt">
+	<error line="11" column="1" severity="warning" message="Class &apos;NumberInstances&apos; with &apos;24&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/effects/arrow-effects-rx2/src/main/kotlin/arrow/effects/ObservableK.kt">
+	<error line="56" column="3" severity="warning" message="Object &apos;Companion&apos; with &apos;12&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/effects/arrow-effects-rx2/src/main/kotlin/arrow/effects/FlowableK.kt">
+	<error line="57" column="3" severity="warning" message="Object &apos;Companion&apos; with &apos;27&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-free/src/main/kotlin/arrow/free/Cofree.kt">
+	<error line="16" column="1" severity="warning" message="Class &apos;Cofree&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-core/src/main/kotlin/arrow/legacy/Disjunction.kt">
+	<error line="5" column="1" severity="warning" message="Class &apos;Disjunction&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-core/src/main/kotlin/arrow/core/Either.kt">
+	<error line="11" column="1" severity="warning" message="Class &apos;Either&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;Either.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-core/src/main/kotlin/arrow/core/Try.kt">
+	<error line="9" column="1" severity="warning" message="Class &apos;Try&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-core/src/main/kotlin/arrow/core/Option.kt">
+	<error line="5" column="1" severity="warning" message="Class &apos;Option&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-annotations-processor/src/main/java/arrow/generic/ProductFileGenerator.kt">
+	<error line="15" column="1" severity="warning" message="Class &apos;ProductFileGenerator&apos; with &apos;40&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-generic/src/main/kotlin/arrow/generic/HList.kt">
+	<error line="54" column="31" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="55" column="34" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="56" column="37" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="57" column="40" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="58" column="43" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="59" column="46" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="60" column="49" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="61" column="52" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="62" column="55" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="63" column="58" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="64" column="61" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="65" column="64" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="66" column="67" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="67" column="70" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="68" column="73" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="69" column="76" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="70" column="79" severity="warning" message="The function hListOf has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;HList.kt&apos; with &apos;22&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-instances-data/src/main/kotlin/arrow/instances/eithert.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;eithert.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/StateT.kt">
+	<error line="29" column="1" severity="warning" message="Class &apos;StateT&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="43" column="3" severity="warning" message="Object &apos;Companion&apos; with &apos;11&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/Reader.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Reader.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/Validated.kt">
+	<error line="13" column="1" severity="warning" message="Class &apos;Validated&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;Validated.kt&apos; with &apos;15&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/OptionT.kt">
+	<error line="10" column="1" severity="warning" message="Class &apos;OptionT&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/Ior.kt">
+	<error line="11" column="1" severity="warning" message="Class &apos;Ior&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/WriterT.kt">
+	<error line="13" column="1" severity="warning" message="Class &apos;WriterT&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="16" column="3" severity="warning" message="Object &apos;Companion&apos; with &apos;15&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/NonEmptyList.kt">
+	<error line="10" column="1" severity="warning" message="Class &apos;NonEmptyList&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/EitherT.kt">
+	<error line="15" column="1" severity="warning" message="Class &apos;EitherT&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-data/src/main/kotlin/arrow/data/State.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;State.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/collections/array.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;array.kt&apos; with &apos;18&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/collections/tuple.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;tuple.kt&apos; with &apos;20&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/pipe.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;pipe.kt&apos; with &apos;22&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/reverse.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;reverse.kt&apos; with &apos;21&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/complement.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;complement.kt&apos; with &apos;23&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/partials.kt">
+	<error line="53" column="71" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="56" column="71" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="59" column="71" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="62" column="71" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="65" column="71" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="68" column="71" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="71" column="79" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="74" column="79" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="77" column="79" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="80" column="79" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="83" column="79" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="86" column="79" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="89" column="79" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="92" column="87" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="95" column="87" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="98" column="87" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="101" column="87" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="104" column="87" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="107" column="87" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="110" column="87" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="113" column="87" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="116" column="95" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="119" column="95" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="122" column="95" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="125" column="95" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="128" column="95" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="131" column="95" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="134" column="95" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="137" column="95" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="140" column="95" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="143" column="105" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="146" column="105" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="149" column="105" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="152" column="105" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="155" column="105" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="158" column="105" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="161" column="105" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="164" column="105" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="167" column="105" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="170" column="105" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="173" column="115" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="176" column="115" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="179" column="115" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="182" column="115" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="185" column="115" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="188" column="115" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="191" column="115" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="194" column="115" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="197" column="115" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="200" column="115" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="203" column="115" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="206" column="125" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="209" column="125" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="212" column="125" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="215" column="125" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="218" column="125" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="221" column="125" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="224" column="125" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="227" column="125" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="230" column="125" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="233" column="125" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="236" column="125" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="239" column="125" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="242" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="245" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="248" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="251" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="254" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="257" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="260" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="263" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="266" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="269" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="272" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="275" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="278" column="135" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="281" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="284" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="287" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="290" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="293" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="296" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="299" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="302" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="305" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="308" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="311" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="314" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="317" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="320" column="145" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="323" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="326" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="329" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="332" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="335" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="338" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="341" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="344" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="347" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="350" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="353" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="356" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="359" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="362" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="365" column="155" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="368" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="371" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="374" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="377" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="380" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="383" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="386" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="389" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="392" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="395" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="398" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="401" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="404" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="407" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="410" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="413" column="165" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="416" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="419" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="422" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="425" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="428" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="431" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="434" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="437" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="440" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="443" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="446" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="449" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="452" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="455" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="458" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="461" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="464" column="175" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="467" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="470" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="473" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="476" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="479" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="482" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="485" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="488" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="491" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="494" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="497" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="500" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="503" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="506" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="509" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="512" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="515" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="518" column="185" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="521" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="524" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="527" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="530" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="533" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="536" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="539" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="542" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="545" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="548" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="551" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="554" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="557" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="560" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="563" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="566" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="569" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="572" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="575" column="195" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="578" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="581" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="584" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="587" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="590" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="593" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="596" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="599" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="602" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="605" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="608" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="611" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="614" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="617" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="620" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="623" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="626" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="629" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="632" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="635" column="205" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="638" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="641" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="644" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="647" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="650" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="653" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="656" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="659" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="662" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="665" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="668" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="671" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="674" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="677" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="680" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="683" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="686" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="689" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="692" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="695" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="698" column="215" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="701" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="704" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="707" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="710" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="713" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="716" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="719" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="722" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="725" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="728" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="731" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="734" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="737" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="740" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="743" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="746" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="749" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="752" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="755" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="758" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="761" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="764" column="225" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;partials.kt&apos; with &apos;507&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/memoization.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;memoization.kt&apos; with &apos;23&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-syntax/src/main/kotlin/arrow/syntax/function/currying.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;currying.kt&apos; with &apos;42&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Composed.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Composed.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Applicative.kt">
+	<error line="51" column="72" severity="warning" message="The function product has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="60" column="78" severity="warning" message="The function product has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="70" column="84" severity="warning" message="The function product has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="81" column="90" severity="warning" message="The function product has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="119" column="33" severity="warning" message="The function tupled has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="128" column="36" severity="warning" message="The function tupled has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="138" column="39" severity="warning" message="The function tupled has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="149" column="42" severity="warning" message="The function tupled has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="161" column="45" severity="warning" message="The function tupled has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="196" column="29" severity="warning" message="The function map has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="205" column="33" severity="warning" message="The function map has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="215" column="36" severity="warning" message="The function map has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="226" column="39" severity="warning" message="The function map has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="239" column="42" severity="warning" message="The function map has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="253" column="45" severity="warning" message="The function map has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="8" column="1" severity="warning" message="Interface &apos;Applicative&apos; with &apos;33&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Reducible.kt">
+	<error line="6" column="1" severity="warning" message="Interface &apos;Reducible&apos; with &apos;11&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="76" column="1" severity="warning" message="Interface &apos;NonEmptyReducible&apos; with &apos;13&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Foldable.kt">
+	<error line="7" column="1" severity="warning" message="Interface &apos;Foldable&apos; with &apos;20&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-typeclasses/src/main/kotlin/arrow/typeclasses/Monad.kt">
+	<error line="10" column="1" severity="warning" message="Interface &apos;Monad&apos; with &apos;11&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-instances-core/src/main/kotlin/arrow/instances/number.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;number.kt&apos; with &apos;30&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-instances-core/src/main/kotlin/arrow/instances/tuple.kt">
+	<error line="334" column="1" severity="warning" message="Interface &apos;Tuple10EqInstance&apos; with &apos;11&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/core/arrow-validation/src/main/kotlin/arrow/validation/Validation.kt">
+	<error line="55" column="82" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="71" column="92" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="88" column="102" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="106" column="112" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="125" column="122" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="145" column="133" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="166" column="144" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="188" column="155" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="211" column="166" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="235" column="177" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="260" column="188" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="286" column="199" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="313" column="210" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="341" column="221" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="370" column="232" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="400" column="243" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="431" column="254" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="463" column="265" severity="warning" message="The function validate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;Validation.kt&apos; with &apos;21&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Iso.kt">
+	<error line="21" column="1" severity="warning" message="Interface &apos;PIso&apos; with &apos;40&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/std/tuple.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;tuple.kt&apos; with &apos;22&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Fold.kt">
+	<error line="13" column="1" severity="warning" message="Interface &apos;Fold&apos; with &apos;29&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Traversal.kt">
+	<error line="95" column="37" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="109" column="37" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="124" column="37" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="140" column="37" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="157" column="37" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="175" column="37" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="21" column="1" severity="warning" message="Interface &apos;PTraversal&apos; with &apos;33&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="37" column="3" severity="warning" message="Object &apos;Companion&apos; with &apos;13&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Optional.kt">
+	<error line="20" column="1" severity="warning" message="Interface &apos;POptional&apos; with &apos;36&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Setter.kt">
+	<error line="19" column="1" severity="warning" message="Interface &apos;PSetter&apos; with &apos;15&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Getter.kt">
+	<error line="7" column="1" severity="warning" message="Interface &apos;Getter&apos; with &apos;17&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Lens.kt">
+	<error line="21" column="1" severity="warning" message="Interface &apos;PLens&apos; with &apos;33&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/arrow/modules/optics/arrow-optics/src/main/kotlin/arrow/optics/Prism.kt">
+	<error line="21" column="1" severity="warning" message="Interface &apos;PPrism&apos; with &apos;29&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

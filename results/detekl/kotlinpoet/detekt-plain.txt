@@ -1,0 +1,9 @@
+TooManyFunctions - 11/11 - [ClassName] at /home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/ClassName.kt:28:1 - Signature=ClassName.kt$ClassName : TypeNameComparable
+TooManyFunctions - 11/11 - [TypeName] at /home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/TypeName.kt:38:1 - Signature=TypeName.kt$TypeName
+LargeClass - 223/150 - [TypeSpec] at /home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/TypeSpec.kt:30:1 - Signature=TypeSpec.kt$TypeSpec
+LargeClass - 236/150 - [CodeWriter] at /home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/CodeWriter.kt:33:1 - Signature=CodeWriter.kt$CodeWriter
+TooManyFunctions - 25/11 - [CodeWriter] at /home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/CodeWriter.kt:33:1 - Signature=CodeWriter.kt$CodeWriter
+TooManyFunctions - 22/11 - [JvmAnnotations.kt] at /home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/jvm/JvmAnnotations.kt:1:1 - Signature=JvmAnnotations.kt$com.squareup.kotlinpoet.jvm.JvmAnnotations.kt
+TooManyFunctions - 17/11 - [Builder] at /home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/CodeBlock.kt:163:3 - Signature=CodeBlock.kt$CodeBlock$Builder
+LongParameterList - 6/6 - [isOneOf] at /home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/Util.kt:58:27 - Signature=Util.kt$(t1: T, t2: T, t3: T? = null, t4: T? = null, t5: T? = null, t6: T? = null)
+TooManyFunctions - 13/11 - [Util.kt] at /home/matheus/Documentos/repositories/Kotlin/kotlinpoet/src/main/java/com/squareup/kotlinpoet/Util.kt:1:1 - Signature=Util.kt$com.squareup.kotlinpoet.Util.kt

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/Android-TextView-LinkBuilder/library/src/main/java/com/klinker/android/link_builder/LinkBuilder.kt">
+	<error line="28" column="1" severity="warning" message="Class &apos;LinkBuilder&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Android-TextView-LinkBuilder/library/src/main/java/com/klinker/android/link_builder/Link.kt">
+	<error line="22" column="1" severity="warning" message="Class &apos;Link&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

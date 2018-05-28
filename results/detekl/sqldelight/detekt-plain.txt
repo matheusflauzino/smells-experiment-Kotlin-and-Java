@@ -1,0 +1,2 @@
+TooManyFunctions - 12/11 - [SqlDelightCommenter] at /home/matheus/Documentos/repositories/Kotlin/sqldelight/sqldelight-idea-plugin/src/main/kotlin/com/squareup/sqldelight/intellij/lang/SqlDelightCommenter.kt:24:1 - Signature=SqlDelightCommenter.kt$SqlDelightCommenter : CodeDocumentationAwareCommenter
+TooManyFunctions - 11/11 - [TreeUtil.kt] at /home/matheus/Documentos/repositories/Kotlin/sqldelight/sqldelight-core/src/main/kotlin/com/squareup/sqldelight/core/lang/util/TreeUtil.kt:1:1 - Signature=TreeUtil.kt$com.squareup.sqldelight.core.lang.util.TreeUtil.kt

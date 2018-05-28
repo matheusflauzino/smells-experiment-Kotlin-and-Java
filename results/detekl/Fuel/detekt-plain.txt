@@ -1,0 +1,5 @@
+TooManyFunctions - 18/11 - [MainActivity] at /home/matheus/Documentos/repositories/Kotlin/Fuel/sample/src/main/kotlin/com/example/fuel/MainActivity.kt:34:1 - Signature=MainActivity.kt$MainActivity : AppCompatActivity
+TooManyFunctions - 34/11 - [Request] at /home/matheus/Documentos/repositories/Kotlin/Fuel/fuel/src/main/kotlin/com/github/kittinunf/fuel/core/Request.kt:23:1 - Signature=Request.kt$Request : RequestConvertible
+TooManyFunctions - 12/11 - [FuelManager] at /home/matheus/Documentos/repositories/Kotlin/Fuel/fuel/src/main/kotlin/com/github/kittinunf/fuel/core/FuelManager.kt:20:1 - Signature=FuelManager.kt$FuelManager
+TooManyFunctions - 21/11 - [Companion] at /home/matheus/Documentos/repositories/Kotlin/Fuel/fuel/src/main/kotlin/com/github/kittinunf/fuel/Fuel.kt:17:5 - Signature=Fuel.kt$Fuel$Companion
+TooManyFunctions - 16/11 - [Fuel.kt] at /home/matheus/Documentos/repositories/Kotlin/Fuel/fuel/src/main/kotlin/com/github/kittinunf/fuel/Fuel.kt:1:1 - Signature=Fuel.kt$com.github.kittinunf.fuel.Fuel.kt

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 11
+</li>
+<li>
+number of packages: 5
+</li>
+<li>
+number of classes: 29
+</li>
+<li>
+number of functions: 172
+</li>
+<li>
+number of properties: 133
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/store/StoreOnHeap.kt:13:1
+</span>
+<br />
+<span class="message">
+Class 'StoreOnHeap' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/store/StoreOnHeapSer.kt:14:1
+</span>
+<br />
+<span class="message">
+Class 'StoreOnHeapSer' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/store/StoreAppend.kt:20:1
+</span>
+<br />
+<span class="message">
+Class 'StoreAppend' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/util/Locks.kt:103:1
+</span>
+<br />
+<span class="message">
+Class 'SingleEntryReadWriteLock' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/util/Locks.kt:284:1
+</span>
+<br />
+<span class="message">
+Class 'SingleEntryReadWriteSegmentedLock' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/util/Locks.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Locks.kt' with '13' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,1854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 912
+</li>
+<li>
+number of packages: 203
+</li>
+<li>
+number of classes: 2392
+</li>
+<li>
+number of functions: 6056
+</li>
+<li>
+number of properties: 8772
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+LargeClass
+</span>
+<span class="description">
+One class should have one responsibility. Large classes tend to handle many things at once. Split up large classes into smaller classes that are easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/carpenter/ClassCarpenter.kt:55:1
+</span>
+<br />
+<span class="message">
+Class ClassCarpenterImpl is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/tools/shell/src/main/kotlin/net/corda/tools/shell/InteractiveShell.kt:70:1
+</span>
+<br />
+<span class="message">
+Class InteractiveShell is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/tools/demobench/src/main/kotlin/net/corda/demobench/views/NodeTabView.kt:33:1
+</span>
+<br />
+<span class="message">
+Class NodeTabView is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/tools/explorer/src/main/kotlin/net/corda/explorer/views/Network.kt:43:1
+</span>
+<br />
+<span class="message">
+Class Network is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/DriverDSLImpl.kt:80:1
+</span>
+<br />
+<span class="message">
+Class DriverDSLImpl is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/client/jfx/src/main/kotlin/net/corda/client/jfx/utils/ConcatenatedList.kt:9:1
+</span>
+<br />
+<span class="message">
+Class ConcatenatedList is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/client/rpc/src/main/kotlin/net/corda/client/rpc/internal/RPCClientProxyHandler.kt:58:1
+</span>
+<br />
+<span class="message">
+Class RPCClientProxyHandler is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/client/rpc/src/integration-test/kotlin/net/corda/client/rpc/RPCStabilityTests.kt:37:1
+</span>
+<br />
+<span class="message">
+Class RPCStabilityTests is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/Node.kt:62:1
+</span>
+<br />
+<span class="message">
+Class Node is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/NodeStartup.kt:42:1
+</span>
+<br />
+<span class="message">
+Class NodeStartup is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/AbstractNode.kt:167:1
+</span>
+<br />
+<span class="message">
+Class AbstractNode is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/messaging/P2PMessagingClient.kt:67:1
+</span>
+<br />
+<span class="message">
+Class P2PMessagingClient is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/messaging/RPCServer.kt:68:1
+</span>
+<br />
+<span class="message">
+Class RPCServer is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/SingleThreadedStateMachineManager.kt:55:1
+</span>
+<br />
+<span class="message">
+Class SingleThreadedStateMachineManager is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/transitions/StartedFlowTransition.kt:11:1
+</span>
+<br />
+<span class="message">
+Class StartedFlowTransition is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/network/PersistentNetworkMapCache.kt:71:1
+</span>
+<br />
+<span class="message">
+Class PersistentNetworkMapCache is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/vault/NodeVaultService.kt:38:1
+</span>
+<br />
+<span class="message">
+Class NodeVaultService is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/vault/HibernateQueryCriteriaParser.kt:167:1
+</span>
+<br />
+<span class="message">
+Class HibernateQueryCriteriaParser is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/integration-test/kotlin/net/corda/node/amqp/CertificateRevocationListNodeTests.kt:60:1
+</span>
+<br />
+<span class="message">
+Class CertificateRevocationListNodeTests is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/integration-test/kotlin/net/corda/node/amqp/ProtonWrapperTests.kt:41:1
+</span>
+<br />
+<span class="message">
+Class ProtonWrapperTests is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/UniversalContract.kt:16:1
+</span>
+<br />
+<span class="message">
+Class UniversalContract is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/crypto/Crypto.kt:48:1
+</span>
+<br />
+<span class="message">
+Class Crypto is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/network-visualiser/src/main/kotlin/net/corda/netmap/VisualiserView.kt:28:1
+</span>
+<br />
+<span class="message">
+Class VisualiserView is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/network-visualiser/src/main/kotlin/net/corda/netmap/NetworkMapVisualiser.kt:35:1
+</span>
+<br />
+<span class="message">
+Class NetworkMapVisualiser is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/network/NetworkBootstrapper.kt:41:1
+</span>
+<br />
+<span class="message">
+Class NetworkBootstrapper is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/protonwrapper/engine/ConnectionStateMachine.kt:31:1
+</span>
+<br />
+<span class="message">
+Class ConnectionStateMachine is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/Obligation.kt:77:1
+</span>
+<br />
+<span class="message">
+Class Obligation is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/carpenter/ClassCarpenter.kt:55:1
+</span>
+<br />
+<span class="message">
+Class 'ClassCarpenterImpl' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/amqp/SerializationOutput.kt:21:1
+</span>
+<br />
+<span class="message">
+Class 'SerializationOutput' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/amqp/SerializerFactory.kt:21:1
+</span>
+<br />
+<span class="message">
+Class 'SerializerFactory' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/amqp/SerializationHelper.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'SerializationHelper.kt' with '29' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/tools/shell/src/main/kotlin/net/corda/tools/shell/InteractiveShell.kt:70:1
+</span>
+<br />
+<span class="message">
+Object 'InteractiveShell' with '15' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/tools/demobench/src/main/kotlin/net/corda/demobench/model/NodeController.kt:24:1
+</span>
+<br />
+<span class="message">
+Class 'NodeController' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/tools/loadtest/src/main/kotlin/net/corda/loadtest/NodeConnection.kt:21:1
+</span>
+<br />
+<span class="message">
+Class 'NodeConnection' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/internal/InternalTestUtils.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'InternalTestUtils.kt' with '13' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/internal/vault/VaultFiller.kt:29:1
+</span>
+<br />
+<span class="message">
+Class 'VaultFiller' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/dsl/TransactionDSLInterpreter.kt:79:1
+</span>
+<br />
+<span class="message">
+Class 'TransactionDSL' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/dsl/TestDSL.kt:148:1
+</span>
+<br />
+<span class="message">
+Class 'TestLedgerDSLInterpreter' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/core/Expect.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Expect.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/driver/Driver.kt:245:1
+</span>
+<br />
+<span class="message">
+Class 'DriverParameters' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/RPCDriver.kt:165:1
+</span>
+<br />
+<span class="message">
+Class 'RPCDriverDSL' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/DriverDSLImpl.kt:80:1
+</span>
+<br />
+<span class="message">
+Class 'DriverDSLImpl' with '23' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/InternalMockNetwork.kt:98:1
+</span>
+<br />
+<span class="message">
+Class 'InternalMockNetwork' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/InternalMockNetwork.kt:222:5
+</span>
+<br />
+<span class="message">
+Class 'MockNode' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/InMemoryMessagingNetwork.kt:354:5
+</span>
+<br />
+<span class="message">
+Class 'InMemoryMessaging' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/integration-test/kotlin/net/corda/testing/driver/DriverTests.kt:37:1
+</span>
+<br />
+<span class="message">
+Class 'DriverTests' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/client/jfx/src/main/kotlin/net/corda/client/jfx/utils/ObservableUtilities.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'ObservableUtilities.kt' with '35' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/client/jfx/src/main/kotlin/net/corda/client/jfx/utils/ReadOnlyBackedObservableMapBase.kt:9:1
+</span>
+<br />
+<span class="message">
+Class 'ReadOnlyBackedObservableMapBase' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/client/mock/src/main/kotlin/net/corda/client/mock/Generator.kt:77:5
+</span>
+<br />
+<span class="message">
+Object 'Companion' with '25' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/client/rpc/src/main/kotlin/net/corda/client/rpc/internal/RPCClientProxyHandler.kt:58:1
+</span>
+<br />
+<span class="message">
+Class 'RPCClientProxyHandler' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/client/rpc/src/integration-test/kotlin/net/corda/client/rpc/RPCStabilityTests.kt:37:1
+</span>
+<br />
+<span class="message">
+Class 'RPCStabilityTests' with '21' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/Node.kt:62:1
+</span>
+<br />
+<span class="message">
+Class 'Node' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/CordaRPCOpsImpl.kt:41:1
+</span>
+<br />
+<span class="message">
+Class 'CordaRPCOpsImpl' with '49' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/cordapp/CordappLoader.kt:36:1
+</span>
+<br />
+<span class="message">
+Class 'CordappLoader' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/NodeStartup.kt:42:1
+</span>
+<br />
+<span class="message">
+Class 'NodeStartup' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/AbstractNode.kt:167:1
+</span>
+<br />
+<span class="message">
+Class 'AbstractNode' with '42' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/transactions/BFTSMaRt.kt:173:5
+</span>
+<br />
+<span class="message">
+Class 'Replica' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/messaging/P2PMessagingClient.kt:67:1
+</span>
+<br />
+<span class="message">
+Class 'P2PMessagingClient' with '24' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/messaging/RPCServer.kt:68:1
+</span>
+<br />
+<span class="message">
+Class 'RPCServer' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/identity/PersistentIdentityService.kt:31:1
+</span>
+<br />
+<span class="message">
+Class 'PersistentIdentityService' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/SingleThreadedStateMachineManager.kt:55:1
+</span>
+<br />
+<span class="message">
+Class 'SingleThreadedStateMachineManager' with '36' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/FlowSessionImpl.kt:17:1
+</span>
+<br />
+<span class="message">
+Class 'FlowSessionImpl' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/ActionExecutorImpl.kt:22:1
+</span>
+<br />
+<span class="message">
+Class 'ActionExecutorImpl' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/FlowLogicRefFactoryImpl.kt:22:1
+</span>
+<br />
+<span class="message">
+Class 'FlowLogicRefFactoryImpl' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/transitions/TopLevelTransition.kt:8:1
+</span>
+<br />
+<span class="message">
+Class 'TopLevelTransition' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/transitions/StartedFlowTransition.kt:11:1
+</span>
+<br />
+<span class="message">
+Class 'StartedFlowTransition' with '21' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/FlowStateMachineImpl.kt:39:1
+</span>
+<br />
+<span class="message">
+Class 'FlowStateMachineImpl' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/network/PersistentNetworkMapCache.kt:71:1
+</span>
+<br />
+<span class="message">
+Class 'PersistentNetworkMapCache' with '27' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/vault/NodeVaultService.kt:38:1
+</span>
+<br />
+<span class="message">
+Class 'NodeVaultService' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/vault/HibernateQueryCriteriaParser.kt:167:1
+</span>
+<br />
+<span class="message">
+Class 'HibernateQueryCriteriaParser' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/utilities/AppendOnlyPersistentMap.kt:16:1
+</span>
+<br />
+<span class="message">
+Class 'AppendOnlyPersistentMapBase' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/integration-test/kotlin/net/corda/node/amqp/CertificateRevocationListNodeTests.kt:60:1
+</span>
+<br />
+<span class="message">
+Class 'CertificateRevocationListNodeTests' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/integration-test/kotlin/net/corda/node/amqp/ProtonWrapperTests.kt:41:1
+</span>
+<br />
+<span class="message">
+Class 'ProtonWrapperTests' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/Util.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Util.kt' with '21' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/UniversalContract.kt:16:1
+</span>
+<br />
+<span class="message">
+Class 'UniversalContract' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/Perceivable.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Perceivable.kt' with '44' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/Literal.kt:53:1
+</span>
+<br />
+<span class="message">
+Class 'ContractBuilder' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/experimental/behave/src/main/kotlin/net/corda/behave/network/Network.kt:25:1
+</span>
+<br />
+<span class="message">
+Class 'Network' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/experimental/behave/src/main/kotlin/net/corda/behave/node/Node.kt:29:1
+</span>
+<br />
+<span class="message">
+Class 'Node' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/experimental/behave/src/main/kotlin/net/corda/behave/node/Node.kt:230:5
+</span>
+<br />
+<span class="message">
+Class 'Builder' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/transactions/SignedTransaction.kt:22:1
+</span>
+<br />
+<span class="message">
+Class 'SignedTransaction' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/transactions/BaseTransaction.kt:11:1
+</span>
+<br />
+<span class="message">
+Class 'BaseTransaction' with '19' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/transactions/TransactionBuilder.kt:24:1
+</span>
+<br />
+<span class="message">
+Class 'TransactionBuilder' with '25' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/transactions/LedgerTransaction.kt:15:1
+</span>
+<br />
+<span class="message">
+Class 'LedgerTransaction' with '31' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/internal/InternalUtils.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'InternalUtils.kt' with '51' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/internal/X509EdDSAEngine.kt:9:1
+</span>
+<br />
+<span class="message">
+Class 'X509EdDSAEngine' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/internal/concurrent/CordaFutureImpl.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'CordaFutureImpl.kt' with '12' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/internal/PathUtils.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'PathUtils.kt' with '33' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/messaging/CordaRPCOps.kt:96:1
+</span>
+<br />
+<span class="message">
+Interface 'CordaRPCOps' with '45' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/messaging/CordaRPCOps.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'CordaRPCOps.kt' with '17' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/node/ServiceHub.kt:85:1
+</span>
+<br />
+<span class="message">
+Interface 'ServiceHub' with '22' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/node/services/VaultService.kt:149:1
+</span>
+<br />
+<span class="message">
+Interface 'VaultService' with '18' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/node/services/NetworkMapCache.kt:46:1
+</span>
+<br />
+<span class="message">
+Interface 'NetworkMapCacheBase' with '12' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/node/services/vault/QueryCriteriaUtils.kt:230:1
+</span>
+<br />
+<span class="message">
+Object 'Builder' with '78' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/flows/FlowLogic.kt:21:1
+</span>
+<br />
+<span class="message">
+Class 'FlowLogic' with '27' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/utilities/ByteArrays.kt:13:1
+</span>
+<br />
+<span class="message">
+Class 'ByteSequence' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/utilities/EncodingUtils.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'EncodingUtils.kt' with '18' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/crypto/CryptoUtils.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'CryptoUtils.kt' with '25' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/crypto/CompositeKey.kt:12:1
+</span>
+<br />
+<span class="message">
+Class 'CompositeKey' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/crypto/Crypto.kt:48:1
+</span>
+<br />
+<span class="message">
+Object 'Crypto' with '46' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/irs-demo/cordapp/src/main/kotlin/net/corda/irs/contract/IRS.kt:209:1
+</span>
+<br />
+<span class="message">
+Class 'InterestRateSwap' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/network-visualiser/src/main/kotlin/net/corda/netmap/NetworkMapVisualiser.kt:35:1
+</span>
+<br />
+<span class="message">
+Class 'NetworkMapVisualiser' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/simm-valuation-demo/flows/src/main/kotlin/net/corda/vega/analytics/example/OGSwapPricingExample.kt:67:1
+</span>
+<br />
+<span class="message">
+Class 'SwapPricingExample' with '19' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/simm-valuation-demo/src/main/kotlin/net/corda/vega/api/PortfolioApi.kt:33:1
+</span>
+<br />
+<span class="message">
+Class 'PortfolioApi' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/RPCApi.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'RPCApi.kt' with '15' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/config/ConfigUtilities.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'ConfigUtilities.kt' with '14' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/persistence/HibernateStatistics.kt:18:1
+</span>
+<br />
+<span class="message">
+Class 'DelegatingStatisticsService' with '51' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/network/NetworkBootstrapper.kt:41:1
+</span>
+<br />
+<span class="message">
+Class 'NetworkBootstrapper' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/protonwrapper/engine/ConnectionStateMachine.kt:31:1
+</span>
+<br />
+<span class="message">
+Class 'ConnectionStateMachine' with '29' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/protonwrapper/engine/NettyWritable.kt:8:1
+</span>
+<br />
+<span class="message">
+Class 'NettyWritable' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/crypto/X509Utilities.kt:40:1
+</span>
+<br />
+<span class="message">
+Object 'X509Utilities' with '19' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/crypto/X509KeyStore.kt:11:1
+</span>
+<br />
+<span class="message">
+Class 'X509KeyStore' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/ArtemisTcpTransport.kt:15:5
+</span>
+<br />
+<span class="message">
+Object 'Companion' with '11' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/Obligation.kt:77:1
+</span>
+<br />
+<span class="message">
+Class 'Obligation' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/Currencies.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'Currencies.kt' with '16' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/amqp/FingerPrinter.kt:181:37
+</span>
+<br />
+<span class="message">
+The function fingerprintForObject has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/serialization/src/main/kotlin/net/corda/serialization/internal/amqp/AMQPSerializer.kt:35:20
+</span>
+<br />
+<span class="message">
+The function writeObject has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/tools/shell/src/main/kotlin/net/corda/tools/shell/InteractiveShell.kt:238:30
+</span>
+<br />
+<span class="message">
+The function runFlowByNameFragment has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/tools/shell/src/main/kotlin/net/corda/tools/shell/InteractiveShell.kt:383:25
+</span>
+<br />
+<span class="message">
+The function runRPCFromString has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/tools/explorer/src/main/kotlin/net/corda/explorer/identicon/IdenticonRenderer.kt:152:26
+</span>
+<br />
+<span class="message">
+The function drawPatch has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/internal/vault/VaultFiller.kt:96:37
+</span>
+<br />
+<span class="message">
+The function fillWithSomeTestLinearStates has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/internal/vault/VaultFiller.kt:131:29
+</span>
+<br />
+<span class="message">
+The function fillWithSomeTestCash has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/internal/vault/VaultFiller.kt:146:29
+</span>
+<br />
+<span class="message">
+The function fillWithSomeTestCash has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-utils/src/main/kotlin/net/corda/testing/dsl/TransactionDSLInterpreter.kt:40:15
+</span>
+<br />
+<span class="message">
+The function output has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/test-common/src/main/kotlin/net/corda/testing/common/internal/ParametersUtilities.kt:10:26
+</span>
+<br />
+<span class="message">
+The function testNetworkParameters has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/driver/DriverDSL.kt:74:18
+</span>
+<br />
+<span class="message">
+The function startNode has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/driver/Driver.kt:166:13
+</span>
+<br />
+<span class="message">
+The function copy has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/driver/Driver.kt:364:13
+</span>
+<br />
+<span class="message">
+The function copy has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/driver/Driver.kt:394:13
+</span>
+<br />
+<span class="message">
+The function copy has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/performance/Injectors.kt:58:37
+</span>
+<br />
+<span class="message">
+The function startPublishingFixedRateInjector has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/RPCDriver.kt:103:18
+</span>
+<br />
+<span class="message">
+The function rpcDriver has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/RPCDriver.kt:237:40
+</span>
+<br />
+<span class="message">
+The function startInVmRpcServer has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/RPCDriver.kt:304:36
+</span>
+<br />
+<span class="message">
+The function startRpcServer has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/ProcessUtilities.kt:17:26
+</span>
+<br />
+<span class="message">
+The function startCordaProcess has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/ProcessUtilities.kt:30:29
+</span>
+<br />
+<span class="message">
+The function startJavaProcessImpl has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/DriverDSLImpl.kt:201:36
+</span>
+<br />
+<span class="message">
+The function startRegisteredNode has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/DriverDSLImpl.kt:767:42
+</span>
+<br />
+<span class="message">
+The function startOutOfProcessNode has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/internal/DriverDSLImpl.kt:1114:23
+</span>
+<br />
+<span class="message">
+The function internalDriver has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/testing/node-driver/src/main/kotlin/net/corda/testing/node/InMemoryMessagingNetwork.kt:125:34
+</span>
+<br />
+<span class="message">
+The function createNodeWithID has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/internal/AbstractNode.kt:693:29
+</span>
+<br />
+<span class="message">
+The function makeServices has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/messaging/ArtemisMessagingServer.kt:146:31
+</span>
+<br />
+<span class="message">
+The function restrictedRole has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/messaging/Messaging.kt:118:26
+</span>
+<br />
+<span class="message">
+The function send has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/SingleThreadedStateMachineManager.kt:478:39
+</span>
+<br />
+<span class="message">
+The function startInitiatedFlow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/SingleThreadedStateMachineManager.kt:496:38
+</span>
+<br />
+<span class="message">
+The function startFlowInternal has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/SingleThreadedStateMachineManager.kt:577:41
+</span>
+<br />
+<span class="message">
+The function createFlowFromCheckpoint has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/statemachine/StateMachineState.kt:67:19
+</span>
+<br />
+<span class="message">
+The function create has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/rpc/RpcBrokerConfiguration.kt:124:31
+</span>
+<br />
+<span class="message">
+The function restrictedRole has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/rpc/ArtemisRpcBroker.kt:36:20
+</span>
+<br />
+<span class="message">
+The function withSsl has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/rpc/ArtemisRpcBroker.kt:40:23
+</span>
+<br />
+<span class="message">
+The function withoutSsl has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/integration-test/kotlin/net/corda/node/amqp/CertificateRevocationListNodeTests.kt:297:29
+</span>
+<br />
+<span class="message">
+The function createServer has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/ContractFunctions.kt:7:9
+</span>
+<br />
+<span class="message">
+The function swap has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/ContractFunctions.kt:13:12
+</span>
+<br />
+<span class="message">
+The function fx_swap has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/experimental/src/main/kotlin/net/corda/finance/contracts/universal/ContractFunctions.kt:27:13
+</span>
+<br />
+<span class="message">
+The function fx_swap2 has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/transactions/WireTransaction.kt:236:34
+</span>
+<br />
+<span class="message">
+The function createComponentGroups has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/transactions/LedgerTransaction.kt:405:13
+</span>
+<br />
+<span class="message">
+The function copy has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/messaging/CordaRPCOps.kt:474:78
+</span>
+<br />
+<span class="message">
+The function startFlow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/messaging/CordaRPCOps.kt:484:81
+</span>
+<br />
+<span class="message">
+The function startFlow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/messaging/CordaRPCOps.kt:539:85
+</span>
+<br />
+<span class="message">
+The function startTrackedFlow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/messaging/CordaRPCOps.kt:550:88
+</span>
+<br />
+<span class="message">
+The function startTrackedFlow has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/core/src/main/kotlin/net/corda/core/node/NetworkParameters.kt:64:13
+</span>
+<br />
+<span class="message">
+The function copy has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/irs-demo/cordapp/src/main/kotlin/net/corda/irs/contract/IRS.kt:198:13
+</span>
+<br />
+<span class="message">
+The function copy has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/irs-demo/cordapp/src/main/kotlin/net/corda/irs/contract/IRS.kt:370:17
+</span>
+<br />
+<span class="message">
+The function copy has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/irs-demo/cordapp/src/main/kotlin/net/corda/irs/contract/IRS.kt:450:17
+</span>
+<br />
+<span class="message">
+The function copy has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/irs-demo/cordapp/src/main/kotlin/net/corda/irs/contract/IRS.kt:693:26
+</span>
+<br />
+<span class="message">
+The function generateAgreement has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/crypto/X509Utilities.kt:151:33
+</span>
+<br />
+<span class="message">
+The function createPartialCertificate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/crypto/X509Utilities.kt:199:26
+</span>
+<br />
+<span class="message">
+The function createCertificate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/crypto/X509Utilities.kt:235:26
+</span>
+<br />
+<span class="message">
+The function createCertificate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node-api/src/main/kotlin/net/corda/nodeapi/internal/crypto/X509Utilities.kt:263:26
+</span>
+<br />
+<span class="message">
+The function createCertificate has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/cash/selection/AbstractCashSelection.kt:80:40
+</span>
+<br />
+<span class="message">
+The function executeQuery has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/cash/selection/AbstractCashSelection.kt:100:40
+</span>
+<br />
+<span class="message">
+The function unconsumedCashStatesForSpending has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/cash/selection/AbstractCashSelection.kt:128:29
+</span>
+<br />
+<span class="message">
+The function attemptSpend has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/OnLedgerAsset.kt:57:58
+</span>
+<br />
+<span class="message">
+The function generateSpend has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/OnLedgerAsset.kt:91:58
+</span>
+<br />
+<span class="message">
+The function generateSpend has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/OnLedgerAsset.kt:231:57
+</span>
+<br />
+<span class="message">
+The function generateExit has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/OnLedgerAsset.kt:253:57
+</span>
+<br />
+<span class="message">
+The function generateExit has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/Cash.kt:176:35
+</span>
+<br />
+<span class="message">
+The function verifyIssueCommand has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/Cash.kt:259:26
+</span>
+<br />
+<span class="message">
+The function generateSpend has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/Obligation.kt:543:26
+</span>
+<br />
+<span class="message">
+The function generateCashIssue has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/asset/Obligation.kt:565:22
+</span>
+<br />
+<span class="message">
+The function generateIssue has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/contracts/FinanceTypes.kt:243:34
+</span>
+<br />
+<span class="message">
+The function createGenericSchedule has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/finance/src/main/kotlin/net/corda/finance/utils/PhysicalLocationStructures.kt:25:16
+</span>
+<br />
+<span class="message">
+The function project has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongMethod
+</span>
+<span class="description">
+One method should have one responsibility. Long methods tend to handle many things at once. Prefer smaller methods to make them easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/tools/explorer/src/main/kotlin/net/corda/explorer/identicon/IdenticonRenderer.kt:98:5
+</span>
+<br />
+<span class="message">
+The function render is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/main/kotlin/net/corda/node/services/vault/NodeVaultService.kt:403:5
+</span>
+<br />
+<span class="message">
+The function _queryBy is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/integration-test/kotlin/net/corda/node/amqp/AMQPBridgeTest.kt:48:5
+</span>
+<br />
+<span class="message">
+The function test acked and nacked messages is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/integration-test/kotlin/net/corda/node/amqp/ProtonWrapperTests.kt:107:5
+</span>
+<br />
+<span class="message">
+The function Test AMQP Client with invalid root certificate is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/integration-test/kotlin/net/corda/node/amqp/ProtonWrapperTests.kt:238:5
+</span>
+<br />
+<span class="message">
+The function Send a message from AMQP to Artemis inbox is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/node/src/integration-test/kotlin/net/corda/node/amqp/ProtonWrapperTests.kt:264:5
+</span>
+<br />
+<span class="message">
+The function Send a message larger then maxMessageSize from AMQP to Artemis inbox is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/experimental/behave/src/main/kotlin/net/corda/behave/ssh/SSHClient.kt:101:9
+</span>
+<br />
+<span class="message">
+The function connect is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/network-visualiser/src/main/kotlin/net/corda/netmap/VisualiserView.kt:201:5
+</span>
+<br />
+<span class="message">
+The function makeTopBar is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/simm-valuation-demo/flows/src/main/kotlin/net/corda/vega/flows/SimmFlow.kt:139:9
+</span>
+<br />
+<span class="message">
+The function agreeValuation is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/simm-valuation-demo/flows/src/main/kotlin/net/corda/vega/flows/SimmFlow.kt:234:9
+</span>
+<br />
+<span class="message">
+The function agreeValuation is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/samples/simm-valuation-demo/flows/src/main/kotlin/net/corda/vega/analytics/example/OGSwapPricingCcpExample.kt:127:5
+</span>
+<br />
+<span class="message">
+The function calculate is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/webserver/src/main/kotlin/net/corda/webserver/WebServer.kt:14:1
+</span>
+<br />
+<span class="message">
+The function main is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/corda/docs/source/example-code/src/main/kotlin/net/corda/docs/FlowCookbook.kt:87:5
+</span>
+<br />
+<span class="message">
+The function call is too long. The maximum length is 20.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

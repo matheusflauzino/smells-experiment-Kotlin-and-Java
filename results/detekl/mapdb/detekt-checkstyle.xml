@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/store/StoreOnHeap.kt">
+	<error line="13" column="1" severity="warning" message="Class &apos;StoreOnHeap&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/store/StoreOnHeapSer.kt">
+	<error line="14" column="1" severity="warning" message="Class &apos;StoreOnHeapSer&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/store/StoreAppend.kt">
+	<error line="20" column="1" severity="warning" message="Class &apos;StoreAppend&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/mapdb/src/main/java/org/mapdb/util/Locks.kt">
+	<error line="103" column="1" severity="warning" message="Class &apos;SingleEntryReadWriteLock&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="284" column="1" severity="warning" message="Class &apos;SingleEntryReadWriteSegmentedLock&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;Locks.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

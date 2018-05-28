@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/p3c/eclipse-plugin/com.alibaba.smartfox.eclipse.plugin/src/main/kotlin/com/alibaba/smartfox/eclipse/ui/InspectionResultView.kt">
+	<error line="49" column="1" severity="warning" message="Class &apos;InspectionResultView&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/p3c/eclipse-plugin/com.alibaba.smartfox.eclipse.plugin/src/main/kotlin/com/alibaba/smartfox/eclipse/ui/pmd/ContentBuilder.kt">
+	<error line="15" column="1" severity="warning" message="Class &apos;ContentBuilder&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/p3c/eclipse-plugin/com.alibaba.smartfox.eclipse.plugin/src/main/kotlin/com/alibaba/smartfox/eclipse/ui/pmd/StyleExtractor.kt">
+	<error line="10" column="1" severity="warning" message="Class &apos;StyleExtractor&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/p3c/idea-plugin/p3c-common/src/main/kotlin/com/alibaba/smartfox/idea/common/util/BalloonNotifications.kt">
+	<error line="78" column="25" severity="warning" message="The function showNotification has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/p3c/idea-plugin/p3c-common/src/main/kotlin/com/alibaba/p3c/idea/action/AliInspectionAction.kt">
+	<error line="112" column="35" severity="warning" message="The function inspectForKeyEvent has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/p3c/idea-plugin/p3c-common/src/main/kotlin/com/alibaba/p3c/idea/inspection/AliPmdInspection.kt">
+	<error line="31" column="1" severity="warning" message="Class &apos;AliPmdInspection&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/p3c/idea-plugin/p3c-common/src/main/kotlin/com/alibaba/p3c/idea/inspection/DelegateLocalInspectionTool.kt">
+	<error line="29" column="1" severity="warning" message="Class &apos;DelegateLocalInspectionTool&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/p3c/idea-plugin/p3c-common/src/main/kotlin/com/alibaba/p3c/idea/util/ProblemsUtils.kt">
+	<error line="45" column="42" severity="warning" message="The function createProblemDescriptorForPmdRule has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="126" column="39" severity="warning" message="The function createTextRangeProblem has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+</checkstyle>

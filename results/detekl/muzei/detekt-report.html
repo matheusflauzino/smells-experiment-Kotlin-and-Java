@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 109
+</li>
+<li>
+number of packages: 24
+</li>
+<li>
+number of classes: 130
+</li>
+<li>
+number of functions: 655
+</li>
+<li>
+number of properties: 1519
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/android-client-common/src/main/java/com/google/android/apps/muzei/provider/MuzeiDocumentsProvider.kt:42:1
+</span>
+<br />
+<span class="message">
+Class 'MuzeiDocumentsProvider' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/android-client-common/src/main/java/com/google/android/apps/muzei/provider/MuzeiProvider.kt:49:1
+</span>
+<br />
+<span class="message">
+Class 'MuzeiProvider' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/android-client-common/src/main/java/com/google/android/apps/muzei/room/ArtworkDao.kt:39:1
+</span>
+<br />
+<span class="message">
+Class 'ArtworkDao' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/MuzeiWallpaperService.kt:116:5
+</span>
+<br />
+<span class="message">
+Class 'MuzeiWallpaperEngine' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/render/MuzeiBlurRenderer.kt:58:1
+</span>
+<br />
+<span class="message">
+Class 'MuzeiBlurRenderer' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/util/PanScaleProxyView.kt:34:1
+</span>
+<br />
+<span class="message">
+Class 'PanScaleProxyView' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/sources/ChooseSourceFragment.kt:77:1
+</span>
+<br />
+<span class="message">
+Class 'ChooseSourceFragment' with '19' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/ArtDetailFragment.kt:72:1
+</span>
+<br />
+<span class="message">
+Class 'ArtDetailFragment' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/source-gallery/src/main/java/com/google/android/apps/muzei/gallery/GallerySettingsActivity.kt:83:1
+</span>
+<br />
+<span class="message">
+Class 'GallerySettingsActivity' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/source-gallery/src/main/java/com/google/android/apps/muzei/gallery/ChosenPhotoDao.kt:38:1
+</span>
+<br />
+<span class="message">
+Class 'ChosenPhotoDao' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/source-gallery/src/main/java/com/google/android/apps/muzei/gallery/GalleryArtSource.kt:53:1
+</span>
+<br />
+<span class="message">
+Class 'GalleryArtSource' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/wearable/src/main/java/com/google/android/apps/muzei/util/PanView.kt:35:1
+</span>
+<br />
+<span class="message">
+Class 'PanView' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/wearable/src/main/java/com/google/android/apps/muzei/MuzeiWatchFace.kt:117:5
+</span>
+<br />
+<span class="message">
+Class 'Engine' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/ArtDetailViewport.kt:51:20
+</span>
+<br />
+<span class="message">
+The function setViewport has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/util/ScrimUtil.kt:38:35
+</span>
+<br />
+<span class="message">
+The function makeCubicGradientScrimDrawable has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/source-gallery/src/main/java/com/google/android/apps/muzei/gallery/GallerySettingsActivity.kt:789:40
+</span>
+<br />
+<span class="message">
+The function maxDistanceToCorner has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LargeClass
+</span>
+<span class="description">
+One class should have one responsibility. Large classes tend to handle many things at once. Split up large classes into smaller classes that are easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/sources/ChooseSourceFragment.kt:77:1
+</span>
+<br />
+<span class="message">
+Class ChooseSourceFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/ArtDetailFragment.kt:72:1
+</span>
+<br />
+<span class="message">
+Class ArtDetailFragment is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/source-gallery/src/main/java/com/google/android/apps/muzei/gallery/GallerySettingsActivity.kt:83:1
+</span>
+<br />
+<span class="message">
+Class GallerySettingsActivity is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/source-gallery/src/main/java/com/google/android/apps/muzei/gallery/GalleryArtSource.kt:53:1
+</span>
+<br />
+<span class="message">
+Class GalleryArtSource is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/wearable/src/main/java/com/google/android/apps/muzei/MuzeiWatchFace.kt:117:5
+</span>
+<br />
+<span class="message">
+Class Engine is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongMethod
+</span>
+<span class="description">
+One method should have one responsibility. Long methods tend to handle many things at once. Prefer smaller methods to make them easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/ArtDetailFragment.kt:209:5
+</span>
+<br />
+<span class="message">
+The function onViewCreated is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/main/src/main/java/com/google/android/apps/muzei/notifications/NewWallpaperNotificationReceiver.kt:100:9
+</span>
+<br />
+<span class="message">
+The function maybeShowNewArtworkNotification is too long. The maximum length is 20.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/muzei/wearable/src/main/java/com/google/android/apps/muzei/datalayer/ActivateMuzeiIntentService.kt:65:9
+</span>
+<br />
+<span class="message">
+The function maybeShowActivateMuzeiNotification is too long. The maximum length is 20.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

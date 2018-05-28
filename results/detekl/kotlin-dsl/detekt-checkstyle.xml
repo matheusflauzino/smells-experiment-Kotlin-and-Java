@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/tooling-builders/src/main/kotlin/org/gradle/kotlin/dsl/tooling/builders/KotlinBuildScriptModelBuilder.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;KotlinBuildScriptModelBuilder.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/buildSrc/src/main/kotlin/integration/Benchmark.kt">
+	<error line="46" column="1" severity="warning" message="Class &apos;Benchmark&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/support/EmbeddedKotlinProvider.kt">
+	<error line="78" column="1" severity="warning" message="Class &apos;EmbeddedKotlinProvider&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/support/KotlinCompiler.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;KotlinCompiler.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/resolver/SourceDistributionProvider.kt">
+	<error line="39" column="1" severity="warning" message="Class &apos;SourceDistributionResolver&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/resolver/ResolverEventLogger.kt">
+	<error line="49" column="1" severity="warning" message="Object &apos;ResolverEventLogger&apos; with &apos;16&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/KotlinInitScript.kt">
+	<error line="86" column="1" severity="warning" message="Class &apos;InitScriptApi&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/DependencyHandlerExtensions.kt">
+	<error line="47" column="29" severity="warning" message="The function create has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="80" column="29" severity="warning" message="The function module has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="113" column="29" severity="warning" message="The function module has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="168" column="15" severity="warning" message="The function module has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/KotlinSettingsScript.kt">
+	<error line="95" column="1" severity="warning" message="Class &apos;SettingsScriptApi&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/accessors/AccessorsClassPath.kt">
+	<error line="170" column="1" severity="warning" message="Class &apos;TypeAccessibilityProvider&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;AccessorsClassPath.kt&apos; with &apos;28&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/accessors/CodeGenerator.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;CodeGenerator.kt&apos; with &apos;16&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/provider/KotlinBuildScriptCompiler.kt">
+	<error line="73" column="1" severity="warning" message="Class &apos;KotlinBuildScriptCompiler&apos; with &apos;30&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="357" column="1" severity="warning" message="Class &apos;BuildscriptBlockEvaluator&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/provider/ScriptApi.kt">
+	<error line="36" column="1" severity="warning" message="Interface &apos;ScriptApi&apos; with &apos;18&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/provider/CachingKotlinCompiler.kt">
+	<error line="73" column="1" severity="warning" message="Class &apos;CachingKotlinCompiler&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/DependencyHandlerScope.kt">
+	<error line="68" column="31" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="94" column="31" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="153" column="38" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="179" column="38" severity="warning" message="The function invoke has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="26" column="1" severity="warning" message="Class &apos;DependencyHandlerScope&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlin-dsl/provider/src/main/kotlin/org/gradle/kotlin/dsl/ProjectExtensions.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ProjectExtensions.kt&apos; with &apos;21&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

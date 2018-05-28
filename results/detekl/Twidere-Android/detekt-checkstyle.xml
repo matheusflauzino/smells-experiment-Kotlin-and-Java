@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/debug/kotlin/org/mariotaku/twidere/util/stetho/UserStreamDumperPlugin.kt">
+	<error line="99" column="36" severity="warning" message="The function beginMastodonStream has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="137" column="35" severity="warning" message="The function beginTwitterStream has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="196" column="34" severity="warning" message="The function beginFanfouStream has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/debug/kotlin/org/mariotaku/twidere/util/stetho/Commons.kt">
+	<error line="39" column="37" severity="warning" message="The function printHelp has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/ktextension/BundleExtensions.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;BundleExtensions.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/ktextension/MenuExtensions.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;MenuExtensions.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/ktextension/SQLiteDatabaseExtensions.kt">
+	<error line="26" column="34" severity="warning" message="The function queryReference has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/ktextension/CollectionExtensions.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;CollectionExtensions.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/app/TwidereApplication.kt">
+	<error line="142" column="5" severity="warning" message="The function onCreate is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="87" column="1" severity="warning" message="Class &apos;TwidereApplication&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/GlideExtensions.kt">
+	<error line="37" column="36" severity="warning" message="The function loadProfileImage has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="53" column="36" severity="warning" message="The function loadProfileImage has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="58" column="36" severity="warning" message="The function loadProfileImage has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="74" column="36" severity="warning" message="The function loadProfileImage has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="101" column="36" severity="warning" message="The function loadProfileImage has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="113" column="36" severity="warning" message="The function loadProfileImage has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;GlideExtensions.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/AccountExtensions.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;AccountExtensions.kt&apos; with &apos;20&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/api/UserExtensions.kt">
+	<error line="60" column="1" severity="warning" message="The function toParcelableInternal is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/api/microblog/ActivityExtensions.kt">
+	<error line="57" column="1" severity="warning" message="The function toParcelable is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/api/StatusExtensions.kt">
+	<error line="64" column="1" severity="warning" message="The function applyTo is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;StatusExtensions.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/api/mastodon/AccountExtensions.kt">
+	<error line="45" column="1" severity="warning" message="The function toParcelable is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/api/mastodon/StatusExtensions.kt">
+	<error line="51" column="1" severity="warning" message="The function applyTo is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/ParcelableStatusExtensions.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ParcelableStatusExtensions.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/DraftExtensions.kt">
+	<error line="45" column="1" severity="warning" message="The function writeMimeMessageTo is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/ParcelableMessageExtensions.kt">
+	<error line="27" column="28" severity="warning" message="The function getSummaryText has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/model/ParcelableActivityExtensions.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ParcelableActivityExtensions.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/extension/ContentResolverExtensions.kt">
+	<error line="34" column="26" severity="warning" message="The function query has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="45" column="35" severity="warning" message="The function queryReference has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="64" column="33" severity="warning" message="The function queryOne has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="73" column="33" severity="warning" message="The function queryAll has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/ParcelableActivitiesAdapter.kt">
+	<error line="60" column="1" severity="warning" message="Class ParcelableActivitiesAdapter is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="60" column="1" severity="warning" message="Class &apos;ParcelableActivitiesAdapter&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/SelectableUsersAdapter.kt">
+	<error line="39" column="1" severity="warning" message="Class &apos;SelectableUsersAdapter&apos; with &apos;25&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/ParcelableUsersAdapter.kt">
+	<error line="37" column="1" severity="warning" message="Class &apos;ParcelableUsersAdapter&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/ParcelableStatusesAdapter.kt">
+	<error line="60" column="1" severity="warning" message="Class ParcelableStatusesAdapter is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="60" column="1" severity="warning" message="Class &apos;ParcelableStatusesAdapter&apos; with &apos;31&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/StatusDetailsAdapter.kt">
+	<error line="52" column="1" severity="warning" message="Class StatusDetailsAdapter is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="52" column="1" severity="warning" message="Class &apos;StatusDetailsAdapter&apos; with &apos;36&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/iface/IStatusesAdapter.kt">
+	<error line="9" column="1" severity="warning" message="Interface &apos;IStatusesAdapter&apos; with &apos;12&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/SupportTabsAdapter.kt">
+	<error line="132" column="12" severity="warning" message="The function add has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="41" column="1" severity="warning" message="Class &apos;SupportTabsAdapter&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/adapter/DummyItemAdapter.kt">
+	<error line="25" column="1" severity="warning" message="Class &apos;DummyItemAdapter&apos; with &apos;21&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/ActivityTitleSummaryMessage.kt">
+	<error line="24" column="16" severity="warning" message="The function get has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="225" column="42" severity="warning" message="The function getTitleStringAboutMe has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/util/ParcelableUserListUtils.kt">
+	<error line="31" column="14" severity="warning" message="The function check has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/util/ParcelableMessageUtils.kt">
+	<error line="120" column="56" severity="warning" message="The function applyInfoUpdatedEvent has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="22" column="1" severity="warning" message="Object &apos;ParcelableMessageUtils&apos; with &apos;12&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/util/ParcelableMediaUtils.kt">
+	<error line="46" column="25" severity="warning" message="The function fromCard has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="17" column="1" severity="warning" message="Object &apos;ParcelableMediaUtils&apos; with &apos;12&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/model/tab/TabConfiguration.kt">
+	<error line="75" column="5" severity="warning" message="Class &apos;ExtraConfiguration&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/provider/TwidereDataProvider.kt">
+	<error line="62" column="1" severity="warning" message="Class TwidereDataProvider is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="62" column="1" severity="warning" message="Class &apos;TwidereDataProvider&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/LinkCreator.kt">
+	<error line="72" column="38" severity="warning" message="The function getTwidereUserListRelatedLink has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="30" column="1" severity="warning" message="Object &apos;LinkCreator&apos; with &apos;13&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/MenuUtils.kt">
+	<error line="106" column="23" severity="warning" message="The function setupForStatus has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="114" column="23" severity="warning" message="The function setupForStatus has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="220" column="26" severity="warning" message="The function handleStatusClick has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="379" column="36" severity="warning" message="The function addIntentToMenuForExtension has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="113" column="5" severity="warning" message="The function setupForStatus is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="76" column="1" severity="warning" message="Class MenuUtils is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/OnLinkClickHandler.kt">
+	<error line="127" column="33" severity="warning" message="The function openMedia has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/text/StatusTextValidator.kt">
+	<error line="31" column="24" severity="warning" message="The function calculateLength has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/content/TwidereSQLiteOpenHelper.kt">
+	<error line="51" column="5" severity="warning" message="The function onCreate is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="204" column="5" severity="warning" message="The function handleVersionChange is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="45" column="1" severity="warning" message="Class TwidereSQLiteOpenHelper is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="45" column="1" severity="warning" message="Class &apos;TwidereSQLiteOpenHelper&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/dagger/ApplicationModule.kt">
+	<error line="72" column="1" severity="warning" message="Class &apos;ApplicationModule&apos; with &apos;43&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/dagger/GeneralComponent.kt">
+	<error line="57" column="1" severity="warning" message="Interface &apos;GeneralComponent&apos; with &apos;46&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/streaming/TwitterTimelineStreamCallback.kt">
+	<error line="27" column="1" severity="warning" message="Class &apos;TwitterTimelineStreamCallback&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/StatusCodeMessageUtils.kt">
+	<error line="31" column="1" severity="warning" message="Object &apos;StatusCodeMessageUtils&apos; with &apos;11&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/Utils.kt">
+	<error line="95" column="1" severity="warning" message="Class Utils is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="95" column="1" severity="warning" message="Object &apos;Utils&apos; with &apos;49&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/net/TwidereDns.kt">
+	<error line="38" column="1" severity="warning" message="Class &apos;TwidereDns&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreFunctions.kt">
+	<error line="104" column="60" severity="warning" message="The function updateStatusInfo has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="120" column="36" severity="warning" message="The function updateItems has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="145" column="60" severity="warning" message="The function getUnreadMessagesEntriesCursorReference has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/database/SuggestionsCursorCreator.kt">
+	<error line="164" column="31" severity="warning" message="The function getUsersCursor has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/database/CachedUsersQueryBuilder.kt">
+	<error line="44" column="25" severity="warning" message="The function withRelationship has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="51" column="25" severity="warning" message="The function withRelationship has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="92" column="18" severity="warning" message="The function withScore has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/database/ContentFiltersUtils.kt">
+	<error line="41" column="32" severity="warning" message="The function isFilteredQuery has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/MultiSelectEventHandler.kt">
+	<error line="48" column="1" severity="warning" message="Class &apos;MultiSelectEventHandler&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/UserColorNameManager.kt">
+	<error line="34" column="1" severity="warning" message="Class &apos;UserColorNameManager&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/HttpClientFactory.kt">
+	<error line="30" column="1" severity="warning" message="Object &apos;HttpClientFactory&apos; with &apos;11&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/AsyncTwitterWrapper.kt">
+	<error line="61" column="1" severity="warning" message="Class AsyncTwitterWrapper is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="61" column="1" severity="warning" message="Class &apos;AsyncTwitterWrapper&apos; with &apos;45&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/IntentUtils.kt">
+	<error line="59" column="24" severity="warning" message="The function openUserProfile has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="137" column="18" severity="warning" message="The function openMedia has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="145" column="18" severity="warning" message="The function openMedia has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="152" column="18" severity="warning" message="The function openMedia has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="175" column="26" severity="warning" message="The function openMediaDirectly has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="209" column="26" severity="warning" message="The function openMediaDirectly has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="429" column="28" severity="warning" message="The function openUserListDetails has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="33" column="1" severity="warning" message="Class IntentUtils is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="33" column="1" severity="warning" message="Object &apos;IntentUtils&apos; with &apos;62&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/ThemeUtils.kt">
+	<error line="399" column="35" severity="warning" message="The function applyColorFilterToMenuIcon has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="62" column="1" severity="warning" message="Class ThemeUtils is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="62" column="1" severity="warning" message="Object &apos;ThemeUtils&apos; with &apos;42&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/DataStoreUtils.kt">
+	<error line="345" column="25" severity="warning" message="The function getStatusesCount has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="378" column="27" severity="warning" message="The function getActivitiesCount has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="397" column="27" severity="warning" message="The function getActivitiesCount has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="683" column="40" severity="warning" message="The function getObjectFieldArray has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="703" column="36" severity="warning" message="The function getStringFieldArray has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="722" column="34" severity="warning" message="The function getLongFieldArray has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="741" column="38" severity="warning" message="The function getFieldsArray has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="861" column="29" severity="warning" message="The function getInteractionsCount has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="68" column="1" severity="warning" message="Class DataStoreUtils is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="68" column="1" severity="warning" message="Object &apos;DataStoreUtils&apos; with &apos;54&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/notification/ContentNotificationManager.kt">
+	<error line="168" column="5" severity="warning" message="The function showInteractions is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="369" column="5" severity="warning" message="The function showDraft is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="68" column="1" severity="warning" message="Class ContentNotificationManager is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="68" column="1" severity="warning" message="Class &apos;ContentNotificationManager&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/sync/FileBasedKeyValueSyncAction.kt">
+	<error line="14" column="1" severity="warning" message="Class &apos;FileBasedKeyValueSyncAction&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/sync/FileBasedDraftsSyncAction.kt">
+	<error line="26" column="5" severity="warning" message="The function execute is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/sync/SingleFileBasedDataSyncAction.kt">
+	<error line="10" column="1" severity="warning" message="Class &apos;SingleFileBasedDataSyncAction&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/sync/FileBasedFiltersDataSyncAction.kt">
+	<error line="14" column="1" severity="warning" message="Class &apos;FileBasedFiltersDataSyncAction&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/util/view/AppBarChildBehavior.kt">
+	<error line="265" column="28" severity="warning" message="The function onTargetChanged has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/loader/statuses/AbsRequestStatusesLoader.kt">
+	<error line="104" column="5" severity="warning" message="The function loadInBackground is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/TrendsSuggestionsFragment.kt">
+	<error line="52" column="1" severity="warning" message="Class &apos;TrendsSuggestionsFragment&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/SavedSearchesListFragment.kt">
+	<error line="42" column="1" severity="warning" message="Class &apos;SavedSearchesListFragment&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/drafts/DraftsListFragment.kt">
+	<error line="73" column="1" severity="warning" message="Class &apos;DraftsListFragment&apos; with &apos;21&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsContentRecyclerViewFragment.kt">
+	<error line="44" column="1" severity="warning" message="Class &apos;AbsContentRecyclerViewFragment&apos; with &apos;33&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserListFragment.kt">
+	<error line="72" column="1" severity="warning" message="Class &apos;UserListFragment&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/filter/BaseFiltersFragment.kt">
+	<error line="63" column="1" severity="warning" message="Class &apos;BaseFiltersFragment&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/filter/FiltersSubscriptionsFragment.kt">
+	<error line="50" column="1" severity="warning" message="Class &apos;FiltersSubscriptionsFragment&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/filter/FilteredUsersFragment.kt">
+	<error line="56" column="1" severity="warning" message="Class &apos;FilteredUsersFragment&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/filter/BaseFiltersImportFragment.kt">
+	<error line="44" column="1" severity="warning" message="Class &apos;BaseFiltersImportFragment&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/ParcelableUserListsFragment.kt">
+	<error line="48" column="1" severity="warning" message="Class &apos;ParcelableUserListsFragment&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsActivitiesFragment.kt">
+	<error line="76" column="1" severity="warning" message="Class AbsActivitiesFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="76" column="1" severity="warning" message="Class &apos;AbsActivitiesFragment&apos; with &apos;33&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/CustomTabsFragment.kt">
+	<error line="236" column="9" severity="warning" message="The function onShow is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="76" column="1" severity="warning" message="Class &apos;CustomTabsFragment&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/NetworkDiagnosticsFragment.kt">
+	<error line="101" column="9" severity="warning" message="The function doInBackground is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/ParcelableUsersFragment.kt">
+	<error line="61" column="1" severity="warning" message="Class &apos;ParcelableUsersFragment&apos; with &apos;24&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserProfileEditorFragment.kt">
+	<error line="68" column="1" severity="warning" message="Class UserProfileEditorFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="68" column="1" severity="warning" message="Class &apos;UserProfileEditorFragment&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsStatusesFragment.kt">
+	<error line="73" column="1" severity="warning" message="Class AbsStatusesFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="73" column="1" severity="warning" message="Class &apos;AbsStatusesFragment&apos; with &apos;36&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/ExtensionsListFragment.kt">
+	<error line="47" column="1" severity="warning" message="Class &apos;ExtensionsListFragment&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/CursorStatusesFragment.kt">
+	<error line="58" column="1" severity="warning" message="Class &apos;CursorStatusesFragment&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AccountsDashboardFragment.kt">
+	<error line="122" column="5" severity="warning" message="The function onActivityCreated is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="332" column="5" severity="warning" message="The function updateAccountActions is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="426" column="5" severity="warning" message="The function onAccountSelected is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="94" column="1" severity="warning" message="Class AccountsDashboardFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="94" column="1" severity="warning" message="Class &apos;AccountsDashboardFragment&apos; with &apos;29&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/ParcelableGroupsFragment.kt">
+	<error line="47" column="1" severity="warning" message="Class &apos;ParcelableGroupsFragment&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsToolbarTabPagesFragment.kt">
+	<error line="36" column="1" severity="warning" message="Class &apos;AbsToolbarTabPagesFragment&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/HostMappingsListFragment.kt">
+	<error line="52" column="1" severity="warning" message="Class &apos;HostMappingsListFragment&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsMediaStatusesFragment.kt">
+	<error line="42" column="1" severity="warning" message="Class &apos;AbsMediaStatusesFragment&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AccountsManagerFragment.kt">
+	<error line="50" column="1" severity="warning" message="Class &apos;AccountsManagerFragment&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/message/MessagesConversationFragment.kt">
+	<error line="126" column="5" severity="warning" message="The function onActivityCreated is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="94" column="1" severity="warning" message="Class MessagesConversationFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="94" column="1" severity="warning" message="Class &apos;MessagesConversationFragment&apos; with &apos;31&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/message/MessageConversationInfoFragment.kt">
+	<error line="122" column="5" severity="warning" message="The function onActivityCreated is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="103" column="1" severity="warning" message="Class MessageConversationInfoFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="103" column="1" severity="warning" message="Class &apos;MessageConversationInfoFragment&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/message/MessageNewConversationFragment.kt">
+	<error line="64" column="1" severity="warning" message="Class &apos;MessageNewConversationFragment&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/message/MessagesEntriesFragment.kt">
+	<error line="69" column="1" severity="warning" message="Class &apos;MessagesEntriesFragment&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/status/RetweetQuoteDialogFragment.kt">
+	<error line="62" column="1" severity="warning" message="Class RetweetQuoteDialogFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="62" column="1" severity="warning" message="Class &apos;RetweetQuoteDialogFragment&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/status/StatusFragment.kt">
+	<error line="111" column="1" severity="warning" message="Class StatusFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="111" column="1" severity="warning" message="Class &apos;StatusFragment&apos; with &apos;40&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/UserFragment.kt">
+	<error line="408" column="5" severity="warning" message="The function displayUser is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="655" column="5" severity="warning" message="The function onActivityCreated is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="784" column="5" severity="warning" message="The function onPrepareOptionsMenu is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1385" column="5" severity="warning" message="The function setUiColor is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1490" column="5" severity="warning" message="The function updateScrollOffset is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="153" column="1" severity="warning" message="Class UserFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="153" column="1" severity="warning" message="Class &apos;UserFragment&apos; with &apos;61&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/AbsContentListViewFragment.kt">
+	<error line="43" column="1" severity="warning" message="Class &apos;AbsContentListViewFragment&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/CursorActivitiesFragment.kt">
+	<error line="55" column="1" severity="warning" message="Class &apos;CursorActivitiesFragment&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/ParcelableStatusesFragment.kt">
+	<error line="50" column="1" severity="warning" message="Class &apos;ParcelableStatusesFragment&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/media/ExoPlayerPageFragment.kt">
+	<error line="83" column="1" severity="warning" message="Class &apos;ExoPlayerPageFragment&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/fragment/media/VideoPageFragment.kt">
+	<error line="82" column="5" severity="warning" message="The function onActivityCreated is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="65" column="1" severity="warning" message="Class VideoPageFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="65" column="1" severity="warning" message="Class &apos;VideoPageFragment&apos; with &apos;25&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/service/LengthyOperationsService.kt">
+	<error line="73" column="1" severity="warning" message="Class LengthyOperationsService is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="73" column="1" severity="warning" message="Class &apos;LengthyOperationsService&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/service/StreamingService.kt">
+	<error line="260" column="24" severity="warning" message="Object &apos;null&apos; with &apos;11&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/UpdateStatusTask.kt">
+	<error line="699" column="39" severity="warning" message="The function uploadMicroBlogMediaShared has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="746" column="32" severity="warning" message="The function uploadMastodonMedia has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="788" column="29" severity="warning" message="The function getBodyFromMedia has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="886" column="32" severity="warning" message="The function imageStream has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="962" column="32" severity="warning" message="The function videoStream has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="962" column="9" severity="warning" message="The function videoStream is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="694" column="5" severity="warning" message="Class Companion is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="64" column="1" severity="warning" message="Class UpdateStatusTask is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="64" column="1" severity="warning" message="Class &apos;UpdateStatusTask&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="694" column="5" severity="warning" message="Object &apos;Companion&apos; with &apos;12&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/GetStatusesTask.kt">
+	<error line="136" column="28" severity="warning" message="The function storeStatus has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="228" column="27" severity="warning" message="The function getPositionKey has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="136" column="5" severity="warning" message="The function storeStatus is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/message/GetMessagesTask.kt">
+	<error line="542" column="78" severity="warning" message="The function addConversation has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="583" column="44" severity="warning" message="The function addConversationMessage has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/task/twitter/GetActivitiesTask.kt">
+	<error line="125" column="32" severity="warning" message="The function storeActivities has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/LinkHandlerActivity.kt">
+	<error line="96" column="5" severity="warning" message="The function onCreate is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="82" column="1" severity="warning" message="Class LinkHandlerActivity is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="82" column="1" severity="warning" message="Class &apos;LinkHandlerActivity&apos; with &apos;25&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/SettingsActivity.kt">
+	<error line="204" column="5" severity="warning" message="The function initEntries is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="58" column="1" severity="warning" message="Class SettingsActivity is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="58" column="1" severity="warning" message="Class &apos;SettingsActivity&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/ComposeActivity.kt">
+	<error line="208" column="5" severity="warning" message="The function onCreate is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="980" column="5" severity="warning" message="The function handleReplyIntent is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1549" column="5" severity="warning" message="The function getStatusUpdate is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="118" column="1" severity="warning" message="Class ComposeActivity is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="118" column="1" severity="warning" message="Class &apos;ComposeActivity&apos; with &apos;78&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/QuickSearchBarActivity.kt">
+	<error line="84" column="5" severity="warning" message="The function onCreate is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="75" column="1" severity="warning" message="Class QuickSearchBarActivity is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="75" column="1" severity="warning" message="Class &apos;QuickSearchBarActivity&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="362" column="5" severity="warning" message="Class &apos;SuggestionsAdapter&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/UserListSelectorActivity.kt">
+	<error line="51" column="1" severity="warning" message="Class &apos;UserListSelectorActivity&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/SignInActivity.kt">
+	<error line="801" column="9" severity="warning" message="The function performLogin is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="944" column="9" severity="warning" message="The function authBasic is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1011" column="9" severity="warning" message="The function getOAuthSignInResponse is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="115" column="1" severity="warning" message="Class SignInActivity is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="115" column="1" severity="warning" message="Class &apos;SignInActivity&apos; with &apos;29&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/BaseActivity.kt">
+	<error line="90" column="1" severity="warning" message="Class BaseActivity is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="90" column="1" severity="warning" message="Class &apos;BaseActivity&apos; with &apos;30&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/HomeActivity.kt">
+	<error line="192" column="5" severity="warning" message="The function onCreate is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="114" column="1" severity="warning" message="Class HomeActivity is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="114" column="1" severity="warning" message="Class &apos;HomeActivity&apos; with &apos;52&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/ImageCropperActivity.kt">
+	<error line="35" column="1" severity="warning" message="Class &apos;ImageCropperActivity&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/MainActivity.kt">
+	<error line="76" column="1" severity="warning" message="Class &apos;MainActivity&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/activity/MediaViewerActivity.kt">
+	<error line="78" column="1" severity="warning" message="Class MediaViewerActivity is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="78" column="1" severity="warning" message="Class &apos;MediaViewerActivity&apos; with &apos;35&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/ExtendedRecyclerView.kt">
+	<error line="34" column="1" severity="warning" message="Class &apos;ExtendedRecyclerView&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/holder/StatusViewHolder.kt">
+	<error line="144" column="5" severity="warning" message="The function display is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="520" column="5" severity="warning" message="The function setupViewOptions is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="51" column="1" severity="warning" message="Class StatusViewHolder is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="51" column="1" severity="warning" message="Class &apos;StatusViewHolder&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/holder/UserViewHolder.kt">
+	<error line="40" column="1" severity="warning" message="Class UserViewHolder is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/holder/status/DetailStatusViewHolder.kt">
+	<error line="98" column="5" severity="warning" message="The function displayStatus is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="433" column="5" severity="warning" message="The function initViews is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="70" column="1" severity="warning" message="Class DetailStatusViewHolder is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/main/kotlin/org/mariotaku/twidere/view/CardMediaContainer.kt">
+	<error line="78" column="21" severity="warning" message="The function displayMedia has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="249" column="33" severity="warning" message="The function measureGridMedia has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="40" column="1" severity="warning" message="Class CardMediaContainer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="40" column="1" severity="warning" message="Class &apos;CardMediaContainer&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/androidTest/kotlin/org/mariotaku/twidere/extension/model/DraftExtensionsTest.kt">
+	<error line="20" column="5" severity="warning" message="The function testMimeMessageProcessing is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Twidere-Android/twidere/src/fdroid/kotlin/org/mariotaku/twidere/fragment/OpenStreetMapViewerFragment.kt">
+	<error line="49" column="5" severity="warning" message="The function onActivityCreated is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+</checkstyle>

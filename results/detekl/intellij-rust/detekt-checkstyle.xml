@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/formatter/blocks/RsFmtBlock.kt">
+	<error line="18" column="1" severity="warning" message="Class &apos;RsFmtBlock&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/formatter/blocks/SyntheticRsFmtBlock.kt">
+	<error line="14" column="1" severity="warning" message="Class &apos;SyntheticRsFmtBlock&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/annotator/RsSyntaxErrorsAnnotator.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;RsSyntaxErrorsAnnotator.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/annotator/fixes/AddTurbofishFix.kt">
+	<error line="17" column="1" severity="warning" message="Class &apos;AddTurbofishFix&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/annotator/RsErrorAnnotator.kt">
+	<error line="29" column="1" severity="warning" message="Class RsErrorAnnotator is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="29" column="1" severity="warning" message="Class &apos;RsErrorAnnotator&apos; with &apos;30&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/presentation/Ty.kt">
+	<error line="21" column="19" severity="warning" message="The function render has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/docs/RsDocumentationProvider.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;RsDocumentationProvider.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/hints/RsParameterInfoHandler.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;RsParameterInfoHandler&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/folding/RsFoldingBuilder.kt">
+	<error line="66" column="5" severity="warning" message="Class &apos;FoldingVisitor&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/openapiext/utils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;utils.kt&apos; with &apos;14&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/resolve/StdKnownItems.kt">
+	<error line="22" column="1" severity="warning" message="Class &apos;StdKnownItems&apos; with &apos;23&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/resolve/ImplLookup.kt">
+	<error line="126" column="1" severity="warning" message="Class ImplLookup is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="126" column="1" severity="warning" message="Class &apos;ImplLookup&apos; with &apos;42&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/resolve/NameResolution.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;NameResolution.kt&apos; with &apos;29&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/psi/ext/PsiElement.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;PsiElement.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/psi/RsPsiFactory.kt">
+	<error line="24" column="1" severity="warning" message="Class &apos;RsPsiFactory&apos; with &apos;50&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/stubs/StubIndexing.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;StubIndexing.kt&apos; with &apos;16&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/types/infer/TypeInference.kt">
+	<error line="80" column="1" severity="warning" message="Class RsInferenceContext is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="551" column="1" severity="warning" message="Class RsFnInferenceContext is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="80" column="1" severity="warning" message="Class &apos;RsInferenceContext&apos; with &apos;41&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="551" column="1" severity="warning" message="Class &apos;RsFnInferenceContext&apos; with &apos;57&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/parser/RustParserUtil.kt">
+	<error line="25" column="1" severity="warning" message="Class RustParserUtil is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="25" column="1" severity="warning" message="Object &apos;RustParserUtil&apos; with &apos;35&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/completion/RsKeywordCompletionContributor.kt">
+	<error line="24" column="1" severity="warning" message="Class &apos;RsKeywordCompletionContributor&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/cargo/project/model/impl/CargoProjectImpl.kt">
+	<error line="53" column="1" severity="warning" message="Class &apos;CargoProjectsServiceImpl&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/cargo/util/CargoCommandCompletionProvider.kt">
+	<error line="127" column="1" severity="warning" message="Class &apos;OptBuilder&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

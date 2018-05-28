@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 383
+</li>
+<li>
+number of packages: 65
+</li>
+<li>
+number of classes: 535
+</li>
+<li>
+number of functions: 2322
+</li>
+<li>
+number of properties: 2690
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/base/controller/RxController.kt:10:1
+</span>
+<br />
+<span class="message">
+Class 'RxController' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/recently_read/RecentlyReadController.kt:18:1
+</span>
+<br />
+<span class="message">
+Class 'RecentlyReadController' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/download/DownloadController.kt:17:1
+</span>
+<br />
+<span class="message">
+Class 'DownloadController' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/extension/ExtensionDetailsController.kt:30:1
+</span>
+<br />
+<span class="message">
+Class 'ExtensionDetailsController' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/extension/ExtensionController.kt:17:1
+</span>
+<br />
+<span class="message">
+Class 'ExtensionController' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/library/LibraryCategoryView.kt:24:1
+</span>
+<br />
+<span class="message">
+Class 'LibraryCategoryView' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/library/LibraryController.kt:47:1
+</span>
+<br />
+<span class="message">
+Class 'LibraryController' with '34' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/library/LibraryPresenter.kt:40:1
+</span>
+<br />
+<span class="message">
+Class 'LibraryPresenter' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/recent_updates/RecentChaptersController.kt:26:1
+</span>
+<br />
+<span class="message">
+Class 'RecentChaptersController' with '30' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/category/CategoryController.kt:19:1
+</span>
+<br />
+<span class="message">
+Class 'CategoryController' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/migration/MigrationController.kt:20:1
+</span>
+<br />
+<span class="message">
+Class 'MigrationController' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/ReaderCustomFilterDialog.kt:23:1
+</span>
+<br />
+<span class="message">
+Class 'ReaderCustomFilterDialog' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/viewer/base/BaseReader.kt:11:1
+</span>
+<br />
+<span class="message">
+Class 'BaseReader' with '15' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/viewer/webtoon/WebtoonReader.kt:21:1
+</span>
+<br />
+<span class="message">
+Class 'WebtoonReader' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/viewer/webtoon/WebtoonHolder.kt:25:1
+</span>
+<br />
+<span class="message">
+Class 'WebtoonHolder' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/viewer/pager/PageView.kt:27:1
+</span>
+<br />
+<span class="message">
+Class 'PageView' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/viewer/pager/PagerReader.kt:16:1
+</span>
+<br />
+<span class="message">
+Class 'PagerReader' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/ReaderActivity.kt:45:1
+</span>
+<br />
+<span class="message">
+Class 'ReaderActivity' with '38' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/ReaderPresenter.kt:37:1
+</span>
+<br />
+<span class="message">
+Class 'ReaderPresenter' with '23' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/setting/PreferenceDSL.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'PreferenceDSL.kt' with '15' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/catalogue/global_search/CatalogueSearchController.kt:16:1
+</span>
+<br />
+<span class="message">
+Class 'CatalogueSearchController' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/catalogue/browse/BrowseCatalogueController.kt:37:1
+</span>
+<br />
+<span class="message">
+Class 'BrowseCatalogueController' with '25' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/catalogue/browse/BrowseCataloguePresenter.kt:28:1
+</span>
+<br />
+<span class="message">
+Class 'BrowseCataloguePresenter' with '20' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/catalogue/CatalogueController.kt:30:1
+</span>
+<br />
+<span class="message">
+Class 'CatalogueController' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/track/TrackController.kt:18:1
+</span>
+<br />
+<span class="message">
+Class 'TrackController' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/chapter/ChaptersController.kt:32:1
+</span>
+<br />
+<span class="message">
+Class 'ChaptersController' with '48' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/chapter/ChaptersPresenter.kt:25:1
+</span>
+<br />
+<span class="message">
+Class 'ChaptersPresenter' with '28' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/info/MangaInfoPresenter.kt:23:1
+</span>
+<br />
+<span class="message">
+Class 'MangaInfoPresenter' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/info/MangaInfoController.kt:61:1
+</span>
+<br />
+<span class="message">
+Class 'MangaInfoController' with '25' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/extension/ExtensionManager.kt:23:1
+</span>
+<br />
+<span class="message">
+Class 'ExtensionManager' with '16' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/download/Downloader.kt:26:1
+</span>
+<br />
+<span class="message">
+Class 'Downloader' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/download/DownloadManager.kt:13:1
+</span>
+<br />
+<span class="message">
+Class 'DownloadManager' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/track/myanimelist/MyAnimeList.kt:12:1
+</span>
+<br />
+<span class="message">
+Class 'Myanimelist' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/track/myanimelist/MyanimelistApi.kt:21:1
+</span>
+<br />
+<span class="message">
+Class 'MyanimelistApi' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/track/anilist/Anilist.kt:15:1
+</span>
+<br />
+<span class="message">
+Class 'Anilist' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/track/kitsu/Kitsu.kt:15:1
+</span>
+<br />
+<span class="message">
+Class 'Kitsu' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/track/TrackService.kt:14:1
+</span>
+<br />
+<span class="message">
+Class 'TrackService' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/library/LibraryUpdateService.kt:41:1
+</span>
+<br />
+<span class="message">
+Class 'LibraryUpdateService' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/database/queries/ChapterQueries.kt:16:1
+</span>
+<br />
+<span class="message">
+Interface 'ChapterQueries' with '12' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/database/queries/MangaQueries.kt:18:1
+</span>
+<br />
+<span class="message">
+Interface 'MangaQueries' with '16' functions detected. Defined threshold inside interfaces is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/preference/PreferencesHelper.kt:19:1
+</span>
+<br />
+<span class="message">
+Class 'PreferencesHelper' with '66' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/preference/EmptyPreferenceDataStore.kt:5:1
+</span>
+<br />
+<span class="message">
+Class 'EmptyPreferenceDataStore' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/preference/SharedPreferencesDataStore.kt:6:1
+</span>
+<br />
+<span class="message">
+Class 'SharedPreferencesDataStore' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/backup/BackupRestoreService.kt:40:1
+</span>
+<br />
+<span class="message">
+Class 'BackupRestoreService' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/backup/BackupManager.kt:39:1
+</span>
+<br />
+<span class="message">
+Class 'BackupManager' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/util/ContextExtensions.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'ContextExtensions.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/widget/preference/SwitchPreferenceCategory.kt:18:1
+</span>
+<br />
+<span class="message">
+Class 'SwitchPreferenceCategory' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/english/Readmangatoday.kt:14:1
+</span>
+<br />
+<span class="message">
+Class 'Readmangatoday' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/english/Kissmanga.kt:18:1
+</span>
+<br />
+<span class="message">
+Class 'Kissmanga' with '23' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/english/Mangafox.kt:14:1
+</span>
+<br />
+<span class="message">
+Class 'Mangafox' with '21' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/english/Mangasee.kt:15:1
+</span>
+<br />
+<span class="message">
+Class 'Mangasee' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/english/Mangahere.kt:18:1
+</span>
+<br />
+<span class="message">
+Class 'Mangahere' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/russian/Mintmanga.kt:15:1
+</span>
+<br />
+<span class="message">
+Class 'Mintmanga' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/russian/Readmanga.kt:15:1
+</span>
+<br />
+<span class="message">
+Class 'Readmanga' with '22' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/russian/Mangachan.kt:14:1
+</span>
+<br />
+<span class="message">
+Class 'Mangachan' with '23' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/HttpSource.kt:20:1
+</span>
+<br />
+<span class="message">
+Class 'HttpSource' with '30' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/ParsedHttpSource.kt:12:1
+</span>
+<br />
+<span class="message">
+Class 'ParsedHttpSource' with '21' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/source/online/german/WieManga.kt:14:1
+</span>
+<br />
+<span class="message">
+Class 'WieManga' with '18' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongMethod
+</span>
+<span class="description">
+One method should have one responsibility. Long methods tend to handle many things at once. Prefer smaller methods to make them easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/extension/ExtensionDetailsController.kt:57:5
+</span>
+<br />
+<span class="message">
+The function onViewCreated is too long. The maximum length is 20.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LargeClass
+</span>
+<span class="description">
+One class should have one responsibility. Large classes tend to handle many things at once. Split up large classes into smaller classes that are easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/library/LibraryController.kt:47:1
+</span>
+<br />
+<span class="message">
+Class LibraryController is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/ReaderActivity.kt:45:1
+</span>
+<br />
+<span class="message">
+Class ReaderActivity is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/reader/ReaderPresenter.kt:37:1
+</span>
+<br />
+<span class="message">
+Class ReaderPresenter is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/catalogue/browse/BrowseCatalogueController.kt:37:1
+</span>
+<br />
+<span class="message">
+Class BrowseCatalogueController is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/chapter/ChaptersController.kt:32:1
+</span>
+<br />
+<span class="message">
+Class ChaptersController is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/chapter/ChaptersPresenter.kt:25:1
+</span>
+<br />
+<span class="message">
+Class ChaptersPresenter is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/ui/manga/info/MangaInfoController.kt:61:1
+</span>
+<br />
+<span class="message">
+Class MangaInfoController is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/download/Downloader.kt:26:1
+</span>
+<br />
+<span class="message">
+Class Downloader is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/backup/BackupManager.kt:39:1
+</span>
+<br />
+<span class="message">
+Class BackupManager is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/backup/BackupRestoreService.kt:319:37
+</span>
+<br />
+<span class="message">
+The function mangaFetchObservable has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/tachiyomi/app/src/main/java/eu/kanade/tachiyomi/data/backup/BackupRestoreService.kt:347:39
+</span>
+<br />
+<span class="message">
+The function mangaNoFetchObservable has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+
+</body>
+</html>

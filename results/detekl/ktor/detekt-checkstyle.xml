@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-utils/src/io/ktor/util/StringValues.kt">
+	<error line="75" column="1" severity="warning" message="Class &apos;StringValuesSingleImpl&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="101" column="1" severity="warning" message="Class &apos;StringValuesImpl&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="126" column="1" severity="warning" message="Class &apos;StringValuesBuilder&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;StringValues.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-client/ktor-client-core/src/io/ktor/client/request/builders.kt">
+	<error line="48" column="46" severity="warning" message="The function get has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="66" column="47" severity="warning" message="The function post has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;builders.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-client/ktor-client-features/ktor-client-websocket/src/io/ktor/client/features/websocket/builders.kt">
+	<error line="29" column="36" severity="warning" message="The function webSocketRaw has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="47" column="33" severity="warning" message="The function webSocket has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="65" column="29" severity="warning" message="The function wsRaw has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="70" column="30" severity="warning" message="The function wssRaw has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="79" column="26" severity="warning" message="The function ws has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="84" column="27" severity="warning" message="The function wss has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-benchmarks/src-jmh/io/ktor/server/benchmarks/IntegrationBenchmark.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;IntegrationBenchmark&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-benchmarks/src-jmh/io/ktor/server/benchmarks/AsyncIntegrationBenchmark.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;AsyncIntegrationBenchmark&apos; with &apos;26&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-netty/src/io/ktor/server/netty/cio/NettyResponsePipeline.kt">
+	<error line="18" column="1" severity="warning" message="Class NettyResponsePipeline is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="18" column="1" severity="warning" message="Class &apos;NettyResponsePipeline&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-netty/src/io/ktor/server/netty/cio/RequestBodyHandler.kt">
+	<error line="11" column="1" severity="warning" message="Class &apos;RequestBodyHandler&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-host-common/src/io/ktor/server/engine/CommandLine.kt">
+	<error line="11" column="1" severity="warning" message="The function commandLineEnvironment is too long. The maximum length is 20." source="detekt.LongMethod" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-host-common/src/io/ktor/server/engine/ApplicationEngineEnvironmentReloading.kt">
+	<error line="21" column="1" severity="warning" message="Class ApplicationEngineEnvironmentReloading is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="21" column="1" severity="warning" message="Class &apos;ApplicationEngineEnvironmentReloading&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-host-common/src/io/ktor/server/engine/EmbeddedServer.kt">
+	<error line="23" column="23" severity="warning" message="The function embeddedServer has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-host-common/src/io/ktor/server/engine/BaseApplicationResponse.kt">
+	<error line="13" column="1" severity="warning" message="Class &apos;BaseApplicationResponse&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/content/StaticContent.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;StaticContent.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/features/CORS.kt">
+	<error line="13" column="1" severity="warning" message="Class &apos;CORS&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/routing/RoutingBuilder.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;RoutingBuilder.kt&apos; with &apos;24&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/sessions/SessionSerializerReflection.kt">
+	<error line="17" column="1" severity="warning" message="Class SessionSerializerReflection is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="17" column="1" severity="warning" message="Class &apos;SessionSerializerReflection&apos; with &apos;26&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/sessions/SessionsBuilder.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;SessionsBuilder.kt&apos; with &apos;16&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/response/ApplicationResponseFunctions.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ApplicationResponseFunctions.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/response/ResponseCookies.kt">
+	<error line="16" column="15" severity="warning" message="The function append has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/response/ApplicationResponseProperties.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ApplicationResponseProperties.kt&apos; with &apos;15&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-core/src/io/ktor/request/ApplicationRequestProperties.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ApplicationRequestProperties.kt&apos; with &apos;23&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-test-host/src/io/ktor/server/testing/EngineTestBase.kt">
+	<error line="28" column="1" severity="warning" message="Class &apos;EngineTestBase&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-server/ktor-server-test-host/src/io/ktor/server/testing/EngineTestSuite.kt">
+	<error line="36" column="1" severity="warning" message="Class EngineTestSuite is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="36" column="1" severity="warning" message="Class &apos;EngineTestSuite&apos; with &apos;51&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http/src/io/ktor/http/FileContentType.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;FileContentType.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http/src/io/ktor/http/Cookie.kt">
+	<error line="74" column="26" severity="warning" message="The function renderSetCookieHeader has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;Cookie.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http/src/io/ktor/http/HttpMessageProperties.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;HttpMessageProperties.kt&apos; with &apos;25&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http/src/io/ktor/http/Codecs.kt">
+	<error line="37" column="23" severity="warning" message="The function decodeImpl has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth-jwt/src/io/ktor/auth/jwt/JWTAuth.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;JWTAuth.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-locations/src/io/ktor/locations/Location.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Location.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-locations/src/io/ktor/locations/Locations.kt">
+	<error line="13" column="1" severity="warning" message="Class &apos;Locations&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/OAuth1a.kt">
+	<error line="67" column="39" severity="warning" message="The function simpleOAuth1aStep1 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="122" column="39" severity="warning" message="The function simpleOAuth1aStep2 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;OAuth1a.kt&apos; with &apos;15&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/OAuth2.kt">
+	<error line="52" column="64" severity="warning" message="The function redirectAuthenticateOAuth2 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="62" column="39" severity="warning" message="The function simpleOAuth2Step2 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="84" column="63" severity="warning" message="The function redirectAuthenticateOAuth2 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="111" column="38" severity="warning" message="The function simpleOAuth2Step2 has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/Headers.kt">
+	<error line="111" column="32" severity="warning" message="The function digestAuthChallenge has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-features/ktor-auth/src/io/ktor/auth/OAuth.kt">
+	<error line="111" column="71" severity="warning" message="The function oauthHandleCallback has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network/src/io/ktor/network/sockets/CIOWriter.kt">
+	<error line="11" column="34" severity="warning" message="The function attachForWritingImpl has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network/src/io/ktor/network/sockets/CIOReader.kt">
+	<error line="11" column="34" severity="warning" message="The function attachForReadingImpl has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/Pipeline.kt">
+	<error line="28" column="28" severity="warning" message="The function startConnectionPipeline has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="163" column="37" severity="warning" message="The function handleConnectionPipeline has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/internals/CharBufferBuilder.kt">
+	<error line="5" column="1" severity="warning" message="Class &apos;CharBufferBuilder&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/internals/AsciiCharTree.kt">
+	<error line="40" column="36" severity="warning" message="The function build has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/internals/Chars.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Chars.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/websocket/PingPong.kt">
+	<error line="40" column="11" severity="warning" message="The function pinger has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/Multipart.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Multipart.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-http-cio/src/io/ktor/http/cio/HttpHeadersMap.kt">
+	<error line="30" column="12" severity="warning" message="The function put has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/Render.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Render.kt&apos; with &apos;13&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/TLSClientHandshake.kt">
+	<error line="24" column="1" severity="warning" message="Class TLSClientHandshake is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="24" column="1" severity="warning" message="Class &apos;TLSClientHandshake&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/Cipher.kt">
+	<error line="11" column="27" severity="warning" message="The function encryptCipher has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="63" column="27" severity="warning" message="The function decryptCipher has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/ktor/ktor-network-tls/src/io/ktor/network/tls/certificates/Certificates.kt">
+	<error line="24" column="24" severity="warning" message="The function generateCertificate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="81" column="45" severity="warning" message="The function writeX509Info has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="181" column="48" severity="warning" message="The function writeCertificate has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="1" column="1" severity="warning" message="File &apos;Certificates.kt&apos; with &apos;25&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

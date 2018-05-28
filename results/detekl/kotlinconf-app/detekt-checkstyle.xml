@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinconf-app/backend/src/org/jetbrains/kotlinconf/backend/Api.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Api.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinconf-app/backend/src/org/jetbrains/kotlinconf/backend/database.kt">
+	<error line="17" column="1" severity="warning" message="Class &apos;Database&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinconf-app/ios/src/main/kotlin/ui/SessionViewController.kt">
+	<error line="8" column="1" severity="warning" message="Class &apos;SessionViewController&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinconf-app/ios/src/main/kotlin/ui/SessionsViewController.kt">
+	<error line="7" column="1" severity="warning" message="Class &apos;SessionsViewController&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinconf-app/ios/src/main/kotlin/util/interopUtils.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;interopUtils.kt&apos; with &apos;14&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinconf-app/android/app/src/main/java/com/jetbrains/kotlinconf/ui/SessionDetailsFragment.kt">
+	<error line="34" column="1" severity="warning" message="Class SessionDetailsFragment is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinconf-app/android/app/src/main/java/com/jetbrains/kotlinconf/model/KotlinConfDataRepository.kt">
+	<error line="22" column="1" severity="warning" message="Class &apos;KotlinConfDataRepository&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

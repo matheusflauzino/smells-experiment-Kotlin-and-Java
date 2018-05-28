@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 13
+</li>
+<li>
+number of packages: 3
+</li>
+<li>
+number of classes: 4
+</li>
+<li>
+number of functions: 183
+</li>
+<li>
+number of properties: 8
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Flowables.kt:40:48
+</span>
+<br />
+<span class="message">
+The function combineLatest has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Flowables.kt:47:51
+</span>
+<br />
+<span class="message">
+The function combineLatest has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Flowables.kt:53:54
+</span>
+<br />
+<span class="message">
+The function combineLatest has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Flowables.kt:61:57
+</span>
+<br />
+<span class="message">
+The function combineLatest has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Flowables.kt:69:60
+</span>
+<br />
+<span class="message">
+The function combineLatest has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Flowables.kt:107:38
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Flowables.kt:115:41
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Flowables.kt:121:44
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Flowables.kt:129:47
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Flowables.kt:137:50
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Singles.kt:32:16
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Singles.kt:39:16
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Singles.kt:46:16
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Singles.kt:54:16
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Singles.kt:62:16
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Maybes.kt:31:16
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Maybes.kt:38:16
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Maybes.kt:45:16
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Maybes.kt:53:16
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Maybes.kt:61:16
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Observables.kt:40:48
+</span>
+<br />
+<span class="message">
+The function combineLatest has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Observables.kt:47:51
+</span>
+<br />
+<span class="message">
+The function combineLatest has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Observables.kt:53:54
+</span>
+<br />
+<span class="message">
+The function combineLatest has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Observables.kt:61:57
+</span>
+<br />
+<span class="message">
+The function combineLatest has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Observables.kt:69:60
+</span>
+<br />
+<span class="message">
+The function combineLatest has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Observables.kt:107:38
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Observables.kt:115:41
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Observables.kt:121:44
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Observables.kt:129:47
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Observables.kt:137:50
+</span>
+<br />
+<span class="message">
+The function zip has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Flowables.kt:8:1
+</span>
+<br />
+<span class="message">
+Object 'Flowables' with '20' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/observable.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'observable.kt' with '28' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/Observables.kt:7:1
+</span>
+<br />
+<span class="message">
+Object 'Observables' with '20' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/main/kotlin/io/reactivex/rxkotlin/flowable.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'flowable.kt' with '30' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/RxKotlin/src/examples/kotlin/io/reactivex/rxkotlin/examples/examples.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'examples.kt' with '13' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+</ul>
+
+</body>
+</html>

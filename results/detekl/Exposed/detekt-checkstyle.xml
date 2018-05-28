@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/Exposed/src/main/kotlin/org/jetbrains/exposed/dao/Entity.kt">
+	<error line="473" column="1" severity="warning" message="Class EntityClass is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="178" column="1" severity="warning" message="Class &apos;Entity&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="309" column="1" severity="warning" message="Class &apos;EntityCache&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="473" column="1" severity="warning" message="Class &apos;EntityClass&apos; with &apos;43&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Exposed/src/main/kotlin/org/jetbrains/exposed/sql/statements/DeleteStatement.kt">
+	<error line="23" column="18" severity="warning" message="The function where has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Exposed/src/main/kotlin/org/jetbrains/exposed/sql/vendors/Default.kt">
+	<error line="10" column="1" severity="warning" message="Class &apos;DataTypeProvider&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="121" column="1" severity="warning" message="Interface &apos;DatabaseDialect&apos; with &apos;14&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="171" column="1" severity="warning" message="Class &apos;VendorDialect&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Exposed/src/main/kotlin/org/jetbrains/exposed/sql/vendors/OracleDialect.kt">
+	<error line="8" column="1" severity="warning" message="Object &apos;OracleDataTypeProvider&apos; with &apos;13&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Exposed/src/main/kotlin/org/jetbrains/exposed/sql/Database.kt">
+	<error line="100" column="20" severity="warning" message="The function connect has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Exposed/src/main/kotlin/org/jetbrains/exposed/sql/SQLExpressionBuilder.kt">
+	<error line="48" column="1" severity="warning" message="Object &apos;SqlExpressionBuilder&apos; with &apos;38&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="1" column="1" severity="warning" message="File &apos;SQLExpressionBuilder.kt&apos; with &apos;18&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Exposed/src/main/kotlin/org/jetbrains/exposed/sql/Table.kt">
+	<error line="144" column="1" severity="warning" message="Class Table is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="144" column="1" severity="warning" message="Class &apos;Table&apos; with &apos;54&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Exposed/src/main/kotlin/org/jetbrains/exposed/sql/Queries.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Queries.kt&apos; with &apos;20&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Exposed/src/main/kotlin/org/jetbrains/exposed/sql/Op.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Op.kt&apos; with &apos;16&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Exposed/src/main/kotlin/org/jetbrains/exposed/sql/Query.kt">
+	<error line="77" column="1" severity="warning" message="Class &apos;Query&apos; with &apos;22&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/Exposed/src/main/kotlin/org/jetbrains/exposed/sql/Transaction.kt">
+	<error line="32" column="1" severity="warning" message="Class &apos;Transaction&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/Colorful/library/src/main/java/io/multimoon/colorful/ThemeEditor.kt">
+	<error line="43" column="27" severity="warning" message="The function applyEdits has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+</checkstyle>

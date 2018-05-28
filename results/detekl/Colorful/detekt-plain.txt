@@ -1,0 +1,1 @@
+LongParameterList - 6/6 - [applyEdits] at /home/matheus/Documentos/repositories/Kotlin/Colorful/library/src/main/java/io/multimoon/colorful/ThemeEditor.kt:43:27 - Signature=ThemeEditor.kt$ThemeEditor$(context: Context, primaryColor: ThemeColorInterface, accentColor: ThemeColorInterface, darkTheme: Boolean, translucent: Boolean, customTheme: Int = 0)

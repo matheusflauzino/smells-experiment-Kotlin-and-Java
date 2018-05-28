@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/android-topeka/base/src/main/java/com/google/samples/apps/topeka/persistence/TopekaDatabaseHelper.kt">
+	<error line="53" column="1" severity="warning" message="Class TopekaDatabaseHelper is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="53" column="1" severity="warning" message="Class &apos;TopekaDatabaseHelper&apos; with &apos;25&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/android-topeka/base/src/main/java/com/google/samples/apps/topeka/fragment/SignInFragment.kt">
+	<error line="55" column="1" severity="warning" message="Class &apos;SignInFragment&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/android-topeka/base/src/main/java/com/google/samples/apps/topeka/helper/CredentialsHelper.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;CredentialsHelper.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/android-topeka/quiz/src/main/java/com/google/samples/apps/topeka/fragment/QuizFragment.kt">
+	<error line="45" column="1" severity="warning" message="Class &apos;QuizFragment&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/android-topeka/quiz/src/main/java/com/google/samples/apps/topeka/activity/QuizActivity.kt">
+	<error line="69" column="1" severity="warning" message="Class &apos;QuizActivity&apos; with &apos;18&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/android-topeka/quiz/src/main/java/com/google/samples/apps/topeka/widget/quiz/AbsQuizView.kt">
+	<error line="53" column="1" severity="warning" message="Class &apos;AbsQuizView&apos; with &apos;17&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/android-topeka/quiz/src/androidTest/java/com/google/samples/apps/topeka/SolveQuizUtil.kt">
+	<error line="62" column="1" severity="warning" message="Object &apos;SolveQuizUtil&apos; with &apos;11&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/android-topeka/categories/src/main/java/com/google/samples/apps/topeka/adapter/CategoryAdapter.kt">
+	<error line="40" column="1" severity="warning" message="Class &apos;CategoryAdapter&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/android-topeka/categories/src/main/java/com/google/samples/apps/topeka/activity/CategorySelectionActivity.kt">
+	<error line="44" column="1" severity="warning" message="Class &apos;CategorySelectionActivity&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

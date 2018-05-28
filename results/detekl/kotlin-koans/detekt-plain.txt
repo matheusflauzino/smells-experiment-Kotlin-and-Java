@@ -1,0 +1,1 @@
+TooManyFunctions - 19/11 - [LinksToDocumentation.kt] at /home/matheus/Documentos/repositories/Kotlin/kotlin-koans/src/util/LinksToDocumentation.kt:1:1 - Signature=LinksToDocumentation.kt$util.LinksToDocumentation.kt

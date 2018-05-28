@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/jvm/src/main/java/okio/Buffer.kt">
+	<error line="31" column="1" severity="warning" message="Class Buffer is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="31" column="1" severity="warning" message="Class &apos;Buffer&apos; with &apos;103&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/jvm/src/main/java/okio/RealBufferedSource.kt">
+	<error line="24" column="1" severity="warning" message="Class RealBufferedSource is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="24" column="1" severity="warning" message="Class &apos;RealBufferedSource&apos; with &apos;48&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/jvm/src/main/java/okio/BufferedSink.kt">
+	<error line="23" column="1" severity="warning" message="Interface &apos;BufferedSink&apos; with &apos;24&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/jvm/src/main/java/okio/ByteString.kt">
+	<error line="55" column="1" severity="warning" message="Class &apos;ByteString&apos; with &apos;41&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/jvm/src/main/java/okio/Options.kt">
+	<error line="105" column="35" severity="warning" message="The function buildTrieRecursive has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/jvm/src/main/java/okio/SegmentedByteString.kt">
+	<error line="24" column="1" severity="warning" message="Class SegmentedByteString is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="24" column="1" severity="warning" message="Class &apos;SegmentedByteString&apos; with &apos;32&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/jvm/src/main/java/okio/RealBufferedSink.kt">
+	<error line="24" column="1" severity="warning" message="Class RealBufferedSink is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="24" column="1" severity="warning" message="Class &apos;RealBufferedSink&apos; with &apos;30&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/jvm/src/main/java/okio/BufferedSource.kt">
+	<error line="23" column="1" severity="warning" message="Interface &apos;BufferedSource&apos; with &apos;42&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/jvm/src/main/java/okio/Okio.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Okio.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/src/main/kotlin/okio/ByteString.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;ByteString&apos; with &apos;21&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/src/main/kotlin/okio/Util.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Util.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/src/main/kotlin/okio/common/ByteString.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ByteString.kt&apos; with &apos;25&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/okio/okio/js/src/main/kotlin/okio/ByteString.kt">
+	<error line="42" column="1" severity="warning" message="Class &apos;ByteString&apos; with &apos;26&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

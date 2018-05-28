@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/sqldelight/sqldelight-idea-plugin/src/main/kotlin/com/squareup/sqldelight/intellij/lang/SqlDelightCommenter.kt">
+	<error line="24" column="1" severity="warning" message="Class &apos;SqlDelightCommenter&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/sqldelight/sqldelight-core/src/main/kotlin/com/squareup/sqldelight/core/lang/util/TreeUtil.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;TreeUtil.kt&apos; with &apos;11&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

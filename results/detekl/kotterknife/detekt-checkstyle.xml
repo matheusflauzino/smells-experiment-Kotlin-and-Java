@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotterknife/src/main/kotlin/kotterknife/ButterKnife.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;ButterKnife.kt&apos; with &apos;37&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

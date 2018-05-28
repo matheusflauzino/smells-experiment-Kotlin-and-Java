@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/kotlin-demo/src/main/java/zlc/season/rxdownload/kotlin_demo/BasicDownloadActivity.kt">
+	<error line="16" column="1" severity="warning" message="Class &apos;BasicDownloadActivity&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/rxdownload3/src/main/java/zlc/season/rxdownload3/database/SQLiteActor.kt">
+	<error line="15" column="1" severity="warning" message="Class &apos;SQLiteActor&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/rxdownload3/src/main/java/zlc/season/rxdownload3/core/MissionBox.kt">
+	<error line="9" column="1" severity="warning" message="Interface &apos;MissionBox&apos; with &apos;14&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/rxdownload3/src/main/java/zlc/season/rxdownload3/core/DownloadCore.kt">
+	<error line="13" column="1" severity="warning" message="Class &apos;DownloadCore&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/rxdownload3/src/main/java/zlc/season/rxdownload3/core/DownloadService.kt">
+	<error line="38" column="5" severity="warning" message="Class &apos;DownloadBinder&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/rxdownload3/src/main/java/zlc/season/rxdownload3/core/RangeTmpFile.kt">
+	<error line="15" column="1" severity="warning" message="Class &apos;RangeTmpFile&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/rxdownload3/src/main/java/zlc/season/rxdownload3/core/RemoteMissionBox.kt">
+	<error line="21" column="1" severity="warning" message="Class &apos;RemoteMissionBox&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/rxdownload3/src/main/java/zlc/season/rxdownload3/core/LocalMissionBox.kt">
+	<error line="12" column="1" severity="warning" message="Class &apos;LocalMissionBox&apos; with &apos;14&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/rxdownload3/src/main/java/zlc/season/rxdownload3/core/DownloadConfig.kt">
+	<error line="85" column="5" severity="warning" message="Class &apos;Builder&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/rxdownload3/src/main/java/zlc/season/rxdownload3/core/RealMission.kt">
+	<error line="23" column="1" severity="warning" message="Class RealMission is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="23" column="1" severity="warning" message="Class &apos;RealMission&apos; with &apos;25&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/rxdownload3/src/main/java/zlc/season/rxdownload3/RxDownload.kt">
+	<error line="12" column="1" severity="warning" message="Object &apos;RxDownload&apos; with &apos;23&apos; functions detected. Defined threshold inside objects is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/rxdownload3/src/main/java/zlc/season/rxdownload3/notification/NotificationFactoryImpl.kt">
+	<error line="19" column="1" severity="warning" message="Class &apos;NotificationFactoryImpl&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/RxDownload/rxdownload3/src/main/java/zlc/season/rxdownload3/RxDownloadI.kt">
+	<error line="11" column="1" severity="warning" message="Interface &apos;RxDownloadI&apos; with &apos;23&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

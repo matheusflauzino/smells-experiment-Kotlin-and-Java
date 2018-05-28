@@ -1,0 +1,4 @@
+LargeClass - 152/150 - [DexMethodCountTaskBase] at /home/matheus/Documentos/repositories/Kotlin/dexcount-gradle-plugin/src/main/kotlin/com/getkeepsafe/dexcount/Tasks.kt:73:1 - Signature=Tasks.kt$DexMethodCountTaskBase : DefaultTask
+LargeClass - 191/150 - [PackageTree] at /home/matheus/Documentos/repositories/Kotlin/dexcount-gradle-plugin/src/main/kotlin/com/getkeepsafe/dexcount/PackageTree.kt:28:1 - Signature=PackageTree.kt$PackageTree
+TooManyFunctions - 19/11 - [PackageTree] at /home/matheus/Documentos/repositories/Kotlin/dexcount-gradle-plugin/src/main/kotlin/com/getkeepsafe/dexcount/PackageTree.kt:28:1 - Signature=PackageTree.kt$PackageTree
+LongMethod - 20/20 - [extractDexFromAar] at /home/matheus/Documentos/repositories/Kotlin/dexcount-gradle-plugin/src/main/kotlin/com/getkeepsafe/dexcount/DexFile.kt:113:9 - Signature=DexFile.kt$DexFile.Companion$@JvmStatic private fun extractDexFromAar(file: File, dxTimeoutSecs: Int): List<DexFile>

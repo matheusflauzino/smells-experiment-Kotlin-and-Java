@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/reactive/kotlinx-coroutines-rx1/src/main/kotlin/kotlinx/coroutines/experimental/rx1/RxObservable.kt">
+	<error line="77" column="1" severity="warning" message="Class &apos;RxObservableCoroutine&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/reactive/kotlinx-coroutines-rx2/src/main/kotlin/kotlinx/coroutines/experimental/rx2/RxAwait.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;RxAwait.kt&apos; with &apos;12&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/benchmarks/src/jmh/kotlin/benchmarks/ChannelCopyBenchmark.kt">
+	<error line="29" column="1" severity="warning" message="Class ChannelCopyBenchmark is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="29" column="1" severity="warning" message="Class &apos;ChannelCopyBenchmark&apos; with &apos;19&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-io/src/main/kotlin/kotlinx/coroutines/experimental/io/ByteBufferChannel.kt">
+	<error line="21" column="1" severity="warning" message="Class ByteBufferChannel is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="21" column="1" severity="warning" message="Class &apos;ByteBufferChannel&apos; with &apos;139&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-io/src/main/kotlin/kotlinx/coroutines/experimental/io/internal/RingBufferCapacity.kt">
+	<error line="3" column="1" severity="warning" message="Class &apos;RingBufferCapacity&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-io/src/main/kotlin/kotlinx/coroutines/experimental/io/ByteReadChannel.kt">
+	<error line="8" column="1" severity="warning" message="Interface &apos;ByteReadChannel&apos; with &apos;22&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-io/src/main/kotlin/kotlinx/coroutines/experimental/io/ByteWriteChannel.kt">
+	<error line="9" column="1" severity="warning" message="Interface &apos;ByteWriteChannel&apos; with &apos;20&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/Job.kt">
+	<error line="512" column="1" severity="warning" message="Class JobSupport is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="32" column="1" severity="warning" message="Interface &apos;Job&apos; with &apos;12&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="512" column="1" severity="warning" message="Class &apos;JobSupport&apos; with &apos;60&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/internal/LockFreeLinkedList.kt">
+	<error line="54" column="1" severity="warning" message="Class LockFreeLinkedListNode is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="54" column="1" severity="warning" message="Class &apos;LockFreeLinkedListNode&apos; with &apos;24&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/internal/ThreadSafeHeap.kt">
+	<error line="26" column="1" severity="warning" message="Class &apos;ThreadSafeHeap&apos; with &apos;13&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/selects/Select.kt">
+	<error line="29" column="1" severity="warning" message="Interface &apos;SelectBuilder&apos; with &apos;11&apos; functions detected. Defined threshold inside interfaces is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="222" column="1" severity="warning" message="Class &apos;SelectBuilderImpl&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/channels/AbstractChannel.kt">
+	<error line="444" column="1" severity="warning" message="Class AbstractChannel is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="25" column="1" severity="warning" message="Class &apos;AbstractSendChannel&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="444" column="1" severity="warning" message="Class &apos;AbstractChannel&apos; with &apos;20&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/channels/Channels.kt">
+	<error line="1" column="1" severity="warning" message="File &apos;Channels.kt&apos; with &apos;103&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/core/kotlinx-coroutines-core/src/main/kotlin/kotlinx/coroutines/experimental/EventLoop.kt">
+	<error line="83" column="1" severity="warning" message="Class &apos;EventLoopBase&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/js/kotlinx-coroutines-core-js/src/main/kotlin/kotlinx/coroutines/experimental/Job.kt">
+	<error line="356" column="1" severity="warning" message="Class JobSupport is too large. Consider splitting it into smaller pieces." source="detekt.LargeClass" />
+	<error line="356" column="1" severity="warning" message="Class &apos;JobSupport&apos; with &apos;51&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/knit/src/Knit.kt">
+	<error line="78" column="1" severity="warning" message="The function knit is too long. The maximum length is 20." source="detekt.LongMethod" />
+	<error line="1" column="1" severity="warning" message="File &apos;Knit.kt&apos; with &apos;20&apos; functions detected. Defined threshold inside files is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/common/kotlinx-coroutines-core-common/src/main/kotlin/kotlinx/coroutines/experimental/AbstractCoroutine.kt">
+	<error line="23" column="1" severity="warning" message="Class &apos;AbstractCoroutine&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/home/matheus/Documentos/repositories/Kotlin/kotlinx.coroutines/common/kotlinx-coroutines-core-common/src/main/kotlin/kotlinx/coroutines/experimental/CommonJob.kt">
+	<error line="66" column="1" severity="warning" message="Class &apos;JobSupport&apos; with &apos;16&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+</checkstyle>

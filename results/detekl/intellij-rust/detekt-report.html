@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>detekt report</title>
+    <style>
+h2 {
+  background-color: #666666;
+  padding: 0.2em;
+  color: #ffffff;
+}
+h3 {
+  background-color:#f8dfdf;
+  padding:0.5em;
+}
+.rule {
+  background-color: #dddddd;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.description {
+  color:#000000;
+  padding:0.3em;
+}
+.location {
+  color: #690505;
+  font-family: monospace;
+}
+.message {
+  font-size: 0.8em;
+  color: #444444;
+}
+.rule-container {
+  border: 0.1em dashed #dddddd;
+  padding: 0.1em;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+
+<h1>detekt report</h1>
+
+<h2>Metrics</h2>
+
+<ul>
+<li>
+number of kt files: 494
+</li>
+<li>
+number of packages: 102
+</li>
+<li>
+number of classes: 996
+</li>
+<li>
+number of functions: 2731
+</li>
+<li>
+number of properties: 3454
+</li>
+</ul>
+
+<h2>Findings</h2>
+<h3>complexity</h3>
+<div class="rule-container">
+<span class="rule">
+TooManyFunctions
+</span>
+<span class="description">
+Too many functions inside a/an file/class/object/interface always indicate a violation of the single responsibility principle. Maybe the file/class/object/interface wants to manage to many things at once. Extract functionality which clearly belongs together.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/formatter/blocks/RsFmtBlock.kt:18:1
+</span>
+<br />
+<span class="message">
+Class 'RsFmtBlock' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/formatter/blocks/SyntheticRsFmtBlock.kt:14:1
+</span>
+<br />
+<span class="message">
+Class 'SyntheticRsFmtBlock' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/annotator/RsSyntaxErrorsAnnotator.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'RsSyntaxErrorsAnnotator.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/annotator/fixes/AddTurbofishFix.kt:17:1
+</span>
+<br />
+<span class="message">
+Class 'AddTurbofishFix' with '13' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/annotator/RsErrorAnnotator.kt:29:1
+</span>
+<br />
+<span class="message">
+Class 'RsErrorAnnotator' with '30' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/docs/RsDocumentationProvider.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'RsDocumentationProvider.kt' with '12' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/hints/RsParameterInfoHandler.kt:19:1
+</span>
+<br />
+<span class="message">
+Class 'RsParameterInfoHandler' with '12' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/folding/RsFoldingBuilder.kt:66:5
+</span>
+<br />
+<span class="message">
+Class 'FoldingVisitor' with '19' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/openapiext/utils.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'utils.kt' with '14' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/resolve/StdKnownItems.kt:22:1
+</span>
+<br />
+<span class="message">
+Class 'StdKnownItems' with '23' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/resolve/ImplLookup.kt:126:1
+</span>
+<br />
+<span class="message">
+Class 'ImplLookup' with '42' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/resolve/NameResolution.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'NameResolution.kt' with '29' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/psi/ext/PsiElement.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'PsiElement.kt' with '11' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/psi/RsPsiFactory.kt:24:1
+</span>
+<br />
+<span class="message">
+Class 'RsPsiFactory' with '50' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/stubs/StubIndexing.kt:1:1
+</span>
+<br />
+<span class="message">
+File 'StubIndexing.kt' with '16' functions detected. Defined threshold inside files is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/types/infer/TypeInference.kt:80:1
+</span>
+<br />
+<span class="message">
+Class 'RsInferenceContext' with '41' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/types/infer/TypeInference.kt:551:1
+</span>
+<br />
+<span class="message">
+Class 'RsFnInferenceContext' with '57' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/parser/RustParserUtil.kt:25:1
+</span>
+<br />
+<span class="message">
+Object 'RustParserUtil' with '35' functions detected. Defined threshold inside objects is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/completion/RsKeywordCompletionContributor.kt:24:1
+</span>
+<br />
+<span class="message">
+Class 'RsKeywordCompletionContributor' with '14' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/cargo/project/model/impl/CargoProjectImpl.kt:53:1
+</span>
+<br />
+<span class="message">
+Class 'CargoProjectsServiceImpl' with '11' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/cargo/util/CargoCommandCompletionProvider.kt:127:1
+</span>
+<br />
+<span class="message">
+Class 'OptBuilder' with '17' functions detected. Defined threshold inside classes is set to '11'
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LargeClass
+</span>
+<span class="description">
+One class should have one responsibility. Large classes tend to handle many things at once. Split up large classes into smaller classes that are easier to understand.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/annotator/RsErrorAnnotator.kt:29:1
+</span>
+<br />
+<span class="message">
+Class RsErrorAnnotator is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/resolve/ImplLookup.kt:126:1
+</span>
+<br />
+<span class="message">
+Class ImplLookup is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/types/infer/TypeInference.kt:80:1
+</span>
+<br />
+<span class="message">
+Class RsInferenceContext is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/types/infer/TypeInference.kt:551:1
+</span>
+<br />
+<span class="message">
+Class RsFnInferenceContext is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/lang/core/parser/RustParserUtil.kt:25:1
+</span>
+<br />
+<span class="message">
+Class RustParserUtil is too large. Consider splitting it into smaller pieces.
+</span>
+</li>
+</ul>
+<div class="rule-container">
+<span class="rule">
+LongParameterList
+</span>
+<span class="description">
+The more parameters a method has the more complex it is. Long parameter lists are often used to control complex algorithms and violate the Single Responsibility Principle. Prefer methods with short parameter lists.
+</span>
+</div>
+<ul>
+<li>
+<span class="location">
+/home/matheus/Documentos/repositories/Kotlin/intellij-rust/src/main/kotlin/org/rust/ide/presentation/Ty.kt:21:19
+</span>
+<br />
+<span class="message">
+The function render has too many parameters. The current threshold is set to 6.
+</span>
+</li>
+</ul>
+
+</body>
+</html>
