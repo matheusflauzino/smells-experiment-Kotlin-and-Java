@@ -11,7 +11,7 @@ Java is one of the most widely used programming languages. However, Java is a ve
 ## Contributors
 - [Matheus Flauzino](https://github.com/matheusflauzino/) - matheus.flauzino[at]posgrad.ufla.br - UFLA
 - Júlio Verissimo - julio.santos[at]posgrad.ufla.br - UFLA
-- Ricardo Terra - terra[at]dcc.ufla.br - UFLA
+- [Ricardo Terra](https://github.com/rterrabh) - terra[at]dcc.ufla.br - UFLA
 - Elder Cirio - elder[at]ufsj.edu.br - UFSJ
 - [Vinicius H. S. Durelli](https://github.com/macro-mancer) - durelli[at]ufsj.edu.br - UFSJ
 - [Rafael Durelli](https://github.com/rdurelli) - rafael.durelli[at]dcc.ufla.br - UFLA
