@@ -1,2 +1,1 @@
-# Are you still smelling it?
-## A comparative study between Java and Kotlin language
+### Are you still smelling it? A comparative study between Java and Kotlin language
