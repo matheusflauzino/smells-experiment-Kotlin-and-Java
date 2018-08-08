@@ -1,1 +1,2 @@
-# A comparative study to identify smells between Java and Kotlin.
+# Are you still smelling it?
+## A comparative study between Java and Kotlin language
