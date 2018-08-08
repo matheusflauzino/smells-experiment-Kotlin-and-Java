@@ -1,4 +1,4 @@
-# A comparative study to identify smells between Java and Kotlin.
+# SBCARS 2018
 
 This repository contain all data used in an experiment of the paper “Are you still smelling it? A comparative study between Java and Kotlin language”, which has been published in 12th Brazilian Symposium on Software Components, Architectures, and Reuse (SBCARS 2018).
 
